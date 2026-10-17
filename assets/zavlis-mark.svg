@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zavlis AI mark">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11d7ff"/><stop offset=".48" stop-color="#3978ff"/><stop offset="1" stop-color="#9b4dff"/></linearGradient></defs>
+ <path d="M8 10h48v10L25 44h31v10H8V44l31-24H8z" fill="url(#g)"/>
+ <path d="M18 26h28" stroke="#bff7ff" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+</svg>
