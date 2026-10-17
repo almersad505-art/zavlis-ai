@@ -31,4 +31,15 @@ Compare, information and guide destinations still use the original ChatGPT Site.
 
 Built-in ImageGen used. Saved asset: assets/hero-final.png. Final prompt: futuristic navy science-fiction hero with blue Earth and a humanoid profile at right, neon cyan/violet orbits, mountains and reflective magenta lake; left 48% dark negative space; no text, UI, logos or watermark.
 
-SHA256 index.html: 513aa071772a404d4d4977b92029bdf84d8e2276f41656e3ca8c281096449f52
+SHA256 index.html: 93eb3b9ab6977a10447cd8b9d8996b18e9fc733ec867ea65095a09773754de68
+
+## CSS refinement release
+
+- New hero asset assets/hero-ai-profile.png, generated with built-in ImageGen; previous hero retained for history. CSS now references the AI side profile with a navy overlay, reducing emphasis on the planet scene.
+- Primary CTA gradient: linear-gradient(to right, #0055ff, #9b2add).
+- Central cards: 16px/18px padding, reduced typography, softer borders, uniform 42px translucent rounded icon tiles.
+- Start Creating: explicit radio/name/translation grid alignment; 16px inline textarea padding and reserved counter space.
+- Compact desktop sidebar: 13px type, 11px translations, 53px rows, reduced gaps.
+- Focused checks: no horizontal overflow at widths 320/390/768/1536; radio centers and labels align to within 1px; Arabic RTL mobile verified; no observed console errors; inline JS syntax valid. Clarity yytrv421ps retained.
+- Image prompt: Wide navy website hero; dominant blue synthetic humanoid face in side profile on right looking left, full face visible, cyan circuits and purple rim light, distant magenta mountain lake, dark left 55% negative space; no Earth globe, UI, text, watermark or logos.
+- The image is a generated interpretation of the reference, not an extraction of its original artwork.
