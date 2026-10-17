@@ -31,7 +31,7 @@ Compare, information and guide destinations still use the original ChatGPT Site.
 
 Built-in ImageGen used. Saved asset: assets/hero-final.png. Final prompt: futuristic navy science-fiction hero with blue Earth and a humanoid profile at right, neon cyan/violet orbits, mountains and reflective magenta lake; left 48% dark negative space; no text, UI, logos or watermark.
 
-SHA256 index.html: 93eb3b9ab6977a10447cd8b9d8996b18e9fc733ec867ea65095a09773754de68
+SHA256 index.html: fca8d7784f22544bc56efe5db6975ac2115c53da9a02a30fc180623d3c0bc5d8
 
 ## CSS refinement release
 
@@ -43,3 +43,14 @@ SHA256 index.html: 93eb3b9ab6977a10447cd8b9d8996b18e9fc733ec867ea65095a09773754d
 - Focused checks: no horizontal overflow at widths 320/390/768/1536; radio centers and labels align to within 1px; Arabic RTL mobile verified; no observed console errors; inline JS syntax valid. Clarity yytrv421ps retained.
 - Image prompt: Wide navy website hero; dominant blue synthetic humanoid face in side profile on right looking left, full face visible, cyan circuits and purple rim light, distant magenta mountain lake, dark left 55% negative space; no Earth globe, UI, text, watermark or logos.
 - The image is a generated interpretation of the reference, not an extraction of its original artwork.
+
+## Compact SaaS styling pass
+
+- Hero artwork moved into a decorative pseudo-element with layered horizontal and vertical navy gradients; left, lower, upper and right edges fade into the canvas.
+- Primary CTA and headline gradients changed to smooth cyan/blue/lavender/violet stops with restrained glow.
+- Five cards reduced to 182px desktop minimum height, 13px padding, smaller headings/descriptions, near-transparent backgrounds and subtle borders.
+- Native textarea scrollbar hidden using scrollbar-width and ::-webkit-scrollbar; overflow remains auto. Long text confirmed scrollHeight > clientHeight. Keyboard scroll position did not advance in the automation check, so interactive scroll motion is not claimed as verified.
+- Radio and label vertical centers matched exactly in the desktop measurement.
+- Modern system sans-serif stack, smaller section margins and compact sidebar rows.
+- No document horizontal overflow at 320/390/768/1536 widths; Arabic RTL mobile checked. No observed browser console errors. Inline JS syntax valid.
+- Clarity project yytrv421ps and its existing consent behavior retained without changes.
