@@ -1,6 +1,6 @@
 # Smart Match catalog and ranking
 
-Edit `data/tools.json`, then run `node scripts/sync-tools.cjs`. This validates the required schema and builds the browser snapshot `tools-data.js`. Both the browser and Node tests use the same catalog; `smart-match.js` contains no provider preference lists.
+Edit `data/tools.json`, then run `node scripts/sync-tools.cjs`. This validates the required schema and builds the browser snapshot `tools-data.js`. Both the browser and Node tests use the same catalog; `smart-match.js` contains no provider preference lists. Text input only proposes editable task buttons. Ranking requires `match(text, catalog, {confirmedTasks: [...]})`; omitting that array returns a review draft with no recommendations. Only confirmed IDs and explicit budget/language choices affect ranking. `?tasks=...` restores validated selections for review; the prompt is never added to the share URL.
 
 Run `node scripts/test-smart-match.cjs` for the 30 request fixtures. Full historical browser/download evidence is saved in the workspace under `zavlis-recovery/SMART-MATCH-150-REPORT`.
 

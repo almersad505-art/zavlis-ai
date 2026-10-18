@@ -436,7 +436,8 @@ window.ZAVLIS_TOOLS = [
     "id": "veed",
     "name": "VEED",
     "tasks": [
-      "video"
+      "video",
+      "voice"
     ],
     "price": "Free starter access — 0; paid plan prices not specified here",
     "priceSource": "https://www.veed.io/pricing",
@@ -463,7 +464,8 @@ window.ZAVLIS_TOOLS = [
       "arabicQuery": "site:www.veed.io VEED Arabic supported languages"
     },
     "category": [
-      "video"
+      "video",
+      "voice"
     ],
     "keywords_ar": [
       "فيديو",
@@ -473,7 +475,11 @@ window.ZAVLIS_TOOLS = [
       "ترجمة على الفيديو",
       "كابشن",
       "ترجمة الفيديو",
-      "ترجمة وكابشن"
+      "ترجمة وكابشن",
+      "ريلز",
+      "إزالة ضوضاء",
+      "شيل التشويش",
+      "تنقية الصوت"
     ],
     "keywords_en": [
       "video",
@@ -482,7 +488,11 @@ window.ZAVLIS_TOOLS = [
       "trim video",
       "subtitles",
       "video captions",
-      "caption video"
+      "caption video",
+      "reels",
+      "noise removal",
+      "denoise",
+      "clean audio"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -508,18 +518,21 @@ window.ZAVLIS_TOOLS = [
     "price_scope_ar": "وصول مبدئي مجاني (0)؛ أسعار الخطط المدفوعة غير محددة هنا",
     "subtasks": [
       "video.editing",
-      "video.subtitles"
+      "video.subtitles",
+      "voice.denoising"
     ],
     "subtask_sources": {
       "video.editing": "https://www.veed.io/",
-      "video.subtitles": "https://www.veed.io/tools/auto-subtitle-generator-online"
+      "video.subtitles": "https://www.veed.io/tools/auto-subtitle-generator-online",
+      "voice.denoising": "https://www.veed.io/tools/remove-background-noise-from-audio"
     },
     "arabic_subtasks": [
       "video.subtitles"
     ],
     "subtask_free_tier": {
       "video.editing": "unknown",
-      "video.subtitles": "unknown"
+      "video.subtitles": "unknown",
+      "voice.denoising": "unknown"
     }
   },
   {
@@ -640,7 +653,11 @@ window.ZAVLIS_TOOLS = [
       "ترجمة على الفيديو",
       "كابشن",
       "ترجمة الفيديو",
-      "ترجمة وكابشن"
+      "ترجمة وكابشن",
+      "ريلز",
+      "إزالة ضوضاء",
+      "شيل التشويش",
+      "تنقية الصوت"
     ],
     "keywords_en": [
       "video",
@@ -653,7 +670,11 @@ window.ZAVLIS_TOOLS = [
       "trim video",
       "subtitles",
       "video captions",
-      "caption video"
+      "caption video",
+      "reels",
+      "noise removal",
+      "denoise",
+      "clean audio"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -679,18 +700,21 @@ window.ZAVLIS_TOOLS = [
     "subtasks": [
       "voice.transcription",
       "video.editing",
-      "video.subtitles"
+      "video.subtitles",
+      "voice.denoising"
     ],
     "subtask_sources": {
       "voice.transcription": "https://www.descript.com/transcription",
       "video.editing": "https://www.descript.com/",
-      "video.subtitles": "https://www.descript.com/transcription"
+      "video.subtitles": "https://www.descript.com/transcription",
+      "voice.denoising": "https://www.descript.com/studio-sound"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "voice.transcription": "unknown",
       "video.editing": "unknown",
-      "video.subtitles": "unknown"
+      "video.subtitles": "unknown",
+      "voice.denoising": "unknown"
     }
   },
   {
@@ -734,7 +758,8 @@ window.ZAVLIS_TOOLS = [
       "ترجمة على الفيديو",
       "كابشن",
       "ترجمة الفيديو",
-      "ترجمة وكابشن"
+      "ترجمة وكابشن",
+      "ريلز"
     ],
     "keywords_en": [
       "video",
@@ -743,7 +768,8 @@ window.ZAVLIS_TOOLS = [
       "trim video",
       "subtitles",
       "video captions",
-      "caption video"
+      "caption video",
+      "reels"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -1504,7 +1530,8 @@ window.ZAVLIS_TOOLS = [
       "enhance image",
       "upscale",
       "video generation",
-      "generate video"
+      "generate video",
+      "image editing"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -1770,7 +1797,8 @@ window.ZAVLIS_TOOLS = [
       "images",
       "edit photo",
       "enhance image",
-      "upscale"
+      "upscale",
+      "image editing"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -1849,14 +1877,18 @@ window.ZAVLIS_TOOLS = [
       "اعدل صوري",
       "تحسين صورة",
       "تحرير صور",
-      "ارفع الدقة"
+      "ارفع الدقة",
+      "تحسين صور",
+      "ارفع جودة الصورة"
     ],
     "keywords_en": [
       "image",
       "design",
       "edit photo",
       "enhance image",
-      "upscale"
+      "upscale",
+      "image editing",
+      "image enhancement"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -1881,15 +1913,18 @@ window.ZAVLIS_TOOLS = [
     "price_scope_ar": "خطة مجانية (0)؛ وصول يومي محدود وترخيص للاستخدام الشخصي",
     "subtasks": [
       "image.editing",
+      "image.enhancement",
       "design.general"
     ],
     "subtask_sources": {
       "image.editing": "https://www.magnific.com/",
+      "image.enhancement": "https://www.magnific.com/",
       "design.general": "https://www.magnific.com/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "image.editing": "unknown",
+      "image.enhancement": "unknown",
       "design.general": "unknown"
     }
   },
@@ -2365,14 +2400,20 @@ window.ZAVLIS_TOOLS = [
       "تسويق",
       "مقال",
       "مقالات",
-      "مدونة"
+      "مدونة",
+      "كابشن سوشال",
+      "كابشن انستقرام",
+      "نص المنشور"
     ],
     "keywords_en": [
       "writing",
       "marketing",
       "article",
       "blog",
-      "essay"
+      "essay",
+      "social caption",
+      "instagram caption",
+      "post caption"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -2394,16 +2435,16 @@ window.ZAVLIS_TOOLS = [
       "marketing_copy"
     ],
     "subtasks": [
-      "writing.general",
+      "writing.social_captions",
       "marketing.general"
     ],
     "subtask_sources": {
-      "writing.general": "https://www.copy.ai/",
+      "writing.social_captions": "https://www.copy.ai/tools",
       "marketing.general": "https://www.copy.ai/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
-      "writing.general": "unknown",
+      "writing.social_captions": "unknown",
       "marketing.general": "unknown"
     }
   },
@@ -2803,7 +2844,8 @@ window.ZAVLIS_TOOLS = [
     "id": "notebooklm",
     "name": "NotebookLM",
     "tasks": [
-      "research"
+      "research",
+      "video"
     ],
     "price": "Included in Google Free plan — USD 0/month; limits apply",
     "priceSource": "https://gemini.google/subscriptions/",
@@ -2830,7 +2872,8 @@ window.ZAVLIS_TOOLS = [
       "arabicQuery": "site:notebooklm.google.com NotebookLM Arabic supported languages"
     },
     "category": [
-      "research"
+      "research",
+      "video"
     ],
     "keywords_ar": [
       "كتابة",
@@ -2839,7 +2882,10 @@ window.ZAVLIS_TOOLS = [
       "مراجع",
       "تحليل ملف",
       "لخص pdf",
-      "تلخيص مستند"
+      "تلخيص مستند",
+      "تلخيص فيديو",
+      "لخص الفيديو",
+      "لخص مقطع"
     ],
     "keywords_en": [
       "writing",
@@ -2847,7 +2893,9 @@ window.ZAVLIS_TOOLS = [
       "study",
       "pdf",
       "document analysis",
-      "document summary"
+      "document summary",
+      "summarize video",
+      "video summary"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -2872,16 +2920,19 @@ window.ZAVLIS_TOOLS = [
     "price_scope": "Included in Google Free plan — USD 0/month; limits apply",
     "price_scope_ar": "ضمن خطة Google المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام",
     "subtasks": [
-      "research.documents"
+      "research.documents",
+      "video.summarization"
     ],
     "subtask_sources": {
-      "research.documents": "https://blog.google/innovation-and-ai/products/developing-notebooklm/"
+      "research.documents": "https://blog.google/innovation-and-ai/products/developing-notebooklm/",
+      "video.summarization": "https://support.google.com/notebooklm/answer/16164461?hl=en"
     },
     "arabic_subtasks": [
       "research.documents"
     ],
     "subtask_free_tier": {
-      "research.documents": "unknown"
+      "research.documents": "unknown",
+      "video.summarization": "unknown"
     }
   },
   {
@@ -3672,14 +3723,21 @@ window.ZAVLIS_TOOLS = [
       "صور",
       "بوست",
       "بوست تويتر",
-      "تصميم منشورات"
+      "تصميم منشورات",
+      "تحسين صور",
+      "تحسين صورة",
+      "ارفع الدقة",
+      "ارفع جودة الصورة"
     ],
     "keywords_en": [
       "design",
       "image",
       "social post design",
       "social graphic",
-      "design a post"
+      "design a post",
+      "enhance image",
+      "upscale",
+      "image enhancement"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -3701,16 +3759,16 @@ window.ZAVLIS_TOOLS = [
     ],
     "subtasks": [
       "design.social_posts",
-      "image.general"
+      "image.enhancement"
     ],
     "subtask_sources": {
       "design.social_posts": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer",
-      "image.general": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer"
+      "image.enhancement": "https://www.microsoft.com/en-us/microsoft-365/microsoft-designer"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "design.social_posts": "unknown",
-      "image.general": "unknown"
+      "image.enhancement": "unknown"
     }
   },
   {
@@ -3895,10 +3953,16 @@ window.ZAVLIS_TOOLS = [
       "music"
     ],
     "keywords_ar": [
-      "موسيقى"
+      "موسيقى",
+      "أغاني بكلمات",
+      "أغنية بكلمات",
+      "غناء"
     ],
     "keywords_en": [
-      "music"
+      "music",
+      "song with lyrics",
+      "lyrics",
+      "vocals"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -3921,14 +3985,14 @@ window.ZAVLIS_TOOLS = [
     "price_scope": "Free — USD 0/month; 50 credits/day, no monthly song downloads or commercial rights",
     "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ 50 رصيدًا يوميًا، دون حصة تنزيل أغانٍ شهرية أو حقوق تجارية",
     "subtasks": [
-      "music.general"
+      "music.lyrics"
     ],
     "subtask_sources": {
-      "music.general": "https://suno.com/"
+      "music.lyrics": "https://suno.com/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
-      "music.general": "unknown"
+      "music.lyrics": "unknown"
     }
   },
   {
@@ -3963,10 +4027,16 @@ window.ZAVLIS_TOOLS = [
       "music"
     ],
     "keywords_ar": [
-      "موسيقى"
+      "موسيقى",
+      "أغاني بكلمات",
+      "أغنية بكلمات",
+      "غناء"
     ],
     "keywords_en": [
-      "music"
+      "music",
+      "song with lyrics",
+      "lyrics",
+      "vocals"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -3989,14 +4059,14 @@ window.ZAVLIS_TOOLS = [
     "price_scope": "Free tier — 0; credit and generation limits apply",
     "price_scope_ar": "خطة مجانية (0)؛ تخضع لحدود الأرصدة والتوليد",
     "subtasks": [
-      "music.general"
+      "music.lyrics"
     ],
     "subtask_sources": {
-      "music.general": "https://www.udio.com/"
+      "music.lyrics": "https://help.udio.com/en/articles/10716221-create-a-song-with-your-own-lyrics"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
-      "music.general": "unknown"
+      "music.lyrics": "unknown"
     }
   },
   {
@@ -5445,16 +5515,24 @@ window.ZAVLIS_TOOLS = [
     "id": "krisp",
     "name": "Krisp",
     "category": [
-      "productivity"
+      "productivity",
+      "voice"
     ],
     "tasks": [
-      "productivity"
+      "productivity",
+      "voice"
     ],
     "keywords_ar": [
-      "اجتماعات وإنتاجية"
+      "اجتماعات وإنتاجية",
+      "إزالة ضوضاء",
+      "شيل التشويش",
+      "تنقية الصوت"
     ],
     "keywords_en": [
-      "meeting notes"
+      "meeting notes",
+      "noise removal",
+      "denoise",
+      "clean audio"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5483,13 +5561,16 @@ window.ZAVLIS_TOOLS = [
       "meeting_notes"
     ],
     "subtasks": [
+      "voice.denoising",
       "productivity.general"
     ],
     "subtask_sources": {
+      "voice.denoising": "https://krisp.ai/",
       "productivity.general": "https://krisp.ai/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
+      "voice.denoising": "unknown",
       "productivity.general": "unknown"
     }
   },
@@ -5558,13 +5639,19 @@ window.ZAVLIS_TOOLS = [
       "اجتماعات وإنتاجية",
       "جدولة",
       "مهام",
-      "تقويم"
+      "تقويم",
+      "تنظيم مهام",
+      "رتب مهامي",
+      "إدارة المهام"
     ],
     "keywords_en": [
       "meeting notes",
       "schedule",
       "calendar",
-      "planning"
+      "planning",
+      "organize tasks",
+      "task management",
+      "task planning"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5593,14 +5680,14 @@ window.ZAVLIS_TOOLS = [
       "scheduling"
     ],
     "subtasks": [
-      "productivity.general"
+      "productivity.task_organization"
     ],
     "subtask_sources": {
-      "productivity.general": "https://www.usemotion.com/"
+      "productivity.task_organization": "https://www.usemotion.com/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
-      "productivity.general": "unknown"
+      "productivity.task_organization": "unknown"
     }
   },
   {
@@ -5678,7 +5765,10 @@ window.ZAVLIS_TOOLS = [
       "ايميلات",
       "رد تلقائي",
       "ارد تلقائي",
-      "ردود تلقائية"
+      "ردود تلقائية",
+      "تنظيم مهام",
+      "رتب مهامي",
+      "إدارة المهام"
     ],
     "keywords_en": [
       "meeting notes",
@@ -5687,7 +5777,10 @@ window.ZAVLIS_TOOLS = [
       "tasks",
       "email automation",
       "auto reply",
-      "automatic email replies"
+      "automatic email replies",
+      "organize tasks",
+      "task management",
+      "task planning"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5721,15 +5814,18 @@ window.ZAVLIS_TOOLS = [
     ],
     "subtasks": [
       "productivity.email_automation",
+      "productivity.task_organization",
       "automation.general"
     ],
     "subtask_sources": {
       "productivity.email_automation": "https://www.taskade.com/agents/productivity/auto-email-responder",
+      "productivity.task_organization": "https://www.taskade.com/",
       "automation.general": "https://www.taskade.com/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "productivity.email_automation": "unknown",
+      "productivity.task_organization": "unknown",
       "automation.general": "unknown"
     }
   },
@@ -7655,7 +7751,10 @@ window.ZAVLIS_TOOLS = [
       "بريد إلكتروني",
       "رد تلقائي",
       "ارد تلقائي",
-      "ردود تلقائية"
+      "ردود تلقائية",
+      "رد رسمي",
+      "ردود رسمية",
+      "رد باحتراف"
     ],
     "keywords_en": [
       "automation",
@@ -7663,7 +7762,9 @@ window.ZAVLIS_TOOLS = [
       "email drafting",
       "email automation",
       "auto reply",
-      "automatic email replies"
+      "automatic email replies",
+      "formal reply",
+      "professional response"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7695,17 +7796,20 @@ window.ZAVLIS_TOOLS = [
     "subtasks": [
       "writing.email",
       "productivity.email_automation",
+      "writing.formal_replies",
       "automation.general"
     ],
     "subtask_sources": {
       "writing.email": "https://www.lindy.ai/ai-email-writer",
       "productivity.email_automation": "https://www.lindy.ai/tools/ai-email-assistant",
+      "writing.formal_replies": "https://www.lindy.ai/ai-email-writer",
       "automation.general": "https://www.lindy.ai/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "writing.email": "unknown",
       "productivity.email_automation": "unknown",
+      "writing.formal_replies": "unknown",
       "automation.general": "unknown"
     }
   },
@@ -8821,12 +8925,17 @@ window.ZAVLIS_TOOLS = [
       "ايميلات",
       "إيميل",
       "ايميل",
-      "بريد إلكتروني"
+      "بريد إلكتروني",
+      "رد رسمي",
+      "ردود رسمية",
+      "رد باحتراف"
     ],
     "keywords_en": [
       "writing",
       "write email",
-      "email drafting"
+      "email drafting",
+      "formal reply",
+      "professional response"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -8863,14 +8972,17 @@ window.ZAVLIS_TOOLS = [
       "tutoring"
     ],
     "subtasks": [
-      "writing.email"
+      "writing.email",
+      "writing.formal_replies"
     ],
     "subtask_sources": {
-      "writing.email": "https://support.writer.com/articles/2664880799-how-to-use-writer-agent"
+      "writing.email": "https://support.writer.com/articles/2664880799-how-to-use-writer-agent",
+      "writing.formal_replies": "https://support.writer.com/articles/2664880799-how-to-use-writer-agent"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
-      "writing.email": "unknown"
+      "writing.email": "unknown",
+      "writing.formal_replies": "unknown"
     }
   },
   {
@@ -9076,7 +9188,10 @@ window.ZAVLIS_TOOLS = [
       "سي في",
       "مقال",
       "مقالات",
-      "مدونة"
+      "مدونة",
+      "رد رسمي",
+      "ردود رسمية",
+      "رد باحتراف"
     ],
     "keywords_en": [
       "writing",
@@ -9085,7 +9200,9 @@ window.ZAVLIS_TOOLS = [
       "cv",
       "article",
       "blog",
-      "essay"
+      "essay",
+      "formal reply",
+      "professional response"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -9118,16 +9235,19 @@ window.ZAVLIS_TOOLS = [
     ],
     "subtasks": [
       "writing.resume",
-      "writing.articles"
+      "writing.articles",
+      "writing.formal_replies"
     ],
     "subtask_sources": {
       "writing.resume": "https://www.hyperwriteai.com/aitools/resume-generator",
-      "writing.articles": "https://www.hyperwriteai.com/"
+      "writing.articles": "https://www.hyperwriteai.com/",
+      "writing.formal_replies": "https://www.hyperwriteai.com/aitools"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "writing.resume": "unknown",
-      "writing.articles": "unknown"
+      "writing.articles": "unknown",
+      "writing.formal_replies": "unknown"
     }
   },
   {
@@ -9833,7 +9953,9 @@ window.ZAVLIS_TOOLS = [
       "اعدل صوري",
       "تحسين صورة",
       "تحرير صور",
-      "ارفع الدقة"
+      "ارفع الدقة",
+      "تحسين صور",
+      "ارفع جودة الصورة"
     ],
     "keywords_en": [
       "image",
@@ -9845,7 +9967,9 @@ window.ZAVLIS_TOOLS = [
       "background removal",
       "edit photo",
       "enhance image",
-      "upscale"
+      "upscale",
+      "image editing",
+      "image enhancement"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -9875,16 +9999,19 @@ window.ZAVLIS_TOOLS = [
     ],
     "subtasks": [
       "image.background_removal",
-      "image.editing"
+      "image.editing",
+      "image.enhancement"
     ],
     "subtask_sources": {
       "image.background_removal": "https://www.photoroom.com/tools/background-remover",
-      "image.editing": "https://www.photoroom.com/"
+      "image.editing": "https://www.photoroom.com/",
+      "image.enhancement": "https://www.photoroom.com/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "image.background_removal": "yes",
-      "image.editing": "unknown"
+      "image.editing": "unknown",
+      "image.enhancement": "unknown"
     }
   },
   {

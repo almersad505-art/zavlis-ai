@@ -45,7 +45,7 @@ function score(tool,task,request,options={}){
  if(!Array.isArray(tool.tasks)||!tool.tasks.includes(task))return null;
  const subtask=options.subtask||null,exactSubtask=!!subtask&&(tool.subtasks||[]).includes(subtask);
  const intent=intentFor(task,request);
- if(!subtask&&!(tool.capabilities||tool.tasks).includes(intent)&&!tool.general_purpose)return null;
+ if(!subtask&&!options.confirmedOnly&&!(tool.capabilities||tool.tasks).includes(intent)&&!tool.general_purpose)return null;
  const budget=options.budget||'any',ar=options.targetLanguage==='ar',freeTier=freeTierFor(tool,subtask);
  const hits=[...(tool.keywords_ar||[]),...(tool.keywords_en||[])].filter(k=>contains(normalize(request),k)).length;
  let budgetFit=budget==='any'?1:0;
@@ -59,14 +59,20 @@ function score(tool,task,request,options={}){
  return {total:Math.round(Object.values(components).reduce((a,b)=>a+b,0)*100)/100,components,specialist,intent,subtask,exactSubtask,matchLevel:subtask?(exactSubtask?'subtask':'category'):'category'};
 }
 function match(text,catalog,options={}){
- const request=String(text||''),lang=language(request),analysis=analyze(request);
+ const request=String(text||''),lang=['ar','en'].includes(options.language)?options.language:language(request);
+ const confirmed=Array.isArray(options.confirmedTasks);
+ const selected=cleanConfirmedTasks(options.confirmedTasks);
+ const analysis=confirmed?{subtasks:selected,tasks:Object.keys(labels).filter(task=>selected.some(id=>Subtasks.definitions[id].category===task))}:analyze(request);
  const {tasks,subtasks}=analysis,warnings=[],recommendations=[];
- const budget=/\bfree\b|مجاني|مجانا|ببلاش|بلاش/.test(normalize(request))?'free':/\b(cheap|low budget|affordable)\b|رخيص|ميزانيه محدوده/.test(normalize(request))?'low':['free','low','any'].includes(options.budget)?options.budget:'any';
- const targetLanguage=requestedLanguage(request,lang);
+ const budget=['free','low','any'].includes(options.budget)?options.budget:'any';
+ const targetLanguage=['ar','en'].includes(options.targetLanguage)?options.targetLanguage:lang;
+ if(!confirmed)return {request,language:lang,targetLanguage,tasks,subtasks,recommendations,alternatives:[],warnings,budget,weights,confirmed:false,phase:'review'};
+ const scoringRequest=selected.map(id=>Subtasks.definitions[id].labels.join(' ')).join(' ');
  for(const task of tasks){
   const groups=subtasks.filter(id=>Subtasks.definitions[id].category===task);
   for(const subtask of groups.length?groups:[null]){
-   const candidates=catalog.filter(tool=>tool.active!==false&&/^https:\/\//.test(tool.url||'')).map(tool=>({tool,score:score(tool,task,request,{budget,targetLanguage,subtask})})).filter(r=>r.score);
+   const general=subtask?.endsWith('.general');
+   const candidates=catalog.filter(tool=>tool.active!==false&&/^https:\/\//.test(tool.url||'')&&(general?tool.tasks.includes(task):tool.subtasks?.includes(subtask))).map(tool=>({tool,score:score(tool,task,scoringRequest,{budget,targetLanguage,subtask:general?null:subtask,confirmedOnly:true})})).filter(r=>r.score);
    candidates.sort((a,b)=>Number(b.score.exactSubtask)-Number(a.score.exactSubtask)||Number(b.score.specialist)-Number(a.score.specialist)||b.score.total-a.score.total||a.tool.name.localeCompare(b.tool.name,'en',{sensitivity:'base'})||String(a.tool.id).localeCompare(String(b.tool.id)));
    const taskLabel=subtask?Subtasks.definitions[subtask].labels[lang==='ar'?1:0]:labels[task][lang==='ar'?1:0];
    for(const [index,r]of candidates.slice(0,3).entries()){
@@ -81,12 +87,15 @@ function match(text,catalog,options={}){
   }
  }
  if(!tasks.length)warnings.push(lang==='ar'?'حدد المطلوب إنشاؤه أو تحليله أو ترجمته لتحديد المهمة.':'Specify what you want to create, analyze, translate or automate.');
- return {request,language:lang,targetLanguage,tasks,subtasks,recommendations,alternatives:[],warnings,budget,weights};
+ return {request,language:lang,targetLanguage,tasks,subtasks,recommendations,alternatives:[],warnings,budget,weights,confirmed:true,phase:'results'};
 }
+function cleanConfirmedTasks(value){return Array.isArray(value)?[...new Set(value.filter(id=>typeof id==='string'&&Object.hasOwn(Subtasks.definitions,id)))]:[];}
+function tasksFromUrl(value){try{return cleanConfirmedTasks((new URL(value)).searchParams.get('tasks')?.split(',')||[]);}catch{return [];}}
+function shareUrl(value,tasks){const url=new URL(value),clean=cleanConfirmedTasks(tasks);if(clean.length)url.searchParams.set('tasks',clean.join(','));else url.searchParams.delete('tasks');url.hash='studio';return url.href;}
 function text(result){
  const ar=result.language==='ar';
  return [(ar?'الطلب: ':'Request: ')+result.request,(ar?'المهام: ':'Tasks: ')+result.tasks.map(task=>labels[task][ar?1:0]).join(' + '),...result.recommendations.map(r=>`${r.rank}. ${r.tool.name}\n${r.reason}\n${r.tool.url}`),...result.warnings].join('\n\n');
 }
 
-return{normalize,language,extract,match,text,score,labels,weights,analyze,subtaskDefinitions:Subtasks.definitions};
+return{normalize,language,extract,match,text,score,labels,weights,analyze,subtaskDefinitions:Subtasks.definitions,cleanConfirmedTasks,tasksFromUrl,shareUrl};
 });

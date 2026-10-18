@@ -87,19 +87,51 @@
   "image.editing": {
     "category": "image",
     "labels": [
-      "Image editing / enhancement",
-      "تحرير وتحسين الصور"
+      "Image editing",
+      "تحرير صور"
     ],
     "ar": [
       "اعدل صوري",
-      "تحسين صورة",
-      "تحرير صور",
-      "ارفع الدقة"
+      "تحرير صور"
     ],
     "en": [
       "edit photo",
+      "image editing"
+    ]
+  },
+  "image.enhancement": {
+    "category": "image",
+    "labels": [
+      "Image enhancement",
+      "تحسين صور"
+    ],
+    "ar": [
+      "تحسين صور",
+      "تحسين صورة",
+      "ارفع الدقة",
+      "ارفع جودة الصورة"
+    ],
+    "en": [
       "enhance image",
-      "upscale"
+      "upscale",
+      "image enhancement"
+    ]
+  },
+  "voice.denoising": {
+    "category": "voice",
+    "labels": [
+      "Noise removal",
+      "إزالة ضوضاء"
+    ],
+    "ar": [
+      "إزالة ضوضاء",
+      "شيل التشويش",
+      "تنقية الصوت"
+    ],
+    "en": [
+      "noise removal",
+      "denoise",
+      "clean audio"
     ]
   },
   "video.generation": {
@@ -122,18 +154,36 @@
   "video.editing": {
     "category": "video",
     "labels": [
-      "Video editing",
-      "مونتاج"
+      "Editing / reels",
+      "مونتاج وريلز"
     ],
     "ar": [
       "مونتاج",
+      "ريلز",
       "قص الفيديو",
       "تعديل فيديو"
     ],
     "en": [
       "video editing",
+      "reels",
       "edit video",
       "trim video"
+    ]
+  },
+  "video.summarization": {
+    "category": "video",
+    "labels": [
+      "Video summaries",
+      "تلخيص فيديو"
+    ],
+    "ar": [
+      "تلخيص فيديو",
+      "لخص الفيديو",
+      "لخص مقطع"
+    ],
+    "en": [
+      "summarize video",
+      "video summary"
     ]
   },
   "video.subtitles": {
@@ -327,6 +377,56 @@
       "spelling"
     ]
   },
+  "writing.formal_replies": {
+    "category": "writing",
+    "labels": [
+      "Formal replies",
+      "ردود رسمية"
+    ],
+    "ar": [
+      "رد رسمي",
+      "ردود رسمية",
+      "رد باحتراف"
+    ],
+    "en": [
+      "formal reply",
+      "professional response"
+    ]
+  },
+  "writing.social_captions": {
+    "category": "writing",
+    "labels": [
+      "Social captions",
+      "كابشن سوشال"
+    ],
+    "ar": [
+      "كابشن سوشال",
+      "كابشن انستقرام",
+      "نص المنشور"
+    ],
+    "en": [
+      "social caption",
+      "instagram caption",
+      "post caption"
+    ]
+  },
+  "music.lyrics": {
+    "category": "music",
+    "labels": [
+      "Songs with lyrics",
+      "أغاني بكلمات"
+    ],
+    "ar": [
+      "أغاني بكلمات",
+      "أغنية بكلمات",
+      "غناء"
+    ],
+    "en": [
+      "song with lyrics",
+      "lyrics",
+      "vocals"
+    ]
+  },
   "education.study": {
     "category": "education",
     "labels": [
@@ -381,6 +481,23 @@
       "pdf",
       "document analysis",
       "document summary"
+    ]
+  },
+  "productivity.task_organization": {
+    "category": "productivity",
+    "labels": [
+      "Task organization",
+      "تنظيم مهام"
+    ],
+    "ar": [
+      "تنظيم مهام",
+      "رتب مهامي",
+      "إدارة المهام"
+    ],
+    "en": [
+      "organize tasks",
+      "task management",
+      "task planning"
     ]
   },
   "voice.general": {

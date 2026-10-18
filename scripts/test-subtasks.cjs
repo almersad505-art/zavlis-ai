@@ -1,7 +1,8 @@
 'use strict';
 const assert=require('node:assert/strict'),engine=require('../smart-match.js'),tools=require('../data/tools.json'),cases=require('./subtask-cases.json');
 const records=cases.map(test=>{
- const result=engine.match(test.request,tools,{budget:'any'});let status='PASS',error='';
+ const proposed=engine.analyze(test.request);
+ const result=engine.match(test.request,tools,{confirmedTasks:proposed.subtasks,budget:test.id===2?'free':'any',targetLanguage:test.id===6?'en':test.id===8?'ar':undefined});let status='PASS',error='';
  try{
   assert.deepEqual([...result.tasks].sort(),[...test.tasks].sort());
   assert.deepEqual([...result.subtasks].sort(),[...test.subtasks].sort());

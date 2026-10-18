@@ -56,6 +56,21 @@ tag('zapier-ai','productivity.email_automation','https://zapier.com/automation/u
 tag('taskade','productivity.email_automation','https://www.taskade.com/agents/productivity/auto-email-responder');
 for(const id of ['knowt','khanmigo','schoolai','questionwell'])tag(id,'education.study');
 for(const id of ['notebooklm','scholarcy','chatpdf'])tag(id,'research.documents');
+tag('designer','image.enhancement','https://www.microsoft.com/en-us/microsoft-365/microsoft-designer');
+tag('magnific','image.enhancement');
+tag('photoroom','image.enhancement','https://www.photoroom.com/');
+tag('krisp','voice.denoising','https://krisp.ai/');
+tag('descript','voice.denoising','https://www.descript.com/studio-sound');
+tag('veed','voice.denoising','https://www.veed.io/tools/remove-background-noise-from-audio');
+tag('notebooklm','video.summarization','https://support.google.com/notebooklm/answer/16164461?hl=en');
+tag('suno','music.lyrics','https://suno.com/');
+tag('udio','music.lyrics','https://help.udio.com/en/articles/10716221-create-a-song-with-your-own-lyrics');
+tag('hyperwrite','writing.formal_replies','https://www.hyperwriteai.com/aitools');
+tag('lindy','writing.formal_replies','https://www.lindy.ai/ai-email-writer');
+tag('writer','writing.formal_replies','https://support.writer.com/articles/2664880799-how-to-use-writer-agent');
+tag('copy-ai','writing.social_captions','https://www.copy.ai/tools');
+tag('motion','productivity.task_organization','https://www.usemotion.com/');
+tag('taskade','productivity.task_organization','https://www.taskade.com/');
 // The official product notice supersedes old synthesis capability descriptions.
 const retired=get('resemble');retired.active=false;retired.status='Voice synthesis product no longer available';retired.statusAr='منتج توليد الصوت لم يعد متاحًا';retired.statusSource='https://www.resemble.ai/product-notice';
 retired.subtasks=[];retired.subtask_sources={};
