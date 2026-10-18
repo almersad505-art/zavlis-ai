@@ -38,11 +38,20 @@
     ],
     "keywords_ar": [
       "فيديو",
-      "صور"
+      "صور",
+      "توليد صور",
+      "انشئ صورة",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
       "video",
-      "image"
+      "image",
+      "generate image",
+      "image generation",
+      "images",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -66,7 +75,20 @@
       "image"
     ],
     "price_scope": "USD 0/month — Free; 125 one-time credits",
-    "price_scope_ar": "0 دولار/شهر — خطة مجانية؛ 125 رصيدًا مرة واحدة"
+    "price_scope_ar": "0 دولار/شهر — خطة مجانية؛ 125 رصيدًا مرة واحدة",
+    "subtasks": [
+      "image.generation",
+      "video.generation"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://runway.com/",
+      "video.generation": "https://runway.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown",
+      "video.generation": "unknown"
+    }
   },
   {
     "id": "pika",
@@ -103,11 +125,20 @@
     ],
     "keywords_ar": [
       "فيديو",
-      "صور"
+      "صور",
+      "توليد صور",
+      "انشئ صورة",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
       "video",
-      "image"
+      "image",
+      "generate image",
+      "image generation",
+      "images",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -129,7 +160,20 @@
       "image"
     ],
     "price_scope": "Free account — 0; generation credit packs sold separately",
-    "price_scope_ar": "حساب مجاني (0)؛ أرصدة التوليد تباع منفصلة"
+    "price_scope_ar": "حساب مجاني (0)؛ أرصدة التوليد تباع منفصلة",
+    "subtasks": [
+      "image.generation",
+      "video.generation"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://pika.art/",
+      "video.generation": "https://pika.art/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown",
+      "video.generation": "unknown"
+    }
   },
   {
     "id": "luma",
@@ -166,11 +210,20 @@
     ],
     "keywords_ar": [
       "فيديو",
-      "صور"
+      "صور",
+      "توليد صور",
+      "انشئ صورة",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
       "video",
-      "image"
+      "image",
+      "generate image",
+      "image generation",
+      "images",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -192,7 +245,20 @@
       "image"
     ],
     "price_scope": "Dream Machine Free plan — 0; current generation allowance not specified",
-    "price_scope_ar": "خطة Dream Machine المجانية (0)؛ حصة التوليد الحالية غير محددة"
+    "price_scope_ar": "خطة Dream Machine المجانية (0)؛ حصة التوليد الحالية غير محددة",
+    "subtasks": [
+      "image.generation",
+      "video.generation"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://lumalabs.ai/learning-hub/web-quick-start",
+      "video.generation": "https://lumalabs.ai/learning-hub/web-quick-start"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown",
+      "video.generation": "unknown"
+    }
   },
   {
     "id": "heygen",
@@ -231,11 +297,16 @@
     ],
     "keywords_ar": [
       "فيديو",
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "افاتار",
+      "أفاتار متكلم",
+      "شخصية تتكلم"
     ],
     "keywords_en": [
       "video",
-      "voiceover"
+      "voiceover",
+      "talking avatar",
+      "avatar video"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -260,7 +331,20 @@
       "voice"
     ],
     "price_scope": "Free — USD 0/month; 3 videos/month, up to 1 minute each",
-    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ 3 فيديوهات شهريًا، حتى دقيقة لكل فيديو"
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ 3 فيديوهات شهريًا، حتى دقيقة لكل فيديو",
+    "subtasks": [
+      "video.avatar",
+      "voice.general"
+    ],
+    "subtask_sources": {
+      "video.avatar": "https://www.heygen.com/",
+      "voice.general": "https://www.heygen.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "video.avatar": "unknown",
+      "voice.general": "unknown"
+    }
   },
   {
     "id": "synthesia",
@@ -299,11 +383,16 @@
     ],
     "keywords_ar": [
       "فيديو",
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "افاتار",
+      "أفاتار متكلم",
+      "شخصية تتكلم"
     ],
     "keywords_en": [
       "video",
-      "voiceover"
+      "voiceover",
+      "talking avatar",
+      "avatar video"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -328,7 +417,20 @@
       "voice"
     ],
     "price_scope": "Basic — free (0); included allowances apply",
-    "price_scope_ar": "Basic مجانية (0)؛ تخضع لحصص الاستخدام"
+    "price_scope_ar": "Basic مجانية (0)؛ تخضع لحصص الاستخدام",
+    "subtasks": [
+      "video.avatar",
+      "voice.general"
+    ],
+    "subtask_sources": {
+      "video.avatar": "https://www.synthesia.io/",
+      "voice.general": "https://www.synthesia.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "video.avatar": "unknown",
+      "voice.general": "unknown"
+    }
   },
   {
     "id": "veed",
@@ -364,10 +466,23 @@
       "video"
     ],
     "keywords_ar": [
-      "فيديو"
+      "فيديو",
+      "مونتاج",
+      "قص الفيديو",
+      "تعديل فيديو",
+      "ترجمة على الفيديو",
+      "كابشن",
+      "ترجمة الفيديو",
+      "ترجمة وكابشن"
     ],
     "keywords_en": [
-      "video"
+      "video",
+      "video editing",
+      "edit video",
+      "trim video",
+      "subtitles",
+      "video captions",
+      "caption video"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -390,7 +505,22 @@
       "video"
     ],
     "price_scope": "Free starter access — 0; paid plan prices not specified here",
-    "price_scope_ar": "وصول مبدئي مجاني (0)؛ أسعار الخطط المدفوعة غير محددة هنا"
+    "price_scope_ar": "وصول مبدئي مجاني (0)؛ أسعار الخطط المدفوعة غير محددة هنا",
+    "subtasks": [
+      "video.editing",
+      "video.subtitles"
+    ],
+    "subtask_sources": {
+      "video.editing": "https://www.veed.io/",
+      "video.subtitles": "https://www.veed.io/tools/auto-subtitle-generator-online"
+    },
+    "arabic_subtasks": [
+      "video.subtitles"
+    ],
+    "subtask_free_tier": {
+      "video.editing": "unknown",
+      "video.subtitles": "unknown"
+    }
   },
   {
     "id": "invideo",
@@ -424,10 +554,14 @@
       "video"
     ],
     "keywords_ar": [
-      "فيديو"
+      "فيديو",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
-      "video"
+      "video",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -448,7 +582,17 @@
       "video"
     ],
     "price_scope": "Free — 0; limited credits, reset weekly",
-    "price_scope_ar": "الخطة المجانية (0)؛ أرصدة محدودة تتجدد أسبوعيًا"
+    "price_scope_ar": "الخطة المجانية (0)؛ أرصدة محدودة تتجدد أسبوعيًا",
+    "subtasks": [
+      "video.generation"
+    ],
+    "subtask_sources": {
+      "video.generation": "https://invideo.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "video.generation": "unknown"
+    }
   },
   {
     "id": "descript",
@@ -485,11 +629,31 @@
     ],
     "keywords_ar": [
       "فيديو",
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "أفرّغ",
+      "أفرغ",
+      "تفريغ",
+      "فرغ التسجيل",
+      "مونتاج",
+      "قص الفيديو",
+      "تعديل فيديو",
+      "ترجمة على الفيديو",
+      "كابشن",
+      "ترجمة الفيديو",
+      "ترجمة وكابشن"
     ],
     "keywords_en": [
       "video",
-      "voiceover"
+      "voiceover",
+      "transcription",
+      "transcribe",
+      "speech to text",
+      "video editing",
+      "edit video",
+      "trim video",
+      "subtitles",
+      "video captions",
+      "caption video"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -511,7 +675,23 @@
       "voice"
     ],
     "price_scope": "Free — USD 0; limited usage",
-    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود"
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود",
+    "subtasks": [
+      "voice.transcription",
+      "video.editing",
+      "video.subtitles"
+    ],
+    "subtask_sources": {
+      "voice.transcription": "https://www.descript.com/transcription",
+      "video.editing": "https://www.descript.com/",
+      "video.subtitles": "https://www.descript.com/transcription"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "voice.transcription": "unknown",
+      "video.editing": "unknown",
+      "video.subtitles": "unknown"
+    }
   },
   {
     "id": "capcut",
@@ -547,10 +727,23 @@
       "video"
     ],
     "keywords_ar": [
-      "فيديو"
+      "فيديو",
+      "مونتاج",
+      "قص الفيديو",
+      "تعديل فيديو",
+      "ترجمة على الفيديو",
+      "كابشن",
+      "ترجمة الفيديو",
+      "ترجمة وكابشن"
     ],
     "keywords_en": [
-      "video"
+      "video",
+      "video editing",
+      "edit video",
+      "trim video",
+      "subtitles",
+      "video captions",
+      "caption video"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -573,7 +766,20 @@
       "video"
     ],
     "price_scope": "Basic online editor — free (0); Pro/AI feature pricing not specified",
-    "price_scope_ar": "المحرر الأساسي على الويب مجاني (0)؛ سعر مزايا Pro والذكاء الاصطناعي غير محدد"
+    "price_scope_ar": "المحرر الأساسي على الويب مجاني (0)؛ سعر مزايا Pro والذكاء الاصطناعي غير محدد",
+    "subtasks": [
+      "video.editing",
+      "video.subtitles"
+    ],
+    "subtask_sources": {
+      "video.editing": "https://www.capcut.com/",
+      "video.subtitles": "https://www.capcut.com/tools/auto-caption-generator"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "video.editing": "unknown",
+      "video.subtitles": "unknown"
+    }
   },
   {
     "id": "fliki",
@@ -612,11 +818,15 @@
     ],
     "keywords_ar": [
       "فيديو",
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
       "video",
-      "voiceover"
+      "voiceover",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -640,7 +850,20 @@
       "voice"
     ],
     "price_scope": "Free plan — 0; monthly credits and paid feature limits apply",
-    "price_scope_ar": "خطة مجانية (0)؛ أرصدة شهرية ومزايا مدفوعة بحسب الخطة"
+    "price_scope_ar": "خطة مجانية (0)؛ أرصدة شهرية ومزايا مدفوعة بحسب الخطة",
+    "subtasks": [
+      "video.generation",
+      "voice.general"
+    ],
+    "subtask_sources": {
+      "video.generation": "https://fliki.ai/",
+      "voice.general": "https://fliki.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "video.generation": "unknown",
+      "voice.general": "unknown"
+    }
   },
   {
     "id": "elevenlabs",
@@ -682,16 +905,30 @@
     "keywords_ar": [
       "تعليق صوتي",
       "موسيقى",
-      "تعليق صوتي",
       "دبلجة",
-      "فويس"
+      "فويس",
+      "أفرّغ",
+      "أفرغ",
+      "تفريغ",
+      "فرغ التسجيل",
+      "بصوت عربي",
+      "بودكاست",
+      "استنساخ صوت",
+      "استنسخ صوت",
+      "نسخ صوتي"
     ],
     "keywords_en": [
       "voiceover",
       "music",
-      "voiceover",
       "dubbing",
-      "speech"
+      "speech",
+      "transcription",
+      "transcribe",
+      "speech to text",
+      "narration",
+      "text to speech",
+      "voice cloning",
+      "clone voice"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -715,7 +952,28 @@
       "voiceover"
     ],
     "price_scope": "USD 0/month — Free; 10k credits/month",
-    "price_scope_ar": "0 دولار/شهر — خطة مجانية؛ 10 آلاف رصيد/شهر"
+    "price_scope_ar": "0 دولار/شهر — خطة مجانية؛ 10 آلاف رصيد/شهر",
+    "subtasks": [
+      "voice.transcription",
+      "voice.voiceover",
+      "voice.cloning",
+      "music.general"
+    ],
+    "subtask_sources": {
+      "voice.transcription": "https://elevenlabs.io/speech-to-text",
+      "voice.voiceover": "https://elevenlabs.io/text-to-speech/arabic",
+      "voice.cloning": "https://elevenlabs.io/voice-cloning",
+      "music.general": "https://elevenlabs.io/text-to-speech/arabic"
+    },
+    "arabic_subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_free_tier": {
+      "voice.transcription": "unknown",
+      "voice.voiceover": "unknown",
+      "voice.cloning": "unknown",
+      "music.general": "unknown"
+    }
   },
   {
     "id": "murf",
@@ -751,10 +1009,19 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست",
+      "استنساخ صوت",
+      "استنسخ صوت",
+      "نسخ صوتي"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech",
+      "voice cloning",
+      "clone voice"
     ],
     "free_tier": "trial",
     "arabic_support": "partial",
@@ -779,7 +1046,22 @@
     "price_scope": "Free access — USD 0; download and plan restrictions apply",
     "price_scope_ar": "وصول مجاني: 0 دولار؛ يخضع لقيود الخطة والتنزيل",
     "freePlanNote": "Studio trial: 10 minutes of voice generation; no downloads. Not a recurring free production plan.",
-    "freePlanNoteAr": "تجربة Studio: عشر دقائق لتوليد الصوت دون تنزيل؛ ليست خطة إنتاج مجانية متجددة."
+    "freePlanNoteAr": "تجربة Studio: عشر دقائق لتوليد الصوت دون تنزيل؛ ليست خطة إنتاج مجانية متجددة.",
+    "subtasks": [
+      "voice.voiceover",
+      "voice.cloning"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://murf.ai/",
+      "voice.cloning": "https://murf.ai/api/docs/voices-styles/instant-voice-cloning"
+    },
+    "arabic_subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown",
+      "voice.cloning": "unknown"
+    }
   },
   {
     "id": "speechify",
@@ -815,10 +1097,14 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -841,7 +1127,19 @@
       "voiceover"
     ],
     "price_scope": "Studio Free — USD 0; 600 credits, no commercial rights",
-    "price_scope_ar": "Studio Free: ‏0 دولار؛ 600 رصيد، دون حقوق استخدام تجاري"
+    "price_scope_ar": "Studio Free: ‏0 دولار؛ 600 رصيد، دون حقوق استخدام تجاري",
+    "subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://speechify.com/"
+    },
+    "arabic_subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "resemble",
@@ -861,7 +1159,7 @@
     "logoKind": "initials placeholder, not official logo",
     "source": "https://www.resemble.ai/products/voice-creation",
     "reviewedAt": "2026-10-18",
-    "active": true,
+    "active": false,
     "metadataReview": {
       "date": "2026-10-18",
       "priceReviewed": true,
@@ -875,10 +1173,14 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -897,7 +1199,20 @@
     "price_currency": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.general"
+    ],
+    "subtask_sources": {
+      "voice.general": "https://www.resemble.ai/products/voice-creation"
+    },
+    "status": "Voice synthesis product no longer available",
+    "statusAr": "منتج توليد الصوت لم يعد متاحًا",
+    "statusSource": "https://www.resemble.ai/product-notice",
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "voice.general": "unknown"
+    }
   },
   {
     "id": "wellsaid",
@@ -933,10 +1248,14 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "partial",
@@ -957,7 +1276,19 @@
     "price_currency": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://www.wellsaid.io/"
+    },
+    "arabic_subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "lovo",
@@ -993,10 +1324,14 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "partial",
@@ -1017,7 +1352,19 @@
     "price_currency": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://lovo.ai/"
+    },
+    "arabic_subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "midjourney",
@@ -1051,10 +1398,15 @@
       "image"
     ],
     "keywords_ar": [
-      "صور"
+      "صور",
+      "توليد صور",
+      "انشئ صورة"
     ],
     "keywords_en": [
-      "image"
+      "image",
+      "generate image",
+      "image generation",
+      "images"
     ],
     "free_tier": "no",
     "arabic_support": "unknown",
@@ -1073,7 +1425,17 @@
     "price_currency": "unknown",
     "capabilities": [
       "image"
-    ]
+    ],
+    "subtasks": [
+      "image.generation"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://www.midjourney.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown"
+    }
   },
   {
     "id": "firefly",
@@ -1115,12 +1477,34 @@
     "keywords_ar": [
       "صور",
       "فيديو",
-      "تصميم"
+      "تصميم",
+      "أشيل الخلفية",
+      "اشيل الخلفية",
+      "إزالة خلفية",
+      "احذف الخلفية",
+      "توليد صور",
+      "انشئ صورة",
+      "اعدل صوري",
+      "تحسين صورة",
+      "تحرير صور",
+      "ارفع الدقة",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
       "image",
       "video",
-      "design"
+      "design",
+      "remove background",
+      "background removal",
+      "generate image",
+      "image generation",
+      "images",
+      "edit photo",
+      "enhance image",
+      "upscale",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -1147,7 +1531,31 @@
       "design"
     ],
     "price_scope": "Free — 0; limited daily generations on selected models",
-    "price_scope_ar": "خطة مجانية (0)؛ توليد يومي محدود على نماذج مختارة"
+    "price_scope_ar": "خطة مجانية (0)؛ توليد يومي محدود على نماذج مختارة",
+    "subtasks": [
+      "image.background_removal",
+      "image.generation",
+      "image.editing",
+      "video.generation",
+      "design.general"
+    ],
+    "subtask_sources": {
+      "image.background_removal": "https://www.adobe.com/express/feature/image/remove-background",
+      "image.generation": "https://www.adobe.com/products/firefly.html",
+      "image.editing": "https://www.adobe.com/products/firefly.html",
+      "video.generation": "https://www.adobe.com/products/firefly.html",
+      "design.general": "https://www.adobe.com/products/firefly.html"
+    },
+    "arabic_subtasks": [
+      "image.generation"
+    ],
+    "subtask_free_tier": {
+      "image.background_removal": "yes",
+      "image.generation": "unknown",
+      "image.editing": "unknown",
+      "video.generation": "unknown",
+      "design.general": "unknown"
+    }
   },
   {
     "id": "ideogram",
@@ -1183,10 +1591,15 @@
       "image"
     ],
     "keywords_ar": [
-      "صور"
+      "صور",
+      "توليد صور",
+      "انشئ صورة"
     ],
     "keywords_en": [
-      "image"
+      "image",
+      "generate image",
+      "image generation",
+      "images"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -1209,7 +1622,17 @@
       "image"
     ],
     "price_scope": "Free — USD 0; account eligibility and usage limits apply",
-    "price_scope_ar": "الخطة المجانية: 0 دولار؛ تخضع لأهلية الحساب وحدود الاستخدام"
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ تخضع لأهلية الحساب وحدود الاستخدام",
+    "subtasks": [
+      "image.generation"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://ideogram.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown"
+    }
   },
   {
     "id": "leonardo",
@@ -1246,11 +1669,20 @@
     ],
     "keywords_ar": [
       "صور",
-      "فيديو"
+      "فيديو",
+      "توليد صور",
+      "انشئ صورة",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
       "image",
-      "video"
+      "video",
+      "generate image",
+      "image generation",
+      "images",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -1272,7 +1704,20 @@
       "video"
     ],
     "price_scope": "Free — 0; 150 fast tokens/day",
-    "price_scope_ar": "خطة مجانية (0)؛ 150 رصيد Fast يوميًا"
+    "price_scope_ar": "خطة مجانية (0)؛ 150 رصيد Fast يوميًا",
+    "subtasks": [
+      "image.generation",
+      "video.generation"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://leonardo.ai/",
+      "video.generation": "https://leonardo.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown",
+      "video.generation": "unknown"
+    }
   },
   {
     "id": "recraft",
@@ -1309,11 +1754,23 @@
     ],
     "keywords_ar": [
       "صور",
-      "تصميم"
+      "تصميم",
+      "توليد صور",
+      "انشئ صورة",
+      "اعدل صوري",
+      "تحسين صورة",
+      "تحرير صور",
+      "ارفع الدقة"
     ],
     "keywords_en": [
       "image",
-      "design"
+      "design",
+      "generate image",
+      "image generation",
+      "images",
+      "edit photo",
+      "enhance image",
+      "upscale"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -1335,7 +1792,23 @@
       "design"
     ],
     "price_scope": "Free plan — 0; paid plans have different rights",
-    "price_scope_ar": "خطة مجانية (0)؛ حقوق الخطط المدفوعة مختلفة"
+    "price_scope_ar": "خطة مجانية (0)؛ حقوق الخطط المدفوعة مختلفة",
+    "subtasks": [
+      "image.generation",
+      "image.editing",
+      "design.general"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://www.recraft.ai/",
+      "image.editing": "https://www.recraft.ai/",
+      "design.general": "https://www.recraft.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown",
+      "image.editing": "unknown",
+      "design.general": "unknown"
+    }
   },
   {
     "id": "magnific",
@@ -1372,11 +1845,18 @@
     ],
     "keywords_ar": [
       "صور",
-      "تصميم"
+      "تصميم",
+      "اعدل صوري",
+      "تحسين صورة",
+      "تحرير صور",
+      "ارفع الدقة"
     ],
     "keywords_en": [
       "image",
-      "design"
+      "design",
+      "edit photo",
+      "enhance image",
+      "upscale"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -1398,7 +1878,20 @@
       "design"
     ],
     "price_scope": "Free plan — 0; limited daily access, personal-use license",
-    "price_scope_ar": "خطة مجانية (0)؛ وصول يومي محدود وترخيص للاستخدام الشخصي"
+    "price_scope_ar": "خطة مجانية (0)؛ وصول يومي محدود وترخيص للاستخدام الشخصي",
+    "subtasks": [
+      "image.editing",
+      "design.general"
+    ],
+    "subtask_sources": {
+      "image.editing": "https://www.magnific.com/",
+      "design.general": "https://www.magnific.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.editing": "unknown",
+      "design.general": "unknown"
+    }
   },
   {
     "id": "chatgpt",
@@ -1474,7 +1967,23 @@
       "tutoring"
     ],
     "price_scope": "ChatGPT Free — 0; usage limits apply",
-    "price_scope_ar": "ChatGPT Free مجانية (0)؛ تخضع لحدود الاستخدام"
+    "price_scope_ar": "ChatGPT Free مجانية (0)؛ تخضع لحدود الاستخدام",
+    "subtasks": [
+      "writing.general",
+      "code.general",
+      "image.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://chatgpt.com/",
+      "code.general": "https://chatgpt.com/",
+      "image.general": "https://chatgpt.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "code.general": "unknown",
+      "image.general": "unknown"
+    }
   },
   {
     "id": "claude",
@@ -1549,7 +2058,20 @@
       "tutoring"
     ],
     "price_scope": "Free — USD 0; limited usage",
-    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود"
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود",
+    "subtasks": [
+      "writing.general",
+      "code.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://claude.ai/",
+      "code.general": "https://claude.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "code.general": "unknown"
+    }
   },
   {
     "id": "gemini",
@@ -1621,7 +2143,20 @@
       "tutoring"
     ],
     "price_scope": "Free — USD 0/month with a Google Account",
-    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر مع حساب Google"
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر مع حساب Google",
+    "subtasks": [
+      "writing.general",
+      "code.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://gemini.google.com/",
+      "code.general": "https://gemini.google.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "code.general": "unknown"
+    }
   },
   {
     "id": "notion",
@@ -1658,10 +2193,16 @@
       "productivity"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "partial",
@@ -1681,7 +2222,20 @@
     "capabilities": [
       "prose",
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "writing.general",
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://www.notion.com/product/ai",
+      "productivity.general": "https://www.notion.com/product/ai"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "jasper",
@@ -1722,11 +2276,17 @@
     ],
     "keywords_ar": [
       "كتابة",
-      "تسويق"
+      "تسويق",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
       "writing",
-      "marketing"
+      "marketing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "partial",
@@ -1749,7 +2309,23 @@
       "prose",
       "marketing_copy",
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "writing.articles",
+      "marketing.general",
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "writing.articles": "https://www.jasper.ai/",
+      "marketing.general": "https://www.jasper.ai/",
+      "translation.general": "https://www.jasper.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.articles": "unknown",
+      "marketing.general": "unknown",
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "copy-ai",
@@ -1786,11 +2362,17 @@
     ],
     "keywords_ar": [
       "كتابة",
-      "تسويق"
+      "تسويق",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
       "writing",
-      "marketing"
+      "marketing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -1810,7 +2392,20 @@
     "capabilities": [
       "prose",
       "marketing_copy"
-    ]
+    ],
+    "subtasks": [
+      "writing.general",
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://www.copy.ai/",
+      "marketing.general": "https://www.copy.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "writesonic",
@@ -1847,11 +2442,17 @@
     ],
     "keywords_ar": [
       "كتابة",
-      "تسويق"
+      "تسويق",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
       "writing",
-      "marketing"
+      "marketing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -1871,7 +2472,20 @@
     "capabilities": [
       "prose",
       "marketing_copy"
-    ]
+    ],
+    "subtasks": [
+      "writing.articles",
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "writing.articles": "https://writesonic.com/",
+      "marketing.general": "https://writesonic.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.articles": "unknown",
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "grammarly",
@@ -1908,7 +2522,8 @@
       "كتابة",
       "تدقيق",
       "قواعد",
-      "إملاء"
+      "إملاء",
+      "صحح النص"
     ],
     "keywords_en": [
       "writing",
@@ -1935,7 +2550,17 @@
       "proofreading"
     ],
     "price_scope": "Free plan — 0; premium features separate",
-    "price_scope_ar": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة"
+    "price_scope_ar": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة",
+    "subtasks": [
+      "writing.proofreading"
+    ],
+    "subtask_sources": {
+      "writing.proofreading": "https://www.grammarly.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.proofreading": "unknown"
+    }
   },
   {
     "id": "quillbot",
@@ -1973,10 +2598,17 @@
       "translation"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "تدقيق",
+      "إملاء",
+      "قواعد",
+      "صحح النص"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "proofread",
+      "grammar",
+      "spelling"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -2000,7 +2632,20 @@
       "translation"
     ],
     "price_scope": "Free plan — 0; premium features separate",
-    "price_scope_ar": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة"
+    "price_scope_ar": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة",
+    "subtasks": [
+      "writing.proofreading",
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "writing.proofreading": "https://help.quillbot.com/hc/en-us/articles/35854222679319-How-to-use-the-Quillbot-Paraphraser",
+      "translation.general": "https://help.quillbot.com/hc/en-us/articles/35854222679319-How-to-use-the-Quillbot-Paraphraser"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.proofreading": "unknown",
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "wordtune",
@@ -2036,10 +2681,17 @@
       "writing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "تدقيق",
+      "إملاء",
+      "قواعد",
+      "صحح النص"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "proofread",
+      "grammar",
+      "spelling"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -2058,7 +2710,17 @@
     "price_currency": "unknown",
     "capabilities": [
       "proofreading"
-    ]
+    ],
+    "subtasks": [
+      "writing.proofreading"
+    ],
+    "subtask_sources": {
+      "writing.proofreading": "https://www.wordtune.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.proofreading": "unknown"
+    }
   },
   {
     "id": "deepl-write",
@@ -2094,10 +2756,17 @@
       "writing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "تدقيق",
+      "إملاء",
+      "قواعد",
+      "صحح النص"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "proofread",
+      "grammar",
+      "spelling"
     ],
     "free_tier": "yes",
     "arabic_support": "no",
@@ -2118,7 +2787,17 @@
       "proofreading"
     ],
     "price_scope": "Free edition — 0; Write Pro separate",
-    "price_scope_ar": "الإصدار المجاني (0)؛ اشتراك Write Pro منفصل"
+    "price_scope_ar": "الإصدار المجاني (0)؛ اشتراك Write Pro منفصل",
+    "subtasks": [
+      "writing.proofreading"
+    ],
+    "subtask_sources": {
+      "writing.proofreading": "https://www.deepl.com/en/write"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.proofreading": "unknown"
+    }
   },
   {
     "id": "notebooklm",
@@ -2157,12 +2836,18 @@
       "كتابة",
       "مصادر",
       "دراسة",
-      "مراجع"
+      "مراجع",
+      "تحليل ملف",
+      "لخص pdf",
+      "تلخيص مستند"
     ],
     "keywords_en": [
       "writing",
       "sources",
-      "study"
+      "study",
+      "pdf",
+      "document analysis",
+      "document summary"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -2185,7 +2870,19 @@
       "document_study"
     ],
     "price_scope": "Included in Google Free plan — USD 0/month; limits apply",
-    "price_scope_ar": "ضمن خطة Google المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام"
+    "price_scope_ar": "ضمن خطة Google المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام",
+    "subtasks": [
+      "research.documents"
+    ],
+    "subtask_sources": {
+      "research.documents": "https://blog.google/innovation-and-ai/products/developing-notebooklm/"
+    },
+    "arabic_subtasks": [
+      "research.documents"
+    ],
+    "subtask_free_tier": {
+      "research.documents": "unknown"
+    }
   },
   {
     "id": "github-copilot",
@@ -2219,10 +2916,18 @@
       "code"
     ],
     "keywords_ar": [
-      "برمجة"
+      "برمجة",
+      "كود",
+      "مساعد مبرمجين",
+      "بايثون",
+      "تصحيح خطأ"
     ],
     "keywords_en": [
-      "coding"
+      "coding",
+      "coding assistant",
+      "debug",
+      "python",
+      "code"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -2244,7 +2949,17 @@
       "debug"
     ],
     "price_scope": "Copilot Free — 0; limited functionality for individuals",
-    "price_scope_ar": "Copilot Free مجانية (0)؛ وظائف محدودة للأفراد"
+    "price_scope_ar": "Copilot Free مجانية (0)؛ وظائف محدودة للأفراد",
+    "subtasks": [
+      "code.assistant"
+    ],
+    "subtask_sources": {
+      "code.assistant": "https://github.com/features/copilot"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "code.assistant": "unknown"
+    }
   },
   {
     "id": "cursor",
@@ -2278,10 +2993,18 @@
       "code"
     ],
     "keywords_ar": [
-      "برمجة"
+      "برمجة",
+      "كود",
+      "مساعد مبرمجين",
+      "بايثون",
+      "تصحيح خطأ"
     ],
     "keywords_en": [
-      "coding"
+      "coding",
+      "coding assistant",
+      "debug",
+      "python",
+      "code"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -2303,7 +3026,17 @@
       "debug"
     ],
     "price_scope": "Free — USD 0; limited Agent/Chat usage",
-    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود لـ Agent وChat"
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود لـ Agent وChat",
+    "subtasks": [
+      "code.assistant"
+    ],
+    "subtask_sources": {
+      "code.assistant": "https://cursor.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "code.assistant": "unknown"
+    }
   },
   {
     "id": "replit",
@@ -2337,10 +3070,18 @@
       "code"
     ],
     "keywords_ar": [
-      "برمجة"
+      "برمجة",
+      "كود",
+      "مساعد مبرمجين",
+      "بايثون",
+      "تصحيح خطأ"
     ],
     "keywords_en": [
-      "coding"
+      "coding",
+      "coding assistant",
+      "debug",
+      "python",
+      "code"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -2362,7 +3103,17 @@
       "debug"
     ],
     "price_scope": "Starter — free (0); plan/deployment limits apply",
-    "price_scope_ar": "Starter مجانية (0)؛ تخضع لحدود الخطة والنشر"
+    "price_scope_ar": "Starter مجانية (0)؛ تخضع لحدود الخطة والنشر",
+    "subtasks": [
+      "code.assistant"
+    ],
+    "subtask_sources": {
+      "code.assistant": "https://replit.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "code.assistant": "unknown"
+    }
   },
   {
     "id": "bolt",
@@ -2396,10 +3147,18 @@
       "code"
     ],
     "keywords_ar": [
-      "برمجة"
+      "برمجة",
+      "بدون برمجة",
+      "بدون كود",
+      "متجر",
+      "متجري"
     ],
     "keywords_en": [
-      "coding"
+      "coding",
+      "no-code",
+      "no code",
+      "without coding",
+      "store builder"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -2420,7 +3179,17 @@
       "code"
     ],
     "price_scope": "Free — USD 0; token and hosting limits apply",
-    "price_scope_ar": "الخطة المجانية: 0 دولار؛ تخضع لحدود الرموز والاستضافة"
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ تخضع لحدود الرموز والاستضافة",
+    "subtasks": [
+      "code.no_code"
+    ],
+    "subtask_sources": {
+      "code.no_code": "https://bolt.new/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "code.no_code": "unknown"
+    }
   },
   {
     "id": "lovable",
@@ -2454,10 +3223,18 @@
       "code"
     ],
     "keywords_ar": [
-      "برمجة"
+      "برمجة",
+      "بدون برمجة",
+      "بدون كود",
+      "متجر",
+      "متجري"
     ],
     "keywords_en": [
-      "coding"
+      "coding",
+      "no-code",
+      "no code",
+      "without coding",
+      "store builder"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -2478,7 +3255,17 @@
       "code"
     ],
     "price_scope": "Free starting plan — 0; usage limits apply",
-    "price_scope_ar": "خطة بدء مجانية (0)؛ تخضع لحدود الاستخدام"
+    "price_scope_ar": "خطة بدء مجانية (0)؛ تخضع لحدود الاستخدام",
+    "subtasks": [
+      "code.no_code"
+    ],
+    "subtask_sources": {
+      "code.no_code": "https://lovable.dev/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "code.no_code": "unknown"
+    }
   },
   {
     "id": "v0",
@@ -2515,11 +3302,19 @@
     ],
     "keywords_ar": [
       "برمجة",
-      "تصميم"
+      "تصميم",
+      "بدون برمجة",
+      "بدون كود",
+      "متجر",
+      "متجري"
     ],
     "keywords_en": [
       "coding",
-      "design"
+      "design",
+      "no-code",
+      "no code",
+      "without coding",
+      "store builder"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -2541,7 +3336,20 @@
       "design"
     ],
     "price_scope": "Free — USD 0/month; usage limits apply",
-    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام"
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام",
+    "subtasks": [
+      "code.no_code",
+      "design.general"
+    ],
+    "subtask_sources": {
+      "code.no_code": "https://v0.app/",
+      "design.general": "https://v0.app/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "code.no_code": "unknown",
+      "design.general": "unknown"
+    }
   },
   {
     "id": "canva",
@@ -2549,7 +3357,8 @@
     "tasks": [
       "design",
       "image",
-      "video"
+      "video",
+      "writing"
     ],
     "price": "Canva Free — 0; premium assets and AI limits separate",
     "priceSource": "https://www.canva.com/ar_eg/pricing/",
@@ -2578,17 +3387,41 @@
     "category": [
       "design",
       "image",
-      "video"
+      "video",
+      "writing"
     ],
     "keywords_ar": [
       "تصميم",
       "صور",
-      "فيديو"
+      "فيديو",
+      "أشيل الخلفية",
+      "اشيل الخلفية",
+      "إزالة خلفية",
+      "احذف الخلفية",
+      "بوست",
+      "بوست تويتر",
+      "تصميم منشورات",
+      "شعار",
+      "شعارات",
+      "هوية براند",
+      "سيرة ذاتية",
+      "سيرتي",
+      "سي في"
     ],
     "keywords_en": [
       "design",
       "image",
-      "video"
+      "video",
+      "remove background",
+      "background removal",
+      "social post design",
+      "social graphic",
+      "design a post",
+      "logo",
+      "brand identity",
+      "resume",
+      "curriculum vitae",
+      "cv"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -2614,7 +3447,29 @@
       "design"
     ],
     "price_scope": "Canva Free — 0; premium assets and AI limits separate",
-    "price_scope_ar": "Canva Free مجانية (0)؛ الأصول المدفوعة وحدود AI منفصلة"
+    "price_scope_ar": "Canva Free مجانية (0)؛ الأصول المدفوعة وحدود AI منفصلة",
+    "subtasks": [
+      "image.background_removal",
+      "design.social_posts",
+      "design.logos",
+      "writing.resume",
+      "video.general"
+    ],
+    "subtask_sources": {
+      "image.background_removal": "https://www.canva.com/features/background-remover/",
+      "design.social_posts": "https://www.canva.com/social-media/",
+      "design.logos": "https://www.canva.com/ai-logo-generator/",
+      "writing.resume": "https://www.canva.com/ai-resume-builder/",
+      "video.general": "https://www.canva.com/ai-logo-generator/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.background_removal": "unknown",
+      "design.social_posts": "unknown",
+      "design.logos": "unknown",
+      "writing.resume": "unknown",
+      "video.general": "unknown"
+    }
   },
   {
     "id": "figma",
@@ -2650,10 +3505,16 @@
       "design"
     ],
     "keywords_ar": [
-      "تصميم"
+      "تصميم",
+      "واجهة",
+      "واجهات",
+      "تصميم تطبيق"
     ],
     "keywords_en": [
-      "design"
+      "design",
+      "ui",
+      "ux",
+      "wireframe"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -2674,7 +3535,17 @@
       "design"
     ],
     "price_scope": "Starter — free (0); AI/product limits apply",
-    "price_scope_ar": "Starter مجانية (0)؛ تخضع لحدود المنتجات والذكاء الاصطناعي"
+    "price_scope_ar": "Starter مجانية (0)؛ تخضع لحدود المنتجات والذكاء الاصطناعي",
+    "subtasks": [
+      "design.ui"
+    ],
+    "subtask_sources": {
+      "design.ui": "https://www.figma.com/ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.ui": "unknown"
+    }
   },
   {
     "id": "framer",
@@ -2713,11 +3584,19 @@
     ],
     "keywords_ar": [
       "تصميم",
-      "برمجة"
+      "برمجة",
+      "بدون برمجة",
+      "بدون كود",
+      "متجر",
+      "متجري"
     ],
     "keywords_en": [
       "design",
-      "coding"
+      "coding",
+      "no-code",
+      "no code",
+      "without coding",
+      "store builder"
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
@@ -2738,7 +3617,22 @@
       "design"
     ],
     "price_scope": "Free plan — 0; hosting, AI and localization limits apply",
-    "price_scope_ar": "خطة مجانية (0)؛ تخضع لحدود الاستضافة والذكاء الاصطناعي والتوطين"
+    "price_scope_ar": "خطة مجانية (0)؛ تخضع لحدود الاستضافة والذكاء الاصطناعي والتوطين",
+    "subtasks": [
+      "code.no_code",
+      "design.general"
+    ],
+    "subtask_sources": {
+      "code.no_code": "https://www.framer.com/",
+      "design.general": "https://www.framer.com/"
+    },
+    "arabic_subtasks": [
+      "code.no_code"
+    ],
+    "subtask_free_tier": {
+      "code.no_code": "unknown",
+      "design.general": "unknown"
+    }
   },
   {
     "id": "designer",
@@ -2775,11 +3669,17 @@
     ],
     "keywords_ar": [
       "تصميم",
-      "صور"
+      "صور",
+      "بوست",
+      "بوست تويتر",
+      "تصميم منشورات"
     ],
     "keywords_en": [
       "design",
-      "image"
+      "image",
+      "social post design",
+      "social graphic",
+      "design a post"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -2798,7 +3698,20 @@
     "price_currency": "unknown",
     "capabilities": [
       "design"
-    ]
+    ],
+    "subtasks": [
+      "design.social_posts",
+      "image.general"
+    ],
+    "subtask_sources": {
+      "design.social_posts": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer",
+      "image.general": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.social_posts": "unknown",
+      "image.general": "unknown"
+    }
   },
   {
     "id": "uizard",
@@ -2834,10 +3747,16 @@
       "design"
     ],
     "keywords_ar": [
-      "تصميم"
+      "تصميم",
+      "واجهة",
+      "واجهات",
+      "تصميم تطبيق"
     ],
     "keywords_en": [
-      "design"
+      "design",
+      "ui",
+      "ux",
+      "wireframe"
     ],
     "free_tier": "yes",
     "arabic_support": "no",
@@ -2858,7 +3777,17 @@
       "design"
     ],
     "price_scope": "Free subscription — 0; feature limits apply",
-    "price_scope_ar": "اشتراك مجاني (0)؛ يخضع لحدود المزايا"
+    "price_scope_ar": "اشتراك مجاني (0)؛ يخضع لحدود المزايا",
+    "subtasks": [
+      "design.ui"
+    ],
+    "subtask_sources": {
+      "design.ui": "https://uizard.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.ui": "unknown"
+    }
   },
   {
     "id": "relume",
@@ -2892,10 +3821,16 @@
       "design"
     ],
     "keywords_ar": [
-      "تصميم"
+      "تصميم",
+      "واجهة",
+      "واجهات",
+      "تصميم تطبيق"
     ],
     "keywords_en": [
-      "design"
+      "design",
+      "ui",
+      "ux",
+      "wireframe"
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
@@ -2916,7 +3851,17 @@
       "design"
     ],
     "price_scope": "Free tier — 0; limited access",
-    "price_scope_ar": "خطة مجانية (0)؛ وصول محدود"
+    "price_scope_ar": "خطة مجانية (0)؛ وصول محدود",
+    "subtasks": [
+      "design.ui"
+    ],
+    "subtask_sources": {
+      "design.ui": "https://www.relume.ai/pricing"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.ui": "unknown"
+    }
   },
   {
     "id": "suno",
@@ -2974,7 +3919,17 @@
       "music_generation"
     ],
     "price_scope": "Free — USD 0/month; 50 credits/day, no monthly song downloads or commercial rights",
-    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ 50 رصيدًا يوميًا، دون حصة تنزيل أغانٍ شهرية أو حقوق تجارية"
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ 50 رصيدًا يوميًا، دون حصة تنزيل أغانٍ شهرية أو حقوق تجارية",
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://suno.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "udio",
@@ -3032,7 +3987,17 @@
       "music_generation"
     ],
     "price_scope": "Free tier — 0; credit and generation limits apply",
-    "price_scope_ar": "خطة مجانية (0)؛ تخضع لحدود الأرصدة والتوليد"
+    "price_scope_ar": "خطة مجانية (0)؛ تخضع لحدود الأرصدة والتوليد",
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://www.udio.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "aiva",
@@ -3092,7 +4057,17 @@
       "music_generation"
     ],
     "price_scope": "EUR 0 — Free; non-commercial, credit required",
-    "price_scope_ar": "0 يورو — خطة مجانية للاستخدام غير التجاري مع ذكر المصدر"
+    "price_scope_ar": "0 يورو — خطة مجانية للاستخدام غير التجاري مع ذكر المصدر",
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://www.aiva.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "soundraw",
@@ -3148,7 +4123,17 @@
     "price_currency": "unknown",
     "capabilities": [
       "music_generation"
-    ]
+    ],
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://soundraw.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "beatoven",
@@ -3204,7 +4189,17 @@
     "price_currency": "unknown",
     "capabilities": [
       "music_generation"
-    ]
+    ],
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://www.beatoven.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "mubert",
@@ -3262,7 +4257,17 @@
       "music_generation"
     ],
     "price_scope": "Ambassador — free (0); personal, non-monetized use only",
-    "price_scope_ar": "Ambassador مجانية (0)؛ استخدام شخصي دون إعلانات مدفوعة أو تحقيق دخل"
+    "price_scope_ar": "Ambassador مجانية (0)؛ استخدام شخصي دون إعلانات مدفوعة أو تحقيق دخل",
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://mubert.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "sora",
@@ -3320,7 +4325,17 @@
     "price_currency": "unknown",
     "capabilities": [
       "video"
-    ]
+    ],
+    "subtasks": [
+      "video.general"
+    ],
+    "subtask_sources": {
+      "video.general": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "video.general": "unknown"
+    }
   },
   {
     "id": "gamma",
@@ -3362,7 +4377,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://gamma.app/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "beautiful-ai",
@@ -3404,7 +4429,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://www.beautiful.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "plus-ai",
@@ -3446,7 +4481,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://plusai.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "pitch",
@@ -3488,7 +4533,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://pitch.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "slidesai",
@@ -3530,7 +4585,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://www.slidesai.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "slidesgo-ai",
@@ -3572,7 +4637,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://slidesgo.com/ai/presentation-maker"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "presentations-ai",
@@ -3614,7 +4689,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://www.presentations.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "decktopus",
@@ -3656,7 +4741,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
-    ]
+    ],
+    "subtasks": [
+      "presentations.general"
+    ],
+    "subtask_sources": {
+      "presentations.general": "https://www.decktopus.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "presentations.general": "unknown"
+    }
   },
   {
     "id": "elicit",
@@ -3698,7 +4793,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "academic"
-    ]
+    ],
+    "subtasks": [
+      "research.general"
+    ],
+    "subtask_sources": {
+      "research.general": "https://elicit.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "research.general": "unknown"
+    }
   },
   {
     "id": "scite",
@@ -3740,7 +4845,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "academic"
-    ]
+    ],
+    "subtasks": [
+      "research.general"
+    ],
+    "subtask_sources": {
+      "research.general": "https://scite.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "research.general": "unknown"
+    }
   },
   {
     "id": "researchrabbit",
@@ -3782,7 +4897,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "academic"
-    ]
+    ],
+    "subtasks": [
+      "research.general"
+    ],
+    "subtask_sources": {
+      "research.general": "https://www.researchrabbit.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "research.general": "unknown"
+    }
   },
   {
     "id": "scispace",
@@ -3824,7 +4949,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "academic"
-    ]
+    ],
+    "subtasks": [
+      "research.general"
+    ],
+    "subtask_sources": {
+      "research.general": "https://scispace.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "research.general": "unknown"
+    }
   },
   {
     "id": "scholarcy",
@@ -3836,10 +4971,16 @@
       "research"
     ],
     "keywords_ar": [
-      "بحث ودراسة"
+      "بحث ودراسة",
+      "تحليل ملف",
+      "لخص pdf",
+      "تلخيص مستند"
     ],
     "keywords_en": [
-      "research"
+      "research",
+      "pdf",
+      "document analysis",
+      "document summary"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -3866,7 +5007,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "document_study"
-    ]
+    ],
+    "subtasks": [
+      "research.documents"
+    ],
+    "subtask_sources": {
+      "research.documents": "https://www.scholarcy.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "research.documents": "unknown"
+    }
   },
   {
     "id": "chatpdf",
@@ -3878,10 +5029,16 @@
       "research"
     ],
     "keywords_ar": [
-      "بحث ودراسة"
+      "بحث ودراسة",
+      "تحليل ملف",
+      "لخص pdf",
+      "تلخيص مستند"
     ],
     "keywords_en": [
-      "research"
+      "research",
+      "pdf",
+      "document analysis",
+      "document summary"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -3908,7 +5065,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "document_study"
-    ]
+    ],
+    "subtasks": [
+      "research.documents"
+    ],
+    "subtask_sources": {
+      "research.documents": "https://www.chatpdf.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "research.documents": "unknown"
+    }
   },
   {
     "id": "otter-ai",
@@ -3950,7 +5117,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://otter.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "fireflies-ai",
@@ -3992,7 +5169,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://fireflies.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "fathom",
@@ -4034,7 +5221,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://www.fathom.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "tl-dv",
@@ -4076,7 +5273,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://tldv.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "avoma",
@@ -4118,7 +5325,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://www.avoma.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "read-ai",
@@ -4160,7 +5377,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://www.read.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "meetgeek",
@@ -4202,7 +5429,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://meetgeek.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "krisp",
@@ -4244,7 +5481,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://krisp.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "granola",
@@ -4286,7 +5533,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://www.granola.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "motion",
@@ -4334,7 +5591,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "scheduling"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://www.usemotion.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "reclaim-ai",
@@ -4380,7 +5647,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "scheduling"
-    ]
+    ],
+    "subtasks": [
+      "productivity.general"
+    ],
+    "subtask_sources": {
+      "productivity.general": "https://reclaim.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.general": "unknown"
+    }
   },
   {
     "id": "taskade",
@@ -4397,13 +5674,20 @@
       "اجتماعات وإنتاجية",
       "وكيل",
       "أتمتة",
-      "مهام"
+      "مهام",
+      "ايميلات",
+      "رد تلقائي",
+      "ارد تلقائي",
+      "ردود تلقائية"
     ],
     "keywords_en": [
       "meeting notes",
       "agents",
       "workflow",
-      "tasks"
+      "tasks",
+      "email automation",
+      "auto reply",
+      "automatic email replies"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -4434,7 +5718,20 @@
       "workflow",
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "productivity.email_automation",
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "productivity.email_automation": "https://www.taskade.com/agents/productivity/auto-email-responder",
+      "automation.general": "https://www.taskade.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.email_automation": "unknown",
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "deepl-translator",
@@ -4476,7 +5773,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://www.deepl.com/en/translator"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "google-translate",
@@ -4518,7 +5825,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://translate.google.com/about/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "microsoft-translator",
@@ -4560,7 +5877,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://www.microsoft.com/en-us/translator/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "smartcat",
@@ -4602,7 +5929,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://www.smartcat.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "unbabel",
@@ -4644,7 +5981,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://unbabel.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "lokalise",
@@ -4686,7 +6033,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://lokalise.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "phrase",
@@ -4728,7 +6085,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://phrase.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "weglot",
@@ -4770,7 +6137,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://www.weglot.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "lara-translate",
@@ -4812,7 +6189,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://laratranslate.com/translate"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "immersive-translate",
@@ -4854,7 +6241,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "translation"
-    ]
+    ],
+    "subtasks": [
+      "translation.general"
+    ],
+    "subtask_sources": {
+      "translation.general": "https://immersivetranslate.com/en/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "translation.general": "unknown"
+    }
   },
   {
     "id": "magicschool",
@@ -4896,7 +6293,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "lesson_planning"
-    ]
+    ],
+    "subtasks": [
+      "education.general"
+    ],
+    "subtask_sources": {
+      "education.general": "https://www.magicschool.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.general": "unknown"
+    }
   },
   {
     "id": "diffit",
@@ -4938,7 +6345,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "lesson_planning"
-    ]
+    ],
+    "subtasks": [
+      "education.general"
+    ],
+    "subtask_sources": {
+      "education.general": "https://web.diffit.me/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.general": "unknown"
+    }
   },
   {
     "id": "brisk-teaching",
@@ -4980,7 +6397,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "lesson_planning"
-    ]
+    ],
+    "subtasks": [
+      "education.general"
+    ],
+    "subtask_sources": {
+      "education.general": "https://www.briskteaching.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.general": "unknown"
+    }
   },
   {
     "id": "schoolai",
@@ -4992,10 +6419,20 @@
       "education"
     ],
     "keywords_ar": [
-      "تعليم وأطفال"
+      "تعليم وأطفال",
+      "أذاكر",
+      "اذاكر",
+      "مذاكرة",
+      "اختبار",
+      "اختبار القدرات"
     ],
     "keywords_en": [
-      "teaching"
+      "teaching",
+      "study",
+      "quiz",
+      "exam",
+      "flashcards",
+      "test prep"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5022,7 +6459,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "lesson_planning"
-    ]
+    ],
+    "subtasks": [
+      "education.study"
+    ],
+    "subtask_sources": {
+      "education.study": "https://schoolai.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.study": "unknown"
+    }
   },
   {
     "id": "khanmigo",
@@ -5034,10 +6481,20 @@
       "education"
     ],
     "keywords_ar": [
-      "تعليم وأطفال"
+      "تعليم وأطفال",
+      "أذاكر",
+      "اذاكر",
+      "مذاكرة",
+      "اختبار",
+      "اختبار القدرات"
     ],
     "keywords_en": [
-      "teaching"
+      "teaching",
+      "study",
+      "quiz",
+      "exam",
+      "flashcards",
+      "test prep"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5064,7 +6521,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "tutoring"
-    ]
+    ],
+    "subtasks": [
+      "education.study"
+    ],
+    "subtask_sources": {
+      "education.study": "https://www.khanmigo.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.study": "unknown"
+    }
   },
   {
     "id": "knowt",
@@ -5076,10 +6543,20 @@
       "education"
     ],
     "keywords_ar": [
-      "تعليم وأطفال"
+      "تعليم وأطفال",
+      "أذاكر",
+      "اذاكر",
+      "مذاكرة",
+      "اختبار",
+      "اختبار القدرات"
     ],
     "keywords_en": [
-      "teaching"
+      "teaching",
+      "study",
+      "quiz",
+      "exam",
+      "flashcards",
+      "test prep"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5106,7 +6583,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "tutoring"
-    ]
+    ],
+    "subtasks": [
+      "education.study"
+    ],
+    "subtask_sources": {
+      "education.study": "https://knowt.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.study": "unknown"
+    }
   },
   {
     "id": "curipod",
@@ -5148,7 +6635,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "lesson_planning"
-    ]
+    ],
+    "subtasks": [
+      "education.general"
+    ],
+    "subtask_sources": {
+      "education.general": "https://curipod.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.general": "unknown"
+    }
   },
   {
     "id": "questionwell",
@@ -5160,10 +6657,20 @@
       "education"
     ],
     "keywords_ar": [
-      "تعليم وأطفال"
+      "تعليم وأطفال",
+      "أذاكر",
+      "اذاكر",
+      "مذاكرة",
+      "اختبار",
+      "اختبار القدرات"
     ],
     "keywords_en": [
-      "teaching"
+      "teaching",
+      "study",
+      "quiz",
+      "exam",
+      "flashcards",
+      "test prep"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5190,7 +6697,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "lesson_planning"
-    ]
+    ],
+    "subtasks": [
+      "education.study"
+    ],
+    "subtask_sources": {
+      "education.study": "https://questionwell.org/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.study": "unknown"
+    }
   },
   {
     "id": "ello",
@@ -5236,7 +6753,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "tutoring"
-    ]
+    ],
+    "subtasks": [
+      "education.general"
+    ],
+    "subtask_sources": {
+      "education.general": "https://www.ello.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.general": "unknown"
+    }
   },
   {
     "id": "synthesis-tutor",
@@ -5284,7 +6811,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "tutoring"
-    ]
+    ],
+    "subtasks": [
+      "education.general"
+    ],
+    "subtask_sources": {
+      "education.general": "https://www.synthesis.com/tutor"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "education.general": "unknown"
+    }
   },
   {
     "id": "rows-ai",
@@ -5327,7 +6864,17 @@
     "capabilities": [
       "spreadsheets",
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://rows.com/ai"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "julius-ai",
@@ -5370,7 +6917,17 @@
     "capabilities": [
       "spreadsheets",
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://julius.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "akkio",
@@ -5412,7 +6969,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://www.akkio.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "datarobot",
@@ -5454,7 +7021,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://www.datarobot.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "h2o-ai",
@@ -5496,7 +7073,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://h2o.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "obviously-ai",
@@ -5538,7 +7125,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://obviously.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "polymer",
@@ -5580,7 +7177,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://www.polymersearch.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "better-analyst-formula-bot",
@@ -5623,7 +7230,17 @@
     "capabilities": [
       "spreadsheets",
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://betteranalyst.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "gptexcel",
@@ -5672,7 +7289,17 @@
     "capabilities": [
       "spreadsheets",
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://gptexcel.uk/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "sheetai",
@@ -5719,7 +7346,17 @@
     "capabilities": [
       "spreadsheets",
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://www.sheetai.app/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "bricks",
@@ -5762,7 +7399,17 @@
     "capabilities": [
       "spreadsheets",
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://www.thebricks.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "thoughtspot",
@@ -5804,22 +7451,41 @@
     "freeTier": "unknown",
     "capabilities": [
       "data"
-    ]
+    ],
+    "subtasks": [
+      "data.general"
+    ],
+    "subtask_sources": {
+      "data.general": "https://www.thoughtspot.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "data.general": "unknown"
+    }
   },
   {
     "id": "zapier-ai",
     "name": "Zapier AI",
     "category": [
-      "automation"
+      "automation",
+      "productivity"
     ],
     "tasks": [
-      "automation"
+      "automation",
+      "productivity"
     ],
     "keywords_ar": [
-      "أتمتة ووكلاء"
+      "أتمتة ووكلاء",
+      "ايميلات",
+      "رد تلقائي",
+      "ارد تلقائي",
+      "ردود تلقائية"
     ],
     "keywords_en": [
-      "automation"
+      "automation",
+      "email automation",
+      "auto reply",
+      "automatic email replies"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5847,7 +7513,20 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "productivity.email_automation",
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "productivity.email_automation": "https://zapier.com/automation/use-case/using-ai-automatically-respond-to-incoming-emails-or-messages",
+      "automation.general": "https://zapier.com/ai"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "productivity.email_automation": "unknown",
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "make",
@@ -5890,7 +7569,17 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://www.make.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "n8n",
@@ -5933,22 +7622,48 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://n8n.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "lindy",
     "name": "Lindy",
     "category": [
-      "automation"
+      "automation",
+      "writing",
+      "productivity"
     ],
     "tasks": [
-      "automation"
+      "automation",
+      "writing",
+      "productivity"
     ],
     "keywords_ar": [
-      "أتمتة ووكلاء"
+      "أتمتة ووكلاء",
+      "ايميلات",
+      "إيميل",
+      "ايميل",
+      "بريد إلكتروني",
+      "رد تلقائي",
+      "ارد تلقائي",
+      "ردود تلقائية"
     ],
     "keywords_en": [
-      "automation"
+      "automation",
+      "write email",
+      "email drafting",
+      "email automation",
+      "auto reply",
+      "automatic email replies"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -5976,7 +7691,23 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "writing.email",
+      "productivity.email_automation",
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "writing.email": "https://www.lindy.ai/ai-email-writer",
+      "productivity.email_automation": "https://www.lindy.ai/tools/ai-email-assistant",
+      "automation.general": "https://www.lindy.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.email": "unknown",
+      "productivity.email_automation": "unknown",
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "relevance-ai",
@@ -6019,7 +7750,17 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://relevanceai.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "gumloop",
@@ -6062,7 +7803,17 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://www.gumloop.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "bardeen",
@@ -6104,7 +7855,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "automation"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://www.bardeen.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "flowise",
@@ -6147,7 +7908,17 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://flowiseai.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "langflow",
@@ -6190,7 +7961,17 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://www.langflow.org/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "dify",
@@ -6233,7 +8014,17 @@
     "capabilities": [
       "automation",
       "integrations"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://dify.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "crewai",
@@ -6275,22 +8066,40 @@
     "freeTier": "unknown",
     "capabilities": [
       "automation"
-    ]
+    ],
+    "subtasks": [
+      "automation.general"
+    ],
+    "subtask_sources": {
+      "automation.general": "https://crewai.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "automation.general": "unknown"
+    }
   },
   {
     "id": "predis-ai",
     "name": "Predis.ai",
     "category": [
-      "marketing"
+      "marketing",
+      "design"
     ],
     "tasks": [
-      "marketing"
+      "marketing",
+      "design"
     ],
     "keywords_ar": [
-      "تسويق وسوشال"
+      "تسويق وسوشال",
+      "بوست",
+      "بوست تويتر",
+      "تصميم منشورات"
     ],
     "keywords_en": [
-      "social media"
+      "social media",
+      "social post design",
+      "social graphic",
+      "design a post"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -6317,22 +8126,43 @@
     "freeTier": "unknown",
     "capabilities": [
       "social"
-    ]
+    ],
+    "subtasks": [
+      "design.social_posts",
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "design.social_posts": "https://predis.ai/",
+      "marketing.general": "https://predis.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.social_posts": "unknown",
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "adcreative-ai",
     "name": "AdCreative.ai",
     "category": [
-      "marketing"
+      "marketing",
+      "design"
     ],
     "tasks": [
-      "marketing"
+      "marketing",
+      "design"
     ],
     "keywords_ar": [
-      "تسويق وسوشال"
+      "تسويق وسوشال",
+      "بوست",
+      "بوست تويتر",
+      "تصميم منشورات"
     ],
     "keywords_en": [
-      "social media"
+      "social media",
+      "social post design",
+      "social graphic",
+      "design a post"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -6359,7 +8189,20 @@
     "freeTier": "unknown",
     "capabilities": [
       "social"
-    ]
+    ],
+    "subtasks": [
+      "design.social_posts",
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "design.social_posts": "https://www.adcreative.ai/",
+      "marketing.general": "https://www.adcreative.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.social_posts": "unknown",
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "ocoya",
@@ -6401,7 +8244,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "social"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://www.ocoya.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "lately-ai",
@@ -6443,7 +8296,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "social"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://www.lately.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "buffer-ai-assistant",
@@ -6485,7 +8348,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "social"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://buffer.com/ai-assistant"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "hootsuite-wisdom-ai",
@@ -6527,7 +8400,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "social"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://www.hootsuite.com/wisdom-ai"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "surfer",
@@ -6569,7 +8452,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "seo"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://surferseo.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "frase",
@@ -6611,7 +8504,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "seo"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://www.frase.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "marketmuse",
@@ -6653,7 +8556,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "seo"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://www.marketmuse.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "neuronwriter",
@@ -6695,7 +8608,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "seo"
-    ]
+    ],
+    "subtasks": [
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "marketing.general": "https://neuronwriter.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "sudowrite",
@@ -6744,7 +8667,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "fiction"
-    ]
+    ],
+    "subtasks": [
+      "writing.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://sudowrite.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown"
+    }
   },
   {
     "id": "rytr",
@@ -6758,10 +8691,16 @@
       "marketing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -6789,7 +8728,20 @@
     "capabilities": [
       "prose",
       "marketing_copy"
-    ]
+    ],
+    "subtasks": [
+      "writing.general",
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://rytr.me/",
+      "marketing.general": "https://rytr.me/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "anyword",
@@ -6803,10 +8755,16 @@
       "marketing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -6834,7 +8792,20 @@
     "capabilities": [
       "prose",
       "marketing_copy"
-    ]
+    ],
+    "subtasks": [
+      "writing.general",
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://www.anyword.com/",
+      "marketing.general": "https://www.anyword.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "writer",
@@ -6846,10 +8817,16 @@
       "writing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "ايميلات",
+      "إيميل",
+      "ايميل",
+      "بريد إلكتروني"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "write email",
+      "email drafting"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -6884,7 +8861,17 @@
       "meeting_notes",
       "lesson_planning",
       "tutoring"
-    ]
+    ],
+    "subtasks": [
+      "writing.email"
+    ],
+    "subtask_sources": {
+      "writing.email": "https://support.writer.com/articles/2664880799-how-to-use-writer-agent"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.email": "unknown"
+    }
   },
   {
     "id": "hypotenuse-ai",
@@ -6898,10 +8885,16 @@
       "marketing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -6929,7 +8922,20 @@
     "capabilities": [
       "prose",
       "marketing_copy"
-    ]
+    ],
+    "subtasks": [
+      "writing.general",
+      "marketing.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://www.hypotenuse.ai/",
+      "marketing.general": "https://www.hypotenuse.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown",
+      "marketing.general": "unknown"
+    }
   },
   {
     "id": "prowritingaid",
@@ -6944,13 +8950,18 @@
       "كتابة",
       "قصة",
       "رواية",
-      "تدقيق"
+      "تدقيق",
+      "إملاء",
+      "قواعد",
+      "صحح النص"
     ],
     "keywords_en": [
       "writing",
       "story",
       "fiction",
-      "proofread"
+      "proofread",
+      "grammar",
+      "spelling"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -6978,7 +8989,17 @@
     "capabilities": [
       "proofreading",
       "fiction_edit"
-    ]
+    ],
+    "subtasks": [
+      "writing.proofreading"
+    ],
+    "subtask_sources": {
+      "writing.proofreading": "https://prowritingaid.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.proofreading": "unknown"
+    }
   },
   {
     "id": "languagetool",
@@ -6993,7 +9014,8 @@
       "كتابة",
       "تدقيق",
       "قواعد",
-      "إملاء"
+      "إملاء",
+      "صحح النص"
     ],
     "keywords_en": [
       "writing",
@@ -7026,7 +9048,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "proofreading"
-    ]
+    ],
+    "subtasks": [
+      "writing.proofreading"
+    ],
+    "subtask_sources": {
+      "writing.proofreading": "https://languagetool.org/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.proofreading": "unknown"
+    }
   },
   {
     "id": "hyperwrite",
@@ -7038,10 +9070,22 @@
       "writing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "سيرة ذاتية",
+      "سيرتي",
+      "سي في",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "resume",
+      "curriculum vitae",
+      "cv",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7071,7 +9115,20 @@
       "prose",
       "marketing_copy",
       "fiction"
-    ]
+    ],
+    "subtasks": [
+      "writing.resume",
+      "writing.articles"
+    ],
+    "subtask_sources": {
+      "writing.resume": "https://www.hyperwriteai.com/aitools/resume-generator",
+      "writing.articles": "https://www.hyperwriteai.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.resume": "unknown",
+      "writing.articles": "unknown"
+    }
   },
   {
     "id": "textcortex",
@@ -7083,10 +9140,16 @@
       "writing"
     ],
     "keywords_ar": [
-      "كتابة"
+      "كتابة",
+      "مقال",
+      "مقالات",
+      "مدونة"
     ],
     "keywords_en": [
-      "writing"
+      "writing",
+      "article",
+      "blog",
+      "essay"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7114,7 +9177,17 @@
     "capabilities": [
       "prose",
       "marketing_copy"
-    ]
+    ],
+    "subtasks": [
+      "writing.general"
+    ],
+    "subtask_sources": {
+      "writing.general": "https://textcortex.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.general": "unknown"
+    }
   },
   {
     "id": "loudly",
@@ -7156,7 +9229,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "music_generation"
-    ]
+    ],
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://www.loudly.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "soundful",
@@ -7198,7 +9281,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "music_generation"
-    ]
+    ],
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://soundful.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "musicfy",
@@ -7240,7 +9333,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "music_edit"
-    ]
+    ],
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://musicfy.lol/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "moises",
@@ -7282,7 +9385,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "music_edit"
-    ]
+    ],
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://moises.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
   },
   {
     "id": "narakeet",
@@ -7295,14 +9408,15 @@
     ],
     "keywords_ar": [
       "تعليق صوتي",
-      "تعليق صوتي",
-      "نطق"
+      "نطق",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
       "voiceover",
-      "voiceover",
       "narration",
-      "speech"
+      "speech",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7329,7 +9443,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://www.narakeet.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "ttsmaker",
@@ -7341,10 +9465,14 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7371,7 +9499,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://ttsmaker.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "voicemaker",
@@ -7383,10 +9521,14 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7413,7 +9555,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://voicemaker.in/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "cartesia",
@@ -7425,10 +9577,14 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7455,7 +9611,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.voiceover": "https://www.cartesia.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "deepgram",
@@ -7467,10 +9633,21 @@
       "voice"
     ],
     "keywords_ar": [
-      "تعليق صوتي"
+      "تعليق صوتي",
+      "أفرّغ",
+      "أفرغ",
+      "تفريغ",
+      "فرغ التسجيل",
+      "بصوت عربي",
+      "بودكاست"
     ],
     "keywords_en": [
-      "voiceover"
+      "voiceover",
+      "transcription",
+      "transcribe",
+      "speech to text",
+      "narration",
+      "text to speech"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7497,7 +9674,20 @@
     "freeTier": "unknown",
     "capabilities": [
       "voiceover"
-    ]
+    ],
+    "subtasks": [
+      "voice.transcription",
+      "voice.voiceover"
+    ],
+    "subtask_sources": {
+      "voice.transcription": "https://deepgram.com/product/speech-to-text",
+      "voice.voiceover": "https://deepgram.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "voice.transcription": "unknown",
+      "voice.voiceover": "unknown"
+    }
   },
   {
     "id": "brandmark",
@@ -7512,13 +9702,16 @@
       "تصميم",
       "شعار",
       "هوية",
-      "براند"
+      "براند",
+      "شعارات",
+      "هوية براند"
     ],
     "keywords_en": [
       "design",
       "logo",
       "brand",
-      "identity"
+      "identity",
+      "brand identity"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7545,7 +9738,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "logo"
-    ]
+    ],
+    "subtasks": [
+      "design.logos"
+    ],
+    "subtask_sources": {
+      "design.logos": "https://brandmark.io/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.logos": "unknown"
+    }
   },
   {
     "id": "logoai",
@@ -7560,13 +9763,16 @@
       "تصميم",
       "شعار",
       "هوية",
-      "براند"
+      "براند",
+      "شعارات",
+      "هوية براند"
     ],
     "keywords_en": [
       "design",
       "logo",
       "brand",
-      "identity"
+      "identity",
+      "brand identity"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7593,7 +9799,17 @@
     "freeTier": "unknown",
     "capabilities": [
       "logo"
-    ]
+    ],
+    "subtasks": [
+      "design.logos"
+    ],
+    "subtask_sources": {
+      "design.logos": "https://www.logoai.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "design.logos": "unknown"
+    }
   },
   {
     "id": "photoroom",
@@ -7609,14 +9825,27 @@
       "صور منتجات",
       "منتج",
       "عطر",
-      "خلفية"
+      "خلفية",
+      "أشيل الخلفية",
+      "اشيل الخلفية",
+      "إزالة خلفية",
+      "احذف الخلفية",
+      "اعدل صوري",
+      "تحسين صورة",
+      "تحرير صور",
+      "ارفع الدقة"
     ],
     "keywords_en": [
       "image",
       "product",
       "perfume",
       "background",
-      "photo"
+      "photo",
+      "remove background",
+      "background removal",
+      "edit photo",
+      "enhance image",
+      "upscale"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7643,7 +9872,20 @@
     "freeTier": "unknown",
     "capabilities": [
       "image"
-    ]
+    ],
+    "subtasks": [
+      "image.background_removal",
+      "image.editing"
+    ],
+    "subtask_sources": {
+      "image.background_removal": "https://www.photoroom.com/tools/background-remover",
+      "image.editing": "https://www.photoroom.com/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.background_removal": "yes",
+      "image.editing": "unknown"
+    }
   },
   {
     "id": "krea",
@@ -7659,12 +9901,20 @@
     "keywords_ar": [
       "صور",
       "صورة",
-      "فيديو"
+      "فيديو",
+      "توليد صور",
+      "انشئ صورة",
+      "مقطع",
+      "توليد فيديو"
     ],
     "keywords_en": [
       "image",
-      "image",
-      "video"
+      "video",
+      "generate image",
+      "image generation",
+      "images",
+      "video generation",
+      "generate video"
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
@@ -7692,7 +9942,20 @@
     "capabilities": [
       "image",
       "video"
-    ]
+    ],
+    "subtasks": [
+      "image.generation",
+      "video.generation"
+    ],
+    "subtask_sources": {
+      "image.generation": "https://www.krea.ai/",
+      "video.generation": "https://www.krea.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "image.generation": "unknown",
+      "video.generation": "unknown"
+    }
   },
   {
     "id": "lalal-ai",
@@ -7735,6 +9998,74 @@
     "logoKind": "initials placeholder, not official logo",
     "capabilities": [
       "music_edit"
-    ]
+    ],
+    "subtasks": [
+      "music.general"
+    ],
+    "subtask_sources": {
+      "music.general": "https://www.lalal.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "music.general": "unknown"
+    }
+  },
+  {
+    "id": "rezi",
+    "name": "Rezi",
+    "category": [
+      "writing"
+    ],
+    "tasks": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "سيرة ذاتية",
+      "سيرتي",
+      "سي في",
+      "مقال",
+      "مقالات",
+      "مدونة"
+    ],
+    "keywords_en": [
+      "resume",
+      "cv",
+      "curriculum vitae",
+      "article",
+      "blog",
+      "essay"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.rezi.ai/",
+    "source_url": "https://www.rezi.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.rezi.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/rezi.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "capabilities": [
+      "prose"
+    ],
+    "subtasks": [
+      "writing.resume"
+    ],
+    "subtask_sources": {
+      "writing.resume": "https://www.rezi.ai/"
+    },
+    "arabic_subtasks": [],
+    "subtask_free_tier": {
+      "writing.resume": "unknown"
+    }
   }
 ]

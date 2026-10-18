@@ -1,0 +1,521 @@
+{
+  "voice.transcription": {
+    "category": "voice",
+    "labels": [
+      "Transcription",
+      "تفريغ نصي"
+    ],
+    "ar": [
+      "أفرّغ",
+      "أفرغ",
+      "تفريغ",
+      "فرغ التسجيل"
+    ],
+    "en": [
+      "transcription",
+      "transcribe",
+      "speech to text"
+    ]
+  },
+  "voice.voiceover": {
+    "category": "voice",
+    "labels": [
+      "Voiceover",
+      "تعليق صوتي"
+    ],
+    "ar": [
+      "تعليق صوتي",
+      "بصوت عربي",
+      "بودكاست"
+    ],
+    "en": [
+      "voiceover",
+      "narration",
+      "text to speech"
+    ]
+  },
+  "voice.cloning": {
+    "category": "voice",
+    "labels": [
+      "Voice cloning",
+      "استنساخ صوت"
+    ],
+    "ar": [
+      "استنساخ صوت",
+      "استنسخ صوت",
+      "نسخ صوتي"
+    ],
+    "en": [
+      "voice cloning",
+      "clone voice"
+    ]
+  },
+  "image.generation": {
+    "category": "image",
+    "labels": [
+      "Image generation",
+      "توليد صور"
+    ],
+    "ar": [
+      "توليد صور",
+      "انشئ صورة",
+      "صور"
+    ],
+    "en": [
+      "generate image",
+      "image generation",
+      "images"
+    ]
+  },
+  "image.background_removal": {
+    "category": "image",
+    "labels": [
+      "Background removal",
+      "إزالة خلفية"
+    ],
+    "ar": [
+      "أشيل الخلفية",
+      "اشيل الخلفية",
+      "إزالة خلفية",
+      "احذف الخلفية"
+    ],
+    "en": [
+      "remove background",
+      "background removal"
+    ]
+  },
+  "image.editing": {
+    "category": "image",
+    "labels": [
+      "Image editing / enhancement",
+      "تحرير وتحسين الصور"
+    ],
+    "ar": [
+      "اعدل صوري",
+      "تحسين صورة",
+      "تحرير صور",
+      "ارفع الدقة"
+    ],
+    "en": [
+      "edit photo",
+      "enhance image",
+      "upscale"
+    ]
+  },
+  "video.generation": {
+    "category": "video",
+    "labels": [
+      "Video generation",
+      "توليد فيديو"
+    ],
+    "ar": [
+      "فيديو",
+      "مقطع",
+      "توليد فيديو"
+    ],
+    "en": [
+      "video generation",
+      "generate video",
+      "video"
+    ]
+  },
+  "video.editing": {
+    "category": "video",
+    "labels": [
+      "Video editing",
+      "مونتاج"
+    ],
+    "ar": [
+      "مونتاج",
+      "قص الفيديو",
+      "تعديل فيديو"
+    ],
+    "en": [
+      "video editing",
+      "edit video",
+      "trim video"
+    ]
+  },
+  "video.subtitles": {
+    "category": "video",
+    "labels": [
+      "Subtitles / caption translation",
+      "ترجمة وكابشن"
+    ],
+    "ar": [
+      "ترجمة على الفيديو",
+      "كابشن",
+      "ترجمة الفيديو",
+      "ترجمة وكابشن"
+    ],
+    "en": [
+      "subtitles",
+      "video captions",
+      "caption video"
+    ]
+  },
+  "video.avatar": {
+    "category": "video",
+    "labels": [
+      "Talking avatar",
+      "أفاتار متكلم"
+    ],
+    "ar": [
+      "افاتار",
+      "أفاتار متكلم",
+      "شخصية تتكلم"
+    ],
+    "en": [
+      "talking avatar",
+      "avatar video"
+    ]
+  },
+  "design.social_posts": {
+    "category": "design",
+    "labels": [
+      "Social post design",
+      "بوستات سوشال"
+    ],
+    "ar": [
+      "بوست",
+      "بوست تويتر",
+      "تصميم منشورات"
+    ],
+    "en": [
+      "social post design",
+      "social graphic",
+      "design a post"
+    ]
+  },
+  "design.logos": {
+    "category": "design",
+    "labels": [
+      "Logos",
+      "شعارات"
+    ],
+    "ar": [
+      "شعار",
+      "شعارات",
+      "هوية براند"
+    ],
+    "en": [
+      "logo",
+      "brand identity"
+    ]
+  },
+  "design.ui": {
+    "category": "design",
+    "labels": [
+      "UI design",
+      "واجهات UI"
+    ],
+    "ar": [
+      "واجهة",
+      "واجهات",
+      "تصميم تطبيق"
+    ],
+    "en": [
+      "ui",
+      "ux",
+      "wireframe"
+    ]
+  },
+  "code.assistant": {
+    "category": "code",
+    "labels": [
+      "Developer assistant",
+      "مساعد مبرمجين"
+    ],
+    "ar": [
+      "كود",
+      "مساعد مبرمجين",
+      "بايثون",
+      "تصحيح خطأ"
+    ],
+    "en": [
+      "coding assistant",
+      "debug",
+      "python",
+      "code"
+    ]
+  },
+  "code.no_code": {
+    "category": "code",
+    "labels": [
+      "No-code website builder",
+      "بناء مواقع بدون كود"
+    ],
+    "ar": [
+      "بدون برمجة",
+      "بدون كود",
+      "متجر",
+      "متجري"
+    ],
+    "en": [
+      "no-code",
+      "no code",
+      "without coding",
+      "store builder"
+    ]
+  },
+  "writing.resume": {
+    "category": "writing",
+    "labels": [
+      "Resume writing",
+      "سيرة ذاتية"
+    ],
+    "ar": [
+      "سيرة ذاتية",
+      "سيرتي",
+      "سي في"
+    ],
+    "en": [
+      "resume",
+      "curriculum vitae",
+      "cv"
+    ]
+  },
+  "writing.email": {
+    "category": "writing",
+    "labels": [
+      "Email drafting",
+      "كتابة إيميلات"
+    ],
+    "ar": [
+      "ايميلات",
+      "إيميل",
+      "ايميل",
+      "بريد إلكتروني"
+    ],
+    "en": [
+      "write email",
+      "email drafting"
+    ]
+  },
+  "writing.articles": {
+    "category": "writing",
+    "labels": [
+      "Articles",
+      "مقالات"
+    ],
+    "ar": [
+      "مقال",
+      "مقالات",
+      "مدونة"
+    ],
+    "en": [
+      "article",
+      "blog",
+      "essay"
+    ]
+  },
+  "writing.proofreading": {
+    "category": "writing",
+    "labels": [
+      "Proofreading",
+      "تدقيق"
+    ],
+    "ar": [
+      "تدقيق",
+      "إملاء",
+      "قواعد",
+      "صحح النص"
+    ],
+    "en": [
+      "proofread",
+      "grammar",
+      "spelling"
+    ]
+  },
+  "education.study": {
+    "category": "education",
+    "labels": [
+      "Study / quizzes",
+      "مذاكرة واختبارات"
+    ],
+    "ar": [
+      "أذاكر",
+      "اذاكر",
+      "مذاكرة",
+      "اختبار",
+      "اختبار القدرات"
+    ],
+    "en": [
+      "study",
+      "quiz",
+      "exam",
+      "flashcards",
+      "test prep"
+    ]
+  },
+  "productivity.email_automation": {
+    "category": "productivity",
+    "labels": [
+      "Email automation / replies",
+      "إيميلات وردود تلقائية"
+    ],
+    "ar": [
+      "ايميلات",
+      "رد تلقائي",
+      "ارد تلقائي",
+      "ردود تلقائية"
+    ],
+    "en": [
+      "email automation",
+      "auto reply",
+      "automatic email replies"
+    ]
+  },
+  "research.documents": {
+    "category": "research",
+    "labels": [
+      "Document analysis / summaries",
+      "بحث وتلخيص مستندات"
+    ],
+    "ar": [
+      "تحليل ملف",
+      "لخص pdf",
+      "تلخيص مستند"
+    ],
+    "en": [
+      "pdf",
+      "document analysis",
+      "document summary"
+    ]
+  },
+  "voice.general": {
+    "category": "voice",
+    "labels": [
+      "voice — general",
+      "صوت — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "image.general": {
+    "category": "image",
+    "labels": [
+      "image — general",
+      "صور — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "video.general": {
+    "category": "video",
+    "labels": [
+      "video — general",
+      "فيديو — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "design.general": {
+    "category": "design",
+    "labels": [
+      "design — general",
+      "تصميم — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "code.general": {
+    "category": "code",
+    "labels": [
+      "code — general",
+      "برمجة — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "writing.general": {
+    "category": "writing",
+    "labels": [
+      "writing — general",
+      "كتابة — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "education.general": {
+    "category": "education",
+    "labels": [
+      "education — general",
+      "تعليم — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "productivity.general": {
+    "category": "productivity",
+    "labels": [
+      "productivity — general",
+      "إنتاجية — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "research.general": {
+    "category": "research",
+    "labels": [
+      "research — general",
+      "بحث ودراسة — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "music.general": {
+    "category": "music",
+    "labels": [
+      "music — general",
+      "موسيقى — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "presentations.general": {
+    "category": "presentations",
+    "labels": [
+      "presentations — general",
+      "عروض تقديمية — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "marketing.general": {
+    "category": "marketing",
+    "labels": [
+      "marketing — general",
+      "تسويق — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "translation.general": {
+    "category": "translation",
+    "labels": [
+      "translation — general",
+      "ترجمة — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "data.general": {
+    "category": "data",
+    "labels": [
+      "data — general",
+      "بيانات وجداول — عام"
+    ],
+    "ar": [],
+    "en": []
+  },
+  "automation.general": {
+    "category": "automation",
+    "labels": [
+      "automation — general",
+      "أتمتة ووكلاء — عام"
+    ],
+    "ar": [],
+    "en": []
+  }
+}

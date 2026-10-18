@@ -1,0 +1,12 @@
+[
+ {"id":1,"request":"ابغى اسوي بودكاست عربي وأفرغ الحلقة نص","tasks":["voice"],"subtasks":["voice.voiceover","voice.transcription"]},
+ {"id":2,"request":"ابي اعدل صوري وأشيل الخلفية مجاناً","tasks":["image"],"subtasks":["image.background_removal"]},
+ {"id":3,"request":"ساعدني أذاكر لاختبار القدرات","tasks":["education"],"subtasks":["education.study"]},
+ {"id":4,"request":"أبغى أبني موقع لمتجري بدون برمجة","tasks":["code"],"subtasks":["code.no_code"]},
+ {"id":5,"request":"سوّ لي فيديو يوتيوب عن تاريخ الدرعية بصوت عربي وصور","tasks":["video","voice","image"],"subtasks":["video.generation","voice.voiceover","image.generation"]},
+ {"id":6,"request":"ابغى أكتب سيرة ذاتية بالإنجليزي","tasks":["writing"],"subtasks":["writing.resume"]},
+ {"id":7,"request":"حلل ملف pdf ولخصه","tasks":["research"],"subtasks":["research.documents"]},
+ {"id":8,"request":"I need subtitles for my Arabic video","tasks":["video"],"subtasks":["video.subtitles"]},
+ {"id":9,"request":"ابغى أصمم بوست تويتر لعرض خصم","tasks":["design"],"subtasks":["design.social_posts"]},
+ {"id":10,"request":"ابي ارد على ايميلات العملاء تلقائي","tasks":["productivity"],"subtasks":["productivity.email_automation"]}
+]

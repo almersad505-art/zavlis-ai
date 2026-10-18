@@ -10,6 +10,6 @@ Use the exact string `unknown` for unverified facts, never an invented value. A 
 
 `affiliateUrl` is an intentionally empty editable slot. New initials icons are placeholders, not official provider logos. Archived records remain in the directory and are excluded from matching.
 
-The parser uses explicit Arabic/English task vocabulary and selected Saudi expressions. It supports multiple tasks and specific negation forms; it is not a general semantic language model. Extend fixtures and vocabulary together when adding a new phrasing.
+The parser uses explicit Arabic/English task vocabulary and selected Saudi expressions. It supports multiple tasks and specific negation forms; it is not a general semantic language model. Extend fixtures and vocabulary together when adding a new phrasing. `subtasks.js` defines the child tasks; every catalog tool has `subtasks` and per-tag `subtask_sources`. Exact subtask matches receive 50 task points, category-only fallbacks receive 25, and documented subtask matches rank first. Unknown feature-level free access and Arabic support are not inferred from a provider's general plan or language support.
 
-Design styles and Clarity are outside this change. Deployment remains withheld while two historical Code Lab parent-access assertions cannot be completed with the available browser inspection interface. See the full report for the raw historical and updated acceptance results.
+Design styles and Clarity are outside this change. The user accepted the existing empty Code Lab sandbox as sufficient. The subtask change uses only the ten user-supplied fixtures in `scripts/subtask-cases.json`, run with `node scripts/test-subtasks.cjs`; no browser tests or new reports are part of this change.
