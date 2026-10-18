@@ -1,0 +1,15 @@
+# Smart Match catalog and ranking
+
+Edit `data/tools.json`, then run `node scripts/sync-tools.cjs`. This validates the required schema and builds the browser snapshot `tools-data.js`. Both the browser and Node tests use the same catalog; `smart-match.js` contains no provider preference lists.
+
+Run `node scripts/test-smart-match.cjs` for the 30 request fixtures. Full historical browser/download evidence is saved in the workspace under `zavlis-recovery/SMART-MATCH-150-REPORT`.
+
+Each eligible task has three ranked alternatives. Capability eligibility is checked before ranking. Specialists precede general tools; within each group the score uses task 50, budget 20, language 20, specialization 10, then alphabetical name order. The score measures catalog fit, not provider quality. Arabic support is feature-scoped. English receives neutral language points because English support is not a verified catalog field. Unknown facts never count as confirmed free access or Arabic support.
+
+Use the exact string `unknown` for unverified facts, never an invented value. A free-plan starting price of zero does not establish commercial rights or access to every feature. Preserve scope notes and official evidence URLs. Legacy metadata remains for traceability; current matching uses `free_tier`, `arabic_support`, `price_from`, `arabic_tasks` and `capabilities`.
+
+`affiliateUrl` is an intentionally empty editable slot. New initials icons are placeholders, not official provider logos. Archived records remain in the directory and are excluded from matching.
+
+The parser uses explicit Arabic/English task vocabulary and selected Saudi expressions. It supports multiple tasks and specific negation forms; it is not a general semantic language model. Extend fixtures and vocabulary together when adding a new phrasing.
+
+Design styles and Clarity are outside this change. Deployment remains withheld while two historical Code Lab parent-access assertions cannot be completed with the available browser inspection interface. See the full report for the raw historical and updated acceptance results.

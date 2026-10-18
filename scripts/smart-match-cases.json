@@ -1,0 +1,278 @@
+[
+  {
+    "id": "SM150-01",
+    "request": "فيديو قصير لمنتج عطور مع تعليق صوتي عربي",
+    "expectedTasks": [
+      "video",
+      "voice"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-02",
+    "request": "A short perfume product video with Arabic voiceover",
+    "expectedTasks": [
+      "video",
+      "voice"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-03",
+    "request": "ابي صورة لمنتج عطر بخلفية غابة",
+    "expectedTasks": [
+      "image"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-04",
+    "request": "Generate a realistic product photo",
+    "expectedTasks": [
+      "image"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-05",
+    "request": "اكتب مقال عن التسويق للمشاريع الصغيرة",
+    "expectedTasks": [
+      "writing"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-06",
+    "request": "Write a blog article about sustainable packaging",
+    "expectedTasks": [
+      "writing"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-07",
+    "request": "اكتب قصة وجهز درس رياضيات للأطفال",
+    "expectedTasks": [
+      "writing",
+      "education"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-08",
+    "request": "Proofread grammar in my email",
+    "expectedTasks": [
+      "writing"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-09",
+    "request": "ابغى كود بايثون يحل الخطأ",
+    "expectedTasks": [
+      "code"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-10",
+    "request": "Debug my React API code",
+    "expectedTasks": [
+      "code"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-11",
+    "request": "سوي لي شعار وهوية براند قهوة",
+    "expectedTasks": [
+      "design"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-12",
+    "request": "Design a cafe logo",
+    "expectedTasks": [
+      "design"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-13",
+    "request": "ابي موسيقى هادية بدون تعليق صوتي",
+    "expectedTasks": [
+      "music"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-14",
+    "request": "Compose instrumental background music",
+    "expectedTasks": [
+      "music"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-15",
+    "request": "ابغى برزنتيشن عن البيئة",
+    "expectedTasks": [
+      "presentations"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-16",
+    "request": "Create a startup pitch deck presentation",
+    "expectedTasks": [
+      "presentations"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-17",
+    "request": "ابحث عن مصادر موثوقة وأوراق علمية",
+    "expectedTasks": [
+      "research"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-18",
+    "request": "Find academic citations for a literature review",
+    "expectedTasks": [
+      "research"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-19",
+    "request": "لخص اجتماع الفريق وحدد المهام",
+    "expectedTasks": [
+      "productivity"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-20",
+    "request": "Schedule my calendar automatically",
+    "expectedTasks": [
+      "productivity"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-21",
+    "request": "جهز منشورات انستقرام لحملة اعلانية",
+    "expectedTasks": [
+      "marketing"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-22",
+    "request": "Optimize SEO for organic search",
+    "expectedTasks": [
+      "marketing"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-23",
+    "request": "ترجم التقرير للإنجليزي",
+    "expectedTasks": [
+      "translation"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-24",
+    "request": "Translate my document into Arabic",
+    "expectedTasks": [
+      "translation"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-25",
+    "request": "جهز درس علوم واسئلة للطلاب",
+    "expectedTasks": [
+      "education"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-26",
+    "request": "Help kids with math homework",
+    "expectedTasks": [
+      "education"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-27",
+    "request": "ابي معادلات اكسل لجداول المبيعات",
+    "expectedTasks": [
+      "data"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-28",
+    "request": "Analyze data and create charts",
+    "expectedTasks": [
+      "data"
+    ],
+    "language": "en",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-29",
+    "request": "ابغى وكيل يربط التطبيقات ويسوي اتمتة",
+    "expectedTasks": [
+      "automation"
+    ],
+    "language": "ar",
+    "budget": "any"
+  },
+  {
+    "id": "SM150-30",
+    "request": "A video, voiceover, thumbnail image and background music",
+    "expectedTasks": [
+      "video",
+      "voice",
+      "image",
+      "music"
+    ],
+    "language": "en",
+    "budget": "any"
+  }
+]

@@ -1,0 +1,7740 @@
+window.ZAVLIS_TOOLS = [
+  {
+    "id": "runway",
+    "name": "Runway",
+    "tasks": [
+      "video",
+      "image"
+    ],
+    "price": "USD 0/month — Free; 125 one-time credits",
+    "priceSource": "https://runway.com/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://help.runwayml.com/hc/en-us/articles/33505227741587-Supported-Languages-in-Generative-Audio",
+    "officialUrl": "https://runway.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/runway.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://runway.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "freePlanNote": "Limited one-time credits; commercial rights and model access require checking.",
+    "priceAr": "0 دولار/شهر — خطة مجانية؛ 125 رصيدًا مرة واحدة",
+    "freePlanNoteAr": "الرصيد المجاني محدود؛ راجع حقوق الاستخدام التجاري وإتاحة النماذج قبل الاستخدام.",
+    "arabicScope": "Classic Arabic in Workflow Voice Dubbing; not a claim about every video model",
+    "arabicScopeAr": "العربية الفصحى في Voice Dubbing ضمن Workflows؛ لا يشمل كل نماذج الفيديو",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:runway.com Runway pricing",
+      "arabicQuery": "site:runway.com Runway Arabic supported languages"
+    },
+    "category": [
+      "video",
+      "image"
+    ],
+    "keywords_ar": [
+      "فيديو",
+      "صور"
+    ],
+    "keywords_en": [
+      "video",
+      "image"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://runway.com/",
+    "source_url": "https://runway.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://runway.com/",
+      "free_tier": "https://runway.com/pricing",
+      "arabic_support": "https://help.runwayml.com/hc/en-us/articles/33505227741587-Supported-Languages-in-Generative-Audio",
+      "price_from": "https://runway.com/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "video",
+      "image"
+    ],
+    "price_scope": "USD 0/month — Free; 125 one-time credits",
+    "price_scope_ar": "0 دولار/شهر — خطة مجانية؛ 125 رصيدًا مرة واحدة"
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "tasks": [
+      "video",
+      "image"
+    ],
+    "price": "Free account — 0; generation credit packs sold separately",
+    "priceSource": "https://pika.art/pricing?interval=month",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://pika.art/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/pika.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://pika.art/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "حساب مجاني (0)؛ أرصدة التوليد تباع منفصلة",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:pika.art Pika pricing",
+      "arabicQuery": "site:pika.art Pika Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "video",
+      "image"
+    ],
+    "keywords_ar": [
+      "فيديو",
+      "صور"
+    ],
+    "keywords_en": [
+      "video",
+      "image"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://pika.art/",
+    "source_url": "https://pika.art/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://pika.art/",
+      "free_tier": "https://pika.art/pricing?interval=month",
+      "arabic_support": "unknown",
+      "price_from": "https://pika.art/pricing?interval=month"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video",
+      "image"
+    ],
+    "price_scope": "Free account — 0; generation credit packs sold separately",
+    "price_scope_ar": "حساب مجاني (0)؛ أرصدة التوليد تباع منفصلة"
+  },
+  {
+    "id": "luma",
+    "name": "Luma Dream Machine",
+    "tasks": [
+      "video",
+      "image"
+    ],
+    "price": "Dream Machine Free plan — 0; current generation allowance not specified",
+    "priceSource": "https://lumalabs.ai/learning-hub/dream-machine-credit-system",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://lumalabs.ai/dream-machine",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/luma.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://lumalabs.ai/learning-hub/web-quick-start",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة Dream Machine المجانية (0)؛ حصة التوليد الحالية غير محددة",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:lumalabs.ai Luma Dream Machine pricing",
+      "arabicQuery": "site:lumalabs.ai Luma Dream Machine Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "video",
+      "image"
+    ],
+    "keywords_ar": [
+      "فيديو",
+      "صور"
+    ],
+    "keywords_en": [
+      "video",
+      "image"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://lumalabs.ai/dream-machine",
+    "source_url": "https://lumalabs.ai/learning-hub/web-quick-start",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://lumalabs.ai/learning-hub/web-quick-start",
+      "free_tier": "https://lumalabs.ai/learning-hub/dream-machine-credit-system",
+      "arabic_support": "unknown",
+      "price_from": "https://lumalabs.ai/learning-hub/dream-machine-credit-system"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video",
+      "image"
+    ],
+    "price_scope": "Dream Machine Free plan — 0; current generation allowance not specified",
+    "price_scope_ar": "خطة Dream Machine المجانية (0)؛ حصة التوليد الحالية غير محددة"
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "tasks": [
+      "video",
+      "voice"
+    ],
+    "price": "Free — USD 0/month; 3 videos/month, up to 1 minute each",
+    "priceSource": "https://www.heygen.com/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://help.heygen.com/en/articles/11391941-video-translation-languages-we-support",
+    "officialUrl": "https://www.heygen.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/heygen.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.heygen.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار/شهر؛ 3 فيديوهات شهريًا، حتى دقيقة لكل فيديو",
+    "arabicScope": "Video/audio translation and dubbing; plan coverage varies",
+    "arabicScopeAr": "ترجمة الفيديو والصوت والدبلجة؛ التغطية تختلف حسب الخطة",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.heygen.com HeyGen pricing",
+      "arabicQuery": "site:www.heygen.com HeyGen Arabic supported languages"
+    },
+    "category": [
+      "video",
+      "voice"
+    ],
+    "keywords_ar": [
+      "فيديو",
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "video",
+      "voiceover"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.heygen.com/",
+    "source_url": "https://www.heygen.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "video",
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://www.heygen.com/",
+      "free_tier": "https://www.heygen.com/pricing",
+      "arabic_support": "https://help.heygen.com/en/articles/11391941-video-translation-languages-we-support",
+      "price_from": "https://www.heygen.com/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "video",
+      "voice"
+    ],
+    "price_scope": "Free — USD 0/month; 3 videos/month, up to 1 minute each",
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ 3 فيديوهات شهريًا، حتى دقيقة لكل فيديو"
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "tasks": [
+      "video",
+      "voice"
+    ],
+    "price": "Basic — free (0); included allowances apply",
+    "priceSource": "https://help.synthesia.io/en/articles/17217419-what-s-changing-in-synthesia-plans-on-october-1-2026",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://docs.synthesia.io/docs/supported-languages",
+    "officialUrl": "https://www.synthesia.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/synthesia.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.synthesia.io/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Basic مجانية (0)؛ تخضع لحصص الاستخدام",
+    "arabicScope": "Video translation; Arabic and regional variants",
+    "arabicScopeAr": "ترجمة الفيديو بالعربية ولهجات إقليمية",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.synthesia.io Synthesia pricing",
+      "arabicQuery": "site:www.synthesia.io Synthesia Arabic supported languages"
+    },
+    "category": [
+      "video",
+      "voice"
+    ],
+    "keywords_ar": [
+      "فيديو",
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "video",
+      "voiceover"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.synthesia.io/",
+    "source_url": "https://www.synthesia.io/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "video",
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://www.synthesia.io/",
+      "free_tier": "https://help.synthesia.io/en/articles/17217419-what-s-changing-in-synthesia-plans-on-october-1-2026",
+      "arabic_support": "https://docs.synthesia.io/docs/supported-languages",
+      "price_from": "https://help.synthesia.io/en/articles/17217419-what-s-changing-in-synthesia-plans-on-october-1-2026"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video",
+      "voice"
+    ],
+    "price_scope": "Basic — free (0); included allowances apply",
+    "price_scope_ar": "Basic مجانية (0)؛ تخضع لحصص الاستخدام"
+  },
+  {
+    "id": "veed",
+    "name": "VEED",
+    "tasks": [
+      "video"
+    ],
+    "price": "Free starter access — 0; paid plan prices not specified here",
+    "priceSource": "https://www.veed.io/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://www.veed.io/tools/auto-subtitle-generator-online/subtitles-arabic",
+    "officialUrl": "https://www.veed.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/veed.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.veed.io/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "وصول مبدئي مجاني (0)؛ أسعار الخطط المدفوعة غير محددة هنا",
+    "arabicScope": "Arabic transcription/subtitles; not every caption effect",
+    "arabicScopeAr": "تفريغ وترجمة نصية عربية؛ لا يشمل كل تأثيرات التسميات",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.veed.io VEED pricing",
+      "arabicQuery": "site:www.veed.io VEED Arabic supported languages"
+    },
+    "category": [
+      "video"
+    ],
+    "keywords_ar": [
+      "فيديو"
+    ],
+    "keywords_en": [
+      "video"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.veed.io/",
+    "source_url": "https://www.veed.io/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "video"
+    ],
+    "evidence": {
+      "capabilities": "https://www.veed.io/",
+      "free_tier": "https://www.veed.io/pricing",
+      "arabic_support": "https://www.veed.io/tools/auto-subtitle-generator-online/subtitles-arabic",
+      "price_from": "https://www.veed.io/pricing"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video"
+    ],
+    "price_scope": "Free starter access — 0; paid plan prices not specified here",
+    "price_scope_ar": "وصول مبدئي مجاني (0)؛ أسعار الخطط المدفوعة غير محددة هنا"
+  },
+  {
+    "id": "invideo",
+    "name": "InVideo",
+    "tasks": [
+      "video"
+    ],
+    "price": "Free — 0; limited credits, reset weekly",
+    "priceSource": "https://help.invideo.io/en/articles/9380226-can-i-use-invideo-ai-for-free",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://invideo.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/invideo.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://invideo.io/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية (0)؛ أرصدة محدودة تتجدد أسبوعيًا",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:invideo.io InVideo pricing",
+      "arabicQuery": "site:invideo.io InVideo Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "video"
+    ],
+    "keywords_ar": [
+      "فيديو"
+    ],
+    "keywords_en": [
+      "video"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://invideo.io/",
+    "source_url": "https://invideo.io/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://invideo.io/",
+      "free_tier": "https://help.invideo.io/en/articles/9380226-can-i-use-invideo-ai-for-free",
+      "arabic_support": "unknown",
+      "price_from": "https://help.invideo.io/en/articles/9380226-can-i-use-invideo-ai-for-free"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video"
+    ],
+    "price_scope": "Free — 0; limited credits, reset weekly",
+    "price_scope_ar": "الخطة المجانية (0)؛ أرصدة محدودة تتجدد أسبوعيًا"
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "tasks": [
+      "video",
+      "voice"
+    ],
+    "price": "Free — USD 0; limited usage",
+    "priceSource": "https://www.descript.com/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.descript.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/descript.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.descript.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار؛ استخدام محدود",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.descript.com Descript pricing",
+      "arabicQuery": "site:www.descript.com Descript Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "video",
+      "voice"
+    ],
+    "keywords_ar": [
+      "فيديو",
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "video",
+      "voiceover"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://www.descript.com/",
+    "source_url": "https://www.descript.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.descript.com/",
+      "free_tier": "https://www.descript.com/pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://www.descript.com/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "video",
+      "voice"
+    ],
+    "price_scope": "Free — USD 0; limited usage",
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود"
+  },
+  {
+    "id": "capcut",
+    "name": "CapCut",
+    "tasks": [
+      "video"
+    ],
+    "price": "Basic online editor — free (0); Pro/AI feature pricing not specified",
+    "priceSource": "https://www.capcut.com/tools/online-video-editor",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://www.capcut.com/tools/ai-voice-reader",
+    "officialUrl": "https://www.capcut.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/capcut.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.capcut.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "المحرر الأساسي على الويب مجاني (0)؛ سعر مزايا Pro والذكاء الاصطناعي غير محدد",
+    "arabicScope": "Arabic text-to-speech voices; availability may vary",
+    "arabicScopeAr": "أصوات لتحويل النص العربي إلى كلام؛ قد يختلف التوفر",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.capcut.com CapCut pricing",
+      "arabicQuery": "site:www.capcut.com CapCut Arabic supported languages"
+    },
+    "category": [
+      "video"
+    ],
+    "keywords_ar": [
+      "فيديو"
+    ],
+    "keywords_en": [
+      "video"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.capcut.com/",
+    "source_url": "https://www.capcut.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://www.capcut.com/",
+      "free_tier": "https://www.capcut.com/tools/online-video-editor",
+      "arabic_support": "https://www.capcut.com/tools/ai-voice-reader",
+      "price_from": "https://www.capcut.com/tools/online-video-editor"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video"
+    ],
+    "price_scope": "Basic online editor — free (0); Pro/AI feature pricing not specified",
+    "price_scope_ar": "المحرر الأساسي على الويب مجاني (0)؛ سعر مزايا Pro والذكاء الاصطناعي غير محدد"
+  },
+  {
+    "id": "fliki",
+    "name": "Fliki",
+    "tasks": [
+      "video",
+      "voice"
+    ],
+    "price": "Free plan — 0; monthly credits and paid feature limits apply",
+    "priceSource": "https://fliki.ai/voices/arabic",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://fliki.ai/voices/arabic",
+    "officialUrl": "https://fliki.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/fliki.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://fliki.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ أرصدة شهرية ومزايا مدفوعة بحسب الخطة",
+    "arabicScope": "Arabic text-to-speech voices",
+    "arabicScopeAr": "أصوات لتحويل النص العربي إلى كلام",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:fliki.ai Fliki pricing",
+      "arabicQuery": "site:fliki.ai Fliki Arabic supported languages"
+    },
+    "category": [
+      "video",
+      "voice"
+    ],
+    "keywords_ar": [
+      "فيديو",
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "video",
+      "voiceover"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://fliki.ai/",
+    "source_url": "https://fliki.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://fliki.ai/",
+      "free_tier": "https://fliki.ai/voices/arabic",
+      "arabic_support": "https://fliki.ai/voices/arabic",
+      "price_from": "https://fliki.ai/voices/arabic"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video",
+      "voice"
+    ],
+    "price_scope": "Free plan — 0; monthly credits and paid feature limits apply",
+    "price_scope_ar": "خطة مجانية (0)؛ أرصدة شهرية ومزايا مدفوعة بحسب الخطة"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "tasks": [
+      "voice",
+      "music"
+    ],
+    "price": "USD 0/month — Free; 10k credits/month",
+    "priceSource": "https://elevenlabs.io/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://elevenlabs.io/text-to-speech/arabic",
+    "officialUrl": "https://elevenlabs.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-logos/elevenlabs-clean.svg",
+    "logoKind": "existing brand asset",
+    "source": "https://elevenlabs.io/text-to-speech/arabic",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "freePlanNote": "Commercial license is listed under a paid plan; do not assume free commercial use.",
+    "priceAr": "0 دولار/شهر — خطة مجانية؛ 10 آلاف رصيد/شهر",
+    "freePlanNoteAr": "الترخيص التجاري وارد ضمن خطة مدفوعة؛ لا تفترض إتاحة الإعلان التجاري مجانًا.",
+    "arabicScope": "Arabic text to speech; plan/license limits still apply",
+    "arabicScopeAr": "تحويل النص العربي إلى كلام؛ تبقى قيود الخطة والترخيص",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:elevenlabs.io ElevenLabs pricing",
+      "arabicQuery": "site:elevenlabs.io ElevenLabs Arabic supported languages"
+    },
+    "category": [
+      "voice",
+      "music"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي",
+      "موسيقى",
+      "تعليق صوتي",
+      "دبلجة",
+      "فويس"
+    ],
+    "keywords_en": [
+      "voiceover",
+      "music",
+      "voiceover",
+      "dubbing",
+      "speech"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://elevenlabs.io/",
+    "source_url": "https://elevenlabs.io/text-to-speech/arabic",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice",
+      "music"
+    ],
+    "evidence": {
+      "capabilities": "https://elevenlabs.io/text-to-speech/arabic",
+      "free_tier": "https://elevenlabs.io/pricing",
+      "arabic_support": "https://elevenlabs.io/text-to-speech/arabic",
+      "price_from": "https://elevenlabs.io/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "voiceover"
+    ],
+    "price_scope": "USD 0/month — Free; 10k credits/month",
+    "price_scope_ar": "0 دولار/شهر — خطة مجانية؛ 10 آلاف رصيد/شهر"
+  },
+  {
+    "id": "murf",
+    "name": "Murf",
+    "tasks": [
+      "voice"
+    ],
+    "price": "Free access — USD 0; download and plan restrictions apply",
+    "priceSource": "https://murf.ai/ar/text-to-speech",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://help.murf.ai/languages-and-accents",
+    "officialUrl": "https://murf.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/murf.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://murf.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "وصول مجاني: 0 دولار؛ يخضع لقيود الخطة والتنزيل",
+    "arabicScope": "Arabic text-to-speech voices",
+    "arabicScopeAr": "أصوات لتحويل النص العربي إلى كلام",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:murf.ai Murf pricing",
+      "arabicQuery": "site:murf.ai Murf Arabic supported languages"
+    },
+    "category": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "trial",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://murf.ai/",
+    "source_url": "https://murf.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://murf.ai/",
+      "free_tier": "https://help.murf.ai/is-murf-free-to-use",
+      "arabic_support": "https://help.murf.ai/languages-and-accents",
+      "price_from": "https://murf.ai/ar/text-to-speech"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "voiceover"
+    ],
+    "price_scope": "Free access — USD 0; download and plan restrictions apply",
+    "price_scope_ar": "وصول مجاني: 0 دولار؛ يخضع لقيود الخطة والتنزيل",
+    "freePlanNote": "Studio trial: 10 minutes of voice generation; no downloads. Not a recurring free production plan.",
+    "freePlanNoteAr": "تجربة Studio: عشر دقائق لتوليد الصوت دون تنزيل؛ ليست خطة إنتاج مجانية متجددة."
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "tasks": [
+      "voice"
+    ],
+    "price": "Studio Free — USD 0; 600 credits, no commercial rights",
+    "priceSource": "https://speechify.com/pricing-studio/",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://speechify.com/ai-audio/arabic/",
+    "officialUrl": "https://speechify.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/speechify.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://speechify.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Studio Free: ‏0 دولار؛ 600 رصيد، دون حقوق استخدام تجاري",
+    "arabicScope": "Arabic text-to-speech voices",
+    "arabicScopeAr": "أصوات لتحويل النص العربي إلى كلام",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:speechify.com Speechify pricing",
+      "arabicQuery": "site:speechify.com Speechify Arabic supported languages"
+    },
+    "category": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://speechify.com/",
+    "source_url": "https://speechify.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://speechify.com/",
+      "free_tier": "https://speechify.com/pricing-studio/",
+      "arabic_support": "https://speechify.com/ai-audio/arabic/",
+      "price_from": "https://speechify.com/pricing-studio/"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "voiceover"
+    ],
+    "price_scope": "Studio Free — USD 0; 600 credits, no commercial rights",
+    "price_scope_ar": "Studio Free: ‏0 دولار؛ 600 رصيد، دون حقوق استخدام تجاري"
+  },
+  {
+    "id": "resemble",
+    "name": "Resemble AI",
+    "tasks": [
+      "voice"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.resemble.ai/products/voice-creation",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/resemble.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.resemble.ai/products/voice-creation",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.resemble.ai Resemble AI pricing",
+      "arabicQuery": "site:www.resemble.ai Resemble AI Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.resemble.ai/products/voice-creation",
+    "source_url": "https://www.resemble.ai/products/voice-creation",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.resemble.ai/products/voice-creation",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "wellsaid",
+    "name": "WellSaid",
+    "tasks": [
+      "voice"
+    ],
+    "price": "Starter: USD 10/month equivalent, billed USD 120 annually",
+    "priceSource": "https://www.wellsaid.io/ai-voice-pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": "unknown",
+    "arabic": true,
+    "arabicSource": "https://help.wellsaid.io/hc/en-us/articles/39079854241299-Exploring-Languages-Accents-and-Styles",
+    "officialUrl": "https://www.wellsaid.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/wellsaid.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.wellsaid.io/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Starter: ما يعادل 10 دولارات/شهر، بفوترة سنوية 120 دولارًا",
+    "arabicScope": "Arabic Global voices on Enterprise; not the English-only self-serve offering",
+    "arabicScopeAr": "أصوات Global العربية ضمن Enterprise؛ وليست ضمن عرض الخدمة الذاتية الإنجليزي",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.wellsaid.io WellSaid pricing",
+      "arabicQuery": "site:www.wellsaid.io WellSaid Arabic supported languages"
+    },
+    "category": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "partial",
+    "price_from": "unknown",
+    "url": "https://www.wellsaid.io/",
+    "source_url": "https://www.wellsaid.io/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://www.wellsaid.io/",
+      "free_tier": "https://www.wellsaid.io/ai-voice-pricing",
+      "arabic_support": "https://help.wellsaid.io/hc/en-us/articles/39079854241299-Exploring-Languages-Accents-and-Styles",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "lovo",
+    "name": "LOVO",
+    "tasks": [
+      "voice"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": true,
+    "arabicSource": "https://lovo.ai/zh/text-to-speech/arabic-text-to-speech",
+    "officialUrl": "https://lovo.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/lovo.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://lovo.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "arabicScope": "Arabic text-to-speech advertised by the provider; current pricing remains unspecified",
+    "arabicScopeAr": "المزود يوثق تحويل النص العربي إلى كلام؛ السعر الحالي غير محدد",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:lovo.ai LOVO pricing",
+      "arabicQuery": "site:lovo.ai LOVO Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "partial",
+    "price_from": "unknown",
+    "url": "https://lovo.ai/",
+    "source_url": "https://lovo.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "voice"
+    ],
+    "evidence": {
+      "capabilities": "https://lovo.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "https://lovo.ai/zh/text-to-speech/arabic-text-to-speech",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "tasks": [
+      "image"
+    ],
+    "price": "Basic: USD 10/month, monthly subscription",
+    "priceSource": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": false,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.midjourney.com/",
+    "affiliateUrl": "",
+    "logo": "assets/midjourney-clean.svg",
+    "logoKind": "existing brand asset",
+    "source": "https://www.midjourney.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Basic: ‏10 دولارات/شهر باشتراك شهري",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.midjourney.com Midjourney pricing",
+      "arabicQuery": "site:www.midjourney.com Midjourney Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "image"
+    ],
+    "keywords_ar": [
+      "صور"
+    ],
+    "keywords_en": [
+      "image"
+    ],
+    "free_tier": "no",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.midjourney.com/",
+    "source_url": "https://www.midjourney.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.midjourney.com/",
+      "free_tier": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "image"
+    ]
+  },
+  {
+    "id": "firefly",
+    "name": "Adobe Firefly",
+    "tasks": [
+      "image",
+      "video",
+      "design"
+    ],
+    "price": "Free — 0; limited daily generations on selected models",
+    "priceSource": "https://www.adobe.com/products/firefly/plans.html",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://business.adobe.com/resources/create-for-the-kingdom.html",
+    "officialUrl": "https://www.adobe.com/products/firefly.html",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/firefly.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.adobe.com/products/firefly.html",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ توليد يومي محدود على نماذج مختارة",
+    "arabicScope": "Arabic RTL prompting for HUMAIN Image 1; not every Firefly model",
+    "arabicScopeAr": "برومبتات عربية RTL لنموذج HUMAIN Image 1؛ وليس كل نماذج Firefly",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.adobe.com Adobe Firefly pricing",
+      "arabicQuery": "site:www.adobe.com Adobe Firefly Arabic supported languages"
+    },
+    "category": [
+      "image",
+      "video",
+      "design"
+    ],
+    "keywords_ar": [
+      "صور",
+      "فيديو",
+      "تصميم"
+    ],
+    "keywords_en": [
+      "image",
+      "video",
+      "design"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.adobe.com/products/firefly.html",
+    "source_url": "https://www.adobe.com/products/firefly.html",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "image",
+      "video",
+      "design"
+    ],
+    "evidence": {
+      "capabilities": "https://www.adobe.com/products/firefly.html",
+      "free_tier": "https://www.adobe.com/products/firefly/plans.html",
+      "arabic_support": "https://business.adobe.com/resources/create-for-the-kingdom.html",
+      "price_from": "https://www.adobe.com/products/firefly/plans.html"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "image",
+      "video",
+      "design"
+    ],
+    "price_scope": "Free — 0; limited daily generations on selected models",
+    "price_scope_ar": "خطة مجانية (0)؛ توليد يومي محدود على نماذج مختارة"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "tasks": [
+      "image"
+    ],
+    "price": "Free — USD 0; account eligibility and usage limits apply",
+    "priceSource": "https://ideogram.ai/pricing/",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://developer.ideogram.ai/api-reference/tools/ad-localizer",
+    "officialUrl": "https://ideogram.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/ideogram.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://ideogram.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار؛ تخضع لأهلية الحساب وحدود الاستخدام",
+    "arabicScope": "Arabic RTL rendering in Ad Localizer API; broader web coverage unspecified",
+    "arabicScopeAr": "عرض عربي RTL في Ad Localizer API؛ تغطية بقية مزايا الويب غير محددة",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:ideogram.ai Ideogram pricing",
+      "arabicQuery": "site:ideogram.ai Ideogram Arabic supported languages"
+    },
+    "category": [
+      "image"
+    ],
+    "keywords_ar": [
+      "صور"
+    ],
+    "keywords_en": [
+      "image"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://ideogram.ai/",
+    "source_url": "https://ideogram.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "image"
+    ],
+    "evidence": {
+      "capabilities": "https://ideogram.ai/",
+      "free_tier": "https://ideogram.ai/pricing/",
+      "arabic_support": "https://developer.ideogram.ai/api-reference/tools/ad-localizer",
+      "price_from": "https://ideogram.ai/pricing/"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "image"
+    ],
+    "price_scope": "Free — USD 0; account eligibility and usage limits apply",
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ تخضع لأهلية الحساب وحدود الاستخدام"
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo.Ai",
+    "tasks": [
+      "image",
+      "video"
+    ],
+    "price": "Free — 0; 150 fast tokens/day",
+    "priceSource": "https://www.leonardo.ai/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://leonardo.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/leonardo.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://leonardo.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ 150 رصيد Fast يوميًا",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:leonardo.ai Leonardo.Ai pricing",
+      "arabicQuery": "site:leonardo.ai Leonardo.Ai Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "image",
+      "video"
+    ],
+    "keywords_ar": [
+      "صور",
+      "فيديو"
+    ],
+    "keywords_en": [
+      "image",
+      "video"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://leonardo.ai/",
+    "source_url": "https://leonardo.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://leonardo.ai/",
+      "free_tier": "https://www.leonardo.ai/pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://www.leonardo.ai/pricing"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "image",
+      "video"
+    ],
+    "price_scope": "Free — 0; 150 fast tokens/day",
+    "price_scope_ar": "خطة مجانية (0)؛ 150 رصيد Fast يوميًا"
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "tasks": [
+      "image",
+      "design"
+    ],
+    "price": "Free plan — 0; paid plans have different rights",
+    "priceSource": "https://www.recraft.ai/pricing?tab=plans",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.recraft.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/recraft.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.recraft.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ حقوق الخطط المدفوعة مختلفة",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.recraft.ai Recraft pricing",
+      "arabicQuery": "site:www.recraft.ai Recraft Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "image",
+      "design"
+    ],
+    "keywords_ar": [
+      "صور",
+      "تصميم"
+    ],
+    "keywords_en": [
+      "image",
+      "design"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://www.recraft.ai/",
+    "source_url": "https://www.recraft.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.recraft.ai/",
+      "free_tier": "https://www.recraft.ai/pricing?tab=plans",
+      "arabic_support": "unknown",
+      "price_from": "https://www.recraft.ai/pricing?tab=plans"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "image",
+      "design"
+    ],
+    "price_scope": "Free plan — 0; paid plans have different rights",
+    "price_scope_ar": "خطة مجانية (0)؛ حقوق الخطط المدفوعة مختلفة"
+  },
+  {
+    "id": "magnific",
+    "name": "Magnific (formerly Freepik)",
+    "tasks": [
+      "image",
+      "design"
+    ],
+    "price": "Free plan — 0; limited daily access, personal-use license",
+    "priceSource": "https://www.magnific.com/ai/faq/freepik-subscriptions-plans",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.magnific.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/magnific.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.magnific.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ وصول يومي محدود وترخيص للاستخدام الشخصي",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.magnific.com Magnific (formerly Freepik) pricing",
+      "arabicQuery": "site:www.magnific.com Magnific (formerly Freepik) Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "image",
+      "design"
+    ],
+    "keywords_ar": [
+      "صور",
+      "تصميم"
+    ],
+    "keywords_en": [
+      "image",
+      "design"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://www.magnific.com/",
+    "source_url": "https://www.magnific.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.magnific.com/",
+      "free_tier": "https://www.magnific.com/ai/faq/freepik-subscriptions-plans",
+      "arabic_support": "unknown",
+      "price_from": "https://www.magnific.com/ai/faq/freepik-subscriptions-plans"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "image",
+      "design"
+    ],
+    "price_scope": "Free plan — 0; limited daily access, personal-use license",
+    "price_scope_ar": "خطة مجانية (0)؛ وصول يومي محدود وترخيص للاستخدام الشخصي"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "tasks": [
+      "writing",
+      "code",
+      "image"
+    ],
+    "price": "ChatGPT Free — 0; usage limits apply",
+    "priceSource": "https://chatgpt.com/ar/plans/free/",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://help.openai.com/en/articles/8357869-how-to-change-your-language-setting-in-chatgpt",
+    "officialUrl": "https://chatgpt.com/",
+    "affiliateUrl": "",
+    "logo": "assets/chatgpt-clean.svg",
+    "logoKind": "existing brand asset",
+    "source": "https://chatgpt.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "ChatGPT Free مجانية (0)؛ تخضع لحدود الاستخدام",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:chatgpt.com ChatGPT pricing",
+      "arabicQuery": "site:chatgpt.com ChatGPT Arabic supported languages"
+    },
+    "arabicScope": "Arabic interface officially listed; output quality not benchmarked here",
+    "arabicScopeAr": "واجهة عربية مدرجة رسميًا؛ جودة المخرجات لم تُختبر هنا",
+    "arabicCheckedAt": "2026-10-18",
+    "category": [
+      "writing",
+      "code",
+      "image"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "برمجة",
+      "صور"
+    ],
+    "keywords_en": [
+      "writing",
+      "coding",
+      "image"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://chatgpt.com/",
+    "source_url": "https://chatgpt.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": true,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://chatgpt.com/",
+      "free_tier": "https://chatgpt.com/ar/plans/free/",
+      "arabic_support": "https://help.openai.com/en/articles/8357869-how-to-change-your-language-setting-in-chatgpt",
+      "price_from": "https://chatgpt.com/ar/plans/free/"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy",
+      "fiction",
+      "proofreading",
+      "academic",
+      "document_study",
+      "meeting_notes",
+      "lesson_planning",
+      "tutoring"
+    ],
+    "price_scope": "ChatGPT Free — 0; usage limits apply",
+    "price_scope_ar": "ChatGPT Free مجانية (0)؛ تخضع لحدود الاستخدام"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "tasks": [
+      "writing",
+      "code"
+    ],
+    "price": "Free — USD 0; limited usage",
+    "priceSource": "https://claude.com/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+    "officialUrl": "https://claude.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/claude.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://claude.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار؛ استخدام محدود",
+    "arabicScope": "Provider report documents Arabic text generation; no quality guarantee",
+    "arabicScopeAr": "تقرير المزود يوثق إنشاء نصوص عربية؛ دون ضمان جودة",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:claude.ai Claude pricing",
+      "arabicQuery": "site:claude.ai Claude Arabic supported languages"
+    },
+    "category": [
+      "writing",
+      "code"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "برمجة"
+    ],
+    "keywords_en": [
+      "writing",
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://claude.ai/",
+    "source_url": "https://claude.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": true,
+    "arabic_tasks": [
+      "writing",
+      "code"
+    ],
+    "evidence": {
+      "capabilities": "https://claude.ai/",
+      "free_tier": "https://claude.com/pricing",
+      "arabic_support": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "price_from": "https://claude.com/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "prose",
+      "marketing_copy",
+      "fiction",
+      "proofreading",
+      "academic",
+      "document_study",
+      "meeting_notes",
+      "lesson_planning",
+      "tutoring"
+    ],
+    "price_scope": "Free — USD 0; limited usage",
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "tasks": [
+      "writing",
+      "code"
+    ],
+    "price": "Free — USD 0/month with a Google Account",
+    "priceSource": "https://gemini.google/subscriptions/",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://support.google.com/gemini/answer/13575153?hl=en",
+    "officialUrl": "https://gemini.google.com/",
+    "affiliateUrl": "",
+    "logo": "assets/gemini.png",
+    "logoKind": "existing brand asset",
+    "source": "https://gemini.google.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار/شهر مع حساب Google",
+    "arabicScope": "Arabic listed among supported Gemini web languages",
+    "arabicScopeAr": "العربية مدرجة ضمن لغات Gemini للويب",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:gemini.google.com Gemini pricing",
+      "arabicQuery": "site:gemini.google.com Gemini Arabic supported languages"
+    },
+    "category": [
+      "writing",
+      "code"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "برمجة"
+    ],
+    "keywords_en": [
+      "writing",
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://gemini.google.com/",
+    "source_url": "https://gemini.google.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": true,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://gemini.google.com/",
+      "free_tier": "https://gemini.google/subscriptions/",
+      "arabic_support": "https://support.google.com/gemini/answer/13575153?hl=en",
+      "price_from": "https://gemini.google/subscriptions/"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "prose",
+      "marketing_copy",
+      "fiction",
+      "proofreading",
+      "academic",
+      "document_study",
+      "meeting_notes",
+      "lesson_planning",
+      "tutoring"
+    ],
+    "price_scope": "Free — USD 0/month with a Google Account",
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر مع حساب Google"
+  },
+  {
+    "id": "notion",
+    "name": "Notion AI",
+    "tasks": [
+      "writing"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": true,
+    "arabicSource": "https://www.notion.com/help/change-your-language",
+    "officialUrl": "https://www.notion.com/product/ai",
+    "affiliateUrl": "",
+    "logo": "assets/tool-logos/notion-clean.svg",
+    "logoKind": "existing brand asset",
+    "source": "https://www.notion.com/product/ai",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "arabicScope": "Arabic interface and RTL text blocks; not a benchmark of AI outputs",
+    "arabicScopeAr": "واجهة عربية ونصوص RTL؛ وليس اختبارًا لجودة مخرجات AI",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.notion.com Notion AI pricing",
+      "arabicQuery": "site:www.notion.com Notion AI Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "writing",
+      "productivity"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "partial",
+    "price_from": "unknown",
+    "url": "https://www.notion.com/product/ai",
+    "source_url": "https://www.notion.com/product/ai",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.notion.com/product/ai",
+      "free_tier": "unknown",
+      "arabic_support": "https://www.notion.com/help/change-your-language",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "prose",
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "tasks": [
+      "writing",
+      "marketing",
+      "translation"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": true,
+    "arabicSource": "https://help.jasper.ai/hc/en-us/articles/51554255842331-Translation-Agent",
+    "officialUrl": "https://www.jasper.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/jasper.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.jasper.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "arabicScope": "Arabic in Translation Agent",
+    "arabicScopeAr": "العربية في Translation Agent",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.jasper.ai Jasper pricing",
+      "arabicQuery": "site:www.jasper.ai Jasper Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "writing",
+      "marketing",
+      "translation"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "تسويق"
+    ],
+    "keywords_en": [
+      "writing",
+      "marketing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "partial",
+    "price_from": "unknown",
+    "url": "https://www.jasper.ai/",
+    "source_url": "https://www.jasper.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "translation"
+    ],
+    "evidence": {
+      "capabilities": "https://www.jasper.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "https://help.jasper.ai/hc/en-us/articles/51554255842331-Translation-Agent",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy",
+      "translation"
+    ]
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "tasks": [
+      "writing",
+      "marketing"
+    ],
+    "price": "Self-serve: USD 29/month, billed monthly",
+    "priceSource": "https://www.copy.ai/prices",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": "unknown",
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.copy.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/copy-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.copy.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة الذاتية: 29 دولارًا/شهر، بفوترة شهرية",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.copy.ai Copy.ai pricing",
+      "arabicQuery": "site:www.copy.ai Copy.ai Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "writing",
+      "marketing"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "تسويق"
+    ],
+    "keywords_en": [
+      "writing",
+      "marketing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.copy.ai/",
+    "source_url": "https://www.copy.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.copy.ai/",
+      "free_tier": "https://www.copy.ai/prices",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy"
+    ]
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "tasks": [
+      "writing",
+      "marketing"
+    ],
+    "price": "Basic: USD 249/month with monthly billing; annual equivalent differs",
+    "priceSource": "https://docs.writesonic.com/docs/different-subscription-plans-of-writesonic",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": "unknown",
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://writesonic.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/writesonic.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://writesonic.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Basic: ‏249 دولارًا/شهر بفوترة شهرية؛ السعر المكافئ السنوي مختلف",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:writesonic.com Writesonic pricing",
+      "arabicQuery": "site:writesonic.com Writesonic Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "writing",
+      "marketing"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "تسويق"
+    ],
+    "keywords_en": [
+      "writing",
+      "marketing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://writesonic.com/",
+    "source_url": "https://writesonic.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://writesonic.com/",
+      "free_tier": "https://docs.writesonic.com/docs/different-subscription-plans-of-writesonic",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy"
+    ]
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "tasks": [
+      "writing"
+    ],
+    "price": "Free plan — 0; premium features separate",
+    "priceSource": "https://support.grammarly.com/hc/en-us/articles/115000090971-Does-Grammarly-support-languages-other-than-English",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.grammarly.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/grammarly.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.grammarly.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.grammarly.com Grammarly pricing",
+      "arabicQuery": "site:www.grammarly.com Grammarly Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "تدقيق",
+      "قواعد",
+      "إملاء"
+    ],
+    "keywords_en": [
+      "writing",
+      "grammar",
+      "proofread",
+      "spelling"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://www.grammarly.com/",
+    "source_url": "https://www.grammarly.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.grammarly.com/",
+      "free_tier": "https://support.grammarly.com/hc/en-us/articles/115000090971-Does-Grammarly-support-languages-other-than-English",
+      "arabic_support": "unknown",
+      "price_from": "https://support.grammarly.com/hc/en-us/articles/115000090971-Does-Grammarly-support-languages-other-than-English"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "proofreading"
+    ],
+    "price_scope": "Free plan — 0; premium features separate",
+    "price_scope_ar": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة"
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "tasks": [
+      "writing",
+      "translation"
+    ],
+    "price": "Free plan — 0; premium features separate",
+    "priceSource": "https://quillbot.com/upgrade",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://help.quillbot.com/hc/en-us/articles/4541525640727-What-languages-does-Quillbot-work-in",
+    "officialUrl": "https://quillbot.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/quillbot.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://help.quillbot.com/hc/en-us/articles/35854222679319-How-to-use-the-Quillbot-Paraphraser",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة",
+    "arabicScope": "Arabic translation; not a claim about all rewriting modes",
+    "arabicScopeAr": "ترجمة عربية؛ لا يشمل ذلك كل أوضاع إعادة الصياغة",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:quillbot.com QuillBot pricing",
+      "arabicQuery": "site:quillbot.com QuillBot Arabic supported languages"
+    },
+    "category": [
+      "writing",
+      "translation"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://quillbot.com/",
+    "source_url": "https://help.quillbot.com/hc/en-us/articles/35854222679319-How-to-use-the-Quillbot-Paraphraser",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "translation"
+    ],
+    "evidence": {
+      "capabilities": "https://help.quillbot.com/hc/en-us/articles/35854222679319-How-to-use-the-Quillbot-Paraphraser",
+      "free_tier": "https://quillbot.com/upgrade",
+      "arabic_support": "https://help.quillbot.com/hc/en-us/articles/4541525640727-What-languages-does-Quillbot-work-in",
+      "price_from": "https://quillbot.com/upgrade"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "proofreading",
+      "translation"
+    ],
+    "price_scope": "Free plan — 0; premium features separate",
+    "price_scope_ar": "خطة مجانية (0)؛ المزايا المدفوعة منفصلة"
+  },
+  {
+    "id": "wordtune",
+    "name": "Wordtune",
+    "tasks": [
+      "writing"
+    ],
+    "price": "Basic — USD 0; daily rewriting and monthly summary limits",
+    "priceSource": "https://www.wordtune.com/plans",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://support.wordtune.com/en/articles/5856755-translate-with-rewrite-which-languages-does-wordtune-support",
+    "officialUrl": "https://www.wordtune.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/wordtune.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.wordtune.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Basic: ‏0 دولار؛ حدود يومية لإعادة الصياغة وشهرية للتلخيص",
+    "arabicScope": "Arabic input translated into English; Arabic output not established",
+    "arabicScopeAr": "إدخال عربي للترجمة إلى الإنجليزية؛ الإخراج العربي غير مثبت",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.wordtune.com Wordtune pricing",
+      "arabicQuery": "site:www.wordtune.com Wordtune Arabic supported languages"
+    },
+    "category": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": "unknown",
+    "url": "https://www.wordtune.com/",
+    "source_url": "https://www.wordtune.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.wordtune.com/",
+      "free_tier": "https://www.wordtune.com/plans",
+      "arabic_support": "https://support.wordtune.com/en/articles/5856755-translate-with-rewrite-which-languages-does-wordtune-support",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "proofreading"
+    ]
+  },
+  {
+    "id": "deepl-write",
+    "name": "DeepL Write",
+    "tasks": [
+      "writing"
+    ],
+    "price": "Free edition — 0; Write Pro separate",
+    "priceSource": "https://www.deepl.com/ar/write",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": false,
+    "arabicSource": "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write",
+    "officialUrl": "https://www.deepl.com/en/write",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/deepl-write.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.deepl.com/en/write",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الإصدار المجاني (0)؛ اشتراك Write Pro منفصل",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.deepl.com DeepL Write pricing",
+      "arabicQuery": "site:www.deepl.com DeepL Write Arabic supported languages"
+    },
+    "arabicScope": "Arabic is absent from the published Write language list; DeepL Translator is a different product",
+    "arabicScopeAr": "العربية ليست ضمن قائمة لغات Write المنشورة؛ DeepL Translator منتج آخر",
+    "arabicCheckedAt": "2026-10-18",
+    "category": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "no",
+    "price_from": 0,
+    "url": "https://www.deepl.com/en/write",
+    "source_url": "https://www.deepl.com/en/write",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.deepl.com/en/write",
+      "free_tier": "https://www.deepl.com/ar/write",
+      "arabic_support": "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write",
+      "price_from": "https://www.deepl.com/ar/write"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "proofreading"
+    ],
+    "price_scope": "Free edition — 0; Write Pro separate",
+    "price_scope_ar": "الإصدار المجاني (0)؛ اشتراك Write Pro منفصل"
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "tasks": [
+      "research"
+    ],
+    "price": "Included in Google Free plan — USD 0/month; limits apply",
+    "priceSource": "https://gemini.google/subscriptions/",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://support.google.com/notebooklm/answer/16261963?hl=hi&co=GENIE.Platform%3DAndroid",
+    "officialUrl": "https://notebooklm.google.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-logos/notebooklm.svg",
+    "logoKind": "existing brand asset",
+    "source": "https://blog.google/innovation-and-ai/products/developing-notebooklm/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "ضمن خطة Google المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام",
+    "arabicScope": "Arabic output languages, including Modern Standard and Egyptian",
+    "arabicScopeAr": "لغات إخراج عربية، منها الفصحى والمصرية",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:notebooklm.google.com NotebookLM pricing",
+      "arabicQuery": "site:notebooklm.google.com NotebookLM Arabic supported languages"
+    },
+    "category": [
+      "research"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "مصادر",
+      "دراسة",
+      "مراجع"
+    ],
+    "keywords_en": [
+      "writing",
+      "sources",
+      "study"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://notebooklm.google.com/",
+    "source_url": "https://blog.google/innovation-and-ai/products/developing-notebooklm/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "writing"
+    ],
+    "evidence": {
+      "capabilities": "https://blog.google/innovation-and-ai/products/developing-notebooklm/",
+      "free_tier": "https://gemini.google/subscriptions/",
+      "arabic_support": "https://support.google.com/notebooklm/answer/16261963?hl=hi&co=GENIE.Platform%3DAndroid",
+      "price_from": "https://gemini.google/subscriptions/"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "document_study"
+    ],
+    "price_scope": "Included in Google Free plan — USD 0/month; limits apply",
+    "price_scope_ar": "ضمن خطة Google المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "tasks": [
+      "code"
+    ],
+    "price": "Copilot Free — 0; limited functionality for individuals",
+    "priceSource": "https://github.com/features/copilot/plans",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://github.com/features/copilot",
+    "affiliateUrl": "",
+    "logo": "assets/tool-logos/copilot-clean.svg",
+    "logoKind": "existing brand asset",
+    "source": "https://github.com/features/copilot",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Copilot Free مجانية (0)؛ وظائف محدودة للأفراد",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:github.com GitHub Copilot pricing",
+      "arabicQuery": "site:github.com GitHub Copilot Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "code"
+    ],
+    "keywords_ar": [
+      "برمجة"
+    ],
+    "keywords_en": [
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://github.com/features/copilot",
+    "source_url": "https://github.com/features/copilot",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://github.com/features/copilot",
+      "free_tier": "https://github.com/features/copilot/plans",
+      "arabic_support": "unknown",
+      "price_from": "https://github.com/features/copilot/plans"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "code",
+      "debug"
+    ],
+    "price_scope": "Copilot Free — 0; limited functionality for individuals",
+    "price_scope_ar": "Copilot Free مجانية (0)؛ وظائف محدودة للأفراد"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "tasks": [
+      "code"
+    ],
+    "price": "Free — USD 0; limited Agent/Chat usage",
+    "priceSource": "https://cursor.com/docs/models-and-pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://cursor.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/cursor.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://cursor.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار؛ استخدام محدود لـ Agent وChat",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:cursor.com Cursor pricing",
+      "arabicQuery": "site:cursor.com Cursor Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "code"
+    ],
+    "keywords_ar": [
+      "برمجة"
+    ],
+    "keywords_en": [
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://cursor.com/",
+    "source_url": "https://cursor.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://cursor.com/",
+      "free_tier": "https://cursor.com/docs/models-and-pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://cursor.com/docs/models-and-pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "code",
+      "debug"
+    ],
+    "price_scope": "Free — USD 0; limited Agent/Chat usage",
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود لـ Agent وChat"
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "tasks": [
+      "code"
+    ],
+    "price": "Starter — free (0); plan/deployment limits apply",
+    "priceSource": "https://docs.replit.com/ko/references/platforms/chatgpt",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://replit.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/replit.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://replit.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Starter مجانية (0)؛ تخضع لحدود الخطة والنشر",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:replit.com Replit pricing",
+      "arabicQuery": "site:replit.com Replit Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "code"
+    ],
+    "keywords_ar": [
+      "برمجة"
+    ],
+    "keywords_en": [
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://replit.com/",
+    "source_url": "https://replit.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://replit.com/",
+      "free_tier": "https://docs.replit.com/ko/references/platforms/chatgpt",
+      "arabic_support": "unknown",
+      "price_from": "https://docs.replit.com/ko/references/platforms/chatgpt"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "code",
+      "debug"
+    ],
+    "price_scope": "Starter — free (0); plan/deployment limits apply",
+    "price_scope_ar": "Starter مجانية (0)؛ تخضع لحدود الخطة والنشر"
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "tasks": [
+      "code"
+    ],
+    "price": "Free — USD 0; token and hosting limits apply",
+    "priceSource": "https://bolt.new/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://bolt.new/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/bolt.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://bolt.new/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار؛ تخضع لحدود الرموز والاستضافة",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:bolt.new Bolt pricing",
+      "arabicQuery": "site:bolt.new Bolt Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "code"
+    ],
+    "keywords_ar": [
+      "برمجة"
+    ],
+    "keywords_en": [
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://bolt.new/",
+    "source_url": "https://bolt.new/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://bolt.new/",
+      "free_tier": "https://bolt.new/pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://bolt.new/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "code"
+    ],
+    "price_scope": "Free — USD 0; token and hosting limits apply",
+    "price_scope_ar": "الخطة المجانية: 0 دولار؛ تخضع لحدود الرموز والاستضافة"
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "tasks": [
+      "code"
+    ],
+    "price": "Free starting plan — 0; usage limits apply",
+    "priceSource": "https://lovable.dev/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://lovable.dev/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/lovable.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://lovable.dev/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة بدء مجانية (0)؛ تخضع لحدود الاستخدام",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:lovable.dev Lovable pricing",
+      "arabicQuery": "site:lovable.dev Lovable Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "code"
+    ],
+    "keywords_ar": [
+      "برمجة"
+    ],
+    "keywords_en": [
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://lovable.dev/",
+    "source_url": "https://lovable.dev/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://lovable.dev/",
+      "free_tier": "https://lovable.dev/pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://lovable.dev/pricing"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "code"
+    ],
+    "price_scope": "Free starting plan — 0; usage limits apply",
+    "price_scope_ar": "خطة بدء مجانية (0)؛ تخضع لحدود الاستخدام"
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "tasks": [
+      "code",
+      "design"
+    ],
+    "price": "Free — USD 0/month; usage limits apply",
+    "priceSource": "https://v0.app/docs/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://v0.app/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/v0.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://v0.app/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:v0.app v0 pricing",
+      "arabicQuery": "site:v0.app v0 Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "code",
+      "design"
+    ],
+    "keywords_ar": [
+      "برمجة",
+      "تصميم"
+    ],
+    "keywords_en": [
+      "coding",
+      "design"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://v0.app/",
+    "source_url": "https://v0.app/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://v0.app/",
+      "free_tier": "https://v0.app/docs/pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://v0.app/docs/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "code",
+      "design"
+    ],
+    "price_scope": "Free — USD 0/month; usage limits apply",
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ تخضع لحدود الاستخدام"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "tasks": [
+      "design",
+      "image",
+      "video"
+    ],
+    "price": "Canva Free — 0; premium assets and AI limits separate",
+    "priceSource": "https://www.canva.com/ar_eg/pricing/",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://www.canva.com/help/translation-languages/",
+    "officialUrl": "https://www.canva.com/",
+    "affiliateUrl": "",
+    "logo": "assets/canva-clean.svg",
+    "logoKind": "existing brand asset",
+    "source": "https://www.canva.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Canva Free مجانية (0)؛ الأصول المدفوعة وحدود AI منفصلة",
+    "arabicScope": "Arabic design translation and RTL handling",
+    "arabicScopeAr": "ترجمة التصاميم إلى العربية ومعالجة RTL",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.canva.com Canva pricing",
+      "arabicQuery": "site:www.canva.com Canva Arabic supported languages"
+    },
+    "category": [
+      "design",
+      "image",
+      "video"
+    ],
+    "keywords_ar": [
+      "تصميم",
+      "صور",
+      "فيديو"
+    ],
+    "keywords_en": [
+      "design",
+      "image",
+      "video"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.canva.com/",
+    "source_url": "https://www.canva.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [
+      "design",
+      "image",
+      "video"
+    ],
+    "evidence": {
+      "capabilities": "https://www.canva.com/ai-logo-generator/",
+      "free_tier": "https://www.canva.com/ar_eg/pricing/",
+      "arabic_support": "https://www.canva.com/help/translation-languages/",
+      "price_from": "https://www.canva.com/ar_eg/pricing/"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "logo",
+      "design"
+    ],
+    "price_scope": "Canva Free — 0; premium assets and AI limits separate",
+    "price_scope_ar": "Canva Free مجانية (0)؛ الأصول المدفوعة وحدود AI منفصلة"
+  },
+  {
+    "id": "figma",
+    "name": "Figma AI",
+    "tasks": [
+      "design"
+    ],
+    "price": "Starter — free (0); AI/product limits apply",
+    "priceSource": "https://help.figma.com/hc/en-us/articles/13838684089751-Starter-plan-overview",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://help.figma.com/hc/en-us/articles/4972283635863-Add-right-to-left-text",
+    "officialUrl": "https://www.figma.com/ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/figma.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.figma.com/ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Starter مجانية (0)؛ تخضع لحدود المنتجات والذكاء الاصطناعي",
+    "arabicScope": "Arabic RTL text in design; AI generation coverage not established",
+    "arabicScopeAr": "نص عربي RTL في التصميم؛ تغطية توليد AI غير مثبتة",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.figma.com Figma AI pricing",
+      "arabicQuery": "site:www.figma.com Figma AI Arabic supported languages"
+    },
+    "category": [
+      "design"
+    ],
+    "keywords_ar": [
+      "تصميم"
+    ],
+    "keywords_en": [
+      "design"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.figma.com/ai/",
+    "source_url": "https://www.figma.com/ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.figma.com/ai/",
+      "free_tier": "https://help.figma.com/hc/en-us/articles/13838684089751-Starter-plan-overview",
+      "arabic_support": "https://help.figma.com/hc/en-us/articles/4972283635863-Add-right-to-left-text",
+      "price_from": "https://help.figma.com/hc/en-us/articles/13838684089751-Starter-plan-overview"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "design"
+    ],
+    "price_scope": "Starter — free (0); AI/product limits apply",
+    "price_scope_ar": "Starter مجانية (0)؛ تخضع لحدود المنتجات والذكاء الاصطناعي"
+  },
+  {
+    "id": "framer",
+    "name": "Framer",
+    "tasks": [
+      "design",
+      "code"
+    ],
+    "price": "Free plan — 0; hosting, AI and localization limits apply",
+    "priceSource": "https://www.framer.com/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": true,
+    "arabicSource": "https://www.framer.com/help/localization/",
+    "officialUrl": "https://www.framer.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/framer.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.framer.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ تخضع لحدود الاستضافة والذكاء الاصطناعي والتوطين",
+    "arabicScope": "RTL site localization for Arabic; feature/add-on limits apply",
+    "arabicScopeAr": "توطين مواقع RTL للعربية؛ تخضع لحدود المزايا والإضافات",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.framer.com Framer pricing",
+      "arabicQuery": "site:www.framer.com Framer Arabic supported languages"
+    },
+    "category": [
+      "design",
+      "code"
+    ],
+    "keywords_ar": [
+      "تصميم",
+      "برمجة"
+    ],
+    "keywords_en": [
+      "design",
+      "coding"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "partial",
+    "price_from": 0,
+    "url": "https://www.framer.com/",
+    "source_url": "https://www.framer.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.framer.com/",
+      "free_tier": "https://www.framer.com/pricing",
+      "arabic_support": "https://www.framer.com/help/localization/",
+      "price_from": "https://www.framer.com/pricing"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "design"
+    ],
+    "price_scope": "Free plan — 0; hosting, AI and localization limits apply",
+    "price_scope_ar": "خطة مجانية (0)؛ تخضع لحدود الاستضافة والذكاء الاصطناعي والتوطين"
+  },
+  {
+    "id": "designer",
+    "name": "Microsoft Designer",
+    "tasks": [
+      "design",
+      "image"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://designer.microsoft.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/designer.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:designer.microsoft.com Microsoft Designer pricing",
+      "arabicQuery": "site:designer.microsoft.com Microsoft Designer Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "design",
+      "image"
+    ],
+    "keywords_ar": [
+      "تصميم",
+      "صور"
+    ],
+    "keywords_en": [
+      "design",
+      "image"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://designer.microsoft.com/",
+    "source_url": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "design"
+    ]
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "tasks": [
+      "design"
+    ],
+    "price": "Free subscription — 0; feature limits apply",
+    "priceSource": "https://support.uizard.io/en/articles/6249189-understanding-subscriptions",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": false,
+    "arabicSource": "https://support.uizard.io/en/articles/7728147-guide-to-autodesigner",
+    "officialUrl": "https://uizard.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/uizard.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://uizard.io/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "اشتراك مجاني (0)؛ يخضع لحدود المزايا",
+    "arabicScope": "Autodesigner prompts: non-English languages are not officially supported; experiments may work",
+    "arabicScopeAr": "برومبتات Autodesigner: غير الإنجليزية ليست مدعومة رسميًا؛ التجربة قد تعمل",
+    "arabicCheckedAt": "2026-10-18",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:uizard.io Uizard pricing",
+      "arabicQuery": "site:uizard.io Uizard Arabic supported languages"
+    },
+    "category": [
+      "design"
+    ],
+    "keywords_ar": [
+      "تصميم"
+    ],
+    "keywords_en": [
+      "design"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "no",
+    "price_from": 0,
+    "url": "https://uizard.io/",
+    "source_url": "https://uizard.io/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://uizard.io/",
+      "free_tier": "https://support.uizard.io/en/articles/6249189-understanding-subscriptions",
+      "arabic_support": "https://support.uizard.io/en/articles/7728147-guide-to-autodesigner",
+      "price_from": "https://support.uizard.io/en/articles/6249189-understanding-subscriptions"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "design"
+    ],
+    "price_scope": "Free subscription — 0; feature limits apply",
+    "price_scope_ar": "اشتراك مجاني (0)؛ يخضع لحدود المزايا"
+  },
+  {
+    "id": "relume",
+    "name": "Relume",
+    "tasks": [
+      "design"
+    ],
+    "price": "Free tier — 0; limited access",
+    "priceSource": "https://www.relume.ai/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.relume.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/relume.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.relume.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ وصول محدود",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.relume.ai Relume pricing",
+      "arabicQuery": "site:www.relume.ai Relume Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "design"
+    ],
+    "keywords_ar": [
+      "تصميم"
+    ],
+    "keywords_en": [
+      "design"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://www.relume.ai/",
+    "source_url": "https://www.relume.ai/pricing",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.relume.ai/",
+      "free_tier": "https://www.relume.ai/pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://www.relume.ai/pricing"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "design"
+    ],
+    "price_scope": "Free tier — 0; limited access",
+    "price_scope_ar": "خطة مجانية (0)؛ وصول محدود"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "tasks": [
+      "music"
+    ],
+    "price": "Free — USD 0/month; 50 credits/day, no monthly song downloads or commercial rights",
+    "priceSource": "https://suno.com/pricing",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://suno.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/suno.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://suno.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "الخطة المجانية: 0 دولار/شهر؛ 50 رصيدًا يوميًا، دون حصة تنزيل أغانٍ شهرية أو حقوق تجارية",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:suno.com Suno pricing",
+      "arabicQuery": "site:suno.com Suno Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://suno.com/",
+    "source_url": "https://suno.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://suno.com/",
+      "free_tier": "https://suno.com/pricing",
+      "arabic_support": "unknown",
+      "price_from": "https://suno.com/pricing"
+    },
+    "price_currency": "USD",
+    "capabilities": [
+      "music_generation"
+    ],
+    "price_scope": "Free — USD 0/month; 50 credits/day, no monthly song downloads or commercial rights",
+    "price_scope_ar": "الخطة المجانية: 0 دولار/شهر؛ 50 رصيدًا يوميًا، دون حصة تنزيل أغانٍ شهرية أو حقوق تجارية"
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "tasks": [
+      "music"
+    ],
+    "price": "Free tier — 0; credit and generation limits apply",
+    "priceSource": "https://help.udio.com/en/articles/10739134-credits-and-credit-limits",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.udio.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/udio.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.udio.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "خطة مجانية (0)؛ تخضع لحدود الأرصدة والتوليد",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.udio.com Udio pricing",
+      "arabicQuery": "site:www.udio.com Udio Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://www.udio.com/",
+    "source_url": "https://www.udio.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.udio.com/",
+      "free_tier": "https://help.udio.com/en/articles/10739134-credits-and-credit-limits",
+      "arabic_support": "unknown",
+      "price_from": "https://help.udio.com/en/articles/10739134-credits-and-credit-limits"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "music_generation"
+    ],
+    "price_scope": "Free tier — 0; credit and generation limits apply",
+    "price_scope_ar": "خطة مجانية (0)؛ تخضع لحدود الأرصدة والتوليد"
+  },
+  {
+    "id": "aiva",
+    "name": "AIVA",
+    "tasks": [
+      "music"
+    ],
+    "price": "EUR 0 — Free; non-commercial, credit required",
+    "priceSource": "https://www.aiva.ai/",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.aiva.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/aiva.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.aiva.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "freePlanNote": "Non-commercial only, AIVA owns copyright; 3 downloads/month.",
+    "priceAr": "0 يورو — خطة مجانية للاستخدام غير التجاري مع ذكر المصدر",
+    "freePlanNoteAr": "غير تجاري فقط؛ حقوق النشر لـ AIVA، مع 3 تنزيلات شهريًا.",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.aiva.ai AIVA pricing",
+      "arabicQuery": "site:www.aiva.ai AIVA Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://www.aiva.ai/",
+    "source_url": "https://www.aiva.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.aiva.ai/",
+      "free_tier": "https://www.aiva.ai/",
+      "arabic_support": "unknown",
+      "price_from": "https://www.aiva.ai/"
+    },
+    "price_currency": "EUR",
+    "capabilities": [
+      "music_generation"
+    ],
+    "price_scope": "EUR 0 — Free; non-commercial, credit required",
+    "price_scope_ar": "0 يورو — خطة مجانية للاستخدام غير التجاري مع ذكر المصدر"
+  },
+  {
+    "id": "soundraw",
+    "name": "SOUNDRAW",
+    "tasks": [
+      "music"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://soundraw.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/soundraw.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://soundraw.io/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:soundraw.io SOUNDRAW pricing",
+      "arabicQuery": "site:soundraw.io SOUNDRAW Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://soundraw.io/",
+    "source_url": "https://soundraw.io/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://soundraw.io/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "music_generation"
+    ]
+  },
+  {
+    "id": "beatoven",
+    "name": "Beatoven.ai",
+    "tasks": [
+      "music"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://www.beatoven.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/beatoven.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://www.beatoven.ai/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:www.beatoven.ai Beatoven.ai pricing",
+      "arabicQuery": "site:www.beatoven.ai Beatoven.ai Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.beatoven.ai/",
+    "source_url": "https://www.beatoven.ai/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://www.beatoven.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "music_generation"
+    ]
+  },
+  {
+    "id": "mubert",
+    "name": "Mubert",
+    "tasks": [
+      "music"
+    ],
+    "price": "Ambassador — free (0); personal, non-monetized use only",
+    "priceSource": "https://mubert.com/render/faq",
+    "priceCheckedAt": "2026-10-18",
+    "freeTier": true,
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://mubert.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/mubert.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://mubert.com/",
+    "reviewedAt": "2026-10-18",
+    "active": true,
+    "priceAr": "Ambassador مجانية (0)؛ استخدام شخصي دون إعلانات مدفوعة أو تحقيق دخل",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:mubert.com Mubert pricing",
+      "arabicQuery": "site:mubert.com Mubert Arabic supported languages"
+    },
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://mubert.com/",
+    "source_url": "https://mubert.com/",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://mubert.com/",
+      "free_tier": "https://mubert.com/render/faq",
+      "arabic_support": "unknown",
+      "price_from": "https://mubert.com/render/faq"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "music_generation"
+    ],
+    "price_scope": "Ambassador — free (0); personal, non-monetized use only",
+    "price_scope_ar": "Ambassador مجانية (0)؛ استخدام شخصي دون إعلانات مدفوعة أو تحقيق دخل"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "tasks": [
+      "video"
+    ],
+    "price": "unknown",
+    "priceSource": "unknown",
+    "priceCheckedAt": "unknown",
+    "freeTier": "unknown",
+    "arabic": "unknown",
+    "arabicSource": "unknown",
+    "officialUrl": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/sora.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "source": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "reviewedAt": "2026-10-18",
+    "active": false,
+    "status": "Discontinued; archived listing retained",
+    "statusAr": "متوقف؛ أُبقي السجل للأرشفة",
+    "metadataReview": {
+      "date": "2026-10-18",
+      "priceReviewed": true,
+      "arabicReviewed": true,
+      "priceQuery": "site:help.openai.com Sora pricing",
+      "arabicQuery": "site:help.openai.com Sora Arabic supported languages"
+    },
+    "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
+    "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
+    "category": [
+      "video"
+    ],
+    "keywords_ar": [
+      "فيديو"
+    ],
+    "keywords_en": [
+      "video"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "source_url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "last_checked": "2026-10-18",
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "evidence": {
+      "capabilities": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "price_currency": "unknown",
+    "capabilities": [
+      "video"
+    ]
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "yes",
+    "arabic_support": "unknown",
+    "price_from": 0,
+    "url": "https://gamma.app/",
+    "source_url": "https://gamma.app/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://gamma.app/",
+      "free_tier": "https://gamma.app/",
+      "arabic_support": "unknown",
+      "price_from": "https://gamma.app/"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://gamma.app/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/gamma.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.beautiful.ai/",
+    "source_url": "https://www.beautiful.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.beautiful.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.beautiful.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/beautiful-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "plus-ai",
+    "name": "Plus AI",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://plusai.com/",
+    "source_url": "https://plusai.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://plusai.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://plusai.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/plus-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "pitch",
+    "name": "Pitch",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://pitch.com/",
+    "source_url": "https://pitch.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://pitch.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://pitch.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/pitch.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "slidesai",
+    "name": "SlidesAI",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.slidesai.io/",
+    "source_url": "https://www.slidesai.io/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.slidesai.io/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.slidesai.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/slidesai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "slidesgo-ai",
+    "name": "Slidesgo AI",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://slidesgo.com/ai/presentation-maker",
+    "source_url": "https://slidesgo.com/ai/presentation-maker",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://slidesgo.com/ai/presentation-maker",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://slidesgo.com/ai/presentation-maker",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/slidesgo-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "presentations-ai",
+    "name": "Presentations.AI",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.presentations.ai/",
+    "source_url": "https://www.presentations.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.presentations.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.presentations.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/presentations-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "decktopus",
+    "name": "Decktopus",
+    "category": [
+      "presentations"
+    ],
+    "tasks": [
+      "presentations"
+    ],
+    "keywords_ar": [
+      "عرض تقديمي"
+    ],
+    "keywords_en": [
+      "presentation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.decktopus.com/",
+    "source_url": "https://www.decktopus.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.decktopus.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.decktopus.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/decktopus.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "presentations"
+    ]
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "category": [
+      "research"
+    ],
+    "tasks": [
+      "research"
+    ],
+    "keywords_ar": [
+      "بحث ودراسة"
+    ],
+    "keywords_en": [
+      "research"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://elicit.com/",
+    "source_url": "https://elicit.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://elicit.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://elicit.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/elicit.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "academic"
+    ]
+  },
+  {
+    "id": "scite",
+    "name": "Scite",
+    "category": [
+      "research"
+    ],
+    "tasks": [
+      "research"
+    ],
+    "keywords_ar": [
+      "بحث ودراسة"
+    ],
+    "keywords_en": [
+      "research"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://scite.ai/",
+    "source_url": "https://scite.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://scite.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://scite.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/scite.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "academic"
+    ]
+  },
+  {
+    "id": "researchrabbit",
+    "name": "ResearchRabbit",
+    "category": [
+      "research"
+    ],
+    "tasks": [
+      "research"
+    ],
+    "keywords_ar": [
+      "بحث ودراسة"
+    ],
+    "keywords_en": [
+      "research"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.researchrabbit.ai/",
+    "source_url": "https://www.researchrabbit.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.researchrabbit.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.researchrabbit.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/researchrabbit.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "academic"
+    ]
+  },
+  {
+    "id": "scispace",
+    "name": "SciSpace",
+    "category": [
+      "research"
+    ],
+    "tasks": [
+      "research"
+    ],
+    "keywords_ar": [
+      "بحث ودراسة"
+    ],
+    "keywords_en": [
+      "research"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://scispace.com/",
+    "source_url": "https://scispace.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://scispace.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://scispace.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/scispace.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "academic"
+    ]
+  },
+  {
+    "id": "scholarcy",
+    "name": "Scholarcy",
+    "category": [
+      "research"
+    ],
+    "tasks": [
+      "research"
+    ],
+    "keywords_ar": [
+      "بحث ودراسة"
+    ],
+    "keywords_en": [
+      "research"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.scholarcy.com/",
+    "source_url": "https://www.scholarcy.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.scholarcy.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.scholarcy.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/scholarcy.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "document_study"
+    ]
+  },
+  {
+    "id": "chatpdf",
+    "name": "ChatPDF",
+    "category": [
+      "research"
+    ],
+    "tasks": [
+      "research"
+    ],
+    "keywords_ar": [
+      "بحث ودراسة"
+    ],
+    "keywords_en": [
+      "research"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.chatpdf.com/",
+    "source_url": "https://www.chatpdf.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.chatpdf.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.chatpdf.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/chatpdf.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "document_study"
+    ]
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://otter.ai/",
+    "source_url": "https://otter.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://otter.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://otter.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/otter-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://fireflies.ai/",
+    "source_url": "https://fireflies.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://fireflies.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://fireflies.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/fireflies-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.fathom.ai/",
+    "source_url": "https://www.fathom.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.fathom.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.fathom.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/fathom.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "tl-dv",
+    "name": "tl;dv",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://tldv.io/",
+    "source_url": "https://tldv.io/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://tldv.io/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://tldv.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/tl-dv.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "avoma",
+    "name": "Avoma",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.avoma.com/",
+    "source_url": "https://www.avoma.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.avoma.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.avoma.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/avoma.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "read-ai",
+    "name": "Read AI",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.read.ai/",
+    "source_url": "https://www.read.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.read.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.read.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/read-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "meetgeek",
+    "name": "MeetGeek",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://meetgeek.ai/",
+    "source_url": "https://meetgeek.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://meetgeek.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://meetgeek.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/meetgeek.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "krisp",
+    "name": "Krisp",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://krisp.ai/",
+    "source_url": "https://krisp.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://krisp.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://krisp.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/krisp.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "granola",
+    "name": "Granola",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية"
+    ],
+    "keywords_en": [
+      "meeting notes"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.granola.ai/",
+    "source_url": "https://www.granola.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.granola.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.granola.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/granola.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "meeting_notes"
+    ]
+  },
+  {
+    "id": "motion",
+    "name": "Motion",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية",
+      "جدولة",
+      "مهام",
+      "تقويم"
+    ],
+    "keywords_en": [
+      "meeting notes",
+      "schedule",
+      "calendar",
+      "planning"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.usemotion.com/",
+    "source_url": "https://www.usemotion.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.usemotion.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.usemotion.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/motion.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "scheduling"
+    ]
+  },
+  {
+    "id": "reclaim-ai",
+    "name": "Reclaim AI",
+    "category": [
+      "productivity"
+    ],
+    "tasks": [
+      "productivity"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية",
+      "جدولة",
+      "تقويم"
+    ],
+    "keywords_en": [
+      "meeting notes",
+      "schedule",
+      "calendar"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://reclaim.ai/",
+    "source_url": "https://reclaim.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://reclaim.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://reclaim.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/reclaim-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "scheduling"
+    ]
+  },
+  {
+    "id": "taskade",
+    "name": "Taskade",
+    "category": [
+      "productivity",
+      "automation"
+    ],
+    "tasks": [
+      "productivity",
+      "automation"
+    ],
+    "keywords_ar": [
+      "اجتماعات وإنتاجية",
+      "وكيل",
+      "أتمتة",
+      "مهام"
+    ],
+    "keywords_en": [
+      "meeting notes",
+      "agents",
+      "workflow",
+      "tasks"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.taskade.com/",
+    "source_url": "https://www.taskade.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.taskade.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown",
+      "scheduling": "https://www.taskade.com/automate/agentic/calendar-management"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.taskade.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/taskade.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "scheduling",
+      "workflow",
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "deepl-translator",
+    "name": "DeepL Translator",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.deepl.com/en/translator",
+    "source_url": "https://www.deepl.com/en/translator",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.deepl.com/en/translator",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.deepl.com/en/translator",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/deepl-translator.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "google-translate",
+    "name": "Google Translate",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://translate.google.com/about/",
+    "source_url": "https://translate.google.com/about/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://translate.google.com/about/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://translate.google.com/about/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/google-translate.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "microsoft-translator",
+    "name": "Microsoft Translator",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.microsoft.com/en-us/translator/",
+    "source_url": "https://www.microsoft.com/en-us/translator/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.microsoft.com/en-us/translator/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.microsoft.com/en-us/translator/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/microsoft-translator.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "smartcat",
+    "name": "Smartcat",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.smartcat.com/",
+    "source_url": "https://www.smartcat.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.smartcat.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.smartcat.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/smartcat.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "unbabel",
+    "name": "Unbabel",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://unbabel.com/",
+    "source_url": "https://unbabel.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://unbabel.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://unbabel.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/unbabel.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "lokalise",
+    "name": "Lokalise",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://lokalise.com/",
+    "source_url": "https://lokalise.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://lokalise.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://lokalise.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/lokalise.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "phrase",
+    "name": "Phrase",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://phrase.com/",
+    "source_url": "https://phrase.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://phrase.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://phrase.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/phrase.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "weglot",
+    "name": "Weglot",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.weglot.com/",
+    "source_url": "https://www.weglot.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.weglot.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.weglot.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/weglot.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "lara-translate",
+    "name": "Lara Translate",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://laratranslate.com/translate",
+    "source_url": "https://laratranslate.com/translate",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://laratranslate.com/translate",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://laratranslate.com/translate",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/lara-translate.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "immersive-translate",
+    "name": "Immersive Translate",
+    "category": [
+      "translation"
+    ],
+    "tasks": [
+      "translation"
+    ],
+    "keywords_ar": [
+      "ترجمة"
+    ],
+    "keywords_en": [
+      "translation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://immersivetranslate.com/en/",
+    "source_url": "https://immersivetranslate.com/en/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://immersivetranslate.com/en/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://immersivetranslate.com/en/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/immersive-translate.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "translation"
+    ]
+  },
+  {
+    "id": "magicschool",
+    "name": "MagicSchool",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.magicschool.ai/",
+    "source_url": "https://www.magicschool.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.magicschool.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.magicschool.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/magicschool.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "lesson_planning"
+    ]
+  },
+  {
+    "id": "diffit",
+    "name": "Diffit",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://web.diffit.me/",
+    "source_url": "https://web.diffit.me/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://web.diffit.me/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://web.diffit.me/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/diffit.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "lesson_planning"
+    ]
+  },
+  {
+    "id": "brisk-teaching",
+    "name": "Brisk Teaching",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.briskteaching.com/",
+    "source_url": "https://www.briskteaching.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.briskteaching.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.briskteaching.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/brisk-teaching.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "lesson_planning"
+    ]
+  },
+  {
+    "id": "schoolai",
+    "name": "SchoolAI",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://schoolai.com/",
+    "source_url": "https://schoolai.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://schoolai.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://schoolai.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/schoolai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "lesson_planning"
+    ]
+  },
+  {
+    "id": "khanmigo",
+    "name": "Khanmigo",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.khanmigo.ai/",
+    "source_url": "https://www.khanmigo.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.khanmigo.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.khanmigo.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/khanmigo.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "tutoring"
+    ]
+  },
+  {
+    "id": "knowt",
+    "name": "Knowt",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://knowt.com/",
+    "source_url": "https://knowt.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://knowt.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://knowt.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/knowt.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "tutoring"
+    ]
+  },
+  {
+    "id": "curipod",
+    "name": "Curipod",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://curipod.com/",
+    "source_url": "https://curipod.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://curipod.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://curipod.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/curipod.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "lesson_planning"
+    ]
+  },
+  {
+    "id": "questionwell",
+    "name": "QuestionWell",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال"
+    ],
+    "keywords_en": [
+      "teaching"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://questionwell.org/",
+    "source_url": "https://questionwell.org/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://questionwell.org/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://questionwell.org/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/questionwell.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "lesson_planning"
+    ]
+  },
+  {
+    "id": "ello",
+    "name": "Ello",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال",
+      "قراءة",
+      "طفل"
+    ],
+    "keywords_en": [
+      "teaching",
+      "reading",
+      "child"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.ello.com/",
+    "source_url": "https://www.ello.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.ello.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.ello.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/ello.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "tutoring"
+    ]
+  },
+  {
+    "id": "synthesis-tutor",
+    "name": "Synthesis Tutor",
+    "category": [
+      "education"
+    ],
+    "tasks": [
+      "education"
+    ],
+    "keywords_ar": [
+      "تعليم وأطفال",
+      "رياضيات",
+      "طفل",
+      "حساب"
+    ],
+    "keywords_en": [
+      "teaching",
+      "math",
+      "child",
+      "tutor"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.synthesis.com/tutor",
+    "source_url": "https://www.synthesis.com/tutor",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.synthesis.com/tutor",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.synthesis.com/tutor",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/synthesis-tutor.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "tutoring"
+    ]
+  },
+  {
+    "id": "rows-ai",
+    "name": "Rows AI",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://rows.com/ai",
+    "source_url": "https://rows.com/ai",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://rows.com/ai",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://rows.com/ai",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/rows-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "spreadsheets",
+      "data"
+    ]
+  },
+  {
+    "id": "julius-ai",
+    "name": "Julius AI",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://julius.ai/",
+    "source_url": "https://julius.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://julius.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://julius.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/julius-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "spreadsheets",
+      "data"
+    ]
+  },
+  {
+    "id": "akkio",
+    "name": "Akkio",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.akkio.com/",
+    "source_url": "https://www.akkio.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.akkio.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.akkio.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/akkio.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "data"
+    ]
+  },
+  {
+    "id": "datarobot",
+    "name": "DataRobot",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.datarobot.com/",
+    "source_url": "https://www.datarobot.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.datarobot.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.datarobot.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/datarobot.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "data"
+    ]
+  },
+  {
+    "id": "h2o-ai",
+    "name": "H2O.ai",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://h2o.ai/",
+    "source_url": "https://h2o.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://h2o.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://h2o.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/h2o-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "data"
+    ]
+  },
+  {
+    "id": "obviously-ai",
+    "name": "Obviously AI",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://obviously.ai/",
+    "source_url": "https://obviously.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://obviously.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://obviously.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/obviously-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "data"
+    ]
+  },
+  {
+    "id": "polymer",
+    "name": "Polymer",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.polymersearch.com/",
+    "source_url": "https://www.polymersearch.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.polymersearch.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.polymersearch.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/polymer.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "data"
+    ]
+  },
+  {
+    "id": "better-analyst-formula-bot",
+    "name": "Better Analyst (Formula Bot)",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://betteranalyst.com/",
+    "source_url": "https://betteranalyst.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://betteranalyst.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://betteranalyst.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/better-analyst-formula-bot.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "spreadsheets",
+      "data"
+    ]
+  },
+  {
+    "id": "gptexcel",
+    "name": "GPTExcel",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول",
+      "اكسل",
+      "صيغة",
+      "معادلة"
+    ],
+    "keywords_en": [
+      "spreadsheet",
+      "excel",
+      "formula",
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://gptexcel.uk/",
+    "source_url": "https://gptexcel.uk/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://gptexcel.uk/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://gptexcel.uk/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/gptexcel.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "spreadsheets",
+      "data"
+    ]
+  },
+  {
+    "id": "sheetai",
+    "name": "SheetAI",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول",
+      "شيت",
+      "جداول"
+    ],
+    "keywords_en": [
+      "spreadsheet",
+      "sheets",
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.sheetai.app/",
+    "source_url": "https://www.sheetai.app/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.sheetai.app/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.sheetai.app/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/sheetai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "spreadsheets",
+      "data"
+    ]
+  },
+  {
+    "id": "bricks",
+    "name": "Bricks",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.thebricks.com/",
+    "source_url": "https://www.thebricks.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.thebricks.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.thebricks.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/bricks.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "spreadsheets",
+      "data"
+    ]
+  },
+  {
+    "id": "thoughtspot",
+    "name": "ThoughtSpot",
+    "category": [
+      "data"
+    ],
+    "tasks": [
+      "data"
+    ],
+    "keywords_ar": [
+      "بيانات وجداول"
+    ],
+    "keywords_en": [
+      "spreadsheet"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.thoughtspot.com/",
+    "source_url": "https://www.thoughtspot.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.thoughtspot.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.thoughtspot.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/thoughtspot.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "data"
+    ]
+  },
+  {
+    "id": "zapier-ai",
+    "name": "Zapier AI",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://zapier.com/ai",
+    "source_url": "https://zapier.com/ai",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://zapier.com/ai",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://zapier.com/ai",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/zapier-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "make",
+    "name": "Make",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.make.com/",
+    "source_url": "https://www.make.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.make.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.make.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/make.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://n8n.io/",
+    "source_url": "https://n8n.io/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://n8n.io/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://n8n.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/n8n.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "lindy",
+    "name": "Lindy",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.lindy.ai/",
+    "source_url": "https://www.lindy.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.lindy.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.lindy.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/lindy.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "relevance-ai",
+    "name": "Relevance AI",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://relevanceai.com/",
+    "source_url": "https://relevanceai.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://relevanceai.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://relevanceai.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/relevance-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "gumloop",
+    "name": "Gumloop",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.gumloop.com/",
+    "source_url": "https://www.gumloop.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.gumloop.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.gumloop.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/gumloop.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "bardeen",
+    "name": "Bardeen",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.bardeen.ai/",
+    "source_url": "https://www.bardeen.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.bardeen.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.bardeen.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/bardeen.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation"
+    ]
+  },
+  {
+    "id": "flowise",
+    "name": "Flowise",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://flowiseai.com/",
+    "source_url": "https://flowiseai.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://flowiseai.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://flowiseai.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/flowise.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "langflow",
+    "name": "Langflow",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.langflow.org/",
+    "source_url": "https://www.langflow.org/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.langflow.org/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.langflow.org/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/langflow.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://dify.ai/",
+    "source_url": "https://dify.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://dify.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://dify.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/dify.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation",
+      "integrations"
+    ]
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "category": [
+      "automation"
+    ],
+    "tasks": [
+      "automation"
+    ],
+    "keywords_ar": [
+      "أتمتة ووكلاء"
+    ],
+    "keywords_en": [
+      "automation"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://crewai.com/",
+    "source_url": "https://crewai.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://crewai.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://crewai.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/crewai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "automation"
+    ]
+  },
+  {
+    "id": "predis-ai",
+    "name": "Predis.ai",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://predis.ai/",
+    "source_url": "https://predis.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://predis.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://predis.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/predis-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "social"
+    ]
+  },
+  {
+    "id": "adcreative-ai",
+    "name": "AdCreative.ai",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.adcreative.ai/",
+    "source_url": "https://www.adcreative.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.adcreative.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.adcreative.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/adcreative-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "social"
+    ]
+  },
+  {
+    "id": "ocoya",
+    "name": "Ocoya",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.ocoya.com/",
+    "source_url": "https://www.ocoya.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.ocoya.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.ocoya.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/ocoya.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "social"
+    ]
+  },
+  {
+    "id": "lately-ai",
+    "name": "Lately AI",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.lately.ai/",
+    "source_url": "https://www.lately.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.lately.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.lately.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/lately-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "social"
+    ]
+  },
+  {
+    "id": "buffer-ai-assistant",
+    "name": "Buffer AI Assistant",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://buffer.com/ai-assistant",
+    "source_url": "https://buffer.com/ai-assistant",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://buffer.com/ai-assistant",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://buffer.com/ai-assistant",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/buffer-ai-assistant.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "social"
+    ]
+  },
+  {
+    "id": "hootsuite-wisdom-ai",
+    "name": "Hootsuite Wisdom AI",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.hootsuite.com/wisdom-ai",
+    "source_url": "https://www.hootsuite.com/wisdom-ai",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.hootsuite.com/wisdom-ai",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.hootsuite.com/wisdom-ai",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/hootsuite-wisdom-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "social"
+    ]
+  },
+  {
+    "id": "surfer",
+    "name": "Surfer",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://surferseo.com/",
+    "source_url": "https://surferseo.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://surferseo.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://surferseo.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/surfer.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "seo"
+    ]
+  },
+  {
+    "id": "frase",
+    "name": "Frase",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.frase.io/",
+    "source_url": "https://www.frase.io/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.frase.io/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.frase.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/frase.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "seo"
+    ]
+  },
+  {
+    "id": "marketmuse",
+    "name": "MarketMuse",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.marketmuse.com/",
+    "source_url": "https://www.marketmuse.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.marketmuse.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.marketmuse.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/marketmuse.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "seo"
+    ]
+  },
+  {
+    "id": "neuronwriter",
+    "name": "NEURONwriter",
+    "category": [
+      "marketing"
+    ],
+    "tasks": [
+      "marketing"
+    ],
+    "keywords_ar": [
+      "تسويق وسوشال"
+    ],
+    "keywords_en": [
+      "social media"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://neuronwriter.com/",
+    "source_url": "https://neuronwriter.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://neuronwriter.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://neuronwriter.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/neuronwriter.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "seo"
+    ]
+  },
+  {
+    "id": "sudowrite",
+    "name": "Sudowrite",
+    "category": [
+      "writing"
+    ],
+    "tasks": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "رواية",
+      "قصة",
+      "شخصيات"
+    ],
+    "keywords_en": [
+      "writing",
+      "novel",
+      "fiction",
+      "story",
+      "characters"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://sudowrite.com/",
+    "source_url": "https://sudowrite.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://sudowrite.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://sudowrite.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/sudowrite.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "fiction"
+    ]
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "category": [
+      "writing",
+      "marketing"
+    ],
+    "tasks": [
+      "writing",
+      "marketing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://rytr.me/",
+    "source_url": "https://rytr.me/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://rytr.me/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://rytr.me/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/rytr.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy"
+    ]
+  },
+  {
+    "id": "anyword",
+    "name": "Anyword",
+    "category": [
+      "writing",
+      "marketing"
+    ],
+    "tasks": [
+      "writing",
+      "marketing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.anyword.com/",
+    "source_url": "https://www.anyword.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.anyword.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.anyword.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/anyword.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy"
+    ]
+  },
+  {
+    "id": "writer",
+    "name": "WRITER",
+    "category": [
+      "writing"
+    ],
+    "tasks": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://writer.com/",
+    "source_url": "https://writer.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://support.writer.com/articles/2664880799-how-to-use-writer-agent",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": true,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://writer.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/writer.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy",
+      "fiction",
+      "proofreading",
+      "academic",
+      "document_study",
+      "meeting_notes",
+      "lesson_planning",
+      "tutoring"
+    ]
+  },
+  {
+    "id": "hypotenuse-ai",
+    "name": "Hypotenuse AI",
+    "category": [
+      "writing",
+      "marketing"
+    ],
+    "tasks": [
+      "writing",
+      "marketing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.hypotenuse.ai/",
+    "source_url": "https://www.hypotenuse.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.hypotenuse.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.hypotenuse.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/hypotenuse-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy"
+    ]
+  },
+  {
+    "id": "prowritingaid",
+    "name": "ProWritingAid",
+    "category": [
+      "writing"
+    ],
+    "tasks": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "قصة",
+      "رواية",
+      "تدقيق"
+    ],
+    "keywords_en": [
+      "writing",
+      "story",
+      "fiction",
+      "proofread"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://prowritingaid.com/",
+    "source_url": "https://prowritingaid.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://prowritingaid.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://prowritingaid.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/prowritingaid.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "proofreading",
+      "fiction_edit"
+    ]
+  },
+  {
+    "id": "languagetool",
+    "name": "LanguageTool",
+    "category": [
+      "writing"
+    ],
+    "tasks": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة",
+      "تدقيق",
+      "قواعد",
+      "إملاء"
+    ],
+    "keywords_en": [
+      "writing",
+      "grammar",
+      "proofread",
+      "spelling"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://languagetool.org/",
+    "source_url": "https://languagetool.org/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://languagetool.org/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://languagetool.org/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/languagetool.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "proofreading"
+    ]
+  },
+  {
+    "id": "hyperwrite",
+    "name": "HyperWrite",
+    "category": [
+      "writing"
+    ],
+    "tasks": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.hyperwriteai.com/",
+    "source_url": "https://www.hyperwriteai.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.hyperwriteai.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown",
+      "fiction": "https://www.hyperwriteai.com/aitools/story-generator"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.hyperwriteai.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/hyperwrite.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy",
+      "fiction"
+    ]
+  },
+  {
+    "id": "textcortex",
+    "name": "TextCortex",
+    "category": [
+      "writing"
+    ],
+    "tasks": [
+      "writing"
+    ],
+    "keywords_ar": [
+      "كتابة"
+    ],
+    "keywords_en": [
+      "writing"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://textcortex.com/",
+    "source_url": "https://textcortex.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://textcortex.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://textcortex.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/textcortex.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "prose",
+      "marketing_copy"
+    ]
+  },
+  {
+    "id": "loudly",
+    "name": "Loudly",
+    "category": [
+      "music"
+    ],
+    "tasks": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.loudly.com/",
+    "source_url": "https://www.loudly.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.loudly.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.loudly.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/loudly.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "music_generation"
+    ]
+  },
+  {
+    "id": "soundful",
+    "name": "Soundful",
+    "category": [
+      "music"
+    ],
+    "tasks": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://soundful.com/",
+    "source_url": "https://soundful.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://soundful.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://soundful.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/soundful.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "music_generation"
+    ]
+  },
+  {
+    "id": "musicfy",
+    "name": "Musicfy",
+    "category": [
+      "music"
+    ],
+    "tasks": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://musicfy.lol/",
+    "source_url": "https://musicfy.lol/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://musicfy.lol/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://musicfy.lol/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/musicfy.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "music_edit"
+    ]
+  },
+  {
+    "id": "moises",
+    "name": "Moises",
+    "category": [
+      "music"
+    ],
+    "tasks": [
+      "music"
+    ],
+    "keywords_ar": [
+      "موسيقى"
+    ],
+    "keywords_en": [
+      "music"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://moises.ai/",
+    "source_url": "https://moises.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://moises.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://moises.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/moises.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "music_edit"
+    ]
+  },
+  {
+    "id": "narakeet",
+    "name": "Narakeet",
+    "category": [
+      "voice"
+    ],
+    "tasks": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي",
+      "تعليق صوتي",
+      "نطق"
+    ],
+    "keywords_en": [
+      "voiceover",
+      "voiceover",
+      "narration",
+      "speech"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.narakeet.com/",
+    "source_url": "https://www.narakeet.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.narakeet.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.narakeet.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/narakeet.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "ttsmaker",
+    "name": "TTSMaker",
+    "category": [
+      "voice"
+    ],
+    "tasks": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://ttsmaker.com/",
+    "source_url": "https://ttsmaker.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://ttsmaker.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://ttsmaker.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/ttsmaker.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "voicemaker",
+    "name": "Voicemaker",
+    "category": [
+      "voice"
+    ],
+    "tasks": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://voicemaker.in/",
+    "source_url": "https://voicemaker.in/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://voicemaker.in/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://voicemaker.in/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/voicemaker.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "cartesia",
+    "name": "Cartesia",
+    "category": [
+      "voice"
+    ],
+    "tasks": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.cartesia.ai/",
+    "source_url": "https://www.cartesia.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.cartesia.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.cartesia.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/cartesia.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "deepgram",
+    "name": "Deepgram",
+    "category": [
+      "voice"
+    ],
+    "tasks": [
+      "voice"
+    ],
+    "keywords_ar": [
+      "تعليق صوتي"
+    ],
+    "keywords_en": [
+      "voiceover"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://deepgram.com/",
+    "source_url": "https://deepgram.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://deepgram.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://deepgram.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/deepgram.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "voiceover"
+    ]
+  },
+  {
+    "id": "brandmark",
+    "name": "Brandmark",
+    "category": [
+      "design"
+    ],
+    "tasks": [
+      "design"
+    ],
+    "keywords_ar": [
+      "تصميم",
+      "شعار",
+      "هوية",
+      "براند"
+    ],
+    "keywords_en": [
+      "design",
+      "logo",
+      "brand",
+      "identity"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://brandmark.io/",
+    "source_url": "https://brandmark.io/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://brandmark.io/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://brandmark.io/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/brandmark.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "logo"
+    ]
+  },
+  {
+    "id": "logoai",
+    "name": "LogoAI",
+    "category": [
+      "design"
+    ],
+    "tasks": [
+      "design"
+    ],
+    "keywords_ar": [
+      "تصميم",
+      "شعار",
+      "هوية",
+      "براند"
+    ],
+    "keywords_en": [
+      "design",
+      "logo",
+      "brand",
+      "identity"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.logoai.com/",
+    "source_url": "https://www.logoai.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.logoai.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.logoai.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/logoai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "logo"
+    ]
+  },
+  {
+    "id": "photoroom",
+    "name": "Photoroom",
+    "category": [
+      "image"
+    ],
+    "tasks": [
+      "image"
+    ],
+    "keywords_ar": [
+      "صور",
+      "صور منتجات",
+      "منتج",
+      "عطر",
+      "خلفية"
+    ],
+    "keywords_en": [
+      "image",
+      "product",
+      "perfume",
+      "background",
+      "photo"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.photoroom.com/",
+    "source_url": "https://www.photoroom.com/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.photoroom.com/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.photoroom.com/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/photoroom.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "image"
+    ]
+  },
+  {
+    "id": "krea",
+    "name": "Krea",
+    "category": [
+      "image",
+      "video"
+    ],
+    "tasks": [
+      "image",
+      "video"
+    ],
+    "keywords_ar": [
+      "صور",
+      "صورة",
+      "فيديو"
+    ],
+    "keywords_en": [
+      "image",
+      "image",
+      "video"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.krea.ai/",
+    "source_url": "https://www.krea.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.krea.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.krea.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/krea.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "price": "unknown",
+    "arabic": "unknown",
+    "freeTier": "unknown",
+    "capabilities": [
+      "image",
+      "video"
+    ]
+  },
+  {
+    "id": "lalal-ai",
+    "name": "LALAL.AI",
+    "category": [
+      "music"
+    ],
+    "tasks": [
+      "music"
+    ],
+    "keywords_ar": [
+      "فصل الغناء",
+      "فصل الآلات",
+      "إزالة الصوت"
+    ],
+    "keywords_en": [
+      "vocal removal",
+      "stem separation",
+      "instrumental"
+    ],
+    "free_tier": "unknown",
+    "arabic_support": "unknown",
+    "price_from": "unknown",
+    "url": "https://www.lalal.ai/",
+    "source_url": "https://www.lalal.ai/",
+    "last_checked": "2026-10-18",
+    "evidence": {
+      "capabilities": "https://www.lalal.ai/",
+      "free_tier": "unknown",
+      "arabic_support": "unknown",
+      "price_from": "unknown"
+    },
+    "general_purpose": false,
+    "arabic_tasks": [],
+    "price_currency": "unknown",
+    "active": true,
+    "officialUrl": "https://www.lalal.ai/",
+    "affiliateUrl": "",
+    "logo": "assets/tool-monograms/lalal-ai.svg",
+    "logoKind": "initials placeholder, not official logo",
+    "capabilities": [
+      "music_edit"
+    ]
+  }
+];
