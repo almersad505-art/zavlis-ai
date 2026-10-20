@@ -2234,10 +2234,10 @@
     "tasks": [
       "writing"
     ],
-    "price": "unknown",
-    "priceSource": "unknown",
+    "price": "Full Notion AI in Business: USD 20/member/month; Free and Plus include an AI trial",
+    "priceSource": "https://www.notion.com/pricing",
     "priceCheckedAt": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "arabic": true,
     "arabicSource": "https://www.notion.com/help/change-your-language",
     "officialUrl": "https://www.notion.com/product/ai",
@@ -2251,11 +2251,12 @@
     "arabicScopeAr": "واجهة عربية ونصوص RTL؛ وليس اختبارًا لجودة مخرجات AI",
     "arabicCheckedAt": "2026-10-18",
     "metadataReview": {
-      "date": "2026-10-18",
+      "date": "2026-10-20",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:www.notion.com Notion AI pricing",
-      "arabicQuery": "site:www.notion.com Notion AI Arabic supported languages"
+      "arabicQuery": "site:www.notion.com Notion AI Arabic supported languages",
+      "reviewedBy": "Claude (official sources)"
     },
     "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
     "category": [
@@ -2274,21 +2275,21 @@
       "blog",
       "essay"
     ],
-    "free_tier": "unknown",
+    "free_tier": "trial",
     "arabic_support": "partial",
-    "price_from": "unknown",
+    "price_from": 20,
     "url": "https://www.notion.com/product/ai",
     "source_url": "https://www.notion.com/product/ai",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-20",
     "general_purpose": false,
     "arabic_tasks": [],
     "evidence": {
       "capabilities": "https://www.notion.com/product/ai",
-      "free_tier": "unknown",
+      "free_tier": "https://www.notion.com/pricing",
       "arabic_support": "https://www.notion.com/help/change-your-language",
-      "price_from": "unknown"
+      "price_from": "https://www.notion.com/pricing"
     },
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "capabilities": [
       "prose",
       "meeting_notes"
@@ -2305,7 +2306,10 @@
     "subtask_free_tier": {
       "writing.general": "unknown",
       "productivity.general": "unknown"
-    }
+    },
+    "price_scope": "Full Notion AI in Business: USD 20/member/month; Free and Plus include an AI trial",
+    "price_scope_ar": "Notion AI الكامل في Business بـ20 دولارًا للعضو شهريًا؛ الخطط المجانية وPlus تشمل تجربة",
+    "priceAr": "Notion AI الكامل في Business بـ20 دولارًا للعضو شهريًا؛ الخطط المجانية وPlus تشمل تجربة"
   },
   {
     "id": "jasper",
@@ -4598,19 +4602,21 @@
       "presentation"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://plusai.com/",
     "source_url": "https://plusai.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-20",
     "evidence": {
       "capabilities": "https://plusai.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://plusai.com/features/multi-language",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "presentations"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://plusai.com/",
@@ -4618,7 +4624,7 @@
     "logo": "assets/tool-monograms/plus-ai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
@@ -4629,9 +4635,19 @@
     "subtask_sources": {
       "presentations.general": "https://plusai.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "presentations.general"
+    ],
     "subtask_free_tier": {
       "presentations.general": "unknown"
+    },
+    "arabicScope": "Arabic listed among 80+ supported languages",
+    "arabicScopeAr": "العربية ضمن أكثر من 80 لغة مدعومة",
+    "arabicSource": "https://plusai.com/features/multi-language",
+    "arabicCheckedAt": "2026-10-20",
+    "metadataReview": {
+      "date": "2026-10-20",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -4702,19 +4718,21 @@
       "presentation"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.slidesai.io/",
     "source_url": "https://www.slidesai.io/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-20",
     "evidence": {
       "capabilities": "https://www.slidesai.io/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.slidesai.io/supported-languages",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "presentations"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.slidesai.io/",
@@ -4722,7 +4740,7 @@
     "logo": "assets/tool-monograms/slidesai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
@@ -4733,9 +4751,19 @@
     "subtask_sources": {
       "presentations.general": "https://www.slidesai.io/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "presentations.general"
+    ],
     "subtask_free_tier": {
       "presentations.general": "unknown"
+    },
+    "arabicScope": "Arabic supported for presentation content; interface not in Arabic",
+    "arabicScopeAr": "العربية مدعومة لمحتوى العروض؛ الواجهة ليست بالعربية",
+    "arabicSource": "https://www.slidesai.io/supported-languages",
+    "arabicCheckedAt": "2026-10-20",
+    "metadataReview": {
+      "date": "2026-10-20",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -5520,7 +5548,7 @@
       "meeting notes"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 29,
     "url": "https://www.avoma.com/",
     "source_url": "https://www.avoma.com/",
@@ -5528,11 +5556,13 @@
     "evidence": {
       "capabilities": "https://www.avoma.com/",
       "free_tier": "https://www.avoma.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.avoma.com/does-avoma-support-other-languages",
       "price_from": "https://www.avoma.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "productivity"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.avoma.com/",
@@ -5540,7 +5570,7 @@
     "logo": "assets/tool-monograms/avoma.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Startup: USD 29 per recorder seat/month, billed monthly; 14-day trial",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "meeting_notes"
@@ -5551,7 +5581,9 @@
     "subtask_sources": {
       "productivity.general": "https://www.avoma.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "productivity.general"
+    ],
     "subtask_free_tier": {
       "productivity.general": "unknown"
     },
@@ -5562,7 +5594,11 @@
     "metadataReview": {
       "date": "2026-10-20",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic listed among 60+ transcription languages and dialects",
+    "arabicScopeAr": "العربية ضمن أكثر من 60 لغة ولهجة للتفريغ",
+    "arabicSource": "https://help.avoma.com/does-avoma-support-other-languages",
+    "arabicCheckedAt": "2026-10-20"
   },
   {
     "id": "read-ai",
@@ -5754,29 +5790,29 @@
     "keywords_en": [
       "meeting notes"
     ],
-    "free_tier": "unknown",
+    "free_tier": "yes",
     "arabic_support": "unknown",
-    "price_from": "unknown",
+    "price_from": 0,
     "url": "https://www.granola.ai/",
     "source_url": "https://www.granola.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-20",
     "evidence": {
       "capabilities": "https://www.granola.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.granola.ai/pricing",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "https://www.granola.ai/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.granola.ai/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/granola.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Basic: free; Business: USD 14/user/month",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "meeting_notes"
     ],
@@ -5789,6 +5825,14 @@
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "productivity.general": "unknown"
+    },
+    "price_scope": "Basic: free; Business: USD 14/user/month",
+    "price_scope_ar": "Basic مجاني؛ Business بـ14 دولارًا للمستخدم شهريًا",
+    "priceAr": "Basic مجاني؛ Business بـ14 دولارًا للمستخدم شهريًا",
+    "priceSource": "https://www.granola.ai/pricing",
+    "metadataReview": {
+      "date": "2026-10-20",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -6845,7 +6889,7 @@
       "test prep"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 0,
     "url": "https://www.khanmigo.ai/",
     "source_url": "https://www.khanmigo.ai/",
@@ -6853,11 +6897,13 @@
     "evidence": {
       "capabilities": "https://www.khanmigo.ai/",
       "free_tier": "https://www.khanmigo.ai/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://support.khanacademy.org/hc/en-us/articles/33322691603469",
       "price_from": "https://www.khanmigo.ai/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "education"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.khanmigo.ai/",
@@ -6865,7 +6911,7 @@
     "logo": "assets/tool-monograms/khanmigo.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free for teachers; learners and parents: USD 4/month or USD 44/year",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "tutoring"
@@ -6876,7 +6922,9 @@
     "subtask_sources": {
       "education.study": "https://www.khanmigo.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "education.study"
+    ],
     "subtask_free_tier": {
       "education.study": "unknown"
     },
@@ -6887,7 +6935,11 @@
     "metadataReview": {
       "date": "2026-10-20",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Khanmigo can respond in Arabic (43 languages); account language cannot be set to Arabic",
+    "arabicScopeAr": "يرد Khanmigo بالعربية (43 لغة)؛ لغة الحساب لا تُضبط على العربية",
+    "arabicSource": "https://support.khanacademy.org/hc/en-us/articles/33322691603469",
+    "arabicCheckedAt": "2026-10-20"
   },
   {
     "id": "knowt",
@@ -9428,29 +9480,29 @@
       "grammar",
       "spelling"
     ],
-    "free_tier": "unknown",
+    "free_tier": "yes",
     "arabic_support": "unknown",
-    "price_from": "unknown",
+    "price_from": 0,
     "url": "https://prowritingaid.com/",
     "source_url": "https://prowritingaid.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-20",
     "evidence": {
       "capabilities": "https://prowritingaid.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://prowritingaid.com/pricing",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "https://prowritingaid.com/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://prowritingaid.com/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/prowritingaid.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Free plan; Premium: USD 10/month billed yearly (USD 30 monthly)",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "proofreading",
       "fiction_edit"
@@ -9464,6 +9516,14 @@
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "writing.proofreading": "unknown"
+    },
+    "price_scope": "Free plan; Premium: USD 10/month billed yearly (USD 30 monthly)",
+    "price_scope_ar": "خطة مجانية؛ Premium بـ10 دولارات شهريًا سنويًا (30 شهريًا)",
+    "priceAr": "خطة مجانية؛ Premium بـ10 دولارات شهريًا سنويًا (30 شهريًا)",
+    "priceSource": "https://prowritingaid.com/pricing",
+    "metadataReview": {
+      "date": "2026-10-20",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
