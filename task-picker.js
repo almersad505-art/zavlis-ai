@@ -33,6 +33,7 @@ function taskPickerChoice(id,grid){
 }
 function taskPickerRender(){
  taskPicker.hidden=mod!==0;
+ for(const id of ['task','style']){const field=document.getElementById(id)?.closest('.field');if(field)field.hidden=mod===0;}
  if(mod!==0)return;
  $('produce').textContent='فهم الطلب / Understand request';
  taskPickerHeading.textContent=taskPickerState.suggested.size||taskPickerState.selected.size?'فهمت إنك تبي: / I understood you want:':'اختر وش تبي تسوي / Choose what you want to do';

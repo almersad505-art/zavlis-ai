@@ -7,7 +7,7 @@ const normalize=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[\u064
 const rules={
 video:/\b(videos?|reels?|shorts?|animation|animate|footage|films?|clips?)\b|فيديو|فديو|ريلز|مقطع(?: قصير| مرئي| اعلاني|(?=\s|$))|تحريك|انيميشن/,
 voice:/\b(voice(?:[ -]?over)?|narration|narrator|dubbing|dub|tts|text.to.speech|podcasts?|audiobook)\b|تعليق صوتي|صوت(?:ي|يه)?|فويس|دبلج|بودكاست|كتاب مسموع/,
-image:/\b(images?|photos?|pictures?|thumbnails?|illustrations?|portraits?|renders?)\b|صور|صوره|رسوم|رسم(?:ه|ات)?|بورتريه|مصغره/,
+image:/\b(images?|photos?|pictures?|thumbnails?|illustrations?|portraits?|renders?)\b|صور|صوره|رسوم(?!ي)|(?:^|\s)[اي]?رسم(?:ه|ات|ها|لي)?(?=\s|$)|لوحه فنيه|بورتريه|مصغره/,
 writing:/\b(articles?|blogs?|essays?|copywriting|summari[sz]e|summar(?:y|ies)|stories|story|novel|captions?|proofread|grammar|emails?|letters?)\b|مقال|تلخيص|لخص|قصه|روايه|تدقيق|قواعد|املا|سيناريو|(?:^|\s)نص(?:\s|ا\s|$)|رسال[هت]|صياغ|وصف منتج/,
 code:/\b(code|coding|programming|python|javascript|html|css|sql|debug|bugs?|api|react|website|web app)\b|برمج|كود|تطبيق|موقع|بايثون|جافا|اصلاح خطا/,
 design:/\b(design|layout|logos?|brand(?:ing)?|posters?|wireframe|ui|ux)\b|تصميم|صمم|شعار|هويه|براند|بوستر|واجهه/,
@@ -18,7 +18,7 @@ productivity:/\b(meetings?|minutes|action items|calendar|scheduling|schedule|pro
 marketing:/\b(marketing|social media|social posts?|instagram|linkedin|seo|ads?|advertising|campaign)\b|تسويق|سوشال|منشورات|انستقرام|انستغرام|لينكدان|اعلانات|حمله اعلانيه|تحسين محركات/,
 translation:/\b(translat(?:e|ion|ing)|locali[sz](?:e|ation)|multilingual)\b|ترجم|ترجمه|تعريب|توطين/,
 education:/\b(teaching|teacher|lesson|tutor|children|kids?|child|quiz|flashcards|homework|learning|math)\b|تعليم|تعلم|طفل|اطفال|درس|دروس|اختبار مدرسي|اسئله للطلاب|بطاقات مذاكره|رياضيات|واجب/,
-data:/\b(data|spreadsheet|excel|sheets|csv|charts?|analytics|formulas?|pivot tables?)\b|بيانات|اكسل|اكسيل|جداول|جدول بيانات|شيت|معادلات|صيغ حسابيه|تحليل المبيعات|رسم بياني|رسوم بيانيه/,
+data:/\b(data|spreadsheet|excel|sheets|csv|charts?|analytics|formulas?|pivot tables?)\b|بيانات|اكسل|اكسيل|جداول|جدول بيانات|شيت|معادلات|صيغ حسابيه|تحليل المبيعات|رسم بياني|رسوم بيانيه|ميزانيه|مصاريف|مصروفات/,
 automation:/\b(automat(?:e|ion|ing)|workflows?|agents?|integrat(?:e|ion)|connect apps)\b|اتمت|اوتوميشن|وكيل|وكلاء|سير عمل|ربط التطبيقات|اربط|يربط/
 };
 function language(text){return /[\u0621-\u063a\u0641-\u064a\u066e-\u066f\u0671-\u06d3]/.test(text)?'ar':'en';}
@@ -35,8 +35,9 @@ function analyze(text){
  if(has('video.subtitles')){tasks.delete('translation');if(!writingExplicit)tasks.delete('writing');}
  if(has('productivity.email_automation')){tasks.delete('writing');if(!/workflow|اتمت|سير عمل/.test(normalize(text)))tasks.delete('automation');}
  if(has('design.social_posts')&&!/marketing|تسويق/.test(normalize(text)))tasks.delete('marketing');
+ if(has('image.editing')&&!/marketing|تسويق|حمله|اعلان|منشور|\bposts?\b/.test(normalize(text)))tasks.delete('marketing');
  const defaults={voice:'voice.voiceover',video:'video.generation',image:'image.generation',code:'code.assistant'};
- for(const task of tasks){if(defaults[task]&&!detected.some(id=>Subtasks.definitions[id].category===task))detected.push(defaults[task]);}
+ for(const task of tasks){if(!detected.some(id=>Subtasks.definitions[id].category===task))detected.push(defaults[task]||task+'.general');}
  return {tasks:Object.keys(labels).filter(task=>tasks.has(task)),subtasks:detected.filter(id=>tasks.has(Subtasks.definitions[id].category))};
 }
 function extract(text){return analyze(text).tasks;}
@@ -73,6 +74,8 @@ function match(text,catalog,options={}){
   for(const subtask of groups.length?groups:[null]){
    const general=subtask?.endsWith('.general');
    const candidates=catalog.filter(tool=>tool.active!==false&&/^https:\/\//.test(tool.url||'')&&(general?tool.tasks.includes(task):tool.subtasks?.includes(subtask))).map(tool=>({tool,score:score(tool,task,scoringRequest,{budget,targetLanguage,subtask:general?null:subtask,confirmedOnly:true})})).filter(r=>r.score);
+   // Arabic requests: hide tools documented as not supporting Arabic when enough alternatives exist.
+   if(targetLanguage==='ar'){const usable=candidates.filter(r=>r.tool.arabic_support!=='no');if(usable.length>=1)candidates.splice(0,candidates.length,...usable);}
    candidates.sort((a,b)=>Number(b.score.exactSubtask)-Number(a.score.exactSubtask)||Number(b.score.specialist)-Number(a.score.specialist)||b.score.total-a.score.total||a.tool.name.localeCompare(b.tool.name,'en',{sensitivity:'base'})||String(a.tool.id).localeCompare(String(b.tool.id)));
    const taskLabel=subtask?Subtasks.definitions[subtask].labels[lang==='ar'?1:0]:labels[task][lang==='ar'?1:0];
    for(const [index,r]of candidates.slice(0,3).entries()){

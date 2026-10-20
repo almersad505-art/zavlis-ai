@@ -1,0 +1,48 @@
+/* Show one language at a time. Tags are set by i18n.js. */
+html[data-ui="ar"] [data-l="en"],
+html[data-ui="en"] [data-l="ar"],
+[data-l="sep"] { display: none !important; }
+
+/* Arabic: mirror the whole dashboard (sidebar moves to the right). */
+html[data-ui="ar"] .layout,
+html[data-ui="ar"] .layout .main,
+html[data-ui="ar"] .layout .context-rail,
+html[data-ui="ar"] .layout .sidebar,
+html[data-ui="ar"] .layout .top,
+html[data-ui="ar"] .layout .hero-content,
+html[data-ui="ar"] .layout .modules,
+html[data-ui="ar"] .layout .section-head,
+html[data-ui="ar"] .layout .tools,
+html[data-ui="ar"] .layout .guides { direction: rtl !important; }
+
+html[data-ui="ar"] .layout .hero-ar,
+html[data-ui="ar"] .layout .hero p span,
+html[data-ui="ar"] .layout .module .arabic,
+html[data-ui="ar"] .layout .module p small,
+html[data-ui="ar"] .layout .toolcard p small,
+html[data-ui="ar"] .layout .rail-heading p small,
+html[data-ui="ar"] .layout .trend-label small,
+html[data-ui="ar"] .layout .nav small { text-align: right !important; }
+
+/* In Arabic the Arabic headline is the main headline. */
+html[data-ui="ar"] .layout .hero-ar { margin-top: 12px; }
+
+/* English-only copy inside Arabic text keeps a readable direction. */
+html[data-ui="ar"] .layout input,
+html[data-ui="ar"] .layout textarea { direction: rtl; }
+
+/* Each language half keeps its own text direction. */
+[data-l="en"] { direction: ltr !important; }
+[data-l="ar"] { direction: rtl !important; }
+
+/* Arabic hero: mirror the artwork and move the floating chips to the opposite side. */
+html[data-ui="ar"] .hero:before { transform: scaleX(-1); }
+html[data-ui="ar"] .hero-chips { right: auto !important; left: 10px; }
+
+/* In Arabic, Arabic copy is the primary label, not a secondary caption. */
+html[data-ui="ar"] small[data-l="ar"] { font-size: inherit !important; color: inherit !important; font-weight: inherit !important; margin-top: 0 !important; opacity: 1 !important; }
+
+/* Keep tool names whole on narrow cards. */
+.tool-title h3 { overflow-wrap: normal !important; word-break: keep-all; font-size: clamp(11px, 0.85vw, 13px); min-width: 0; }
+.tool-title { gap: 8px; }
+.tool-title img { flex-shrink: 0; }

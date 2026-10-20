@@ -36,14 +36,14 @@
  function detect(text){
   const s=normalize(text).replace(/(?:بدون|دون)\s+(تعليق صوتي|صوت|موسيقي|فيديو|صور)|\bwithout\s+(voiceover|voice|narration|music|video|images?)\b/g,' '),found=[];
   const add=id=>{if(!found.includes(id))found.push(id);};
-  if(/transcri|speech.to.text|افرغ|تفريغ|فرغ (?:الحلقه|التسجيل)|الصوت (?:الي|ل)نص/.test(s))add('voice.transcription');
+  if(/transcri|speech.to.text|افرغ|تفريغ|فرغ (?:الحلقه|التسجيل)|الصوت (?:الي|ل)نص|(?:حول|احول|تحويل|اكتب|نزل)\S*.{0,30}(?:لنص|الي نص|الى نص|نص مكتوب|كتابه)|(?:audio|speech|recording|lecture|video).{0,20}to text/.test(s))add('voice.transcription');
   if(/voice.?over|narration|text.to.speech|تعليق صوتي|بصوت|صوت عربي/.test(s)||(/بودكاست|podcast/.test(s)&&/اسوي|انشئ|create|make|record/.test(s)))add('voice.voiceover');
   if(/voice clon|clon.{0,12}voice|استنساخ.{0,8}صوت|استنسخ.{0,8}صوت|نسخ صوت/.test(s))add('voice.cloning');
   if(/(?:اشيل|شيل|ازاله|احذف|حذف).{0,12}خلفي|(?:remove|remov(?:e|ing)|erase).{0,18}background|background remov/.test(s))add('image.background_removal');
   else if(/(?:اعدل|عدل|تحرير|تحسين).{0,8}صور|ارفع الدقه|upscal|enhanc.{0,10}(?:image|photo)|edit.{0,10}(?:image|photo)/.test(s))add('image.editing');
-  if(/تحسين.{0,8}صور|ارفع (?:الدقه|جوده)|upscal|enhanc.{0,10}(?:image|photo)/.test(s)){const index=found.indexOf('image.editing');if(index>=0)found.splice(index,1);add('image.enhancement');}
-  if(/ضوضاء|تشويش|تنقيه الصوت|denois|noise remov|clean audio/.test(s))add('voice.denoising');
-  if(/subtitles?|كابشن|ترجم[هت].{0,15}فيديو|video captions?/.test(s))add('video.subtitles');
+  if(/تحسين.{0,8}صور|ارفع (?:الدقه|جوده)|upscal|enhanc.{0,10}(?:image|photo)/.test(s)||(/صور|photo|image|picture/.test(s)&&/(?:حسن|احسن|تحسين|ارفع|رفع)\S*\s*(?:جوده|دقه|وضوح)|(?:صلح|اصلح|رمم|ترميم|وضح|توضيح)\S*.{0,12}صور|مشوش|مغبش|ضبابي|بكسل|blurr|restor|sharpen|low.?res/.test(s))){const index=found.indexOf('image.editing');if(index>=0)found.splice(index,1);add('image.enhancement');}
+  if(/ضوضاء|تشويش|نويز|ازعاج|تنقي\S* الصوت|نقي الصوت|صفي الصوت|(?:حسن|تحسين|اصلح|صلح)\S*\s*(?:الصوت|جوده الصوت)|denois|noise remov|remov.{0,12}noise|background noise|clean.{0,8}audio/.test(s))add('voice.denoising');
+  if(/subtitles?|كابشن|ترجم\S*.{0,15}(?:فيديو|مقطع)|video captions?/.test(s))add('video.subtitles');
   if(/مونتاج|ريلز|قص الفيديو|تعديل فيديو|\breels?\b|video edit|edit.{0,8}video|trim.{0,8}video/.test(s))add('video.editing');
   if(/(?:لخص|تلخيص).{0,12}(?:فيديو|مقطع)|summari[sz]e.{0,12}video|video summar/.test(s))add('video.summarization');
   if(/افاتار|avatar|شخصيه تتكلم/.test(s))add('video.avatar');
@@ -54,13 +54,14 @@
   else if(/\b(code|coding|debug|python|javascript|api|react)\b|كود|بايثون|مبرمج|تصحيح خطا/.test(s))add('code.assistant');
   if(/سيره ذاتيه|سيرتي|سي في|\b(resume|cv)\b|curriculum vitae/.test(s))add('writing.resume');
   const email=/ايميل|بريد الكتروني|\bemails?\b/.test(s),automatic=/تلقائ|تلقاي|اوتوماتيك|automat|auto[ -]?repl/.test(s);
-  if(email&&automatic)add('productivity.email_automation');else if(email)add('writing.email');
+  if(email&&automatic)add('productivity.email_automation');else if(email&&!/تدقيق|املا|قواعد|صحح|proofread|grammar|spelling/.test(s))add('writing.email');
   if(/مقال|مدون|\b(articles?|blogs?|essays?)\b/.test(s))add('writing.articles');
   if(/تدقيق|املا|قواعد|صحح النص|proofread|grammar|spelling/.test(s))add('writing.proofreading');
-  if(/رد(?:ود)?.{0,8}رسمي|formal repl|professional response/.test(s))add('writing.formal_replies');
+  if(!found.some(id=>id.startsWith('image.'))&&/صوره شخصيه|صورتي|headshot|profile (?:photo|picture)|بروفايل/.test(s))add('image.editing');
+  if(/رد(?:ود)?.{0,8}رسمي|خطاب|رساله رسميه|معروض|formal (?:letter|repl)|professional response/.test(s))add('writing.formal_replies');
   if(/كابشن.{0,10}(?:سوشال|انستقرام)|نص المنشور|social caption|instagram caption|post caption/.test(s)){add('writing.social_captions');const index=found.indexOf('video.subtitles');if(index>=0&&!/فيديو|video/.test(s))found.splice(index,1);}
-  if(/اغان|اغنيه.{0,12}كلمات|غناء|lyrics|song.{0,12}vocal/.test(s))add('music.lyrics');
-  if(/تنظيم مهام|رتب مهامي|اداره المهام|organize tasks|task (?:management|planning)/.test(s))add('productivity.task_organization');
+  if(/اغان|اغنيه|غناء|شيله|انشوده|زفه|lyrics|\bsongs?\b|song.{0,12}vocal/.test(s))add('music.lyrics');
+  if(/تنظيم مهام|رتب مهامي|اداره المهام|(?:نظم|انظم|تنظيم|رتب|ارتب|ترتيب)\S*.{0,12}(?:مهام|وقتي|يومي|جدولي|اعمالي)|مهامي|to.?do|organi[sz]e.{0,12}(?:tasks|day|time)|daily tasks|task (?:management|planning)/.test(s))add('productivity.task_organization');
   if(/اذاكر|مذاكر|اختبار|\b(study|quiz|quizzes|exam|flashcards)\b|test prep/.test(s))add('education.study');
   if(/\bpdf\b|(?:حلل|لخص|تلخيص|تحليل).{0,15}(?:ملف|مستند)|document (?:analysis|summary)|summari.{0,12}document/.test(s))add('research.documents');
   return found;
