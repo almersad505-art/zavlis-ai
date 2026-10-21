@@ -121,3 +121,17 @@ html[data-ui] body.landing .layout .top{direction:ltr!important;flex-direction:r
 /* Clear, accessible output actions. */
 .landing #landing-results .outhead button{background:#1F3B2B!important;color:#fff!important;border:1px solid #1F3B2B!important;padding:8px 14px;border-radius:7px}
 .landing #landing-results .outhead button:disabled{opacity:.5}
+
+/* card photos */
+.landing .module.has-photo{display:flex;flex-direction:column;padding:0!important;overflow:hidden;position:relative}
+.landing .module.has-photo .card-photo{display:block;aspect-ratio:4/3;overflow:hidden;background:#eee2c9}
+.landing .module.has-photo .card-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
+.landing .module.has-photo:hover .card-photo img{transform:scale(1.05)}
+.landing .module.has-photo .glyph{position:absolute;top:10px;inset-inline-start:10px;box-shadow:0 6px 16px -8px rgba(40,30,10,.6)}
+.landing .module.has-photo>b,.landing .module.has-photo>.arabic,.landing .module.has-photo>p{padding-inline:16px}
+.landing .module.has-photo>b{padding-top:12px}
+.landing .module.has-photo>p{padding-bottom:14px}
+.landing .guide-art.has-photo{padding:0!important;overflow:hidden;aspect-ratio:16/9;height:auto!important}
+.landing .guide-art.has-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
+.landing .guide-card:hover .guide-art.has-photo img{transform:scale(1.04)}
+@media (prefers-reduced-motion:reduce){.landing .module.has-photo .card-photo img,.landing .guide-art.has-photo img{transition:none}}

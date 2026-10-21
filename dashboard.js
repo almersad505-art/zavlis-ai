@@ -31,9 +31,9 @@ const featuredTools = [
  {name:'Canva',desc:'Design & Media',ar:'التصميم والوسائط',url:'https://www.canva.com/',image:'canva-clean.svg'}
 ];
 const guideItems = [
- {title:'Choose the right AI tool',ar:'كيف تختار أداة الذكاء الاصطناعي المناسبة',href:'best-ai-for.html',icon:'match'},
- {title:'Build better prompts',ar:'ابدأ بصياغة أوامر واضحة وفعالة',href:'guides.html',icon:'prompt'},
- {title:'AI for your next project',ar:'أدوات عملية للطلاب والأعمال',href:'for-business.html',icon:'code'}
+ {title:'Choose the right AI tool',ar:'كيف تختار أداة الذكاء الاصطناعي المناسبة',href:'best-ai-for.html',icon:'match',photo:'guide-tool'},
+ {title:'Build better prompts',ar:'ابدأ بصياغة أوامر واضحة وفعالة',href:'guides.html',icon:'prompt',photo:'guide-prompts'},
+ {title:'AI for your next project',ar:'أدوات عملية للطلاب والأعمال',href:'for-business.html',icon:'code',photo:'guide-project'}
 ];
 const toolLogo=t=>t.image?`<img src="assets/${t.image}" alt="${t.name}" width="36" height="36" loading="lazy">`:`<span class="tool-logo" style="--logo-bg:${t.bg}">${t.mark}</span>`;
 let trendMode='tools';
@@ -62,9 +62,9 @@ draw=function(){
  $('heroChips').innerHTML=[['image','Images','صور'],['video','Videos','فيديوهات'],['code','Code','برمجة'],['prompt','Write','كتابة']].map(([name,en,ar])=>`<span class="hero-chip">${icon(name)}<span>${en}<small>${ar}</small></span></span>`).join('');
  const shortEn=['Find the best AI tools for your task','Prepare stunning visual briefs','Turn your idea into a complete video plan','Create and improve prompts for any task','Generate and customize starter HTML'];
  const shortAr=['اعثر على الأدوات المناسبة لمهمتك','جهّز أوصافًا مميزة للصور','حوّل فكرتك إلى خطة فيديو متكاملة','أنشئ وحسّن البرومبتات لأي مهمة','أنشئ وعدّل كود البداية لموقعك'];
- $('moduleGrid').innerHTML=referenceNames.map((name,i)=>`<button type="button" class="module ${mod===i?'selected':''}" data-launch="${i}" aria-pressed="${mod===i}"><span class="glyph">${icon(['match','image','video','prompt','code'][i])}</span><b>${name}</b><span class="arabic">${referenceArabic[i]}</span><p>${shortEn[i]}<small>${shortAr[i]}</small></p></button>`).join('');
+ $('moduleGrid').innerHTML=referenceNames.map((name,i)=>`<button type="button" class="module has-photo ${mod===i?'selected':''}" data-launch="${i}" aria-pressed="${mod===i}"><span class="card-photo"><img src="assets/cards/card-${['match','image','video','prompt','code'][i]}.webp" alt="" width="720" height="540" loading="lazy" decoding="async"></span><span class="glyph">${icon(['match','image','video','prompt','code'][i])}</span><b>${name}</b><span class="arabic">${referenceArabic[i]}</span><p>${shortEn[i]}<small>${shortAr[i]}</small></p></button>`).join('');
  $('toolsGrid').innerHTML=featuredTools.map(t=>`<article class="toolcard"><a href="${t.url}" target="_blank" rel="noopener noreferrer"><div class="tool-title">${toolLogo(t)}<h3>${t.name}</h3></div><p>${t.desc} &nbsp; →<small>${t.ar}</small></p></a></article>`).join('');
- $('guidesGrid').innerHTML=guideItems.map(g=>`<article class="guide-card"><a href="${destinations+g.href}" target="_blank" rel="noopener noreferrer"><div class="guide-art">${icon(g.icon)}</div><h3>${g.title}</h3><p dir="rtl">${g.ar}</p></a></article>`).join('');
+ $('guidesGrid').innerHTML=guideItems.map(g=>`<article class="guide-card"><a href="${destinations+g.href}" target="_blank" rel="noopener noreferrer"><div class="guide-art has-photo"><img src="assets/cards/${g.photo}.webp" alt="" width="960" height="540" loading="lazy" decoding="async"></div><h3>${g.title}</h3><p dir="rtl">${g.ar}</p></a></article>`).join('');
  $('searchIcon').innerHTML=icon('search');$('globeIcon').innerHTML=icon('globe');$('themeButton').innerHTML=icon('sun');$('profileButton').innerHTML=icon('user');$('createIcon').innerHTML=icon('match');$('trendIcon').innerHTML=icon('trend');
  document.querySelectorAll('[data-launch]').forEach(button=>button.onclick=()=>launchTool(Number(button.dataset.launch)));
  document.querySelector('[data-media]').onclick=openMedia;$('projectsButton').onclick=showProjects;
