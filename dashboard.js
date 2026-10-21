@@ -27,7 +27,7 @@ const featuredTools = [
  {name:'Midjourney',desc:'Image Generation',ar:'توليد الصور',url:'https://www.midjourney.com/',image:'midjourney-clean.svg'},
  {name:'Runway',desc:'Video Generation',ar:'توليد الفيديو',url:'https://runwayml.com/',mark:'R',bg:'#00a894'},
  {name:'Claude',desc:'Analysis & Writing',ar:'التحليل والكتابة',url:'https://claude.ai/',mark:'✳',bg:'#db785d'},
- {name:'Gemini',desc:'Multimodal AI',ar:'ذكاء متعدد الوسائط',url:'https://gemini.google.com/',image:'gemini.png'},
+ {name:'Gemini',desc:'Multimodal AI',ar:'ذكاء متعدد الوسائط',url:'https://gemini.google.com/',image:'gemini.webp'},
  {name:'Canva',desc:'Design & Media',ar:'التصميم والوسائط',url:'https://www.canva.com/',image:'canva-clean.svg'}
 ];
 const guideItems = [

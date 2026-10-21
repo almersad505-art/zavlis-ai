@@ -19,5 +19,5 @@ if(!fs.existsSync(path.join(root,tool.logo)))throw Error('Missing icon: '+tool.i
 }
 if(tools.filter(t=>t.active!==false).length<150)throw Error('150 active tools required');
 for(const k of Object.keys(engine.labels))if(!tools.some(t=>t.category.includes(k)&&t.active!==false))throw Error('Missing category: '+k);
-fs.writeFileSync(path.join(root,'tools-data.js'),'window.ZAVLIS_TOOLS = '+JSON.stringify(tools,null,2)+';\n');
+fs.writeFileSync(path.join(root,'tools-data.js'),'window.ZAVLIS_TOOLS = '+JSON.stringify(tools)+';\n');
 console.log('Validated and synchronized '+tools.length+' tools across 15 categories.');
