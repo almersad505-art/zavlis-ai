@@ -22,6 +22,8 @@ data:/\b(data|spreadsheet|excel|sheets|csv|charts?|analytics|formulas?|pivot tab
 automation:/\b(automat(?:e|ion|ing)|workflows?|agents?|integrat(?:e|ion)|connect apps)\b|اتمت|اوتوميشن|وكيل|وكلاء|سير عمل|ربط التطبيقات|اربط|يربط/
 };
 function language(text){return /[\u0621-\u063a\u0641-\u064a\u066e-\u066f\u0671-\u06d3]/.test(text)?'ar':'en';}
+// Arabic is needed when the request is written in Arabic OR asks for Arabic output in another language ("Arabic voiceover", "for an Arab audience").
+function targetLanguageOf(text){const t=String(text||'');return language(t)==='ar'||/\b(arabic|arab|khaleeji)\b/i.test(t)?'ar':'en';}
 function extractBase(text){let value=normalize(text);value=value.replace(/\b(without|no)\s+(music|video|voiceover)\s+(?:or|and)\s+(music|video|voiceover)\b/g,'$1 $2 without $3');const excluded=new Set();value=value.replace(/\b(?:without|no)\s+(voice[ -]?over|voice|narration|music|video|images?|design|code)\b|(?:بدون|دون|من غير)\s+(تعليق صوتي|موسيقي|صوت|فيديو|صور|كود)/g,(full,en,ar)=>{for(const [task,re]of Object.entries(rules))if(re.test(en||ar))excluded.add(task);return ' ';});value=value.replace(/عن التسويق|about marketing/g,' ');if(/ربط التطبيقات|يربط التطبيقات|اربط التطبيقات|connect apps/.test(value))value=value.replace(/التطبيقات|apps/g,' ');const found=new Set(Object.keys(rules).filter(k=>!excluded.has(k)&&rules[k].test(value)));if(found.has('design')&&(found.has('video')||found.has('image')||found.has('presentations'))&&!/\b(logo|brand|ui|ux|layout|poster)\b|شعار|هويه|واجهه|بوستر/.test(value))found.delete('design');if(found.has('writing')&&found.has('productivity')&&!/\b(article|blog|story|novel|email)\b|مقال|قصه|روايه|رساله/.test(value))found.delete('writing');if(found.has('writing')&&found.has('education')&&/قصه|story|novel/.test(value)&&!/جهز درس|سوي درس|حضّر درس|prepare a lesson|teach|help kids/.test(value))found.delete('education');if(!found.size&&/\b(write|writing)\b|اكتب|كتابه/.test(value)&&!excluded.has('writing'))found.add('writing');return Object.keys(labels).filter(k=>found.has(k));}
 function contains(text,keyword){const key=normalize(keyword);if(!key)return false;return /^[a-z0-9 -]+$/.test(key)?(' '+text.replace(/[^a-z0-9 -]/g,' ')+' ').includes(' '+key+' '):text.includes(key);}
 function requestedLanguage(text,uiLanguage){const s=normalize(text);if(/\b(?:arabic|saudi)\b|بالعربي|عربي|عربيه|سعودي/.test(s))return'ar';if(/\bin english\b|بالانجليزي|انجليزي/.test(s))return'en';return uiLanguage;}
@@ -66,7 +68,7 @@ function match(text,catalog,options={}){
  const analysis=confirmed?{subtasks:selected,tasks:Object.keys(labels).filter(task=>selected.some(id=>Subtasks.definitions[id].category===task))}:analyze(request);
  const {tasks,subtasks}=analysis,warnings=[],recommendations=[];
  const budget=['free','low','any'].includes(options.budget)?options.budget:'any';
- const targetLanguage=['ar','en'].includes(options.targetLanguage)?options.targetLanguage:lang;
+ const targetLanguage=['ar','en'].includes(options.targetLanguage)?options.targetLanguage:targetLanguageOf(request);
  if(!confirmed)return {request,language:lang,targetLanguage,tasks,subtasks,recommendations,alternatives:[],warnings,budget,weights,confirmed:false,phase:'review'};
  const scoringRequest=selected.map(id=>Subtasks.definitions[id].labels.join(' ')).join(' ');
  for(const task of tasks){
@@ -100,5 +102,5 @@ function text(result){
  return [(ar?'الطلب: ':'Request: ')+result.request,(ar?'المهام: ':'Tasks: ')+result.tasks.map(task=>labels[task][ar?1:0]).join(' + '),...result.recommendations.map(r=>`${r.rank}. ${r.tool.name}\n${r.reason}\n${r.tool.url}`),...result.warnings].join('\n\n');
 }
 
-return{normalize,language,extract,match,text,score,labels,weights,analyze,subtaskDefinitions:Subtasks.definitions,cleanConfirmedTasks,tasksFromUrl,shareUrl};
+return{normalize,language,targetLanguage:targetLanguageOf,extract,match,text,score,labels,weights,analyze,subtaskDefinitions:Subtasks.definitions,cleanConfirmedTasks,tasksFromUrl,shareUrl};
 });

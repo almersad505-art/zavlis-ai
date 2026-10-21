@@ -21,4 +21,13 @@ const records=cases.map(test=>{
  assert.deepEqual(actual.recommendations.map(r=>r.tool.id),reversed.recommendations.map(r=>r.tool.id));
  return {id:test.id,status:'PASS',tasks:actual.tasks,tools:actual.recommendations.map(r=>({name:r.tool.name,task:r.task,score:r.score.total}))};
 });
+// Arabic output asked for in an English request must exclude tools with no Arabic support.
+for(const [request,expected] of [['Transcribe my Arabic meeting','ar'],['A product video with an Arabic voiceover','ar'],['Ads for an Arab audience','ar'],['Transcribe my podcast episode','en'],['أفرّغ اجتماع','ar']]){
+ assert.equal(engine.targetLanguage(request),expected,'targetLanguage: '+request);
+ const s=engine.match(request,catalog);
+ const r=engine.match(request,catalog,{confirmedTasks:s.subtasks});
+ assert.equal(r.targetLanguage,expected,'match targetLanguage: '+request);
+ if(expected==='ar')assert.ok(r.recommendations.every(x=>x.tool.arabic_support!=='no'),'No Arabic-unsupported tools for: '+request);
+ records.push({id:'TL-'+request,status:'PASS',targetLanguage:r.targetLanguage,tools:r.recommendations.map(x=>x.tool.name)});
+}
 console.log(JSON.stringify({passed:records.length,records},null,2));

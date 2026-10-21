@@ -70,7 +70,7 @@ function taskPickerShowTools(){
  clearTimeout(taskPickerState.timer);taskPickerState.pending=false;
  const confirmed=ZavlisMatch.cleanConfirmedTasks([...taskPickerState.selected]);if(!confirmed.length){taskPickerOpenGrid();return;}
  const outputLanguage=$('topic').value.trim()?ZavlisMatch.language($('topic').value):lang;
- const result=ZavlisMatch.match($('topic').value,ZAVLIS_TOOLS,{confirmedTasks:confirmed,budget:$('budget').value,language:outputLanguage,targetLanguage:outputLanguage});
+ const result=ZavlisMatch.match($('topic').value,ZAVLIS_TOOLS,{confirmedTasks:confirmed,budget:$('budget').value,language:outputLanguage,targetLanguage:$('topic').value.trim()?ZavlisMatch.targetLanguage($('topic').value):outputLanguage});
  taskPickerState.confirmed=[...confirmed];taskPickerClearOutput();last=ZavlisMatch.text(result);$('result').textContent=last;$('result').hidden=true;outputRevision++;
  matchSummary.hidden=false;matchSummary.dir=outputLanguage==='ar'?'rtl':'ltr';matchSummary.textContent=(outputLanguage==='ar'?'المهام المؤكدة: ':'Confirmed tasks: ')+confirmed.map(id=>ZavlisMatch.subtaskDefinitions[id].labels[outputLanguage==='ar'?1:0]).join(' + ')+(result.warnings.length?' — '+result.warnings.join(' '):'');
  resultCards.hidden=false;resultCards.dir=matchSummary.dir;resultCards.replaceChildren();
