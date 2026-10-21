@@ -38,6 +38,8 @@ function analyze(text){
  if(has('productivity.email_automation')){tasks.delete('writing');if(!/workflow|اتمت|سير عمل/.test(normalize(text)))tasks.delete('automation');}
  if(has('design.social_posts')&&!/marketing|تسويق/.test(normalize(text)))tasks.delete('marketing');
  if(has('image.editing')&&!/marketing|تسويق|حمله|اعلان|منشور|\bposts?\b/.test(normalize(text)))tasks.delete('marketing');
+ // "Translate my website" is a translation job, not a coding job, unless the request actually talks about code.
+ if(tasks.has('translation')&&tasks.has('code')&&!detected.some(id=>id.startsWith('code.'))&&!/\b(code|coding|debug|python|javascript|api|react|app)\b|كود|بايثون|برمج|تطبيق/.test(normalize(text)))tasks.delete('code');
  const defaults={voice:'voice.voiceover',video:'video.generation',image:'image.generation',code:'code.assistant'};
  for(const task of tasks){if(!detected.some(id=>Subtasks.definitions[id].category===task))detected.push(defaults[task]||task+'.general');}
  return {tasks:Object.keys(labels).filter(task=>tasks.has(task)),subtasks:detected.filter(id=>tasks.has(Subtasks.definitions[id].category))};

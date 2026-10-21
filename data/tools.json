@@ -6431,16 +6431,20 @@
       "translation"
     ],
     "subtasks": [
-      "translation.general"
+      "translation.general",
+      "translation.website"
     ],
     "subtask_sources": {
-      "translation.general": "https://www.smartcat.com/"
+      "translation.general": "https://www.smartcat.com/",
+      "translation.website": "https://smartcat-company.helpjuice.com/6222396696722-Translating-any-website-content-instantly"
     },
     "arabic_subtasks": [
-      "translation.general"
+      "translation.general",
+      "translation.website"
     ],
     "subtask_free_tier": {
-      "translation.general": "unknown"
+      "translation.general": "unknown",
+      "translation.website": "unknown"
     },
     "arabicScope": "Arabic and 13 regional variants listed as supported, right-to-left",
     "arabicScopeAr": "العربية و13 لهجة إقليمية ضمن اللغات المدعومة، مع اتجاه من اليمين لليسار",
@@ -6550,14 +6554,17 @@
       "translation"
     ],
     "subtasks": [
-      "translation.general"
+      "translation.general",
+      "translation.website"
     ],
     "subtask_sources": {
-      "translation.general": "https://lokalise.com/"
+      "translation.general": "https://lokalise.com/",
+      "translation.website": "https://lokalise.com/"
     },
     "arabic_subtasks": [],
     "subtask_free_tier": {
-      "translation.general": "unknown"
+      "translation.general": "unknown",
+      "translation.website": "unknown"
     },
     "price_scope": "Explorer: USD 149/month; 14-day free trial",
     "price_scope_ar": "Explorer: ‏149 دولارًا شهريًا؛ تجربة مجانية 14 يومًا",
@@ -6613,16 +6620,20 @@
       "translation"
     ],
     "subtasks": [
-      "translation.general"
+      "translation.general",
+      "translation.website"
     ],
     "subtask_sources": {
-      "translation.general": "https://phrase.com/"
+      "translation.general": "https://phrase.com/",
+      "translation.website": "https://phrase.com/website-localization-2/"
     },
     "arabic_subtasks": [
-      "translation.general"
+      "translation.general",
+      "translation.website"
     ],
     "subtask_free_tier": {
-      "translation.general": "unknown"
+      "translation.general": "unknown",
+      "translation.website": "unknown"
     },
     "price_scope": "Software UI/UX: USD 525/month billed annually; 14-day free trial",
     "price_scope_ar": "Software UI/UX: ‏525 دولارًا شهريًا بفوترة سنوية؛ تجربة مجانية 14 يومًا",
@@ -6682,16 +6693,20 @@
       "translation"
     ],
     "subtasks": [
-      "translation.general"
+      "translation.general",
+      "translation.website"
     ],
     "subtask_sources": {
-      "translation.general": "https://www.weglot.com/"
+      "translation.general": "https://www.weglot.com/",
+      "translation.website": "https://www.weglot.com/pricing"
     },
     "arabic_subtasks": [
-      "translation.general"
+      "translation.general",
+      "translation.website"
     ],
     "subtask_free_tier": {
-      "translation.general": "unknown"
+      "translation.general": "unknown",
+      "translation.website": "unknown"
     },
     "arabicScope": "Arabic is among Weglot's available website translation languages",
     "arabicScopeAr": "العربية ضمن لغات ترجمة المواقع المتاحة في Weglot",
