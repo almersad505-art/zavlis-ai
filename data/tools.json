@@ -3010,8 +3010,8 @@
     "priceSource": "https://github.com/features/copilot/plans",
     "priceCheckedAt": "2026-10-18",
     "freeTier": true,
-    "arabic": "unknown",
-    "arabicSource": "unknown",
+    "arabic": true,
+    "arabicSource": "https://docs.github.com/en/copilot/responsible-use/chat",
     "officialUrl": "https://github.com/features/copilot",
     "affiliateUrl": "",
     "logo": "assets/tool-logos/copilot-clean.svg",
@@ -3021,11 +3021,12 @@
     "active": true,
     "priceAr": "Copilot Free مجانية (0)؛ وظائف محدودة للأفراد",
     "metadataReview": {
-      "date": "2026-10-18",
+      "date": "2026-10-21",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:github.com GitHub Copilot pricing",
-      "arabicQuery": "site:github.com GitHub Copilot Arabic supported languages"
+      "arabicQuery": "site:github.com GitHub Copilot Arabic supported languages",
+      "reviewedBy": "Claude (official sources)"
     },
     "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
     "category": [
@@ -3046,17 +3047,19 @@
       "code"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://github.com/features/copilot",
     "source_url": "https://github.com/features/copilot",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "code"
+    ],
     "evidence": {
       "capabilities": "https://github.com/features/copilot",
       "free_tier": "https://github.com/features/copilot/plans",
-      "arabic_support": "unknown",
+      "arabic_support": "https://docs.github.com/en/copilot/responsible-use/chat",
       "price_from": "https://github.com/features/copilot/plans"
     },
     "price_currency": "unknown",
@@ -3072,10 +3075,15 @@
     "subtask_sources": {
       "code.assistant": "https://github.com/features/copilot"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "code.assistant"
+    ],
     "subtask_free_tier": {
       "code.assistant": "unknown"
-    }
+    },
+    "arabicScope": "Copilot Chat is optimized primarily for English; prompts in other languages such as Arabic may perform differently",
+    "arabicScopeAr": "Copilot Chat مصمم أساسًا للإنجليزية؛ الطلبات بلغات أخرى مثل العربية قد تختلف جودتها",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "cursor",
@@ -5766,7 +5774,7 @@
       "meeting notes"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 0,
     "url": "https://meetgeek.ai/",
     "source_url": "https://meetgeek.ai/",
@@ -5774,11 +5782,13 @@
     "evidence": {
       "capabilities": "https://meetgeek.ai/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://support.meetgeek.ai/en/articles/6011836-language-settings",
       "price_from": "https://meetgeek.ai/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "productivity"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://meetgeek.ai/",
@@ -5786,7 +5796,7 @@
     "logo": "assets/tool-monograms/meetgeek.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Basic free forever; Pro listed at USD 15.99/month (lower per-user price shown in the team calculator)",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "meeting_notes"
@@ -5797,7 +5807,9 @@
     "subtask_sources": {
       "productivity.general": "https://meetgeek.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "productivity.general"
+    ],
     "subtask_free_tier": {
       "productivity.general": "unknown"
     },
@@ -5809,7 +5821,11 @@
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "18 Arabic variants supported for transcription, AI summaries and AI chat",
+    "arabicScopeAr": "18 لهجة عربية مدعومة للتفريغ والملخصات والمحادثة الذكية",
+    "arabicSource": "https://support.meetgeek.ai/en/articles/6011836-language-settings",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "krisp",
@@ -11262,15 +11278,15 @@
       "essay"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": 0,
     "url": "https://www.rezi.ai/",
     "source_url": "https://www.rezi.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.rezi.ai/",
       "free_tier": "https://www.rezi.ai/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.rezi.ai/rezi-docs/how-to-change-your-account-language",
       "price_from": "https://www.rezi.ai/pricing"
     },
     "general_purpose": false,
@@ -11300,8 +11316,13 @@
     "priceAr": "خطة مجانية؛ Pro بـ29 دولارًا شهريًا؛ مدى الحياة 149 دولارًا مرة واحدة",
     "priceSource": "https://www.rezi.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabic": false,
+    "arabicScope": "Resume and AI languages: English, Spanish, French, Hindi, Korean, German and Portuguese; Arabic not offered",
+    "arabicScopeAr": "لغات السيرة والذكاء الاصطناعي: الإنجليزية والإسبانية والفرنسية والهندية والكورية والألمانية والبرتغالية؛ العربية غير متاحة",
+    "arabicSource": "https://www.rezi.ai/rezi-docs/how-to-change-your-account-language",
+    "arabicCheckedAt": "2026-10-21"
   }
 ]
