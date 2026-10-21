@@ -2505,8 +2505,8 @@
     "priceSource": "https://writesonic.com/pricing",
     "priceCheckedAt": "2026-10-18",
     "freeTier": true,
-    "arabic": "unknown",
-    "arabicSource": "unknown",
+    "arabic": false,
+    "arabicSource": "https://docs.writesonic.com/docs/we-support-25-languages",
     "officialUrl": "https://writesonic.com/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/writesonic.svg",
@@ -2516,7 +2516,7 @@
     "active": true,
     "priceAr": "Starter: ‏79 دولارًا شهريًا بفوترة سنوية؛ تجربة مجانية",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:writesonic.com Writesonic pricing",
@@ -2543,17 +2543,17 @@
       "essay"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": 79,
     "url": "https://writesonic.com/",
     "source_url": "https://writesonic.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "general_purpose": false,
     "arabic_tasks": [],
     "evidence": {
       "capabilities": "https://writesonic.com/",
       "free_tier": "https://writesonic.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://docs.writesonic.com/docs/we-support-25-languages",
       "price_from": "https://writesonic.com/pricing"
     },
     "price_currency": "USD",
@@ -2575,7 +2575,10 @@
       "marketing.general": "unknown"
     },
     "price_scope": "Starter: USD 79/month billed annually; free trial",
-    "price_scope_ar": "Starter: ‏79 دولارًا شهريًا بفوترة سنوية؛ تجربة مجانية"
+    "price_scope_ar": "Starter: ‏79 دولارًا شهريًا بفوترة سنوية؛ تجربة مجانية",
+    "arabicScope": "Arabic is not in the official list of content languages",
+    "arabicScopeAr": "العربية غير موجودة في قائمة لغات المحتوى الرسمية",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "grammarly",
@@ -4946,15 +4949,15 @@
       "research"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": 0,
     "url": "https://elicit.com/",
     "source_url": "https://elicit.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://elicit.com/",
       "free_tier": "https://elicit.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://support.elicit.com/en/articles/14758084-languages-other-than-english",
       "price_from": "https://elicit.com/pricing"
     },
     "general_purpose": false,
@@ -4966,7 +4969,7 @@
     "logo": "assets/tool-monograms/elicit.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Basic: free; paid plans billed annually (Plus listed at USD 11/user/month)",
-    "arabic": "unknown",
+    "arabic": false,
     "freeTier": true,
     "capabilities": [
       "academic"
@@ -4986,9 +4989,13 @@
     "priceAr": "Basic مجاني؛ الخطط المدفوعة سنوية (Plus بـ11 دولارًا للمستخدم شهريًا)",
     "priceSource": "https://elicit.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Designed for English; non-English quality is not guaranteed",
+    "arabicScopeAr": "مصمم للإنجليزية؛ ولا يضمن جودة اللغات الأخرى",
+    "arabicSource": "https://support.elicit.com/en/articles/14758084-languages-other-than-english",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "scite",
@@ -5310,15 +5317,15 @@
       "meeting notes"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": "unknown",
     "url": "https://otter.ai/",
     "source_url": "https://otter.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://otter.ai/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.businesswire.com/news/home/20251022574971/en",
       "price_from": "unknown"
     },
     "general_purpose": false,
@@ -5330,7 +5337,7 @@
     "logo": "assets/tool-monograms/otter-ai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": false,
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
@@ -5344,6 +5351,14 @@
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "productivity.general": "unknown"
+    },
+    "arabicScope": "Transcription supports English, French, Spanish and Japanese only",
+    "arabicScopeAr": "التفريغ يدعم الإنجليزية والفرنسية والإسبانية واليابانية فقط",
+    "arabicSource": "https://www.businesswire.com/news/home/20251022574971/en",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -5436,19 +5451,21 @@
       "meeting notes"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://www.fathom.ai/",
     "source_url": "https://www.fathom.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.fathom.ai/",
       "free_tier": "https://www.fathom.ai/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.fathom.video/en/articles/296192",
       "price_from": "https://www.fathom.ai/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "productivity"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.fathom.ai/",
@@ -5456,7 +5473,7 @@
     "logo": "assets/tool-monograms/fathom.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free forever; Team: USD 15/user/month billed annually (USD 19 monthly)",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "meeting_notes"
@@ -5467,7 +5484,9 @@
     "subtask_sources": {
       "productivity.general": "https://www.fathom.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "productivity.general"
+    ],
     "subtask_free_tier": {
       "productivity.general": "unknown"
     },
@@ -5476,9 +5495,13 @@
     "priceAr": "مجاني دائمًا؛ Team بـ15 دولارًا للمستخدم شهريًا سنويًا (19 شهريًا)",
     "priceSource": "https://www.fathom.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic meeting transcripts; summaries are not translated into Arabic",
+    "arabicScopeAr": "تفريغ الاجتماعات بالعربية؛ الملخصات لا تُترجم إلى العربية",
+    "arabicSource": "https://help.fathom.video/en/articles/296192",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "tl-dv",
@@ -5616,19 +5639,21 @@
       "meeting notes"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.read.ai/",
     "source_url": "https://www.read.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.read.ai/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.read.ai/post/six-new-languages-now-supported",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "productivity"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.read.ai/",
@@ -5636,7 +5661,7 @@
     "logo": "assets/tool-monograms/read-ai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
@@ -5647,9 +5672,19 @@
     "subtask_sources": {
       "productivity.general": "https://www.read.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "productivity.general"
+    ],
     "subtask_free_tier": {
       "productivity.general": "unknown"
+    },
+    "arabicScope": "Arabic is a supported meeting language",
+    "arabicScopeAr": "العربية من لغات الاجتماعات المدعومة",
+    "arabicSource": "https://www.read.ai/post/six-new-languages-now-supported",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -6213,19 +6248,21 @@
       "translation"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.microsoft.com/en-us/translator/",
     "source_url": "https://www.microsoft.com/en-us/translator/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.microsoft.com/en-us/translator/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "translation"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.microsoft.com/en-us/translator/",
@@ -6233,7 +6270,7 @@
     "logo": "assets/tool-monograms/microsoft-translator.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "translation"
@@ -6244,9 +6281,19 @@
     "subtask_sources": {
       "translation.general": "https://www.microsoft.com/en-us/translator/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "translation.general"
+    ],
     "subtask_free_tier": {
       "translation.general": "unknown"
+    },
+    "arabicScope": "Arabic text and document translation with automatic language detection",
+    "arabicScopeAr": "ترجمة النصوص والمستندات العربية مع اكتشاف اللغة تلقائيًا",
+    "arabicSource": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -6265,19 +6312,21 @@
       "translation"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.smartcat.com/",
     "source_url": "https://www.smartcat.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.smartcat.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://smartcat.com/Home/Languages",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "translation"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.smartcat.com/",
@@ -6285,7 +6334,7 @@
     "logo": "assets/tool-monograms/smartcat.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "translation"
@@ -6296,9 +6345,19 @@
     "subtask_sources": {
       "translation.general": "https://www.smartcat.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "translation.general"
+    ],
     "subtask_free_tier": {
       "translation.general": "unknown"
+    },
+    "arabicScope": "Arabic and 13 regional variants listed as supported, right-to-left",
+    "arabicScopeAr": "العربية و13 لهجة إقليمية ضمن اللغات المدعومة، مع اتجاه من اليمين لليسار",
+    "arabicSource": "https://smartcat.com/Home/Languages",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -6473,19 +6532,21 @@
       "translation"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.weglot.com/",
     "source_url": "https://www.weglot.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.weglot.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://weglot.com/documentation/available-languages/",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "translation"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.weglot.com/",
@@ -6493,7 +6554,7 @@
     "logo": "assets/tool-monograms/weglot.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "translation"
@@ -6504,9 +6565,19 @@
     "subtask_sources": {
       "translation.general": "https://www.weglot.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "translation.general"
+    ],
     "subtask_free_tier": {
       "translation.general": "unknown"
+    },
+    "arabicScope": "Arabic is among Weglot's available website translation languages",
+    "arabicScopeAr": "العربية ضمن لغات ترجمة المواقع المتاحة في Weglot",
+    "arabicSource": "https://weglot.com/documentation/available-languages/",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -6645,19 +6716,21 @@
       "teaching"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": "unknown",
     "url": "https://www.magicschool.ai/",
     "source_url": "https://www.magicschool.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.magicschool.ai/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.magicschool.ai/en/articles/10604047-what-interface-languages-does-magicschool-support",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "education"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.magicschool.ai/",
@@ -6665,7 +6738,7 @@
     "logo": "assets/tool-monograms/magicschool.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "lesson_planning"
@@ -6676,9 +6749,19 @@
     "subtask_sources": {
       "education.general": "https://www.magicschool.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "education.general"
+    ],
     "subtask_free_tier": {
       "education.general": "unknown"
+    },
+    "arabicScope": "Arabic interface available; Arabic output quality not stated",
+    "arabicScopeAr": "الواجهة متاحة بالعربية؛ جودة المخرجات العربية غير مذكورة",
+    "arabicSource": "https://help.magicschool.ai/en/articles/10604047-what-interface-languages-does-magicschool-support",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -8933,19 +9016,21 @@
       "social media"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": "unknown",
     "url": "https://surferseo.com/",
     "source_url": "https://surferseo.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://surferseo.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://docs.surferseo.com/en/articles/8052688-surfer-language-and-location-support",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "marketing"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://surferseo.com/",
@@ -8953,7 +9038,7 @@
     "logo": "assets/tool-monograms/surfer.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "seo"
@@ -8964,9 +9049,19 @@
     "subtask_sources": {
       "marketing.general": "https://surferseo.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "marketing.general"
+    ],
     "subtask_free_tier": {
       "marketing.general": "unknown"
+    },
+    "arabicScope": "SEO analysis and Content Editor outlines work in Arabic; AI article generation is not available for Arabic",
+    "arabicScopeAr": "تحليل السيو ومخططات المحتوى تعمل بالعربية؛ توليد المقالات بالذكاء الاصطناعي غير متاح للعربية",
+    "arabicSource": "https://docs.surferseo.com/en/articles/8052688-surfer-language-and-location-support",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -9414,19 +9509,22 @@
       "essay"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.hypotenuse.ai/",
     "source_url": "https://www.hypotenuse.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.hypotenuse.ai/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.hypotenuse.ai/languages/arabic",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "marketing",
+      "writing"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.hypotenuse.ai/",
@@ -9434,7 +9532,7 @@
     "logo": "assets/tool-monograms/hypotenuse-ai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "prose",
@@ -9442,16 +9540,31 @@
     ],
     "subtasks": [
       "writing.general",
-      "marketing.general"
+      "marketing.general",
+      "writing.articles"
     ],
     "subtask_sources": {
       "writing.general": "https://www.hypotenuse.ai/",
-      "marketing.general": "https://www.hypotenuse.ai/"
+      "marketing.general": "https://www.hypotenuse.ai/",
+      "writing.articles": "https://www.hypotenuse.ai/compare/byword-vs-hypotenuse-ai"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "marketing.general",
+      "writing.articles",
+      "writing.general"
+    ],
     "subtask_free_tier": {
       "writing.general": "unknown",
-      "marketing.general": "unknown"
+      "marketing.general": "unknown",
+      "writing.articles": "unknown"
+    },
+    "arabicScope": "Writes in Arabic among 40+ languages (official Arabic page focuses on ecommerce and marketing copy)",
+    "arabicScopeAr": "يكتب بالعربية ضمن أكثر من 40 لغة (صفحتهم العربية تركز على محتوى المتاجر والتسويق)",
+    "arabicSource": "https://www.hypotenuse.ai/languages/arabic",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -9481,15 +9594,15 @@
       "spelling"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": 0,
     "url": "https://prowritingaid.com/",
     "source_url": "https://prowritingaid.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://prowritingaid.com/",
       "free_tier": "https://prowritingaid.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.prowritingaid.com/article/61-which-languages-does-prowritingaid-support",
       "price_from": "https://prowritingaid.com/pricing"
     },
     "general_purpose": false,
@@ -9501,7 +9614,7 @@
     "logo": "assets/tool-monograms/prowritingaid.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free plan; Premium: USD 10/month billed yearly (USD 30 monthly)",
-    "arabic": "unknown",
+    "arabic": false,
     "freeTier": true,
     "capabilities": [
       "proofreading",
@@ -9522,9 +9635,13 @@
     "priceAr": "خطة مجانية؛ Premium بـ10 دولارات شهريًا سنويًا (30 شهريًا)",
     "priceSource": "https://prowritingaid.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Supports English only",
+    "arabicScopeAr": "يدعم الإنجليزية فقط",
+    "arabicSource": "https://help.prowritingaid.com/article/61-which-languages-does-prowritingaid-support",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "languagetool",
@@ -9549,19 +9666,21 @@
       "spelling"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 0,
     "url": "https://languagetool.org/",
     "source_url": "https://languagetool.org/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://languagetool.org/",
       "free_tier": "https://languagetool.org/premium",
-      "arabic_support": "unknown",
+      "arabic_support": "https://dev.languagetool.org/languages",
       "price_from": "https://languagetool.org/premium"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "writing"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://languagetool.org/",
@@ -9569,7 +9688,7 @@
     "logo": "assets/tool-monograms/languagetool.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Basic: free (2,000 characters per field); Premium prices not displayed",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "proofreading"
@@ -9580,7 +9699,9 @@
     "subtask_sources": {
       "writing.proofreading": "https://languagetool.org/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "writing.proofreading"
+    ],
     "subtask_free_tier": {
       "writing.proofreading": "unknown"
     },
@@ -9589,9 +9710,13 @@
     "priceAr": "Basic مجاني (2000 حرف لكل حقل)؛ أسعار Premium غير معروضة",
     "priceSource": "https://languagetool.org/premium",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic grammar and spell checking (fewer rules than for major European languages)",
+    "arabicScopeAr": "تدقيق نحوي وإملائي للعربية (بقواعد أقل من اللغات الأوروبية الرئيسية)",
+    "arabicSource": "https://dev.languagetool.org/languages",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "hyperwrite",
@@ -9968,19 +10093,21 @@
       "text to speech"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.narakeet.com/",
     "source_url": "https://www.narakeet.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.narakeet.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.narakeet.com/languages/text-to-speech-arabic/",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "voice"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://www.narakeet.com/",
@@ -9988,7 +10115,7 @@
     "logo": "assets/tool-monograms/narakeet.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "voiceover"
@@ -9999,9 +10126,19 @@
     "subtask_sources": {
       "voice.voiceover": "https://www.narakeet.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "voice.voiceover"
+    ],
     "subtask_free_tier": {
       "voice.voiceover": "unknown"
+    },
+    "arabicScope": "Arabic text to speech: Modern Standard Arabic and Gulf, Egyptian, Levantine and other dialect voices",
+    "arabicScopeAr": "تحويل النص العربي إلى كلام بالفصحى ولهجات خليجية ومصرية وشامية وغيرها",
+    "arabicSource": "https://www.narakeet.com/languages/text-to-speech-arabic/",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -10024,19 +10161,21 @@
       "text to speech"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://ttsmaker.com/",
     "source_url": "https://ttsmaker.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://ttsmaker.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://ttsmaker.com/blog/ttsmaker-supports-text-to-speech-in-80-languages/",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "voice"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://ttsmaker.com/",
@@ -10044,7 +10183,7 @@
     "logo": "assets/tool-monograms/ttsmaker.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "voiceover"
@@ -10055,9 +10194,19 @@
     "subtask_sources": {
       "voice.voiceover": "https://ttsmaker.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "voice.voiceover"
+    ],
     "subtask_free_tier": {
       "voice.voiceover": "unknown"
+    },
+    "arabicScope": "Arabic text to speech including Gulf, Modern Standard and Egyptian Arabic",
+    "arabicScopeAr": "تحويل النص العربي إلى كلام بالخليجية والفصحى والمصرية",
+    "arabicSource": "https://ttsmaker.com/blog/ttsmaker-supports-text-to-speech-in-80-languages/",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
