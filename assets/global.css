@@ -138,7 +138,40 @@ html[dir=rtl] .hero-benefits{grid-template-columns:repeat(2,max-content)}
 /* Unified You Can AI identity across both language templates. */
 .brand-symbol{background:transparent url('you-can-ai-mark.svg') center/contain no-repeat!important;color:transparent!important;font-size:0!important;border-radius:0;flex-shrink:0}
 
-/* Zavlis AI dark preview theme */
-body:not(.home-c){background:#030a18!important;color:#eef4ff!important}body:not(.home-c) .site-header{background:rgba(3,12,28,.96)!important;border-color:#183458!important}body:not(.home-c) .brand,body:not(.home-c) .main-nav a,body:not(.home-c) h1,body:not(.home-c) h2,body:not(.home-c) h3{color:#f5f8ff!important}body:not(.home-c) p,body:not(.home-c) li,body:not(.home-c) .muted{color:#aebbd3!important}body:not(.home-c) .tool-card,body:not(.home-c) .editorial-card,body:not(.home-c) .fact-grid article,body:not(.home-c) .document,body:not(.home-c) .intro-panel,body:not(.home-c) .category-grid a{background:#08172f!important;border-color:#20395f!important;color:#eef4ff!important}body:not(.home-c) .site-footer{background:#020713!important;border-color:#183458!important;color:#dbe6fa!important}body:not(.home-c) a{color:#68baff}body:not(.home-c) .button{background:linear-gradient(90deg,#098dff,#7047ff)!important;color:#fff!important;border-color:transparent!important}
+/* Zavlis AI V6 theme: golden-hour cream, Najdi green and gold, matching the homepage */
+body:not(.home-c){background:#FBF6EC!important;color:#1B2A21!important}
+body:not(.home-c) .site-header{background:rgba(251,246,236,.94)!important;border-color:rgba(160,122,53,.22)!important;box-shadow:none!important}
+body:not(.home-c) .brand{color:#1F3B2B!important;font-family:Georgia,"Times New Roman",serif;letter-spacing:.02em}
+body:not(.home-c) .brand b{color:#A07A35!important}
+body:not(.home-c) .zavlis-brand-icon{filter:grayscale(1) sepia(1) saturate(1.9) hue-rotate(-8deg) brightness(.78)}
+body:not(.home-c) .main-nav a{color:#3D4F44!important}
+body:not(.home-c) .main-nav a:hover{color:#A07A35!important}
+body:not(.home-c) .main-nav a:first-child{color:#1F3B2B!important}
+body:not(.home-c) .main-nav a:first-child:after{background:#1F3B2B!important}
+body:not(.home-c) .language-switch,body:not(.home-c) .menu-button{background:#FFFDF8!important;border-color:rgba(160,122,53,.3)!important;color:#1F3B2B!important}
+body:not(.home-c) .search-shortcut{color:#1F3B2B!important}
+body:not(.home-c) h1,body:not(.home-c) h2,body:not(.home-c) h3{color:#1F3B2B!important}
+body:not(.home-c) h1{font-family:Georgia,"Times New Roman",serif;font-weight:600;letter-spacing:-.01em}
+html[dir=rtl] body:not(.home-c) h1{font-family:Tahoma,"Segoe UI",Arial,sans-serif;font-weight:700}
+body:not(.home-c) p,body:not(.home-c) li,body:not(.home-c) .muted,body:not(.home-c) .lead,body:not(.home-c) td{color:#4F5D54!important}
+body:not(.home-c) .breadcrumb,body:not(.home-c) .review-date{color:#7D877F!important}
+body:not(.home-c) .eyebrow{color:#A07A35!important}
+body:not(.home-c) .document{background:transparent!important;border-color:transparent!important;color:#1B2A21!important}
+body:not(.home-c) .tool-card,body:not(.home-c) .editorial-card,body:not(.home-c) .fact-grid article,body:not(.home-c) .intro-panel,body:not(.home-c) .category-grid a{background:#FFFDF8!important;border-color:rgba(160,122,53,.22)!important;color:#1B2A21!important;box-shadow:0 18px 36px -30px rgba(60,40,10,.45)!important}
+body:not(.home-c) .prose-section{border-color:rgba(160,122,53,.22)!important}
+body:not(.home-c) a{color:#8A6424}
+body:not(.home-c) .decision-links a{background:#FFFDF8!important;border-color:rgba(160,122,53,.35)!important;color:#1F3B2B!important}
+body:not(.home-c) .decision-links a:hover{background:#1F3B2B!important;color:#FFF8EA!important}
+body:not(.home-c) .button{background:linear-gradient(180deg,#2E4E3A,#1F3B2B)!important;color:#FFF8EA!important;border-color:transparent!important}
+body:not(.home-c) .score-note{background:#FBF0D9!important;border-inline-start-color:#A07A35!important}
+body:not(.home-c) thead{background:#F4EADA!important}
+body:not(.home-c) .table-scroll,body:not(.home-c) th,body:not(.home-c) td{border-color:rgba(160,122,53,.22)!important}
+body:not(.home-c) .site-footer{background:#1F3B2B!important;border-color:#1F3B2B!important;color:#F4EADA!important}
+body:not(.home-c) .site-footer p,body:not(.home-c) .site-footer li,body:not(.home-c) .site-footer .copyright{color:rgba(251,246,236,.75)!important}
+body:not(.home-c) .site-footer a,body:not(.home-c) .site-footer .brand{color:#F4DDA6!important}
+body:not(.home-c) .site-footer .brand b{color:#D4B06A!important}
+body:not(.home-c) .site-footer .disclosure{border-color:rgba(212,176,106,.3)!important}
+body:not(.home-c) ::selection{background:#EAD7A6}
+body:not(.home-c) .site-footer .button{background:linear-gradient(180deg,#C9A159,#A57B33 55%,#8A6424)!important;color:#FFF8EA!important}
 
 .zavlis-brand-icon{display:block;width:34px;height:34px;object-fit:contain;flex:0 0 34px}
