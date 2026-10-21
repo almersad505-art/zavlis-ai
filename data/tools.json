@@ -5585,19 +5585,21 @@
       "meeting notes"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://tldv.io/",
     "source_url": "https://tldv.io/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://tldv.io/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://intercom.help/tldv/fr/articles/6231678-comment-modifier-la-langue-de-transcription",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "productivity"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://tldv.io/",
@@ -5605,7 +5607,7 @@
     "logo": "assets/tool-monograms/tl-dv.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "meeting_notes"
@@ -5616,9 +5618,19 @@
     "subtask_sources": {
       "productivity.general": "https://tldv.io/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "productivity.general"
+    ],
     "subtask_free_tier": {
       "productivity.general": "unknown"
+    },
+    "arabicScope": "Arabic transcription supported (Egypt, Jordan, Lebanon, Qatar, Saudi Arabia, UAE variants)",
+    "arabicScopeAr": "التفريغ بالعربية مدعوم (لهجات مصر والأردن ولبنان وقطر والسعودية والإمارات)",
+    "arabicSource": "https://intercom.help/tldv/fr/articles/6231678-comment-modifier-la-langue-de-transcription",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -11060,19 +11072,21 @@
       "image enhancement"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 7.5,
     "url": "https://www.photoroom.com/",
     "source_url": "https://www.photoroom.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.photoroom.com/",
       "free_tier": "https://www.photoroom.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.photoroom.com/en/articles/11364559-what-fonts-does-photoroom-support",
       "price_from": "https://www.photoroom.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "image"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.photoroom.com/",
@@ -11080,7 +11094,7 @@
     "logo": "assets/tool-monograms/photoroom.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Pro: USD 7.50/month billed yearly; free trial",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "image"
@@ -11095,7 +11109,11 @@
       "image.editing": "https://www.photoroom.com/",
       "image.enhancement": "https://www.photoroom.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "image.background_removal",
+      "image.editing",
+      "image.enhancement"
+    ],
     "subtask_free_tier": {
       "image.background_removal": "yes",
       "image.editing": "unknown",
@@ -11106,9 +11124,13 @@
     "priceAr": "Pro: ‏7.50 دولار شهريًا بفوترة سنوية؛ تجربة مجانية",
     "priceSource": "https://www.photoroom.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic text renders using a fallback Arabic font (Noto Sans Arabic); right-to-left layout is not stated",
+    "arabicScopeAr": "النص العربي يظهر بخط بديل (Noto Sans Arabic)؛ ودعم الكتابة من اليمين لليسار غير مذكور",
+    "arabicSource": "https://help.photoroom.com/en/articles/11364559-what-fonts-does-photoroom-support",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "krea",
