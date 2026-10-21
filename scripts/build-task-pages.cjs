@@ -100,7 +100,7 @@ function foot(lang) {
 function card(t, rank, lang, sub) {
   const L = T[lang], ar = lang === 'ar', v = arV(t), f = freeOf(t, sub);
   const scope = ar ? (t.arabicScopeAr || t.arabicScope) : t.arabicScope;
-  const priceText = typeof t.price_from === 'number' ? (ar ? (t.price_scope_ar || t.price_scope) : t.price_scope) : L.unknownPrice;
+  const priceText = (typeof t.price_from === 'number' || t.price_model === 'custom') && t.price_scope ? (ar ? (t.price_scope_ar || t.price_scope) : t.price_scope) : L.unknownPrice;
   const links = [`<a class="go" href="${esc(t.url)}" target="_blank" rel="noopener noreferrer">${L.visit} ↗</a>`];
   if (t.priceSource && /^https:/.test(t.priceSource)) links.push(`<a href="${esc(t.priceSource)}" target="_blank" rel="noopener noreferrer">${L.srcP}</a>`);
   if (t.arabicSource && /^https:/.test(t.arabicSource) && v !== 'unknown') links.push(`<a href="${esc(t.arabicSource)}" target="_blank" rel="noopener noreferrer">${L.srcA}</a>`);

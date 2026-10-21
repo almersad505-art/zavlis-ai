@@ -1432,8 +1432,8 @@ window.ZAVLIS_TOOLS = [
     "priceSource": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
     "priceCheckedAt": "2026-10-18",
     "freeTier": false,
-    "arabic": "unknown",
-    "arabicSource": "unknown",
+    "arabic": true,
+    "arabicSource": "https://docs.midjourney.com/hc/en-us/articles/32502277092109-Text-Generation",
     "officialUrl": "https://www.midjourney.com/",
     "affiliateUrl": "",
     "logo": "assets/midjourney-clean.svg",
@@ -1443,7 +1443,7 @@ window.ZAVLIS_TOOLS = [
     "active": true,
     "priceAr": "Basic: ‏10 دولارات شهريًا (8 دولارات بالفوترة السنوية)",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:www.midjourney.com Midjourney pricing",
@@ -1466,17 +1466,19 @@ window.ZAVLIS_TOOLS = [
       "images"
     ],
     "free_tier": "no",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 10,
     "url": "https://www.midjourney.com/",
     "source_url": "https://www.midjourney.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "image"
+    ],
     "evidence": {
       "capabilities": "https://www.midjourney.com/",
       "free_tier": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
-      "arabic_support": "unknown",
+      "arabic_support": "https://docs.midjourney.com/hc/en-us/articles/32502277092109-Text-Generation",
       "price_from": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
     },
     "price_currency": "USD",
@@ -1489,12 +1491,17 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "image.generation": "https://www.midjourney.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "image.generation"
+    ],
     "subtask_free_tier": {
       "image.generation": "unknown"
     },
     "price_scope": "Basic: USD 10/month billed monthly (USD 8/month billed annually)",
-    "price_scope_ar": "Basic: ‏10 دولارات شهريًا (8 دولارات بالفوترة السنوية)"
+    "price_scope_ar": "Basic: ‏10 دولارات شهريًا (8 دولارات بالفوترة السنوية)",
+    "arabicScope": "Text inside images works best with the Latin alphabet; Arabic lettering is not reliable",
+    "arabicScopeAr": "الكتابة داخل الصور تعمل أفضل بالحروف اللاتينية؛ والخط العربي غير مضمون",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "firefly",
@@ -1705,8 +1712,8 @@ window.ZAVLIS_TOOLS = [
     "priceSource": "https://www.leonardo.ai/pricing",
     "priceCheckedAt": "2026-10-18",
     "freeTier": true,
-    "arabic": "unknown",
-    "arabicSource": "unknown",
+    "arabic": false,
+    "arabicSource": "https://intercom.help/leonardo-ai/en/articles/7051613-frequently-asked-questions",
     "officialUrl": "https://leonardo.ai/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/leonardo.svg",
@@ -1716,11 +1723,12 @@ window.ZAVLIS_TOOLS = [
     "active": true,
     "priceAr": "خطة مجانية (0)؛ 150 رصيد Fast يوميًا",
     "metadataReview": {
-      "date": "2026-10-18",
+      "date": "2026-10-21",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:leonardo.ai Leonardo.Ai pricing",
-      "arabicQuery": "site:leonardo.ai Leonardo.Ai Arabic supported languages"
+      "arabicQuery": "site:leonardo.ai Leonardo.Ai Arabic supported languages",
+      "reviewedBy": "Claude (official sources)"
     },
     "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
     "category": [
@@ -1745,17 +1753,17 @@ window.ZAVLIS_TOOLS = [
       "generate video"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": 0,
     "url": "https://leonardo.ai/",
     "source_url": "https://leonardo.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "general_purpose": false,
     "arabic_tasks": [],
     "evidence": {
       "capabilities": "https://leonardo.ai/",
       "free_tier": "https://www.leonardo.ai/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://intercom.help/leonardo-ai/en/articles/7051613-frequently-asked-questions",
       "price_from": "https://www.leonardo.ai/pricing"
     },
     "price_currency": "unknown",
@@ -1777,7 +1785,10 @@ window.ZAVLIS_TOOLS = [
     "subtask_free_tier": {
       "image.generation": "unknown",
       "video.generation": "unknown"
-    }
+    },
+    "arabicScope": "Interface is optimized for English; no multi-language support yet",
+    "arabicScopeAr": "الواجهة مصممة للإنجليزية؛ ولا يوجد دعم متعدد اللغات حاليًا",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "recraft",
@@ -1790,8 +1801,8 @@ window.ZAVLIS_TOOLS = [
     "priceSource": "https://www.recraft.ai/pricing?tab=plans",
     "priceCheckedAt": "2026-10-18",
     "freeTier": true,
-    "arabic": "unknown",
-    "arabicSource": "unknown",
+    "arabic": true,
+    "arabicSource": "https://www.recraft.ai/docs/support-and-faq/FAQ",
     "officialUrl": "https://www.recraft.ai/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/recraft.svg",
@@ -1801,11 +1812,12 @@ window.ZAVLIS_TOOLS = [
     "active": true,
     "priceAr": "خطة مجانية (0)؛ حقوق الخطط المدفوعة مختلفة",
     "metadataReview": {
-      "date": "2026-10-18",
+      "date": "2026-10-21",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:www.recraft.ai Recraft pricing",
-      "arabicQuery": "site:www.recraft.ai Recraft Arabic supported languages"
+      "arabicQuery": "site:www.recraft.ai Recraft Arabic supported languages",
+      "reviewedBy": "Claude (official sources)"
     },
     "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
     "category": [
@@ -1834,17 +1846,20 @@ window.ZAVLIS_TOOLS = [
       "image editing"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://www.recraft.ai/",
     "source_url": "https://www.recraft.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "design",
+      "image"
+    ],
     "evidence": {
       "capabilities": "https://www.recraft.ai/",
       "free_tier": "https://www.recraft.ai/pricing?tab=plans",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.recraft.ai/docs/support-and-faq/FAQ",
       "price_from": "https://www.recraft.ai/pricing?tab=plans"
     },
     "price_currency": "unknown",
@@ -1864,12 +1879,19 @@ window.ZAVLIS_TOOLS = [
       "image.editing": "https://www.recraft.ai/",
       "design.general": "https://www.recraft.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "design.general",
+      "image.editing",
+      "image.generation"
+    ],
     "subtask_free_tier": {
       "image.generation": "unknown",
       "image.editing": "unknown",
       "design.general": "unknown"
-    }
+    },
+    "arabicScope": "Understands Arabic prompts well; Arabic text inside images is not stated",
+    "arabicScopeAr": "يفهم الأوامر بالعربي جيدًا؛ والكتابة العربية داخل الصور غير مذكورة",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "magnific",
@@ -3769,8 +3791,8 @@ window.ZAVLIS_TOOLS = [
     "priceSource": "unknown",
     "priceCheckedAt": "unknown",
     "freeTier": "unknown",
-    "arabic": "unknown",
-    "arabicSource": "unknown",
+    "arabic": false,
+    "arabicSource": "https://designer.microsoft.com/FAQ.pdf",
     "officialUrl": "https://designer.microsoft.com/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/designer.svg",
@@ -3779,11 +3801,12 @@ window.ZAVLIS_TOOLS = [
     "reviewedAt": "2026-10-18",
     "active": true,
     "metadataReview": {
-      "date": "2026-10-18",
+      "date": "2026-10-21",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:designer.microsoft.com Microsoft Designer pricing",
-      "arabicQuery": "site:designer.microsoft.com Microsoft Designer Arabic supported languages"
+      "arabicQuery": "site:designer.microsoft.com Microsoft Designer Arabic supported languages",
+      "reviewedBy": "Claude (official sources)"
     },
     "priceResearchNote": "No unambiguous current amount established from official material reviewed; unspecified is displayed.",
     "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
@@ -3813,17 +3836,17 @@ window.ZAVLIS_TOOLS = [
       "image enhancement"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": "unknown",
     "url": "https://designer.microsoft.com/",
     "source_url": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "general_purpose": false,
     "arabic_tasks": [],
     "evidence": {
       "capabilities": "https://support.microsoft.com/en-us/windows/ai/ai-apps/edit-images-with-designer",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://designer.microsoft.com/FAQ.pdf",
       "price_from": "unknown"
     },
     "price_currency": "unknown",
@@ -3842,7 +3865,10 @@ window.ZAVLIS_TOOLS = [
     "subtask_free_tier": {
       "design.social_posts": "unknown",
       "image.enhancement": "unknown"
-    }
+    },
+    "arabicScope": "Microsoft Designer is available in English only",
+    "arabicScopeAr": "Microsoft Designer متاح بالإنجليزية فقط",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "uizard",
@@ -4504,24 +4530,24 @@ window.ZAVLIS_TOOLS = [
     "price_from": 0,
     "url": "https://gamma.app/",
     "source_url": "https://gamma.app/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://gamma.app/",
       "free_tier": "https://gamma.app/",
       "arabic_support": "https://help.gamma.app/en/articles/11016519-does-gamma-support-right-to-left-languages",
-      "price_from": "https://gamma.app/"
+      "price_from": "https://gamma.app/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://gamma.app/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/gamma.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Free plan (400 credits at sign-up); Plus USD 9/seat/month billed annually",
     "arabic": true,
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "presentations"
     ],
@@ -4540,9 +4566,14 @@ window.ZAVLIS_TOOLS = [
     "arabicSource": "https://help.gamma.app/en/articles/11016519-does-gamma-support-right-to-left-languages",
     "arabicCheckedAt": "2026-10-20",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "price_scope": "Free plan (400 credits at sign-up); Plus USD 9/seat/month billed annually",
+    "price_scope_ar": "خطة مجانية (400 رصيد عند التسجيل)؛ Plus ‏9 دولارات للمقعد شهريًا بفوترة سنوية",
+    "priceAr": "خطة مجانية (400 رصيد عند التسجيل)؛ Plus ‏9 دولارات للمقعد شهريًا بفوترة سنوية",
+    "priceSource": "https://gamma.app/pricing",
+    "priceCheckedAt": "2026-10-21"
   },
   {
     "id": "beautiful-ai",
@@ -4880,7 +4911,7 @@ window.ZAVLIS_TOOLS = [
       "presentation"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://www.presentations.ai/",
     "source_url": "https://www.presentations.ai/",
@@ -4888,11 +4919,13 @@ window.ZAVLIS_TOOLS = [
     "evidence": {
       "capabilities": "https://www.presentations.ai/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.presentations.ai/",
       "price_from": "https://www.presentations.ai/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "presentations"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.presentations.ai/",
@@ -4900,7 +4933,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/presentations-ai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Starter free (100 credits); Pro: USD 20/month billed annually",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "presentations"
@@ -4911,7 +4944,9 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "presentations.general": "https://www.presentations.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "presentations.general"
+    ],
     "subtask_free_tier": {
       "presentations.general": "unknown"
     },
@@ -4923,7 +4958,11 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Website available in Arabic; Arabic deck generation is not explicitly stated",
+    "arabicScopeAr": "الموقع متاح بالعربية؛ وإنشاء العروض بالعربي غير مذكور صراحة",
+    "arabicSource": "https://www.presentations.ai/",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "decktopus",
@@ -4941,19 +4980,21 @@ window.ZAVLIS_TOOLS = [
       "presentation"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 9.99,
     "url": "https://www.decktopus.com/",
     "source_url": "https://www.decktopus.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.decktopus.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.decktopus.com/",
       "price_from": "https://www.decktopus.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "presentations"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.decktopus.com/",
@@ -4961,7 +5002,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/decktopus.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Pro: USD 9.99/month billed annually (USD 24.99 billed monthly)",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "presentations"
@@ -4972,7 +5013,9 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "presentations.general": "https://www.decktopus.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "presentations.general"
+    ],
     "subtask_free_tier": {
       "presentations.general": "unknown"
     },
@@ -4981,9 +5024,13 @@ window.ZAVLIS_TOOLS = [
     "priceAr": "Pro: ‏9.99 دولار شهريًا بفوترة سنوية (24.99 بالفوترة الشهرية)",
     "priceSource": "https://www.decktopus.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Decktopus AI officially supports Arabic among 7 languages",
+    "arabicScopeAr": "Decktopus AI يدعم العربية رسميًا ضمن 7 لغات",
+    "arabicSource": "https://www.decktopus.com/",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "elicit",
@@ -5584,9 +5631,9 @@ window.ZAVLIS_TOOLS = [
     "keywords_en": [
       "meeting notes"
     ],
-    "free_tier": "unknown",
+    "free_tier": "yes",
     "arabic_support": "yes",
-    "price_from": "unknown",
+    "price_from": 0,
     "url": "https://tldv.io/",
     "source_url": "https://tldv.io/",
     "last_checked": "2026-10-21",
@@ -5594,21 +5641,21 @@ window.ZAVLIS_TOOLS = [
       "capabilities": "https://tldv.io/",
       "free_tier": "unknown",
       "arabic_support": "https://intercom.help/tldv/fr/articles/6231678-comment-modifier-la-langue-de-transcription",
-      "price_from": "unknown"
+      "price_from": "https://tldv.io/app/pricing/"
     },
     "general_purpose": false,
     "arabic_tasks": [
       "productivity"
     ],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://tldv.io/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/tl-dv.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Free plan with unlimited recordings and transcription; Pro USD 18/seat/month billed annually",
     "arabic": true,
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "meeting_notes"
     ],
@@ -5631,7 +5678,12 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "price_scope": "Free plan with unlimited recordings and transcription; Pro USD 18/seat/month billed annually",
+    "price_scope_ar": "خطة مجانية بتسجيل وتفريغ غير محدود؛ Pro ‏18 دولارًا للمقعد شهريًا بفوترة سنوية",
+    "priceAr": "خطة مجانية بتسجيل وتفريغ غير محدود؛ Pro ‏18 دولارًا للمقعد شهريًا بفوترة سنوية",
+    "priceSource": "https://tldv.io/app/pricing/",
+    "priceCheckedAt": "2026-10-21"
   },
   {
     "id": "avoma",
@@ -5863,19 +5915,22 @@ window.ZAVLIS_TOOLS = [
       "clean audio"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 8,
     "url": "https://krisp.ai/",
     "source_url": "https://krisp.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://krisp.ai/",
       "free_tier": "https://krisp.ai/pricing/",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.krisp.ai/hc/en-us/articles/25670169242396-Supported-languages-for-Krisp-AI-Voice-Translation",
       "price_from": "https://krisp.ai/pricing/"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "productivity",
+      "voice"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://krisp.ai/",
@@ -5883,7 +5938,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/krisp.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Core: USD 8/user/month billed annually (USD 16 monthly); 7-day free trial",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "meeting_notes"
@@ -5896,7 +5951,10 @@ window.ZAVLIS_TOOLS = [
       "voice.denoising": "https://krisp.ai/",
       "productivity.general": "https://krisp.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "productivity.general",
+      "voice.denoising"
+    ],
     "subtask_free_tier": {
       "voice.denoising": "unknown",
       "productivity.general": "unknown"
@@ -5906,9 +5964,13 @@ window.ZAVLIS_TOOLS = [
     "priceAr": "Core بـ8 دولارات للمستخدم شهريًا سنويًا (16 شهريًا)؛ تجربة 7 أيام",
     "priceSource": "https://krisp.ai/pricing/",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic (Standard and Egyptian) is supported for voice translation; Arabic meeting transcription is not stated",
+    "arabicScopeAr": "العربية (الفصحى والمصرية) مدعومة في الترجمة الصوتية؛ وتفريغ الاجتماعات بالعربي غير مذكور",
+    "arabicSource": "https://help.krisp.ai/hc/en-us/articles/25670169242396-Supported-languages-for-Krisp-AI-Voice-Translation",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "granola",
@@ -6006,19 +6068,21 @@ window.ZAVLIS_TOOLS = [
       "task planning"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 19,
     "url": "https://www.usemotion.com/",
     "source_url": "https://www.usemotion.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.usemotion.com/",
       "free_tier": "https://www.usemotion.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.usemotion.com/help/knowledge-management/ai-notetaker/reference-ai-notetaker",
       "price_from": "https://www.usemotion.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "productivity"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.usemotion.com/",
@@ -6026,7 +6090,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/motion.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Pro AI: USD 19/seat/month; free trial",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "scheduling"
@@ -6037,7 +6101,9 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "productivity.task_organization": "https://www.usemotion.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "productivity.task_organization"
+    ],
     "subtask_free_tier": {
       "productivity.task_organization": "unknown"
     },
@@ -6046,9 +6112,13 @@ window.ZAVLIS_TOOLS = [
     "priceAr": "Pro AI: ‏19 دولارًا للمقعد شهريًا؛ تجربة مجانية",
     "priceSource": "https://www.usemotion.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "AI Notetaker understands 102 languages but transcribes only in English",
+    "arabicScopeAr": "مدوّن الاجتماعات يفهم 102 لغة لكنه يكتب التفريغ بالإنجليزية فقط",
+    "arabicSource": "https://www.usemotion.com/help/knowledge-management/ai-notetaker/reference-ai-notetaker",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "reclaim-ai",
@@ -6366,9 +6436,9 @@ window.ZAVLIS_TOOLS = [
     "keywords_en": [
       "translation"
     ],
-    "free_tier": "unknown",
+    "free_tier": "yes",
     "arabic_support": "yes",
-    "price_from": "unknown",
+    "price_from": 0,
     "url": "https://www.microsoft.com/en-us/translator/",
     "source_url": "https://www.microsoft.com/en-us/translator/",
     "last_checked": "2026-10-21",
@@ -6376,21 +6446,21 @@ window.ZAVLIS_TOOLS = [
       "capabilities": "https://www.microsoft.com/en-us/translator/",
       "free_tier": "unknown",
       "arabic_support": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
-      "price_from": "unknown"
+      "price_from": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/"
     },
     "general_purpose": false,
     "arabic_tasks": [
       "translation"
     ],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.microsoft.com/en-us/translator/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/microsoft-translator.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Free tier: 2 million characters/month via the Azure Translator API (F0)",
     "arabic": true,
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "translation"
     ],
@@ -6413,7 +6483,12 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "price_scope": "Free tier: 2 million characters/month via the Azure Translator API (F0)",
+    "price_scope_ar": "باقة مجانية: مليونا حرف شهريًا عبر واجهة Azure Translator (F0)",
+    "priceAr": "باقة مجانية: مليونا حرف شهريًا عبر واجهة Azure Translator (F0)",
+    "priceSource": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/",
+    "priceCheckedAt": "2026-10-21"
   },
   {
     "id": "smartcat",
@@ -6504,19 +6579,21 @@ window.ZAVLIS_TOOLS = [
       "translation"
     ],
     "free_tier": "unknown",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://unbabel.com/",
     "source_url": "https://unbabel.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://unbabel.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://customer-happiness.unbabel.com/hc/en-us/articles/28194836565783-What-are-the-available-languages",
       "price_from": "unknown"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "translation"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://unbabel.com/",
@@ -6524,7 +6601,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/unbabel.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "unknown",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
       "translation"
@@ -6535,9 +6612,19 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "translation.general": "https://unbabel.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "translation.general"
+    ],
     "subtask_free_tier": {
       "translation.general": "unknown"
+    },
+    "arabicScope": "English↔Arabic translation is offered across its machine and professional tiers",
+    "arabicScopeAr": "الترجمة بين الإنجليزية والعربية متاحة في مستوياته الآلية والاحترافية",
+    "arabicSource": "https://customer-happiness.unbabel.com/hc/en-us/articles/28194836565783-What-are-the-available-languages",
+    "arabicCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -6556,7 +6643,7 @@ window.ZAVLIS_TOOLS = [
       "translation"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 149,
     "url": "https://lokalise.com/",
     "source_url": "https://lokalise.com/",
@@ -6564,11 +6651,13 @@ window.ZAVLIS_TOOLS = [
     "evidence": {
       "capabilities": "https://lokalise.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://docs.lokalise.com/en/articles/1478623-spelling-and-grammar-check",
       "price_from": "https://lokalise.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "translation"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://lokalise.com/",
@@ -6576,7 +6665,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/lokalise.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Explorer: USD 149/month; 14-day free trial",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "translation"
@@ -6589,7 +6678,10 @@ window.ZAVLIS_TOOLS = [
       "translation.general": "https://lokalise.com/",
       "translation.website": "https://lokalise.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "translation.general",
+      "translation.website"
+    ],
     "subtask_free_tier": {
       "translation.general": "unknown",
       "translation.website": "unknown"
@@ -6602,7 +6694,11 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic is supported, including in its built-in spelling and grammar check",
+    "arabicScopeAr": "العربية مدعومة، بما فيها التدقيق الإملائي والنحوي المدمج",
+    "arabicSource": "https://docs.lokalise.com/en/articles/1478623-spelling-and-grammar-check",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "phrase",
@@ -7032,19 +7128,21 @@ window.ZAVLIS_TOOLS = [
       "teaching"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://www.briskteaching.com/",
     "source_url": "https://www.briskteaching.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.briskteaching.com/",
       "free_tier": "https://www.briskteaching.com/",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.briskteaching.com/ar-eg/getting-started-with-brisk-teaching",
       "price_from": "https://www.briskteaching.com/"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "education"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.briskteaching.com/",
@@ -7052,7 +7150,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/brisk-teaching.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free for teachers; paid plan prices not displayed",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "lesson_planning"
@@ -7063,7 +7161,9 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "education.general": "https://www.briskteaching.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "education.general"
+    ],
     "subtask_free_tier": {
       "education.general": "unknown"
     },
@@ -7072,9 +7172,13 @@ window.ZAVLIS_TOOLS = [
     "priceAr": "مجاني للمعلمين؛ أسعار الخطط المدفوعة غير معروضة",
     "priceSource": "https://www.briskteaching.com/",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Website offered in Arabic; translation covers 50+ languages without naming Arabic",
+    "arabicScopeAr": "الموقع متاح بالعربية؛ والترجمة تشمل أكثر من 50 لغة دون تسمية العربية",
+    "arabicSource": "https://www.briskteaching.com/ar-eg/getting-started-with-brisk-teaching",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "schoolai",
@@ -7101,17 +7205,18 @@ window.ZAVLIS_TOOLS = [
       "flashcards",
       "test prep"
     ],
-    "free_tier": "unknown",
+    "free_tier": "trial",
     "arabic_support": "unknown",
     "price_from": "unknown",
     "url": "https://schoolai.com/",
     "source_url": "https://schoolai.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://schoolai.com/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "unknown",
+      "price_model": "https://schoolai.com/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
@@ -7121,9 +7226,9 @@ window.ZAVLIS_TOOLS = [
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/schoolai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Free trial (5 Spaces/year); Pro priced for schools and districts on request",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "lesson_planning"
     ],
@@ -7136,6 +7241,16 @@ window.ZAVLIS_TOOLS = [
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "education.study": "unknown"
+    },
+    "price_model": "custom",
+    "price_scope": "Free trial (5 Spaces/year); Pro priced for schools and districts on request",
+    "price_scope_ar": "تجربة مجانية (5 مساحات سنويًا)؛ وسعر Pro للمدارس والإدارات عند الطلب",
+    "priceAr": "تجربة مجانية (5 مساحات سنويًا)؛ وسعر Pro للمدارس والإدارات عند الطلب",
+    "priceSource": "https://schoolai.com/pricing",
+    "priceCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -7302,19 +7417,21 @@ window.ZAVLIS_TOOLS = [
       "teaching"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 0,
     "url": "https://curipod.com/",
     "source_url": "https://curipod.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://curipod.com/",
       "free_tier": "https://curipod.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.curipod.com/en/collections/855931-curipod-languages",
       "price_from": "https://curipod.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "education"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://curipod.com/",
@@ -7322,7 +7439,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/curipod.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free for teachers; School & District: custom pricing",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "lesson_planning"
@@ -7333,7 +7450,9 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "education.general": "https://curipod.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "education.general"
+    ],
     "subtask_free_tier": {
       "education.general": "unknown"
     },
@@ -7342,9 +7461,13 @@ window.ZAVLIS_TOOLS = [
     "priceAr": "مجاني للمعلمين؛ المدارس والمناطق بسعر مخصص",
     "priceSource": "https://curipod.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Describe a lesson in Arabic and the whole lesson is generated in Arabic, with dialect choice (MSA, Egyptian, Gulf)",
+    "arabicScopeAr": "اكتب وصف الدرس بالعربي فيُنشأ الدرس كاملًا بالعربية، مع اختيار اللهجة (فصحى، مصرية، خليجية)",
+    "arabicSource": "https://help.curipod.com/en/collections/855931-curipod-languages",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "questionwell",
@@ -7371,29 +7494,29 @@ window.ZAVLIS_TOOLS = [
       "flashcards",
       "test prep"
     ],
-    "free_tier": "unknown",
+    "free_tier": "yes",
     "arabic_support": "unknown",
-    "price_from": "unknown",
+    "price_from": 0,
     "url": "https://questionwell.org/",
     "source_url": "https://questionwell.org/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://questionwell.org/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "https://app.questionwell.org/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://questionwell.org/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/questionwell.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Free plan; Premium USD 5.83/month billed annually (USD 70/year)",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "lesson_planning"
     ],
@@ -7406,6 +7529,15 @@ window.ZAVLIS_TOOLS = [
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "education.study": "unknown"
+    },
+    "price_scope": "Free plan; Premium USD 5.83/month billed annually (USD 70/year)",
+    "price_scope_ar": "خطة مجانية؛ Premium ‏5.83 دولار شهريًا بفوترة سنوية (70 دولارًا سنويًا)",
+    "priceAr": "خطة مجانية؛ Premium ‏5.83 دولار شهريًا بفوترة سنوية (70 دولارًا سنويًا)",
+    "priceSource": "https://app.questionwell.org/pricing",
+    "priceCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -7683,17 +7815,18 @@ window.ZAVLIS_TOOLS = [
     "keywords_en": [
       "spreadsheet"
     ],
-    "free_tier": "unknown",
+    "free_tier": "no",
     "arabic_support": "unknown",
     "price_from": "unknown",
     "url": "https://www.akkio.com/",
     "source_url": "https://www.akkio.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.akkio.com/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "unknown",
+      "price_model": "https://www.akkio.com/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
@@ -7703,9 +7836,9 @@ window.ZAVLIS_TOOLS = [
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/akkio.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Custom enterprise pricing — contact sales",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": false,
     "capabilities": [
       "data"
     ],
@@ -7718,6 +7851,16 @@ window.ZAVLIS_TOOLS = [
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "data.general": "unknown"
+    },
+    "price_model": "custom",
+    "price_scope": "Custom enterprise pricing — contact sales",
+    "price_scope_ar": "تسعير مخصص للشركات — تواصل مع المبيعات",
+    "priceAr": "تسعير مخصص للشركات — تواصل مع المبيعات",
+    "priceSource": "https://www.akkio.com/pricing",
+    "priceCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -7740,12 +7883,13 @@ window.ZAVLIS_TOOLS = [
     "price_from": "unknown",
     "url": "https://www.datarobot.com/",
     "source_url": "https://www.datarobot.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.datarobot.com/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "unknown",
+      "price_model": "https://www.datarobot.com/"
     },
     "general_purpose": false,
     "arabic_tasks": [],
@@ -7755,7 +7899,7 @@ window.ZAVLIS_TOOLS = [
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/datarobot.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "No public pricing — request a demo",
     "arabic": "unknown",
     "freeTier": "unknown",
     "capabilities": [
@@ -7770,6 +7914,16 @@ window.ZAVLIS_TOOLS = [
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "data.general": "unknown"
+    },
+    "price_model": "custom",
+    "price_scope": "No public pricing — request a demo",
+    "price_scope_ar": "لا يوجد سعر معلن — اطلب عرضًا تجريبيًا",
+    "priceAr": "لا يوجد سعر معلن — اطلب عرضًا تجريبيًا",
+    "priceSource": "https://www.datarobot.com/",
+    "priceCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -8288,19 +8442,22 @@ window.ZAVLIS_TOOLS = [
       "automatic email replies"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://zapier.com/ai",
     "source_url": "https://zapier.com/ai",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://zapier.com/ai",
       "free_tier": "https://zapier.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.zapier.com/hc/en-us/articles/35201074788877-Can-I-change-Zapier-s-interface-language",
       "price_from": "https://zapier.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "automation",
+      "productivity"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://zapier.com/ai",
@@ -8308,7 +8465,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/zapier-ai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free forever: 100 tasks/month; Professional from USD 19.99/month",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "automation",
@@ -8322,7 +8479,10 @@ window.ZAVLIS_TOOLS = [
       "productivity.email_automation": "https://zapier.com/automation/use-case/using-ai-automatically-respond-to-incoming-emails-or-messages",
       "automation.general": "https://zapier.com/ai"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "automation.general",
+      "productivity.email_automation"
+    ],
     "subtask_free_tier": {
       "productivity.email_automation": "unknown",
       "automation.general": "unknown"
@@ -8332,9 +8492,13 @@ window.ZAVLIS_TOOLS = [
     "priceAr": "مجاني دائمًا: 100 مهمة شهريًا؛ Professional من 19.99 دولار شهريًا",
     "priceSource": "https://zapier.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Zapier's interface is available in English only",
+    "arabicScopeAr": "واجهة Zapier متاحة بالإنجليزية فقط",
+    "arabicSource": "https://help.zapier.com/hc/en-us/articles/35201074788877-Can-I-change-Zapier-s-interface-language",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "make",
@@ -8572,12 +8736,13 @@ window.ZAVLIS_TOOLS = [
     "price_from": "unknown",
     "url": "https://relevanceai.com/",
     "source_url": "https://relevanceai.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://relevanceai.com/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "unknown",
+      "price_model": "https://relevanceai.com/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
@@ -8587,7 +8752,7 @@ window.ZAVLIS_TOOLS = [
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/relevance-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Enterprise plan — talk to sales for pricing",
     "arabic": "unknown",
     "freeTier": "unknown",
     "capabilities": [
@@ -8603,6 +8768,16 @@ window.ZAVLIS_TOOLS = [
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "automation.general": "unknown"
+    },
+    "price_model": "custom",
+    "price_scope": "Enterprise plan — talk to sales for pricing",
+    "price_scope_ar": "خطة الشركات — السعر عبر فريق المبيعات",
+    "priceAr": "خطة الشركات — السعر عبر فريق المبيعات",
+    "priceSource": "https://relevanceai.com/pricing",
+    "priceCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -8801,29 +8976,29 @@ window.ZAVLIS_TOOLS = [
     "keywords_en": [
       "automation"
     ],
-    "free_tier": "unknown",
+    "free_tier": "yes",
     "arabic_support": "unknown",
-    "price_from": "unknown",
+    "price_from": 0,
     "url": "https://www.langflow.org/",
     "source_url": "https://www.langflow.org/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.langflow.org/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "https://www.langflow.org/"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.langflow.org/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/langflow.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Open source, plus a free cloud account",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "automation",
       "integrations"
@@ -8837,6 +9012,15 @@ window.ZAVLIS_TOOLS = [
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "automation.general": "unknown"
+    },
+    "price_scope": "Open source, plus a free cloud account",
+    "price_scope_ar": "مفتوح المصدر، مع حساب سحابي مجاني",
+    "priceAr": "مفتوح المصدر، مع حساب سحابي مجاني",
+    "priceSource": "https://www.langflow.org/",
+    "priceCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -9059,29 +9243,29 @@ window.ZAVLIS_TOOLS = [
       "social graphic",
       "design a post"
     ],
-    "free_tier": "unknown",
+    "free_tier": "trial",
     "arabic_support": "unknown",
-    "price_from": "unknown",
+    "price_from": 29,
     "url": "https://www.adcreative.ai/",
     "source_url": "https://www.adcreative.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.adcreative.ai/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "https://www.adcreative.ai/"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.adcreative.ai/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/adcreative-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Starter: USD 29/month billed quarterly (USD 39 monthly); free trial",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "social"
     ],
@@ -9097,6 +9281,15 @@ window.ZAVLIS_TOOLS = [
     "subtask_free_tier": {
       "design.social_posts": "unknown",
       "marketing.general": "unknown"
+    },
+    "price_scope": "Starter: USD 29/month billed quarterly (USD 39 monthly); free trial",
+    "price_scope_ar": "Starter: ‏29 دولارًا شهريًا بفوترة ربع سنوية (39 دولارًا شهريًا)؛ تجربة مجانية",
+    "priceAr": "Starter: ‏29 دولارًا شهريًا بفوترة ربع سنوية (39 دولارًا شهريًا)؛ تجربة مجانية",
+    "priceSource": "https://www.adcreative.ai/",
+    "priceCheckedAt": "2026-10-21",
+    "metadataReview": {
+      "date": "2026-10-21",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -9427,7 +9620,7 @@ window.ZAVLIS_TOOLS = [
       "social media"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 39,
     "url": "https://www.frase.io/",
     "source_url": "https://www.frase.io/",
@@ -9435,11 +9628,13 @@ window.ZAVLIS_TOOLS = [
     "evidence": {
       "capabilities": "https://www.frase.io/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://www.frase.io/features/multilingual",
       "price_from": "https://www.frase.io/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "marketing"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.frase.io/",
@@ -9447,7 +9642,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/frase.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Starter: USD 49/month (USD 39 billed yearly); 7-day free trial",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "seo"
@@ -9458,7 +9653,9 @@ window.ZAVLIS_TOOLS = [
     "subtask_sources": {
       "marketing.general": "https://www.frase.io/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "marketing.general"
+    ],
     "subtask_free_tier": {
       "marketing.general": "unknown"
     },
@@ -9470,7 +9667,11 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic is listed among 70+ languages for native writing; right-to-left editing is not stated",
+    "arabicScopeAr": "العربية ضمن أكثر من 70 لغة للكتابة الأصلية؛ ودعم التحرير من اليمين لليسار غير مذكور",
+    "arabicSource": "https://www.frase.io/features/multilingual",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "marketmuse",
@@ -9488,7 +9689,7 @@ window.ZAVLIS_TOOLS = [
       "social media"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": 0,
     "url": "https://www.marketmuse.com/",
     "source_url": "https://www.marketmuse.com/",
@@ -9496,7 +9697,7 @@ window.ZAVLIS_TOOLS = [
     "evidence": {
       "capabilities": "https://www.marketmuse.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://docs.marketmuse.com/account-management/supported-browsers-languages-and-countries/",
       "price_from": "https://www.marketmuse.com/pricing/"
     },
     "general_purpose": false,
@@ -9508,7 +9709,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/marketmuse.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free plan (1 user, 10 queries/month); paid plans priced on request",
-    "arabic": "unknown",
+    "arabic": false,
     "freeTier": true,
     "capabilities": [
       "seo"
@@ -9531,7 +9732,11 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Officially supports English and Spanish only",
+    "arabicScopeAr": "يدعم رسميًا الإنجليزية والإسبانية فقط",
+    "arabicSource": "https://docs.marketmuse.com/account-management/supported-browsers-languages-and-countries/",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "neuronwriter",
@@ -9686,7 +9891,7 @@ window.ZAVLIS_TOOLS = [
       "essay"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 0,
     "url": "https://rytr.me/",
     "source_url": "https://rytr.me/",
@@ -9694,11 +9899,14 @@ window.ZAVLIS_TOOLS = [
     "evidence": {
       "capabilities": "https://rytr.me/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.rytr.me/article/30-write-in-30-languages",
       "price_from": "https://rytr.me/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "marketing",
+      "writing"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://rytr.me/",
@@ -9706,7 +9914,7 @@ window.ZAVLIS_TOOLS = [
     "logo": "assets/tool-monograms/rytr.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free forever (10,000 characters/month); Lite: USD 9/month",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "prose",
@@ -9720,7 +9928,10 @@ window.ZAVLIS_TOOLS = [
       "writing.general": "https://rytr.me/",
       "marketing.general": "https://rytr.me/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "marketing.general",
+      "writing.general"
+    ],
     "subtask_free_tier": {
       "writing.general": "unknown",
       "marketing.general": "unknown"
@@ -9733,7 +9944,11 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic is listed among Rytr's 30+ writing languages",
+    "arabicScopeAr": "العربية ضمن أكثر من 30 لغة كتابة يدعمها Rytr",
+    "arabicSource": "https://help.rytr.me/article/30-write-in-30-languages",
+    "arabicCheckedAt": "2026-10-21"
   },
   {
     "id": "anyword",
@@ -9844,7 +10059,8 @@ window.ZAVLIS_TOOLS = [
       "capabilities": "https://support.writer.com/articles/2664880799-how-to-use-writer-agent",
       "free_tier": "https://writer.com/plans/",
       "arabic_support": "https://support.writer.com/article/240-generating-content-in-different-languages",
-      "price_from": "unknown"
+      "price_from": "unknown",
+      "price_model": "https://writer.com/pricing/"
     },
     "general_purpose": true,
     "arabic_tasks": [
@@ -9856,7 +10072,7 @@ window.ZAVLIS_TOOLS = [
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/writer.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Starter (14-day free trial, per-seat) and Enterprise (contact sales); prices not public",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -9893,7 +10109,13 @@ window.ZAVLIS_TOOLS = [
     "arabicScope": "Arabic is listed among the languages Writer can generate content in",
     "arabicScopeAr": "العربية ضمن اللغات التي يكتب بها Writer المحتوى",
     "arabicSource": "https://support.writer.com/article/240-generating-content-in-different-languages",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "price_model": "custom",
+    "price_scope": "Starter (14-day free trial, per-seat) and Enterprise (contact sales); prices not public",
+    "price_scope_ar": "Starter (تجربة مجانية 14 يومًا، بالمقعد) وEnterprise (عبر المبيعات)؛ الأسعار غير معلنة",
+    "priceAr": "Starter (تجربة مجانية 14 يومًا، بالمقعد) وEnterprise (عبر المبيعات)؛ الأسعار غير معلنة",
+    "priceSource": "https://writer.com/pricing/",
+    "priceCheckedAt": "2026-10-21"
   },
   {
     "id": "hypotenuse-ai",
@@ -9918,7 +10140,7 @@ window.ZAVLIS_TOOLS = [
       "blog",
       "essay"
     ],
-    "free_tier": "unknown",
+    "free_tier": "trial",
     "arabic_support": "yes",
     "price_from": "unknown",
     "url": "https://www.hypotenuse.ai/",
@@ -9928,7 +10150,8 @@ window.ZAVLIS_TOOLS = [
       "capabilities": "https://www.hypotenuse.ai/",
       "free_tier": "unknown",
       "arabic_support": "https://www.hypotenuse.ai/languages/arabic",
-      "price_from": "unknown"
+      "price_from": "unknown",
+      "price_model": "https://www.hypotenuse.ai/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [
@@ -9941,9 +10164,9 @@ window.ZAVLIS_TOOLS = [
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/hypotenuse-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Custom pricing for Basic and Enterprise; free trial available",
     "arabic": true,
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "prose",
       "marketing_copy"
@@ -9975,7 +10198,13 @@ window.ZAVLIS_TOOLS = [
     "metadataReview": {
       "date": "2026-10-21",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "price_model": "custom",
+    "price_scope": "Custom pricing for Basic and Enterprise; free trial available",
+    "price_scope_ar": "تسعير مخصص لخطتي Basic وEnterprise؛ مع تجربة مجانية",
+    "priceAr": "تسعير مخصص لخطتي Basic وEnterprise؛ مع تجربة مجانية",
+    "priceSource": "https://www.hypotenuse.ai/pricing",
+    "priceCheckedAt": "2026-10-21"
   },
   {
     "id": "prowritingaid",
