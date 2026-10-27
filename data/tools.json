@@ -186,8 +186,8 @@
     "priceSource": "https://lumalabs.ai/learning-hub/dream-machine-credit-system",
     "priceCheckedAt": "2026-10-18",
     "freeTier": true,
-    "arabic": "unknown",
-    "arabicSource": "unknown",
+    "arabic": true,
+    "arabicSource": "https://lumalabs.ai/news/luma-ai-to-launch-native-arabic-language-interface-for-saudi-and-arabic-speaking-creative-community",
     "officialUrl": "https://lumalabs.ai/dream-machine",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/luma.svg",
@@ -197,11 +197,12 @@
     "active": true,
     "priceAr": "خطة Dream Machine المجانية (0)؛ حصة التوليد الحالية غير محددة",
     "metadataReview": {
-      "date": "2026-10-18",
+      "date": "2026-10-27",
       "priceReviewed": true,
       "arabicReviewed": true,
       "priceQuery": "site:lumalabs.ai Luma Dream Machine pricing",
-      "arabicQuery": "site:lumalabs.ai Luma Dream Machine Arabic supported languages"
+      "arabicQuery": "site:lumalabs.ai Luma Dream Machine Arabic supported languages",
+      "reviewedBy": "Claude (official sources)"
     },
     "arabicResearchNote": "No explicit applicable Arabic capability established from official material reviewed; unspecified is displayed.",
     "category": [
@@ -226,17 +227,20 @@
       "generate video"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://lumalabs.ai/dream-machine",
     "source_url": "https://lumalabs.ai/learning-hub/web-quick-start",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-27",
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "image",
+      "video"
+    ],
     "evidence": {
       "capabilities": "https://lumalabs.ai/learning-hub/web-quick-start",
       "free_tier": "https://lumalabs.ai/learning-hub/dream-machine-credit-system",
-      "arabic_support": "unknown",
+      "arabic_support": "https://lumalabs.ai/news/luma-ai-to-launch-native-arabic-language-interface-for-saudi-and-arabic-speaking-creative-community",
       "price_from": "https://lumalabs.ai/learning-hub/dream-machine-credit-system"
     },
     "price_currency": "unknown",
@@ -254,11 +258,17 @@
       "image.generation": "https://lumalabs.ai/learning-hub/web-quick-start",
       "video.generation": "https://lumalabs.ai/learning-hub/web-quick-start"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "image.generation",
+      "video.generation"
+    ],
     "subtask_free_tier": {
       "image.generation": "unknown",
       "video.generation": "unknown"
-    }
+    },
+    "arabicScope": "Luma Agents accepts Arabic prompts and produces Arabic outputs; a full Arabic interface was announced to roll out later in 2026",
+    "arabicScopeAr": "Luma Agents يقبل الأوامر بالعربية وينتج مخرجات عربية؛ أُعلن عن واجهة عربية كاملة تُطرح لاحقًا في 2026",
+    "arabicCheckedAt": "2026-10-27"
   },
   {
     "id": "heygen",
@@ -5246,25 +5256,25 @@
     ],
     "free_tier": "unknown",
     "arabic_support": "unknown",
-    "price_from": "unknown",
+    "price_from": 12,
     "url": "https://scispace.com/",
     "source_url": "https://scispace.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://scispace.com/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "https://scispace.com/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://scispace.com/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/scispace.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Premium: USD 12/month billed annually (USD 20 billed monthly); Advanced USD 70 and Max USD 160/month billed annually",
     "arabic": "unknown",
     "freeTier": "unknown",
     "capabilities": [
@@ -5279,6 +5289,15 @@
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "research.general": "unknown"
+    },
+    "price_scope": "Premium: USD 12/month billed annually (USD 20 billed monthly); Advanced USD 70 and Max USD 160/month billed annually",
+    "price_scope_ar": "Premium: ‏12 دولارًا شهريًا بفوترة سنوية (20 دولارًا بفوترة شهرية)؛ Advanced ‏70 وMax ‏160 دولارًا شهريًا بفوترة سنوية",
+    "priceAr": "Premium: ‏12 دولارًا شهريًا بفوترة سنوية (20 دولارًا بفوترة شهرية)؛ Advanced ‏70 وMax ‏160 دولارًا شهريًا بفوترة سنوية",
+    "priceSource": "https://scispace.com/pricing",
+    "priceCheckedAt": "2026-10-27",
+    "metadataReview": {
+      "date": "2026-10-27",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -6592,27 +6611,27 @@
     ],
     "free_tier": "unknown",
     "arabic_support": "yes",
-    "price_from": "unknown",
+    "price_from": 0.0002,
     "url": "https://unbabel.com/",
     "source_url": "https://unbabel.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://unbabel.com/",
       "free_tier": "unknown",
       "arabic_support": "https://customer-happiness.unbabel.com/hc/en-us/articles/28194836565783-What-are-the-available-languages",
-      "price_from": "unknown"
+      "price_from": "https://unbabel.com/pricing/"
     },
     "general_purpose": false,
     "arabic_tasks": [
       "translation"
     ],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://unbabel.com/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/unbabel.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "From USD 0.00020 per word with no minimum commitment; lower per-word rates with annual commitments from USD 10,000",
     "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
@@ -6635,9 +6654,14 @@
     "arabicSource": "https://customer-happiness.unbabel.com/hc/en-us/articles/28194836565783-What-are-the-available-languages",
     "arabicCheckedAt": "2026-10-21",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-27",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "price_scope": "From USD 0.00020 per word with no minimum commitment; lower per-word rates with annual commitments from USD 10,000",
+    "price_scope_ar": "من 0.00020 دولار للكلمة بدون حد أدنى للالتزام؛ أسعار أقل للكلمة مع التزام سنوي يبدأ من 10,000 دولار",
+    "priceAr": "من 0.00020 دولار للكلمة بدون حد أدنى للالتزام؛ أسعار أقل للكلمة مع التزام سنوي يبدأ من 10,000 دولار",
+    "priceSource": "https://unbabel.com/pricing/",
+    "priceCheckedAt": "2026-10-27"
   },
   {
     "id": "lokalise",
@@ -7218,20 +7242,22 @@
       "test prep"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": "unknown",
     "url": "https://schoolai.com/",
     "source_url": "https://schoolai.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://schoolai.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://help.schoolai.com/en/articles/15084211-supported-languages-in-student-spaces-speech-to-text-and-text-to-speech",
       "price_from": "unknown",
       "price_model": "https://schoolai.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "education"
+    ],
     "price_currency": "unknown",
     "active": true,
     "officialUrl": "https://schoolai.com/",
@@ -7239,7 +7265,7 @@
     "logo": "assets/tool-monograms/schoolai.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Free trial (5 Spaces/year); Pro priced for schools and districts on request",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "lesson_planning"
@@ -7250,7 +7276,9 @@
     "subtask_sources": {
       "education.study": "https://schoolai.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "education.study"
+    ],
     "subtask_free_tier": {
       "education.study": "unknown"
     },
@@ -7261,9 +7289,13 @@
     "priceSource": "https://schoolai.com/pricing",
     "priceCheckedAt": "2026-10-21",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-27",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic is listed for speech-to-text in student Spaces; text-to-speech has no fixed language list",
+    "arabicScopeAr": "العربية مدرجة لتحويل الكلام إلى نص في مساحات الطلاب؛ تحويل النص إلى كلام بلا قائمة لغات محددة",
+    "arabicSource": "https://help.schoolai.com/en/articles/15084211-supported-languages-in-student-spaces-speech-to-text-and-text-to-speech",
+    "arabicCheckedAt": "2026-10-27"
   },
   {
     "id": "khanmigo",
@@ -7958,12 +7990,13 @@
     "price_from": "unknown",
     "url": "https://h2o.ai/",
     "source_url": "https://h2o.ai/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://h2o.ai/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "unknown",
+      "price_model": "https://h2o.ai/pricing/"
     },
     "general_purpose": false,
     "arabic_tasks": [],
@@ -7973,7 +8006,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/h2o-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "No public pricing — the pricing page redirects to a demo request",
     "arabic": "unknown",
     "freeTier": "unknown",
     "capabilities": [
@@ -7988,6 +8021,16 @@
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "data.general": "unknown"
+    },
+    "price_model": "custom",
+    "price_scope": "No public pricing — the pricing page redirects to a demo request",
+    "price_scope_ar": "لا يوجد سعر معلن — صفحة الأسعار تحوّل إلى طلب عرض تجريبي",
+    "priceAr": "لا يوجد سعر معلن — صفحة الأسعار تحوّل إلى طلب عرض تجريبي",
+    "priceSource": "https://h2o.ai/pricing/",
+    "priceCheckedAt": "2026-10-27",
+    "metadataReview": {
+      "date": "2026-10-27",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
@@ -8384,15 +8427,15 @@
       "spreadsheet"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "no",
     "price_from": 25,
     "url": "https://www.thoughtspot.com/",
     "source_url": "https://www.thoughtspot.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://www.thoughtspot.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://docs.thoughtspot.com/cloud/latest/spotter-localization",
       "price_from": "https://www.thoughtspot.com/pricing"
     },
     "general_purpose": false,
@@ -8404,7 +8447,7 @@
     "logo": "assets/tool-monograms/thoughtspot.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Essentials: from USD 25/user/month billed annually; free trial",
-    "arabic": "unknown",
+    "arabic": false,
     "freeTier": true,
     "capabilities": [
       "data"
@@ -8425,9 +8468,13 @@
     "priceSource": "https://www.thoughtspot.com/pricing",
     "priceCheckedAt": "2026-10-21",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-27",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic is not among ThoughtSpot's supported locales, which Spotter also follows; unsupported locales fall back to English",
+    "arabicScopeAr": "العربية ليست ضمن اللغات المدعومة في ThoughtSpot، وSpotter يتبع نفس القائمة؛ اللغات غير المدعومة تعرض الإنجليزية",
+    "arabicSource": "https://docs.thoughtspot.com/cloud/latest/spotter-localization",
+    "arabicCheckedAt": "2026-10-27"
   },
   {
     "id": "zapier-ai",
@@ -9051,19 +9098,21 @@
       "automation"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 0,
     "url": "https://dify.ai/",
     "source_url": "https://dify.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://dify.ai/",
       "free_tier": "https://dify.ai/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://github.com/langgenius/dify/blob/main/web/i18n/languages.ts",
       "price_from": "https://dify.ai/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "automation"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://dify.ai/",
@@ -9071,7 +9120,7 @@
     "logo": "assets/tool-monograms/dify.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Sandbox: free; Professional: USD 590 per workspace/year",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "automation",
@@ -9083,7 +9132,9 @@
     "subtask_sources": {
       "automation.general": "https://dify.ai/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "automation.general"
+    ],
     "subtask_free_tier": {
       "automation.general": "unknown"
     },
@@ -9092,9 +9143,13 @@
     "priceAr": "Sandbox مجاني؛ Professional بـ590 دولارًا لكل مساحة عمل سنويًا",
     "priceSource": "https://dify.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-27",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Interface language list includes Arabic (Tunisia, ar-TN) marked as supported",
+    "arabicScopeAr": "قائمة لغات الواجهة تتضمن العربية (تونس، ar-TN) ومعلَّمة كمدعومة",
+    "arabicSource": "https://github.com/langgenius/dify/blob/main/web/i18n/languages.ts",
+    "arabicCheckedAt": "2026-10-27"
   },
   {
     "id": "crewai",
@@ -9442,19 +9497,21 @@
       "social media"
     ],
     "free_tier": "yes",
-    "arabic_support": "unknown",
+    "arabic_support": "partial",
     "price_from": 5,
     "url": "https://buffer.com/ai-assistant",
     "source_url": "https://buffer.com/ai-assistant",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://buffer.com/ai-assistant",
       "free_tier": "https://buffer.com/pricing",
-      "arabic_support": "unknown",
+      "arabic_support": "https://support.buffer.com/article/929-can-i-use-buffer-in-another-language",
       "price_from": "https://buffer.com/pricing"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "marketing"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://buffer.com/ai-assistant",
@@ -9462,7 +9519,7 @@
     "logo": "assets/tool-monograms/buffer-ai-assistant.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Essentials: USD 5/month per channel; free plan includes AI Assistant",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "social"
@@ -9473,7 +9530,9 @@
     "subtask_sources": {
       "marketing.general": "https://buffer.com/ai-assistant"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "marketing.general"
+    ],
     "subtask_free_tier": {
       "marketing.general": "unknown"
     },
@@ -9482,9 +9541,13 @@
     "priceAr": "Essentials: ‏5 دولارات شهريًا لكل قناة؛ الخطة المجانية تشمل المساعد الذكي",
     "priceSource": "https://buffer.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-27",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic interface only in the Buffer Android app (9.4.0+); web and iOS are English-only; AI Assistant language not stated",
+    "arabicScopeAr": "الواجهة العربية في تطبيق Buffer لأندرويد فقط (9.4.0+)؛ الويب وiOS بالإنجليزية فقط؛ لغة المساعد الذكي غير مذكورة",
+    "arabicSource": "https://support.buffer.com/article/929-can-i-use-buffer-in-another-language",
+    "arabicCheckedAt": "2026-10-27"
   },
   {
     "id": "hootsuite-wisdom-ai",
@@ -9766,19 +9829,21 @@
       "social media"
     ],
     "free_tier": "trial",
-    "arabic_support": "unknown",
+    "arabic_support": "yes",
     "price_from": 23,
     "url": "https://neuronwriter.com/",
     "source_url": "https://neuronwriter.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://neuronwriter.com/",
       "free_tier": "unknown",
-      "arabic_support": "unknown",
+      "arabic_support": "https://neuronwriter.com/faqs/what-languages-are-supported-in-neuronwriter/",
       "price_from": "https://neuronwriter.com/pricing/"
     },
     "general_purpose": false,
-    "arabic_tasks": [],
+    "arabic_tasks": [
+      "marketing"
+    ],
     "price_currency": "USD",
     "active": true,
     "officialUrl": "https://neuronwriter.com/",
@@ -9786,7 +9851,7 @@
     "logo": "assets/tool-monograms/neuronwriter.svg",
     "logoKind": "initials placeholder, not official logo",
     "price": "Bronze: USD 23/month; 7-day free trial",
-    "arabic": "unknown",
+    "arabic": true,
     "freeTier": true,
     "capabilities": [
       "seo"
@@ -9797,7 +9862,9 @@
     "subtask_sources": {
       "marketing.general": "https://neuronwriter.com/"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "marketing.general"
+    ],
     "subtask_free_tier": {
       "marketing.general": "unknown"
     },
@@ -9807,9 +9874,13 @@
     "priceSource": "https://neuronwriter.com/pricing/",
     "priceCheckedAt": "2026-10-21",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-27",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "arabicScope": "Arabic is in the official language table: NLP recommendations rated Good, AI writing rated Very good",
+    "arabicScopeAr": "العربية ضمن جدول اللغات الرسمي: توصيات NLP بتقييم جيد، والكتابة بالذكاء الاصطناعي بتقييم جيد جدًا",
+    "arabicSource": "https://neuronwriter.com/faqs/what-languages-are-supported-in-neuronwriter/",
+    "arabicCheckedAt": "2026-10-27"
   },
   {
     "id": "sudowrite",
@@ -10538,29 +10609,29 @@
     "keywords_en": [
       "music"
     ],
-    "free_tier": "unknown",
+    "free_tier": "yes",
     "arabic_support": "unknown",
-    "price_from": "unknown",
+    "price_from": 0,
     "url": "https://www.loudly.com/",
     "source_url": "https://www.loudly.com/",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://www.loudly.com/",
       "free_tier": "unknown",
       "arabic_support": "unknown",
-      "price_from": "unknown"
+      "price_from": "https://www.loudly.com/music/pricing"
     },
     "general_purpose": false,
     "arabic_tasks": [],
-    "price_currency": "unknown",
+    "price_currency": "USD",
     "active": true,
     "officialUrl": "https://www.loudly.com/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/loudly.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "unknown",
+    "price": "Free plan (non-commercial, limited); Personal: USD 8/month billed annually (USD 10 monthly); Pro: USD 24/month billed annually",
     "arabic": "unknown",
-    "freeTier": "unknown",
+    "freeTier": true,
     "capabilities": [
       "music_generation"
     ],
@@ -10573,6 +10644,15 @@
     "arabic_subtasks": [],
     "subtask_free_tier": {
       "music.general": "unknown"
+    },
+    "price_scope": "Free plan (non-commercial, limited); Personal: USD 8/month billed annually (USD 10 monthly); Pro: USD 24/month billed annually",
+    "price_scope_ar": "خطة مجانية (غير تجارية ومحدودة)؛ Personal: ‏8 دولارات شهريًا بفوترة سنوية (10 دولارات شهريًا)؛ Pro: ‏24 دولارًا شهريًا بفوترة سنوية",
+    "priceAr": "خطة مجانية (غير تجارية ومحدودة)؛ Personal: ‏8 دولارات شهريًا بفوترة سنوية (10 دولارات شهريًا)؛ Pro: ‏24 دولارًا شهريًا بفوترة سنوية",
+    "priceSource": "https://www.loudly.com/music/pricing",
+    "priceCheckedAt": "2026-10-27",
+    "metadataReview": {
+      "date": "2026-10-27",
+      "reviewedBy": "Claude (official sources)"
     }
   },
   {
