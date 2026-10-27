@@ -66,6 +66,30 @@ function taskPickerOpenGrid(){
  if(mod!==0||$('studio').hidden)launchTool(0);
  taskPickerState.gridOpen=true;taskPickerRender();taskPicker.scrollIntoView({behavior:'smooth',block:'start'});
 }
+function taskPickerPromptCard(request,confirmed,language){
+ const ar=language==='ar',box=document.createElement('section');box.className='prompt-ready';box.id='promptReady';box.dir=ar?'rtl':'ltr';
+ const head=document.createElement('h3');head.textContent=ar?'البرومبت الجاهز':'Ready-to-use prompt';
+ const note=document.createElement('p');note.className='prompt-ready-note';note.textContent=ar?'مبني من طلبك والمهام المؤكدة. انسخه والصقه في أي أداة من الترشيحات تحت.':'Built from your request and confirmed tasks. Copy it into any recommended tool below.';
+ const pre=document.createElement('pre');pre.className='prompt-ready-text';pre.textContent=ZavlisPrompt.build({request,subtasks:confirmed,language:ar?'ar':'en'});
+ const copy=document.createElement('button');copy.type='button';copy.className='btn prompt-ready-copy';copy.textContent=ar?'نسخ البرومبت':'Copy prompt';
+ copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(pre.textContent);copy.textContent=ar?'تم النسخ ✓':'Copied ✓';}catch{const range=document.createRange();range.selectNodeContents(pre);const sel=getSelection();sel.removeAllRanges();sel.addRange(range);copy.textContent=ar?'حدد النص وانسخه':'Select and copy';}});
+ box.append(head,note,pre,copy);return box;
+}
+function taskPickerStudioLinks(request,confirmed,language){
+ const ar=language==='ar',has=re=>confirmed.some(id=>re.test(id)),links=[];
+ if(has(/^(image\.|design\.logos)/))links.push([1,'برومبتات صور جاهزة (3 أنماط)','Ready image prompts (3 styles)']);
+ if(has(/^video\./))links.push([2,'سيناريو وخطة فيديو مشهد بمشهد','Scene-by-scene video script']);
+ if(has(/^(code\.|design\.ui)/))links.push([4,'قالب HTML جاهز','Starter HTML template']);
+ if(!links.length)return null;
+ const box=document.createElement('div');box.className='studio-shortcuts';box.dir=ar?'rtl':'ltr';
+ const label=document.createElement('p');label.className='prompt-ready-note';label.textContent=ar?'جهّز لي مباشرة:':'Prepare it for me:';box.append(label);
+ for(const [index,arText,enText]of links){
+  const button=document.createElement('button');button.type='button';button.className='task-manual';button.dataset.studio=index;button.textContent=ar?arText:enText;
+  button.addEventListener('click',()=>{launchTool(index);$('topic').value=request;$('form').requestSubmit();$('result').scrollIntoView({behavior:'smooth',block:'start'});});
+  box.append(button);
+ }
+ return box;
+}
 function taskPickerShowTools(){
  clearTimeout(taskPickerState.timer);taskPickerState.pending=false;
  const confirmed=ZavlisMatch.cleanConfirmedTasks([...taskPickerState.selected]);if(!confirmed.length){taskPickerOpenGrid();return;}
@@ -74,6 +98,8 @@ function taskPickerShowTools(){
  taskPickerState.confirmed=[...confirmed];taskPickerClearOutput();last=ZavlisMatch.text(result);$('result').textContent=last;$('result').hidden=true;outputRevision++;
  matchSummary.hidden=false;matchSummary.dir=outputLanguage==='ar'?'rtl':'ltr';matchSummary.textContent=(outputLanguage==='ar'?'المهام المؤكدة: ':'Confirmed tasks: ')+confirmed.map(id=>ZavlisMatch.subtaskDefinitions[id].labels[outputLanguage==='ar'?1:0]).join(' + ')+(result.warnings.length?' — '+result.warnings.join(' '):'');
  resultCards.hidden=false;resultCards.dir=matchSummary.dir;resultCards.replaceChildren();
+ if(confirmed.includes('writing.prompts')&&window.ZavlisPrompt)resultCards.append(taskPickerPromptCard($('topic').value,confirmed,outputLanguage));
+ const studioLinks=taskPickerStudioLinks($('topic').value,confirmed,outputLanguage);if(studioLinks)resultCards.append(studioLinks);
  for(const id of confirmed){
   const heading=document.createElement('h3');heading.dataset.matchSubtask=id;heading.textContent=ZavlisMatch.subtaskDefinitions[id].labels[outputLanguage==='ar'?1:0];resultCards.append(heading);
   for(const r of result.recommendations.filter(r=>r.subtask===id)){

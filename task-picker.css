@@ -12,3 +12,9 @@
 #chooseTasksHero{margin:8px}
 .theme-light .task-picker,.theme-light .task-picker-category,.theme-light .task-choice,.theme-light .task-manual,.theme-light .task-share{background:#f3f8ff;color:#102b4b}
 .theme-light .task-choice[aria-pressed=true]{background:#12406a;color:#fff}
+.prompt-ready{margin:0 0 20px;padding:18px;border:1px solid var(--cyan,#00d2ff);border-radius:14px;background:var(--panel,#061427)}
+.prompt-ready h3{margin:0 0 6px}.prompt-ready-note{margin:0 0 12px;font-size:13px;color:var(--muted,#adc6e6)}
+.prompt-ready-text{margin:0 0 12px;padding:14px;max-height:420px;overflow:auto;white-space:pre-wrap;word-break:break-word;border:1px solid var(--border,#143453);border-radius:10px;background:var(--bg,#020b17);color:var(--text,#f5f8ff);font:14px/1.8 inherit;font-family:inherit}
+.prompt-ready-copy{min-height:44px}
+.theme-light .prompt-ready{background:#fffdf7;border-color:#b08a4a}.theme-light .prompt-ready-text{background:#fbf7ee;color:#1d2a22;border-color:#e2d6bd}
+.studio-shortcuts{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:0 0 20px}.studio-shortcuts .prompt-ready-note{margin:0;width:100%}
