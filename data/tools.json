@@ -2059,16 +2059,20 @@
     "price_scope": "ChatGPT Free — 0; usage limits apply",
     "price_scope_ar": "ChatGPT Free مجانية (0)؛ تخضع لحدود الاستخدام",
     "subtasks": [
-      "writing.general",
       "code.general",
-      "image.general"
+      "image.general",
+      "writing.general",
+      "writing.prompts"
     ],
     "subtask_sources": {
       "writing.general": "https://chatgpt.com/",
       "code.general": "https://chatgpt.com/",
-      "image.general": "https://chatgpt.com/"
+      "image.general": "https://chatgpt.com/",
+      "writing.prompts": "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "writing.prompts"
+    ],
     "subtask_free_tier": {
       "writing.general": "unknown",
       "code.general": "unknown",
@@ -2150,14 +2154,18 @@
     "price_scope": "Free — USD 0; limited usage",
     "price_scope_ar": "الخطة المجانية: 0 دولار؛ استخدام محدود",
     "subtasks": [
+      "code.general",
       "writing.general",
-      "code.general"
+      "writing.prompts"
     ],
     "subtask_sources": {
       "writing.general": "https://claude.ai/",
-      "code.general": "https://claude.ai/"
+      "code.general": "https://claude.ai/",
+      "writing.prompts": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "writing.prompts"
+    ],
     "subtask_free_tier": {
       "writing.general": "unknown",
       "code.general": "unknown"
@@ -2237,16 +2245,20 @@
     "price_scope": "Free — USD 0/month with a Google Account",
     "price_scope_ar": "الخطة المجانية: 0 دولار/شهر مع حساب Google",
     "subtasks": [
-      "writing.general",
       "code.general",
-      "video.summarization"
+      "video.summarization",
+      "writing.general",
+      "writing.prompts"
     ],
     "subtask_sources": {
       "writing.general": "https://gemini.google.com/",
       "code.general": "https://gemini.google.com/",
-      "video.summarization": "https://support.google.com/gemini/answer/16622858"
+      "video.summarization": "https://support.google.com/gemini/answer/16622858",
+      "writing.prompts": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
     },
-    "arabic_subtasks": [],
+    "arabic_subtasks": [
+      "writing.prompts"
+    ],
     "subtask_free_tier": {
       "writing.general": "unknown",
       "code.general": "unknown",

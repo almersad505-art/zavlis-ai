@@ -31,7 +31,7 @@ for(const [request,expected] of [['Transcribe my Arabic meeting','ar'],['A produ
  records.push({id:'TL-'+request,status:'PASS',targetLanguage:r.targetLanguage,tools:r.recommendations.map(x=>x.tool.name)});
 }
 // "Translate my website" is translation, not coding.
-for(const [request,expected] of [['أبي أترجم موقعي للعربي',['translation.website']],['translate my website to Arabic',['translation.website']],['ترجم لي هذا النص للإنجليزي',['translation.general']],['debug my python code',['code.assistant']]]){
+for(const [request,expected] of [['أبي أترجم موقعي للعربي',['translation.website']],['translate my website to Arabic',['translation.website']],['ترجم لي هذا النص للإنجليزي',['translation.general']],['debug my python code',['code.assistant']],['ابغا اسوي امر برمبت',['writing.prompts']],['I want to write a prompt',['writing.prompts']]]){
  assert.deepEqual(engine.match(request,catalog).subtasks,expected,'intent: '+request);
  records.push({id:'IN-'+request,status:'PASS',subtasks:expected});
 }

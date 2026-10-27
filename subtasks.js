@@ -19,6 +19,7 @@
   'design.ui':{category:'design',labels:['UI design','واجهات UI'],ar:['واجهة','واجهات','تصميم تطبيق'],en:['ui','ux','wireframe']},
   'code.assistant':{category:'code',labels:['Developer assistant','مساعد مبرمجين'],ar:['كود','مساعد مبرمجين','بايثون','تصحيح خطأ'],en:['coding assistant','debug','python','code']},
   'code.no_code':{category:'code',labels:['No-code website builder','بناء مواقع بدون كود'],ar:['بدون برمجة','بدون كود','متجر','متجري'],en:['no-code','no code','without coding','store builder']},
+  'writing.prompts':{category:'writing',labels:['Prompt writing','كتابة البرومبت'],ar:['برومبت','أمر للذكاء الاصطناعي','صياغة أوامر'],en:['prompt','write a prompt','prompt engineering']},
   'translation.website':{category:'translation',labels:['Website translation','ترجمة المواقع'],ar:['ترجمة موقع','أترجم موقعي','ترجمة المتجر'],en:['translate website','website translation','localize website']},
   'writing.resume':{category:'writing',labels:['Resume writing','سيرة ذاتية'],ar:['سيرة ذاتية','سيرتي','سي في'],en:['resume','curriculum vitae','cv']},
   'writing.email':{category:'writing',labels:['Email drafting','كتابة إيميلات'],ar:['ايميلات','إيميل','ايميل','بريد إلكتروني'],en:['write email','email drafting']},
@@ -53,6 +54,7 @@
   if(/واجه[هات]|\b(?:ui|ux|wireframe)\b/.test(s))add('design.ui');
   if(/بدون (?:برمجه|كود)|\bno[ -]?code\b|without coding|(?:ابني|بناء|انشئ|اسوي|build|create).{0,25}(?:متجر|موقع|website|store)/.test(s))add('code.no_code');
   else if(/\b(code|coding|debug|python|javascript|api|react)\b|كود|بايثون|مبرمج|تصحيح خطا/.test(s))add('code.assistant');
+  if(/برو?مبت|بروبمت|\bprompts?\b|(?:اوامر|أوامر|امر|أمر) (?:لل|ل)?(?:ذكاء|شات|chatgpt)/i.test(s))add('writing.prompts');
   if(/(?:ترجم|ترجمه|اترجم|translat|locali[sz]).{0,25}(?:موقع|متجر|website|web ?site|online store|\bstore\b)|website (?:translation|locali[sz]ation)/.test(s))add('translation.website');
   if(/سيره ذاتيه|سيرتي|سي في|\b(resume|cv)\b|curriculum vitae/.test(s))add('writing.resume');
   const email=/ايميل|بريد الكتروني|\bemails?\b/.test(s),automatic=/تلقائ|تلقاي|اوتوماتيك|automat|auto[ -]?repl/.test(s);
