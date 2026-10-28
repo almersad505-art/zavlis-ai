@@ -948,7 +948,8 @@
     },
     "category": [
       "voice",
-      "music"
+      "music",
+      "video"
     ],
     "keywords_ar": [
       "تعليق صوتي",
@@ -4680,7 +4681,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://plusai.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://plusai.com/pricing",
       "arabic_support": "https://plusai.com/features/multi-language",
       "price_from": "https://plusai.com/pricing"
     },
@@ -4749,7 +4750,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://pitch.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://pitch.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://pitch.com/pricing"
     },
@@ -4810,7 +4811,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.slidesai.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.slidesai.io/pricing",
       "arabic_support": "https://www.slidesai.io/supported-languages",
       "price_from": "https://www.slidesai.io/pricing"
     },
@@ -4879,7 +4880,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://slidesgo.com/ai/presentation-maker",
-      "free_tier": "unknown",
+      "free_tier": "https://slidesgo.com/ai/presentation-maker",
       "arabic_support": "unknown",
       "price_from": "https://slidesgo.com/ai/presentation-maker"
     },
@@ -4940,7 +4941,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.presentations.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.presentations.ai/pricing",
       "arabic_support": "https://www.presentations.ai/",
       "price_from": "https://www.presentations.ai/pricing"
     },
@@ -5141,7 +5142,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://scite.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://scite.ai/pricing",
       "arabic_support": "unknown",
       "price_from": "https://scite.ai/pricing"
     },
@@ -5463,7 +5464,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://otter.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://otter.ai/pricing",
       "arabic_support": "https://www.businesswire.com/news/home/20251022574971/en",
       "price_from": "https://otter.ai/pricing"
     },
@@ -5509,7 +5510,8 @@
     "id": "fireflies-ai",
     "name": "Fireflies.ai",
     "category": [
-      "productivity"
+      "productivity",
+      "voice"
     ],
     "tasks": [
       "productivity",
@@ -5670,7 +5672,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://tldv.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://tldv.io/app/pricing/",
       "arabic_support": "https://intercom.help/tldv/fr/articles/6231678-comment-modifier-la-langue-de-transcription",
       "price_from": "https://tldv.io/app/pricing/"
     },
@@ -5807,7 +5809,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.read.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.read.ai/pricing",
       "arabic_support": "https://www.read.ai/post/six-new-languages-now-supported",
       "price_from": "https://www.read.ai/pricing"
     },
@@ -5876,7 +5878,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://meetgeek.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://meetgeek.ai/pricing",
       "arabic_support": "https://support.meetgeek.ai/en/articles/6011836-language-settings",
       "price_from": "https://meetgeek.ai/pricing"
     },
@@ -6475,7 +6477,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.microsoft.com/en-us/translator/",
-      "free_tier": "unknown",
+      "free_tier": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/",
       "arabic_support": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
       "price_from": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/"
     },
@@ -6544,7 +6546,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.smartcat.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.smartcat.com/pricing/",
       "arabic_support": "https://smartcat.com/Home/Languages",
       "price_from": "https://www.smartcat.com/pricing/"
     },
@@ -6686,7 +6688,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://lokalise.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://lokalise.com/pricing",
       "arabic_support": "https://docs.lokalise.com/en/articles/1478623-spelling-and-grammar-check",
       "price_from": "https://lokalise.com/pricing"
     },
@@ -6759,7 +6761,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://phrase.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://phrase.com/pricing/",
       "arabic_support": "https://support.phrase.com/hc/en-us/articles/5709562365980-Bidirectional-Text-TMS",
       "price_from": "https://phrase.com/pricing/"
     },
@@ -6832,7 +6834,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.weglot.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.weglot.com/pricing",
       "arabic_support": "https://weglot.com/documentation/available-languages/",
       "price_from": "https://www.weglot.com/pricing"
     },
@@ -6905,7 +6907,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://laratranslate.com/translate",
-      "free_tier": "unknown",
+      "free_tier": "https://app.laratranslate.com/pricing",
       "arabic_support": "https://support.laratranslate.com/en/what-languages-are-supported",
       "price_from": "https://app.laratranslate.com/pricing"
     },
@@ -7042,7 +7044,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.magicschool.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.magicschool.ai/pricing",
       "arabic_support": "https://help.magicschool.ai/en/articles/10604047-what-interface-languages-does-magicschool-support",
       "price_from": "https://www.magicschool.ai/pricing"
     },
@@ -7249,7 +7251,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://schoolai.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://schoolai.com/pricing",
       "arabic_support": "https://help.schoolai.com/en/articles/15084211-supported-languages-in-student-spaces-speech-to-text-and-text-to-speech",
       "price_from": "unknown",
       "price_model": "https://schoolai.com/pricing"
@@ -7546,7 +7548,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://questionwell.org/",
-      "free_tier": "unknown",
+      "free_tier": "https://app.questionwell.org/pricing",
       "arabic_support": "unknown",
       "price_from": "https://app.questionwell.org/pricing"
     },
@@ -7611,7 +7613,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.ello.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.ello.com/",
       "arabic_support": "unknown",
       "price_from": "https://www.ello.com/"
     },
@@ -7678,7 +7680,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.synthesis.com/tutor",
-      "free_tier": "unknown",
+      "free_tier": "https://www.synthesis.com/tutor",
       "arabic_support": "https://www.synthesis.com/tutor",
       "price_from": "https://www.synthesis.com/tutor"
     },
@@ -7743,7 +7745,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://rows.com/ai",
-      "free_tier": "unknown",
+      "free_tier": "https://rows.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://rows.com/pricing"
     },
@@ -7805,7 +7807,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://julius.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://julius.ai/pricing",
       "arabic_support": "unknown",
       "price_from": "https://julius.ai/pricing"
     },
@@ -7867,7 +7869,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.akkio.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.akkio.com/pricing",
       "arabic_support": "unknown",
       "price_from": "unknown",
       "price_model": "https://www.akkio.com/pricing"
@@ -8056,7 +8058,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://obviously.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://obviously.ai/pricing",
       "arabic_support": "unknown",
       "price_from": "https://obviously.ai/pricing"
     },
@@ -8117,7 +8119,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.polymersearch.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.polymersearch.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.polymersearch.com/pricing"
     },
@@ -8245,7 +8247,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://gptexcel.uk/",
-      "free_tier": "unknown",
+      "free_tier": "https://gptexcel.uk/pricing",
       "arabic_support": "unknown",
       "price_from": "https://gptexcel.uk/pricing"
     },
@@ -8372,7 +8374,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.thebricks.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.thebricks.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.thebricks.com/pricing"
     },
@@ -8434,7 +8436,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://www.thoughtspot.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.thoughtspot.com/pricing",
       "arabic_support": "https://docs.thoughtspot.com/cloud/latest/spotter-localization",
       "price_from": "https://www.thoughtspot.com/pricing"
     },
@@ -8582,7 +8584,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.make.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.make.com/en/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.make.com/en/pricing"
     },
@@ -8644,7 +8646,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://n8n.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://n8n.io/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://n8n.io/pricing/"
     },
@@ -8862,7 +8864,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.gumloop.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.gumloop.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.gumloop.com/pricing"
     },
@@ -9043,7 +9045,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.langflow.org/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.langflow.org/",
       "arabic_support": "unknown",
       "price_from": "https://www.langflow.org/"
     },
@@ -9318,7 +9320,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.adcreative.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.adcreative.ai/",
       "arabic_support": "unknown",
       "price_from": "https://www.adcreative.ai/"
     },
@@ -9382,7 +9384,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.ocoya.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.ocoya.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.ocoya.com/pricing"
     },
@@ -9572,7 +9574,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.hootsuite.com/wisdom-ai",
-      "free_tier": "unknown",
+      "free_tier": "https://www.hootsuite.com/plans",
       "arabic_support": "unknown",
       "price_from": "https://www.hootsuite.com/plans"
     },
@@ -9702,7 +9704,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.frase.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.frase.io/pricing",
       "arabic_support": "https://www.frase.io/features/multilingual",
       "price_from": "https://www.frase.io/pricing"
     },
@@ -9771,7 +9773,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.marketmuse.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.marketmuse.com/pricing/",
       "arabic_support": "https://docs.marketmuse.com/account-management/supported-browsers-languages-and-countries/",
       "price_from": "https://www.marketmuse.com/pricing/"
     },
@@ -9836,7 +9838,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://neuronwriter.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://neuronwriter.com/pricing/",
       "arabic_support": "https://neuronwriter.com/faqs/what-languages-are-supported-in-neuronwriter/",
       "price_from": "https://neuronwriter.com/pricing/"
     },
@@ -9912,7 +9914,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://sudowrite.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://sudowrite.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://sudowrite.com/pricing"
     },
@@ -9981,7 +9983,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://rytr.me/",
-      "free_tier": "unknown",
+      "free_tier": "https://rytr.me/pricing",
       "arabic_support": "https://help.rytr.me/article/30-write-in-30-languages",
       "price_from": "https://rytr.me/pricing"
     },
@@ -10064,7 +10066,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.anyword.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.anyword.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.anyword.com/pricing"
     },
@@ -10231,7 +10233,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.hypotenuse.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.hypotenuse.ai/pricing",
       "arabic_support": "https://www.hypotenuse.ai/languages/arabic",
       "price_from": "unknown",
       "price_model": "https://www.hypotenuse.ai/pricing"
@@ -10555,7 +10557,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://textcortex.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://textcortex.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://textcortex.com/pricing"
     },
@@ -10617,7 +10619,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://www.loudly.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.loudly.com/music/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.loudly.com/music/pricing"
     },
@@ -10678,7 +10680,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://soundful.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://soundful.com/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://soundful.com/pricing/"
     },
@@ -10739,7 +10741,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://musicfy.lol/",
-      "free_tier": "unknown",
+      "free_tier": "https://musicfy.lol/pricing",
       "arabic_support": "unknown",
       "price_from": "https://musicfy.lol/pricing"
     },
@@ -10800,7 +10802,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://moises.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://moises.ai/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://moises.ai/pricing/"
     },
@@ -10867,7 +10869,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.narakeet.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://narakeet.com/docs/pricing/",
       "arabic_support": "https://www.narakeet.com/languages/text-to-speech-arabic/",
       "price_from": "https://narakeet.com/docs/pricing/"
     },
@@ -10940,7 +10942,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://ttsmaker.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://pro.ttsmaker.com/pricing",
       "arabic_support": "https://ttsmaker.com/blog/ttsmaker-supports-text-to-speech-in-80-languages/",
       "price_from": "https://pro.ttsmaker.com/pricing"
     },
@@ -11013,7 +11015,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://voicemaker.in/",
-      "free_tier": "unknown",
+      "free_tier": "https://voicemaker.in/pricing",
       "arabic_support": "https://voicemaker.in/pricing",
       "price_from": "https://voicemaker.in/pricing"
     },
@@ -11245,7 +11247,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://brandmark.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://brandmark.io/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://brandmark.io/pricing/"
     },
@@ -11558,7 +11560,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.lalal.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.lalal.ai/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://www.lalal.ai/pricing/"
     },

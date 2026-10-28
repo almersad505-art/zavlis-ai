@@ -14,7 +14,7 @@ for v in rows('prices.jsonl'):
     t['priceSource']=v['src'];t['priceCheckedAt']=DATE
     if v['free']!='unknown' or t.get('free_tier') in (None,'unknown'):
         t['free_tier']=v['free'];t['freeTier']={'yes':True,'trial':True,'no':False}.get(v['free'],'unknown')
-    ev=t['evidence'] if isinstance(t.get('evidence'),dict) else {};ev['price_from']='unknown' if v.get('custom') else v['src'];ev['price_model']=v['src'] if v.get('custom') else ev.get('price_model');ev={k:x for k,x in ev.items() if x is not None};t['evidence']=ev;t['last_checked']=DATE
+    ev=t['evidence'] if isinstance(t.get('evidence'),dict) else {};ev['price_from']='unknown' if v.get('custom') else v['src'];ev['price_model']=v['src'] if v.get('custom') else ev.get('price_model');ev['free_tier']=v['src'] if t['free_tier']!='unknown' else ev.get('free_tier');ev={k:x for k,x in ev.items() if x is not None};t['evidence']=ev;t['last_checked']=DATE
 for v in rows('arabic.jsonl'):
     t=by[v['id']];s=v['s'];na+=1
     t['arabic_support']=s;t['arabic']={'yes':True,'partial':True,'no':False}[s]
