@@ -948,7 +948,8 @@
     },
     "category": [
       "voice",
-      "music"
+      "music",
+      "video"
     ],
     "keywords_ar": [
       "تعليق صوتي",
@@ -4617,7 +4618,7 @@
     "price_from": 14.5,
     "url": "https://www.beautiful.ai/",
     "source_url": "https://www.beautiful.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.beautiful.ai/",
       "free_tier": "https://www.beautiful.ai/pricing",
@@ -4632,7 +4633,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/beautiful-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Pro: USD 14.50/month billed annually; 14-day trial",
+    "price": "Pro: USD 14.50/month billed annually; Teams: USD 40/month (3 users) billed annually; 14-day free trial",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -4648,14 +4649,15 @@
     "subtask_free_tier": {
       "presentations.general": "unknown"
     },
-    "price_scope": "Pro: USD 14.50/month billed annually; 14-day trial",
-    "price_scope_ar": "Pro: ‏14.50 دولار شهريًا بفوترة سنوية؛ تجربة 14 يومًا",
-    "priceAr": "Pro: ‏14.50 دولار شهريًا بفوترة سنوية؛ تجربة 14 يومًا",
+    "price_scope": "Pro: USD 14.50/month billed annually; Teams: USD 40/month (3 users) billed annually; 14-day free trial",
+    "price_scope_ar": "Pro: ‏14.50 دولارًا شهريًا بفوترة سنوية؛ Teams: ‏40 دولارًا شهريًا (3 مستخدمين) بفوترة سنوية؛ تجربة مجانية 14 يومًا",
+    "priceAr": "Pro: ‏14.50 دولارًا شهريًا بفوترة سنوية؛ Teams: ‏40 دولارًا شهريًا (3 مستخدمين) بفوترة سنوية؛ تجربة مجانية 14 يومًا",
     "priceSource": "https://www.beautiful.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "plus-ai",
@@ -4680,7 +4682,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://plusai.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://plusai.com/pricing",
       "arabic_support": "https://plusai.com/features/multi-language",
       "price_from": "https://plusai.com/pricing"
     },
@@ -4749,7 +4751,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://pitch.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://pitch.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://pitch.com/pricing"
     },
@@ -4810,7 +4812,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.slidesai.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.slidesai.io/pricing",
       "arabic_support": "https://www.slidesai.io/supported-languages",
       "price_from": "https://www.slidesai.io/pricing"
     },
@@ -4879,7 +4881,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://slidesgo.com/ai/presentation-maker",
-      "free_tier": "unknown",
+      "free_tier": "https://slidesgo.com/ai/presentation-maker",
       "arabic_support": "unknown",
       "price_from": "https://slidesgo.com/ai/presentation-maker"
     },
@@ -4940,7 +4942,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.presentations.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.presentations.ai/pricing",
       "arabic_support": "https://www.presentations.ai/",
       "price_from": "https://www.presentations.ai/pricing"
     },
@@ -5006,7 +5008,7 @@
     "price_from": 9.99,
     "url": "https://www.decktopus.com/",
     "source_url": "https://www.decktopus.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.decktopus.com/",
       "free_tier": "unknown",
@@ -5023,7 +5025,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/decktopus.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Pro: USD 9.99/month billed annually (USD 24.99 billed monthly)",
+    "price": "Pro: USD 9.99/month billed annually (USD 119.88/year); USD 24.99 billed monthly",
     "arabic": true,
     "freeTier": "unknown",
     "capabilities": [
@@ -5041,18 +5043,19 @@
     "subtask_free_tier": {
       "presentations.general": "unknown"
     },
-    "price_scope": "Pro: USD 9.99/month billed annually (USD 24.99 billed monthly)",
-    "price_scope_ar": "Pro: ‏9.99 دولار شهريًا بفوترة سنوية (24.99 بالفوترة الشهرية)",
-    "priceAr": "Pro: ‏9.99 دولار شهريًا بفوترة سنوية (24.99 بالفوترة الشهرية)",
+    "price_scope": "Pro: USD 9.99/month billed annually (USD 119.88/year); USD 24.99 billed monthly",
+    "price_scope_ar": "Pro: ‏9.99 دولارات شهريًا بفوترة سنوية (119.88 دولارًا سنويًا)؛ 24.99 دولارًا بفوترة شهرية",
+    "priceAr": "Pro: ‏9.99 دولارات شهريًا بفوترة سنوية (119.88 دولارًا سنويًا)؛ 24.99 دولارًا بفوترة شهرية",
     "priceSource": "https://www.decktopus.com/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Decktopus AI officially supports Arabic among 7 languages",
     "arabicScopeAr": "Decktopus AI يدعم العربية رسميًا ضمن 7 لغات",
     "arabicSource": "https://www.decktopus.com/",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "elicit",
@@ -5074,7 +5077,7 @@
     "price_from": 0,
     "url": "https://elicit.com/",
     "source_url": "https://elicit.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://elicit.com/",
       "free_tier": "https://elicit.com/pricing",
@@ -5089,7 +5092,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/elicit.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Basic: free; paid plans billed annually (Plus listed at USD 11/user/month)",
+    "price": "Basic: free (limited usage); Pro: USD 49/user/month billed annually; Scale: USD 229/user/month billed annually",
     "arabic": false,
     "freeTier": true,
     "capabilities": [
@@ -5105,18 +5108,19 @@
     "subtask_free_tier": {
       "research.general": "unknown"
     },
-    "price_scope": "Basic: free; paid plans billed annually (Plus listed at USD 11/user/month)",
-    "price_scope_ar": "Basic مجاني؛ الخطط المدفوعة سنوية (Plus بـ11 دولارًا للمستخدم شهريًا)",
-    "priceAr": "Basic مجاني؛ الخطط المدفوعة سنوية (Plus بـ11 دولارًا للمستخدم شهريًا)",
+    "price_scope": "Basic: free (limited usage); Pro: USD 49/user/month billed annually; Scale: USD 229/user/month billed annually",
+    "price_scope_ar": "Basic: مجاني (استخدام محدود)؛ Pro: ‏49 دولارًا للمستخدم شهريًا بفوترة سنوية؛ Scale: ‏229 دولارًا للمستخدم شهريًا بفوترة سنوية",
+    "priceAr": "Basic: مجاني (استخدام محدود)؛ Pro: ‏49 دولارًا للمستخدم شهريًا بفوترة سنوية؛ Scale: ‏229 دولارًا للمستخدم شهريًا بفوترة سنوية",
     "priceSource": "https://elicit.com/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Designed for English; non-English quality is not guaranteed",
     "arabicScopeAr": "مصمم للإنجليزية؛ ولا يضمن جودة اللغات الأخرى",
     "arabicSource": "https://support.elicit.com/en/articles/14758084-languages-other-than-english",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "scite",
@@ -5141,7 +5145,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://scite.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://scite.ai/pricing",
       "arabic_support": "unknown",
       "price_from": "https://scite.ai/pricing"
     },
@@ -5199,7 +5203,7 @@
     "price_from": 0,
     "url": "https://www.researchrabbit.ai/",
     "source_url": "https://www.researchrabbit.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.researchrabbit.ai/",
       "free_tier": "https://www.researchrabbit.ai/pricing",
@@ -5214,7 +5218,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/researchrabbit.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free forever; RR+: USD 10/month annual (USD 12.50 monthly)",
+    "price": "Free forever; ResearchRabbit+: USD 10/month on the annual plan",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -5230,14 +5234,15 @@
     "subtask_free_tier": {
       "research.general": "unknown"
     },
-    "price_scope": "Free forever; RR+: USD 10/month annual (USD 12.50 monthly)",
-    "price_scope_ar": "مجاني دائمًا؛ RR+ بـ10 دولارات شهريًا سنويًا (12.50 شهريًا)",
-    "priceAr": "مجاني دائمًا؛ RR+ بـ10 دولارات شهريًا سنويًا (12.50 شهريًا)",
+    "price_scope": "Free forever; ResearchRabbit+: USD 10/month on the annual plan",
+    "price_scope_ar": "مجاني دائمًا؛ ResearchRabbit+: ‏10 دولارات شهريًا بالخطة السنوية",
+    "priceAr": "مجاني دائمًا؛ ResearchRabbit+: ‏10 دولارات شهريًا بالخطة السنوية",
     "priceSource": "https://www.researchrabbit.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "scispace",
@@ -5326,7 +5331,7 @@
     "price_from": 0,
     "url": "https://www.scholarcy.com/",
     "source_url": "https://www.scholarcy.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.scholarcy.com/",
       "free_tier": "https://www.scholarcy.com/pricing",
@@ -5341,7 +5346,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/scholarcy.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free summarizer: 10 summaries; paid plan prices not displayed",
+    "price": "Free Article Summarizer (limited); Scholarcy Plus: USD 9.99/month; 7-day free trial",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -5357,14 +5362,15 @@
     "subtask_free_tier": {
       "research.documents": "unknown"
     },
-    "price_scope": "Free summarizer: 10 summaries; paid plan prices not displayed",
-    "price_scope_ar": "ملخص مجاني: 10 ملخصات؛ أسعار الخطط المدفوعة غير معروضة",
-    "priceAr": "ملخص مجاني: 10 ملخصات؛ أسعار الخطط المدفوعة غير معروضة",
+    "price_scope": "Free Article Summarizer (limited); Scholarcy Plus: USD 9.99/month; 7-day free trial",
+    "price_scope_ar": "ملخص المقالات المجاني (محدود)؛ Scholarcy Plus: ‏9.99 دولارات شهريًا؛ تجربة مجانية 7 أيام",
+    "priceAr": "ملخص المقالات المجاني (محدود)؛ Scholarcy Plus: ‏9.99 دولارات شهريًا؛ تجربة مجانية 7 أيام",
     "priceSource": "https://www.scholarcy.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "chatpdf",
@@ -5463,7 +5469,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://otter.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://otter.ai/pricing",
       "arabic_support": "https://www.businesswire.com/news/home/20251022574971/en",
       "price_from": "https://otter.ai/pricing"
     },
@@ -5509,7 +5515,8 @@
     "id": "fireflies-ai",
     "name": "Fireflies.ai",
     "category": [
-      "productivity"
+      "productivity",
+      "voice"
     ],
     "tasks": [
       "productivity",
@@ -5526,7 +5533,7 @@
     "price_from": 0,
     "url": "https://fireflies.ai/",
     "source_url": "https://fireflies.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://fireflies.ai/",
       "free_tier": "https://fireflies.ai/pricing",
@@ -5544,7 +5551,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/fireflies-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free forever; Pro: USD 10/seat/month billed annually",
+    "price": "Free forever; Pro: USD 10/seat/month billed annually (USD 18 monthly); Business: USD 19/seat/month billed annually",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -5566,18 +5573,19 @@
       "productivity.general": "unknown",
       "voice.transcription": "unknown"
     },
-    "price_scope": "Free forever; Pro: USD 10/seat/month billed annually",
-    "price_scope_ar": "مجاني دائمًا؛ Pro بـ10 دولارات للمقعد شهريًا بفوترة سنوية",
-    "priceAr": "مجاني دائمًا؛ Pro بـ10 دولارات للمقعد شهريًا بفوترة سنوية",
+    "price_scope": "Free forever; Pro: USD 10/seat/month billed annually (USD 18 monthly); Business: USD 19/seat/month billed annually",
+    "price_scope_ar": "مجاني دائمًا؛ Pro: ‏10 دولارات للمقعد شهريًا بفوترة سنوية (18 دولارًا شهريًا)؛ Business: ‏19 دولارًا للمقعد شهريًا بفوترة سنوية",
+    "priceAr": "مجاني دائمًا؛ Pro: ‏10 دولارات للمقعد شهريًا بفوترة سنوية (18 دولارًا شهريًا)؛ Business: ‏19 دولارًا للمقعد شهريًا بفوترة سنوية",
     "priceSource": "https://fireflies.ai/pricing",
     "arabicScope": "Arabic listed among transcription and summary languages",
     "arabicScopeAr": "العربية ضمن لغات التفريغ والتلخيص",
     "arabicSource": "https://fireflies-knowledge-base.help.usepylon.com/articles/2973706448-learn-about-fireflies-supported-languages",
     "arabicCheckedAt": "2026-10-20",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "fathom",
@@ -5599,7 +5607,7 @@
     "price_from": 0,
     "url": "https://www.fathom.ai/",
     "source_url": "https://www.fathom.ai/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.fathom.ai/",
       "free_tier": "https://www.fathom.ai/pricing",
@@ -5616,7 +5624,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/fathom.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free forever; Team: USD 15/user/month billed annually (USD 19 monthly)",
+    "price": "Free forever; Premium: USD 16/user/month; Team: USD 15/user/month (2-user minimum)",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -5634,18 +5642,19 @@
     "subtask_free_tier": {
       "productivity.general": "unknown"
     },
-    "price_scope": "Free forever; Team: USD 15/user/month billed annually (USD 19 monthly)",
-    "price_scope_ar": "مجاني دائمًا؛ Team بـ15 دولارًا للمستخدم شهريًا سنويًا (19 شهريًا)",
-    "priceAr": "مجاني دائمًا؛ Team بـ15 دولارًا للمستخدم شهريًا سنويًا (19 شهريًا)",
+    "price_scope": "Free forever; Premium: USD 16/user/month; Team: USD 15/user/month (2-user minimum)",
+    "price_scope_ar": "مجاني دائمًا؛ Premium: ‏16 دولارًا للمستخدم شهريًا؛ Team: ‏15 دولارًا للمستخدم شهريًا (مستخدمان على الأقل)",
+    "priceAr": "مجاني دائمًا؛ Premium: ‏16 دولارًا للمستخدم شهريًا؛ Team: ‏15 دولارًا للمستخدم شهريًا (مستخدمان على الأقل)",
     "priceSource": "https://www.fathom.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Arabic meeting transcripts; summaries are not translated into Arabic",
     "arabicScopeAr": "تفريغ الاجتماعات بالعربية؛ الملخصات لا تُترجم إلى العربية",
     "arabicSource": "https://help.fathom.video/en/articles/296192",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "tl-dv",
@@ -5670,7 +5679,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://tldv.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://tldv.io/app/pricing/",
       "arabic_support": "https://intercom.help/tldv/fr/articles/6231678-comment-modifier-la-langue-de-transcription",
       "price_from": "https://tldv.io/app/pricing/"
     },
@@ -5733,10 +5742,10 @@
     ],
     "free_tier": "trial",
     "arabic_support": "yes",
-    "price_from": 29,
+    "price_from": 19,
     "url": "https://www.avoma.com/",
     "source_url": "https://www.avoma.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.avoma.com/",
       "free_tier": "https://www.avoma.com/pricing",
@@ -5753,7 +5762,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/avoma.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Startup: USD 29 per recorder seat/month, billed monthly; 14-day trial",
+    "price": "Startup: USD 19 per recorder seat/month billed annually; viewers free; 14-day free trial",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -5771,18 +5780,19 @@
     "subtask_free_tier": {
       "productivity.general": "unknown"
     },
-    "price_scope": "Startup: USD 29 per recorder seat/month, billed monthly; 14-day trial",
-    "price_scope_ar": "Startup: ‏29 دولارًا لكل مقعد تسجيل شهريًا بفوترة شهرية؛ تجربة 14 يومًا",
-    "priceAr": "Startup: ‏29 دولارًا لكل مقعد تسجيل شهريًا بفوترة شهرية؛ تجربة 14 يومًا",
+    "price_scope": "Startup: USD 19 per recorder seat/month billed annually; viewers free; 14-day free trial",
+    "price_scope_ar": "Startup: ‏19 دولارًا لكل مقعد تسجيل شهريًا بفوترة سنوية؛ المشاهدون مجانًا؛ تجربة مجانية 14 يومًا",
+    "priceAr": "Startup: ‏19 دولارًا لكل مقعد تسجيل شهريًا بفوترة سنوية؛ المشاهدون مجانًا؛ تجربة مجانية 14 يومًا",
     "priceSource": "https://www.avoma.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Arabic listed among 60+ transcription languages and dialects",
     "arabicScopeAr": "العربية ضمن أكثر من 60 لغة ولهجة للتفريغ",
     "arabicSource": "https://help.avoma.com/does-avoma-support-other-languages",
-    "arabicCheckedAt": "2026-10-20"
+    "arabicCheckedAt": "2026-10-20",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "read-ai",
@@ -5807,7 +5817,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.read.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.read.ai/pricing",
       "arabic_support": "https://www.read.ai/post/six-new-languages-now-supported",
       "price_from": "https://www.read.ai/pricing"
     },
@@ -5876,7 +5886,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://meetgeek.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://meetgeek.ai/pricing",
       "arabic_support": "https://support.meetgeek.ai/en/articles/6011836-language-settings",
       "price_from": "https://meetgeek.ai/pricing"
     },
@@ -5950,7 +5960,7 @@
     "price_from": 8,
     "url": "https://krisp.ai/",
     "source_url": "https://krisp.ai/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://krisp.ai/",
       "free_tier": "https://krisp.ai/pricing/",
@@ -5968,7 +5978,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/krisp.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Core: USD 8/user/month billed annually (USD 16 monthly); 7-day free trial",
+    "price": "Core: USD 8/user/month; Advanced: USD 15/user/month; 7-day free trial",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -5990,18 +6000,19 @@
       "voice.denoising": "unknown",
       "productivity.general": "unknown"
     },
-    "price_scope": "Core: USD 8/user/month billed annually (USD 16 monthly); 7-day free trial",
-    "price_scope_ar": "Core بـ8 دولارات للمستخدم شهريًا سنويًا (16 شهريًا)؛ تجربة 7 أيام",
-    "priceAr": "Core بـ8 دولارات للمستخدم شهريًا سنويًا (16 شهريًا)؛ تجربة 7 أيام",
+    "price_scope": "Core: USD 8/user/month; Advanced: USD 15/user/month; 7-day free trial",
+    "price_scope_ar": "Core: ‏8 دولارات للمستخدم شهريًا؛ Advanced: ‏15 دولارًا للمستخدم شهريًا؛ تجربة مجانية 7 أيام",
+    "priceAr": "Core: ‏8 دولارات للمستخدم شهريًا؛ Advanced: ‏15 دولارًا للمستخدم شهريًا؛ تجربة مجانية 7 أيام",
     "priceSource": "https://krisp.ai/pricing/",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Arabic (Standard and Egyptian) is supported for voice translation; Arabic meeting transcription is not stated",
     "arabicScopeAr": "العربية (الفصحى والمصرية) مدعومة في الترجمة الصوتية؛ وتفريغ الاجتماعات بالعربي غير مذكور",
     "arabicSource": "https://help.krisp.ai/hc/en-us/articles/25670169242396-Supported-languages-for-Krisp-AI-Voice-Translation",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "granola",
@@ -6023,7 +6034,7 @@
     "price_from": 0,
     "url": "https://www.granola.ai/",
     "source_url": "https://www.granola.ai/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.granola.ai/",
       "free_tier": "https://www.granola.ai/pricing",
@@ -6040,7 +6051,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/granola.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Basic: free; Business: USD 14/user/month",
+    "price": "Basic: free; Business: USD 14/user/month; Enterprise: USD 35/user/month",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -6058,18 +6069,19 @@
     "subtask_free_tier": {
       "productivity.general": "unknown"
     },
-    "price_scope": "Basic: free; Business: USD 14/user/month",
-    "price_scope_ar": "Basic مجاني؛ Business بـ14 دولارًا للمستخدم شهريًا",
-    "priceAr": "Basic مجاني؛ Business بـ14 دولارًا للمستخدم شهريًا",
+    "price_scope": "Basic: free; Business: USD 14/user/month; Enterprise: USD 35/user/month",
+    "price_scope_ar": "Basic: مجاني؛ Business: ‏14 دولارًا للمستخدم شهريًا؛ Enterprise: ‏35 دولارًا للمستخدم شهريًا",
+    "priceAr": "Basic: مجاني؛ Business: ‏14 دولارًا للمستخدم شهريًا؛ Enterprise: ‏35 دولارًا للمستخدم شهريًا",
     "priceSource": "https://www.granola.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Arabic supported on desktop (macOS and Windows), not on mobile",
     "arabicScopeAr": "العربية مدعومة على الكمبيوتر (ماك وويندوز) وليس على الجوال",
     "arabicSource": "https://docs.granola.ai/help-center/customising-granola/multi-language",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "motion",
@@ -6103,7 +6115,7 @@
     "price_from": 19,
     "url": "https://www.usemotion.com/",
     "source_url": "https://www.usemotion.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.usemotion.com/",
       "free_tier": "https://www.usemotion.com/pricing",
@@ -6120,7 +6132,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/motion.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Pro AI: USD 19/seat/month; free trial",
+    "price": "Pro AI: USD 19/seat/month; Business AI: USD 29/seat/month; free trial",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -6138,18 +6150,19 @@
     "subtask_free_tier": {
       "productivity.task_organization": "unknown"
     },
-    "price_scope": "Pro AI: USD 19/seat/month; free trial",
-    "price_scope_ar": "Pro AI: ‏19 دولارًا للمقعد شهريًا؛ تجربة مجانية",
-    "priceAr": "Pro AI: ‏19 دولارًا للمقعد شهريًا؛ تجربة مجانية",
+    "price_scope": "Pro AI: USD 19/seat/month; Business AI: USD 29/seat/month; free trial",
+    "price_scope_ar": "Pro AI: ‏19 دولارًا للمقعد شهريًا؛ Business AI: ‏29 دولارًا للمقعد شهريًا؛ تجربة مجانية",
+    "priceAr": "Pro AI: ‏19 دولارًا للمقعد شهريًا؛ Business AI: ‏29 دولارًا للمقعد شهريًا؛ تجربة مجانية",
     "priceSource": "https://www.usemotion.com/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "AI Notetaker understands 102 languages but transcribes only in English",
     "arabicScopeAr": "مدوّن الاجتماعات يفهم 102 لغة لكنه يكتب التفريغ بالإنجليزية فقط",
     "arabicSource": "https://www.usemotion.com/help/knowledge-management/ai-notetaker/reference-ai-notetaker",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "reclaim-ai",
@@ -6175,7 +6188,7 @@
     "price_from": 0,
     "url": "https://reclaim.ai/",
     "source_url": "https://reclaim.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://reclaim.ai/",
       "free_tier": "https://reclaim.ai/pricing",
@@ -6190,7 +6203,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/reclaim-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Lite: free forever; Starter: USD 10/seat/month yearly (USD 12 monthly)",
+    "price": "Lite: free forever; Starter: USD 10/seat/month billed yearly; Business: USD 15/seat/month billed yearly",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -6209,14 +6222,15 @@
       "productivity.general": "unknown",
       "productivity.task_organization": "unknown"
     },
-    "price_scope": "Lite: free forever; Starter: USD 10/seat/month yearly (USD 12 monthly)",
-    "price_scope_ar": "Lite مجاني دائمًا؛ Starter بـ10 دولارات للمقعد شهريًا سنويًا (12 شهريًا)",
-    "priceAr": "Lite مجاني دائمًا؛ Starter بـ10 دولارات للمقعد شهريًا سنويًا (12 شهريًا)",
+    "price_scope": "Lite: free forever; Starter: USD 10/seat/month billed yearly; Business: USD 15/seat/month billed yearly",
+    "price_scope_ar": "Lite: مجاني دائمًا؛ Starter: ‏10 دولارات للمقعد شهريًا بفوترة سنوية؛ Business: ‏15 دولارًا للمقعد شهريًا بفوترة سنوية",
+    "priceAr": "Lite: مجاني دائمًا؛ Starter: ‏10 دولارات للمقعد شهريًا بفوترة سنوية؛ Business: ‏15 دولارًا للمقعد شهريًا بفوترة سنوية",
     "priceSource": "https://reclaim.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "taskade",
@@ -6259,7 +6273,7 @@
     "price_from": 0,
     "url": "https://www.taskade.com/",
     "source_url": "https://www.taskade.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.taskade.com/",
       "free_tier": "https://www.taskade.com/pricing",
@@ -6278,7 +6292,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/taskade.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free forever (2 users); Pro: USD 10/month billed yearly",
+    "price": "Free plan; Pro: USD 10/month (USD 120 billed yearly); Business: USD 25/month billed yearly",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -6307,18 +6321,19 @@
       "productivity.task_organization": "unknown",
       "automation.general": "unknown"
     },
-    "price_scope": "Free forever (2 users); Pro: USD 10/month billed yearly",
-    "price_scope_ar": "مجاني دائمًا (مستخدمان)؛ Pro بـ10 دولارات شهريًا بفوترة سنوية",
-    "priceAr": "مجاني دائمًا (مستخدمان)؛ Pro بـ10 دولارات شهريًا بفوترة سنوية",
+    "price_scope": "Free plan; Pro: USD 10/month (USD 120 billed yearly); Business: USD 25/month billed yearly",
+    "price_scope_ar": "خطة مجانية؛ Pro: ‏10 دولارات شهريًا (120 دولارًا بفوترة سنوية)؛ Business: ‏25 دولارًا شهريًا بفوترة سنوية",
+    "priceAr": "خطة مجانية؛ Pro: ‏10 دولارات شهريًا (120 دولارًا بفوترة سنوية)؛ Business: ‏25 دولارًا شهريًا بفوترة سنوية",
     "priceSource": "https://www.taskade.com/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Arabic interface available, and AI agents can be set to a default language such as Arabic",
     "arabicScopeAr": "الواجهة متاحة بالعربية، ويمكن ضبط وكلاء الذكاء الاصطناعي على لغة افتراضية مثل العربية",
     "arabicSource": "https://help.taskade.com/en/articles/8958626-change-language",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "deepl-translator",
@@ -6340,7 +6355,7 @@
     "price_from": 0,
     "url": "https://www.deepl.com/en/translator",
     "source_url": "https://www.deepl.com/en/translator",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.deepl.com/en/translator",
       "free_tier": "https://www.deepl.com/en/pro",
@@ -6351,13 +6366,13 @@
     "arabic_tasks": [
       "translation"
     ],
-    "price_currency": "USD",
+    "price_currency": "EUR",
     "active": true,
     "officialUrl": "https://www.deepl.com/en/translator",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/deepl-translator.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free version: 50,000 characters/month; Pro Individual from EUR 7.49/month billed annually",
+    "price": "Free version; Pro Individual: EUR 7.49/month billed annually; 30-day free trial",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -6375,18 +6390,19 @@
     "subtask_free_tier": {
       "translation.general": "unknown"
     },
-    "price_scope": "Free version: 50,000 characters/month; Pro Individual from EUR 7.49/month billed annually",
-    "price_scope_ar": "نسخة مجانية: 50 ألف حرف شهريًا؛ Pro من 7.49 يورو شهريًا بفوترة سنوية",
-    "priceAr": "نسخة مجانية: 50 ألف حرف شهريًا؛ Pro من 7.49 يورو شهريًا بفوترة سنوية",
+    "price_scope": "Free version; Pro Individual: EUR 7.49/month billed annually; 30-day free trial",
+    "price_scope_ar": "نسخة مجانية؛ Pro Individual: ‏7.49 يورو شهريًا بفوترة سنوية؛ تجربة مجانية 30 يومًا",
+    "priceAr": "نسخة مجانية؛ Pro Individual: ‏7.49 يورو شهريًا بفوترة سنوية؛ تجربة مجانية 30 يومًا",
     "priceSource": "https://www.deepl.com/en/pro",
     "arabicScope": "Modern Standard Arabic as source and target language",
     "arabicScopeAr": "العربية الفصحى لغة مصدر وهدف",
     "arabicSource": "https://support.deepl.com/hc/en-us/articles/360019925219-DeepL-Translator-languages",
     "arabicCheckedAt": "2026-10-20",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "google-translate",
@@ -6475,7 +6491,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.microsoft.com/en-us/translator/",
-      "free_tier": "unknown",
+      "free_tier": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/",
       "arabic_support": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
       "price_from": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/"
     },
@@ -6544,7 +6560,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.smartcat.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.smartcat.com/pricing/",
       "arabic_support": "https://smartcat.com/Home/Languages",
       "price_from": "https://www.smartcat.com/pricing/"
     },
@@ -6686,7 +6702,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://lokalise.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://lokalise.com/pricing",
       "arabic_support": "https://docs.lokalise.com/en/articles/1478623-spelling-and-grammar-check",
       "price_from": "https://lokalise.com/pricing"
     },
@@ -6759,7 +6775,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://phrase.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://phrase.com/pricing/",
       "arabic_support": "https://support.phrase.com/hc/en-us/articles/5709562365980-Bidirectional-Text-TMS",
       "price_from": "https://phrase.com/pricing/"
     },
@@ -6832,7 +6848,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.weglot.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.weglot.com/pricing",
       "arabic_support": "https://weglot.com/documentation/available-languages/",
       "price_from": "https://www.weglot.com/pricing"
     },
@@ -6905,7 +6921,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://laratranslate.com/translate",
-      "free_tier": "unknown",
+      "free_tier": "https://app.laratranslate.com/pricing",
       "arabic_support": "https://support.laratranslate.com/en/what-languages-are-supported",
       "price_from": "https://app.laratranslate.com/pricing"
     },
@@ -6971,7 +6987,7 @@
     "price_from": 0,
     "url": "https://immersivetranslate.com/en/",
     "source_url": "https://immersivetranslate.com/en/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://immersivetranslate.com/en/",
       "free_tier": "https://immersivetranslate.com/en/pricing/",
@@ -6982,13 +6998,13 @@
     "arabic_tasks": [
       "translation"
     ],
-    "price_currency": "USD",
+    "price_currency": "SAR",
     "active": true,
     "officialUrl": "https://immersivetranslate.com/en/",
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/immersive-translate.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free with daily request limits; Pro/Max prices not shown on pricing page",
+    "price": "Free plan; Pro: SAR 26.99/month and Max: SAR 75/month (prices as shown for Saudi Arabia); 3-day free trial",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -7006,18 +7022,19 @@
     "subtask_free_tier": {
       "translation.general": "unknown"
     },
-    "price_scope": "Free with daily request limits; Pro/Max prices not shown on pricing page",
-    "price_scope_ar": "مجاني بحدود يومية؛ أسعار Pro/Max غير معروضة",
-    "priceAr": "مجاني بحدود يومية؛ أسعار Pro/Max غير معروضة",
+    "price_scope": "Free plan; Pro: SAR 26.99/month and Max: SAR 75/month (prices as shown for Saudi Arabia); 3-day free trial",
+    "price_scope_ar": "خطة مجانية؛ Pro: ‏26.99 ريالًا شهريًا وMax: ‏75 ريالًا شهريًا (كما تظهر للسعودية)؛ تجربة مجانية 3 أيام",
+    "priceAr": "خطة مجانية؛ Pro: ‏26.99 ريالًا شهريًا وMax: ‏75 ريالًا شهريًا (كما تظهر للسعودية)؛ تجربة مجانية 3 أيام",
     "priceSource": "https://immersivetranslate.com/en/pricing/",
     "arabicScope": "English–Arabic translation supported",
     "arabicScopeAr": "يدعم الترجمة بين الإنجليزية والعربية",
     "arabicSource": "https://immersivetranslate.com/en/translate/english-to-arabic/",
     "arabicCheckedAt": "2026-10-20",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "magicschool",
@@ -7042,7 +7059,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.magicschool.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.magicschool.ai/pricing",
       "arabic_support": "https://help.magicschool.ai/en/articles/10604047-what-interface-languages-does-magicschool-support",
       "price_from": "https://www.magicschool.ai/pricing"
     },
@@ -7108,7 +7125,7 @@
     "price_from": 0,
     "url": "https://web.diffit.me/",
     "source_url": "https://web.diffit.me/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://web.diffit.me/",
       "free_tier": "https://web.diffit.me/pricing",
@@ -7123,7 +7140,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/diffit.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Basic: free; Diffit for Schools: annual pricing by enrollment",
+    "price": "Basic: free with limits; Diffit for Schools and districts: quote-based pricing",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -7139,14 +7156,15 @@
     "subtask_free_tier": {
       "education.general": "unknown"
     },
-    "price_scope": "Basic: free; Diffit for Schools: annual pricing by enrollment",
-    "price_scope_ar": "Basic مجاني؛ نسخة المدارس باشتراك سنوي حسب عدد الطلاب",
-    "priceAr": "Basic مجاني؛ نسخة المدارس باشتراك سنوي حسب عدد الطلاب",
+    "price_scope": "Basic: free with limits; Diffit for Schools and districts: quote-based pricing",
+    "price_scope_ar": "Basic: مجاني بحدود؛ Diffit للمدارس والمناطق التعليمية: السعر حسب عرض سعر",
+    "priceAr": "Basic: مجاني بحدود؛ Diffit للمدارس والمناطق التعليمية: السعر حسب عرض سعر",
     "priceSource": "https://web.diffit.me/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "brisk-teaching",
@@ -7168,12 +7186,12 @@
     "price_from": 0,
     "url": "https://www.briskteaching.com/",
     "source_url": "https://www.briskteaching.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.briskteaching.com/",
-      "free_tier": "https://www.briskteaching.com/",
+      "free_tier": "https://www.briskteaching.com/plans",
       "arabic_support": "https://www.briskteaching.com/ar-eg/getting-started-with-brisk-teaching",
-      "price_from": "https://www.briskteaching.com/"
+      "price_from": "https://www.briskteaching.com/plans"
     },
     "general_purpose": false,
     "arabic_tasks": [
@@ -7185,7 +7203,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/brisk-teaching.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free for teachers; paid plan prices not displayed",
+    "price": "Free for teachers; Premium and Intelligence plans for schools and districts: custom pricing",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -7203,18 +7221,19 @@
     "subtask_free_tier": {
       "education.general": "unknown"
     },
-    "price_scope": "Free for teachers; paid plan prices not displayed",
-    "price_scope_ar": "مجاني للمعلمين؛ أسعار الخطط المدفوعة غير معروضة",
-    "priceAr": "مجاني للمعلمين؛ أسعار الخطط المدفوعة غير معروضة",
-    "priceSource": "https://www.briskteaching.com/",
+    "price_scope": "Free for teachers; Premium and Intelligence plans for schools and districts: custom pricing",
+    "price_scope_ar": "مجاني للمعلمين؛ خطط Premium وIntelligence للمدارس والمناطق التعليمية: تسعير مخصص",
+    "priceAr": "مجاني للمعلمين؛ خطط Premium وIntelligence للمدارس والمناطق التعليمية: تسعير مخصص",
+    "priceSource": "https://www.briskteaching.com/plans",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Website offered in Arabic; translation covers 50+ languages without naming Arabic",
     "arabicScopeAr": "الموقع متاح بالعربية؛ والترجمة تشمل أكثر من 50 لغة دون تسمية العربية",
     "arabicSource": "https://www.briskteaching.com/ar-eg/getting-started-with-brisk-teaching",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "schoolai",
@@ -7249,7 +7268,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://schoolai.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://schoolai.com/pricing",
       "arabic_support": "https://help.schoolai.com/en/articles/15084211-supported-languages-in-student-spaces-speech-to-text-and-text-to-speech",
       "price_from": "unknown",
       "price_model": "https://schoolai.com/pricing"
@@ -7327,7 +7346,7 @@
     "price_from": 0,
     "url": "https://www.khanmigo.ai/",
     "source_url": "https://www.khanmigo.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.khanmigo.ai/",
       "free_tier": "https://www.khanmigo.ai/pricing",
@@ -7344,7 +7363,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/khanmigo.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free for teachers; learners and parents: USD 4/month or USD 44/year",
+    "price": "Free for teachers; learners and families: USD 4/month or USD 44/year",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -7362,18 +7381,19 @@
     "subtask_free_tier": {
       "education.study": "unknown"
     },
-    "price_scope": "Free for teachers; learners and parents: USD 4/month or USD 44/year",
-    "price_scope_ar": "مجاني للمعلمين؛ للطلاب وأولياء الأمور 4 دولارات شهريًا أو 44 سنويًا",
-    "priceAr": "مجاني للمعلمين؛ للطلاب وأولياء الأمور 4 دولارات شهريًا أو 44 سنويًا",
+    "price_scope": "Free for teachers; learners and families: USD 4/month or USD 44/year",
+    "price_scope_ar": "مجاني للمعلمين؛ للطلاب والعائلات: ‏4 دولارات شهريًا أو 44 دولارًا سنويًا",
+    "priceAr": "مجاني للمعلمين؛ للطلاب والعائلات: ‏4 دولارات شهريًا أو 44 دولارًا سنويًا",
     "priceSource": "https://www.khanmigo.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Khanmigo can respond in Arabic (43 languages); account language cannot be set to Arabic",
     "arabicScopeAr": "يرد Khanmigo بالعربية (43 لغة)؛ لغة الحساب لا تُضبط على العربية",
     "arabicSource": "https://support.khanacademy.org/hc/en-us/articles/33322691603469",
-    "arabicCheckedAt": "2026-10-20"
+    "arabicCheckedAt": "2026-10-20",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "knowt",
@@ -7405,7 +7425,7 @@
     "price_from": 0,
     "url": "https://knowt.com/",
     "source_url": "https://knowt.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://knowt.com/",
       "free_tier": "https://knowt.com/plans",
@@ -7420,7 +7440,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/knowt.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Basic: free; Ultra: USD 12.99/month billed annually",
+    "price": "Basic: free; Ultra: USD 12.99/month billed annually (USD 149.99) or USD 24.99 monthly; 3-day free trial",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -7436,14 +7456,15 @@
     "subtask_free_tier": {
       "education.study": "unknown"
     },
-    "price_scope": "Basic: free; Ultra: USD 12.99/month billed annually",
-    "price_scope_ar": "Basic مجاني؛ Ultra بـ12.99 دولار شهريًا بفوترة سنوية",
-    "priceAr": "Basic مجاني؛ Ultra بـ12.99 دولار شهريًا بفوترة سنوية",
+    "price_scope": "Basic: free; Ultra: USD 12.99/month billed annually (USD 149.99) or USD 24.99 monthly; 3-day free trial",
+    "price_scope_ar": "Basic: مجاني؛ Ultra: ‏12.99 دولارًا شهريًا بفوترة سنوية (149.99 دولارًا) أو 24.99 دولارًا شهريًا؛ تجربة مجانية 3 أيام",
+    "priceAr": "Basic: مجاني؛ Ultra: ‏12.99 دولارًا شهريًا بفوترة سنوية (149.99 دولارًا) أو 24.99 دولارًا شهريًا؛ تجربة مجانية 3 أيام",
     "priceSource": "https://knowt.com/plans",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "curipod",
@@ -7465,7 +7486,7 @@
     "price_from": 0,
     "url": "https://curipod.com/",
     "source_url": "https://curipod.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://curipod.com/",
       "free_tier": "https://curipod.com/pricing",
@@ -7482,7 +7503,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/curipod.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free for teachers; School & District: custom pricing",
+    "price": "Free for teachers; Premium for individual teachers: USD 228/year",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -7500,18 +7521,19 @@
     "subtask_free_tier": {
       "education.general": "unknown"
     },
-    "price_scope": "Free for teachers; School & District: custom pricing",
-    "price_scope_ar": "مجاني للمعلمين؛ المدارس والمناطق بسعر مخصص",
-    "priceAr": "مجاني للمعلمين؛ المدارس والمناطق بسعر مخصص",
+    "price_scope": "Free for teachers; Premium for individual teachers: USD 228/year",
+    "price_scope_ar": "مجاني للمعلمين؛ Premium للمعلم الفرد: ‏228 دولارًا سنويًا",
+    "priceAr": "مجاني للمعلمين؛ Premium للمعلم الفرد: ‏228 دولارًا سنويًا",
     "priceSource": "https://curipod.com/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Describe a lesson in Arabic and the whole lesson is generated in Arabic, with dialect choice (MSA, Egyptian, Gulf)",
     "arabicScopeAr": "اكتب وصف الدرس بالعربي فيُنشأ الدرس كاملًا بالعربية، مع اختيار اللهجة (فصحى، مصرية، خليجية)",
     "arabicSource": "https://help.curipod.com/en/collections/855931-curipod-languages",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "questionwell",
@@ -7546,7 +7568,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://questionwell.org/",
-      "free_tier": "unknown",
+      "free_tier": "https://app.questionwell.org/pricing",
       "arabic_support": "unknown",
       "price_from": "https://app.questionwell.org/pricing"
     },
@@ -7611,7 +7633,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.ello.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.ello.com/",
       "arabic_support": "unknown",
       "price_from": "https://www.ello.com/"
     },
@@ -7678,7 +7700,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.synthesis.com/tutor",
-      "free_tier": "unknown",
+      "free_tier": "https://www.synthesis.com/tutor",
       "arabic_support": "https://www.synthesis.com/tutor",
       "price_from": "https://www.synthesis.com/tutor"
     },
@@ -7743,7 +7765,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://rows.com/ai",
-      "free_tier": "unknown",
+      "free_tier": "https://rows.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://rows.com/pricing"
     },
@@ -7805,7 +7827,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://julius.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://julius.ai/pricing",
       "arabic_support": "unknown",
       "price_from": "https://julius.ai/pricing"
     },
@@ -7867,7 +7889,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.akkio.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.akkio.com/pricing",
       "arabic_support": "unknown",
       "price_from": "unknown",
       "price_model": "https://www.akkio.com/pricing"
@@ -8056,7 +8078,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://obviously.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://obviously.ai/pricing",
       "arabic_support": "unknown",
       "price_from": "https://obviously.ai/pricing"
     },
@@ -8117,7 +8139,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.polymersearch.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.polymersearch.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.polymersearch.com/pricing"
     },
@@ -8175,7 +8197,7 @@
     "price_from": 0,
     "url": "https://betteranalyst.com/",
     "source_url": "https://betteranalyst.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://betteranalyst.com/",
       "free_tier": "https://betteranalyst.com/pricing",
@@ -8190,7 +8212,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/better-analyst-formula-bot.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free forever plan; Starter: USD 20/month billed monthly",
+    "price": "Free plan; Starter: USD 20/month (USD 10 first month); Max: USD 40/user/month",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -8207,14 +8229,15 @@
     "subtask_free_tier": {
       "data.general": "unknown"
     },
-    "price_scope": "Free forever plan; Starter: USD 20/month billed monthly",
-    "price_scope_ar": "خطة مجانية دائمة؛ Starter بـ20 دولارًا شهريًا",
-    "priceAr": "خطة مجانية دائمة؛ Starter بـ20 دولارًا شهريًا",
+    "price_scope": "Free plan; Starter: USD 20/month (USD 10 first month); Max: USD 40/user/month",
+    "price_scope_ar": "خطة مجانية؛ Starter: ‏20 دولارًا شهريًا (10 دولارات أول شهر)؛ Max: ‏40 دولارًا للمستخدم شهريًا",
+    "priceAr": "خطة مجانية؛ Starter: ‏20 دولارًا شهريًا (10 دولارات أول شهر)؛ Max: ‏40 دولارًا للمستخدم شهريًا",
     "priceSource": "https://betteranalyst.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "gptexcel",
@@ -8245,7 +8268,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://gptexcel.uk/",
-      "free_tier": "unknown",
+      "free_tier": "https://gptexcel.uk/pricing",
       "arabic_support": "unknown",
       "price_from": "https://gptexcel.uk/pricing"
     },
@@ -8308,7 +8331,7 @@
     "price_from": 0,
     "url": "https://www.sheetai.app/",
     "source_url": "https://www.sheetai.app/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.sheetai.app/",
       "free_tier": "https://www.sheetai.app/pricing",
@@ -8323,7 +8346,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/sheetai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free (own API key); Starter: USD 12/month billed monthly",
+    "price": "Free with your own API key; Starter: USD 12/month; Pro: USD 29/month or USD 290/year",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -8340,14 +8363,15 @@
     "subtask_free_tier": {
       "data.general": "unknown"
     },
-    "price_scope": "Free (own API key); Starter: USD 12/month billed monthly",
-    "price_scope_ar": "مجاني (بمفتاح API خاص بك)؛ Starter بـ12 دولارًا شهريًا",
-    "priceAr": "مجاني (بمفتاح API خاص بك)؛ Starter بـ12 دولارًا شهريًا",
+    "price_scope": "Free with your own API key; Starter: USD 12/month; Pro: USD 29/month or USD 290/year",
+    "price_scope_ar": "مجاني بمفتاح API خاص بك؛ Starter: ‏12 دولارًا شهريًا؛ Pro: ‏29 دولارًا شهريًا أو 290 دولارًا سنويًا",
+    "priceAr": "مجاني بمفتاح API خاص بك؛ Starter: ‏12 دولارًا شهريًا؛ Pro: ‏29 دولارًا شهريًا أو 290 دولارًا سنويًا",
     "priceSource": "https://www.sheetai.app/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "bricks",
@@ -8372,7 +8396,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.thebricks.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.thebricks.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.thebricks.com/pricing"
     },
@@ -8434,7 +8458,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://www.thoughtspot.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.thoughtspot.com/pricing",
       "arabic_support": "https://docs.thoughtspot.com/cloud/latest/spotter-localization",
       "price_from": "https://www.thoughtspot.com/pricing"
     },
@@ -8505,7 +8529,7 @@
     "price_from": 0,
     "url": "https://zapier.com/ai",
     "source_url": "https://zapier.com/ai",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://zapier.com/ai",
       "free_tier": "https://zapier.com/pricing",
@@ -8523,7 +8547,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/zapier-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free forever: 100 tasks/month; Professional from USD 19.99/month",
+    "price": "Free forever: 100 tasks/month; Professional from USD 19.99/month; Team from USD 69/month",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -8546,18 +8570,19 @@
       "productivity.email_automation": "unknown",
       "automation.general": "unknown"
     },
-    "price_scope": "Free forever: 100 tasks/month; Professional from USD 19.99/month",
-    "price_scope_ar": "مجاني دائمًا: 100 مهمة شهريًا؛ Professional من 19.99 دولار شهريًا",
-    "priceAr": "مجاني دائمًا: 100 مهمة شهريًا؛ Professional من 19.99 دولار شهريًا",
+    "price_scope": "Free forever: 100 tasks/month; Professional from USD 19.99/month; Team from USD 69/month",
+    "price_scope_ar": "مجاني دائمًا: 100 مهمة شهريًا؛ Professional من 19.99 دولارًا شهريًا؛ Team من 69 دولارًا شهريًا",
+    "priceAr": "مجاني دائمًا: 100 مهمة شهريًا؛ Professional من 19.99 دولارًا شهريًا؛ Team من 69 دولارًا شهريًا",
     "priceSource": "https://zapier.com/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Zapier's interface is available in English only",
     "arabicScopeAr": "واجهة Zapier متاحة بالإنجليزية فقط",
     "arabicSource": "https://help.zapier.com/hc/en-us/articles/35201074788877-Can-I-change-Zapier-s-interface-language",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "make",
@@ -8582,7 +8607,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.make.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.make.com/en/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.make.com/en/pricing"
     },
@@ -8644,7 +8669,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://n8n.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://n8n.io/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://n8n.io/pricing/"
     },
@@ -8862,7 +8887,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.gumloop.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.gumloop.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.gumloop.com/pricing"
     },
@@ -8918,10 +8943,10 @@
     ],
     "free_tier": "yes",
     "arabic_support": "unknown",
-    "price_from": 10,
+    "price_from": 0,
     "url": "https://www.bardeen.ai/",
     "source_url": "https://www.bardeen.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.bardeen.ai/",
       "free_tier": "https://www.bardeen.ai/pricing",
@@ -8936,7 +8961,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/bardeen.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Basic: USD 10/month billed monthly; free plan with 100 credits",
+    "price": "100 free credits/month always included; Basic: USD 10/month billed monthly; Premium: USD 50/month",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -8952,14 +8977,15 @@
     "subtask_free_tier": {
       "automation.general": "unknown"
     },
-    "price_scope": "Basic: USD 10/month billed monthly; free plan with 100 credits",
-    "price_scope_ar": "Basic: ‏10 دولارات شهريًا؛ خطة مجانية بـ100 رصيد",
-    "priceAr": "Basic: ‏10 دولارات شهريًا؛ خطة مجانية بـ100 رصيد",
+    "price_scope": "100 free credits/month always included; Basic: USD 10/month billed monthly; Premium: USD 50/month",
+    "price_scope_ar": "100 رصيد مجاني شهريًا دائمًا؛ Basic: ‏10 دولارات شهريًا بفوترة شهرية؛ Premium: ‏50 دولارًا شهريًا",
+    "priceAr": "100 رصيد مجاني شهريًا دائمًا؛ Basic: ‏10 دولارات شهريًا بفوترة شهرية؛ Premium: ‏50 دولارًا شهريًا",
     "priceSource": "https://www.bardeen.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "flowise",
@@ -9043,7 +9069,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.langflow.org/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.langflow.org/",
       "arabic_support": "unknown",
       "price_from": "https://www.langflow.org/"
     },
@@ -9102,7 +9128,7 @@
     "price_from": 0,
     "url": "https://dify.ai/",
     "source_url": "https://dify.ai/",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://dify.ai/",
       "free_tier": "https://dify.ai/pricing",
@@ -9119,7 +9145,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/dify.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Sandbox: free; Professional: USD 590 per workspace/year",
+    "price": "Sandbox: free (200 message credits); Professional: USD 590 per workspace/year",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -9138,18 +9164,19 @@
     "subtask_free_tier": {
       "automation.general": "unknown"
     },
-    "price_scope": "Sandbox: free; Professional: USD 590 per workspace/year",
-    "price_scope_ar": "Sandbox مجاني؛ Professional بـ590 دولارًا لكل مساحة عمل سنويًا",
-    "priceAr": "Sandbox مجاني؛ Professional بـ590 دولارًا لكل مساحة عمل سنويًا",
+    "price_scope": "Sandbox: free (200 message credits); Professional: USD 590 per workspace/year",
+    "price_scope_ar": "Sandbox: مجاني (200 رصيد رسائل)؛ Professional: ‏590 دولارًا لكل مساحة عمل سنويًا",
+    "priceAr": "Sandbox: مجاني (200 رصيد رسائل)؛ Professional: ‏590 دولارًا لكل مساحة عمل سنويًا",
     "priceSource": "https://dify.ai/pricing",
     "metadataReview": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Interface language list includes Arabic (Tunisia, ar-TN) marked as supported",
     "arabicScopeAr": "قائمة لغات الواجهة تتضمن العربية (تونس، ar-TN) ومعلَّمة كمدعومة",
     "arabicSource": "https://github.com/langgenius/dify/blob/main/web/i18n/languages.ts",
-    "arabicCheckedAt": "2026-10-27"
+    "arabicCheckedAt": "2026-10-27",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "crewai",
@@ -9171,7 +9198,7 @@
     "price_from": 0,
     "url": "https://crewai.com/",
     "source_url": "https://crewai.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://crewai.com/",
       "free_tier": "https://www.crewai.com/pricing",
@@ -9186,7 +9213,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/crewai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free plan: 50 workflow executions/month; Enterprise: custom pricing",
+    "price": "Basic: free (50 workflow executions/month); Enterprise: custom pricing",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -9202,14 +9229,15 @@
     "subtask_free_tier": {
       "automation.general": "unknown"
     },
-    "price_scope": "Free plan: 50 workflow executions/month; Enterprise: custom pricing",
-    "price_scope_ar": "خطة مجانية: 50 تنفيذًا شهريًا؛ Enterprise بسعر مخصص",
-    "priceAr": "خطة مجانية: 50 تنفيذًا شهريًا؛ Enterprise بسعر مخصص",
+    "price_scope": "Basic: free (50 workflow executions/month); Enterprise: custom pricing",
+    "price_scope_ar": "Basic: مجاني (50 تنفيذ سير عمل شهريًا)؛ Enterprise: تسعير مخصص",
+    "priceAr": "Basic: مجاني (50 تنفيذ سير عمل شهريًا)؛ Enterprise: تسعير مخصص",
     "priceSource": "https://www.crewai.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "predis-ai",
@@ -9241,7 +9269,7 @@
     "price_from": 19,
     "url": "https://predis.ai/",
     "source_url": "https://predis.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://predis.ai/",
       "free_tier": "https://predis.ai/pricing/",
@@ -9256,7 +9284,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/predis-ai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Core: USD 19/month billed monthly; 3-day trial",
+    "price": "Core: USD 19/month billed yearly (USD 230/year) or USD 32 monthly; Rise: USD 40/month billed yearly; 3-day free trial",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -9278,14 +9306,15 @@
       "marketing.general": "unknown",
       "writing.social_captions": "unknown"
     },
-    "price_scope": "Core: USD 19/month billed monthly; 3-day trial",
-    "price_scope_ar": "Core: ‏19 دولارًا شهريًا؛ تجربة 3 أيام",
-    "priceAr": "Core: ‏19 دولارًا شهريًا؛ تجربة 3 أيام",
+    "price_scope": "Core: USD 19/month billed yearly (USD 230/year) or USD 32 monthly; Rise: USD 40/month billed yearly; 3-day free trial",
+    "price_scope_ar": "Core: ‏19 دولارًا شهريًا بفوترة سنوية (230 دولارًا سنويًا) أو 32 دولارًا شهريًا؛ Rise: ‏40 دولارًا شهريًا بفوترة سنوية؛ تجربة مجانية 3 أيام",
+    "priceAr": "Core: ‏19 دولارًا شهريًا بفوترة سنوية (230 دولارًا سنويًا) أو 32 دولارًا شهريًا؛ Rise: ‏40 دولارًا شهريًا بفوترة سنوية؛ تجربة مجانية 3 أيام",
     "priceSource": "https://predis.ai/pricing/",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "adcreative-ai",
@@ -9318,7 +9347,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.adcreative.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.adcreative.ai/",
       "arabic_support": "unknown",
       "price_from": "https://www.adcreative.ai/"
     },
@@ -9382,7 +9411,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.ocoya.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.ocoya.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.ocoya.com/pricing"
     },
@@ -9498,10 +9527,10 @@
     ],
     "free_tier": "yes",
     "arabic_support": "partial",
-    "price_from": 5,
+    "price_from": 0,
     "url": "https://buffer.com/ai-assistant",
     "source_url": "https://buffer.com/ai-assistant",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://buffer.com/ai-assistant",
       "free_tier": "https://buffer.com/pricing",
@@ -9518,7 +9547,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/buffer-ai-assistant.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Essentials: USD 5/month per channel; free plan includes AI Assistant",
+    "price": "Free plan (up to 3 channels) includes AI Assistant; Essentials: USD 5/month per channel billed yearly; 14-day free trial",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -9536,18 +9565,19 @@
     "subtask_free_tier": {
       "marketing.general": "unknown"
     },
-    "price_scope": "Essentials: USD 5/month per channel; free plan includes AI Assistant",
-    "price_scope_ar": "Essentials: ‏5 دولارات شهريًا لكل قناة؛ الخطة المجانية تشمل المساعد الذكي",
-    "priceAr": "Essentials: ‏5 دولارات شهريًا لكل قناة؛ الخطة المجانية تشمل المساعد الذكي",
+    "price_scope": "Free plan (up to 3 channels) includes AI Assistant; Essentials: USD 5/month per channel billed yearly; 14-day free trial",
+    "price_scope_ar": "الخطة المجانية (حتى 3 قنوات) تشمل المساعد الذكي؛ Essentials: ‏5 دولارات شهريًا لكل قناة بفوترة سنوية؛ تجربة مجانية 14 يومًا",
+    "priceAr": "الخطة المجانية (حتى 3 قنوات) تشمل المساعد الذكي؛ Essentials: ‏5 دولارات شهريًا لكل قناة بفوترة سنوية؛ تجربة مجانية 14 يومًا",
     "priceSource": "https://buffer.com/pricing",
     "metadataReview": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Arabic interface only in the Buffer Android app (9.4.0+); web and iOS are English-only; AI Assistant language not stated",
     "arabicScopeAr": "الواجهة العربية في تطبيق Buffer لأندرويد فقط (9.4.0+)؛ الويب وiOS بالإنجليزية فقط؛ لغة المساعد الذكي غير مذكورة",
     "arabicSource": "https://support.buffer.com/article/929-can-i-use-buffer-in-another-language",
-    "arabicCheckedAt": "2026-10-27"
+    "arabicCheckedAt": "2026-10-27",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "hootsuite-wisdom-ai",
@@ -9572,7 +9602,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.hootsuite.com/wisdom-ai",
-      "free_tier": "unknown",
+      "free_tier": "https://www.hootsuite.com/plans",
       "arabic_support": "unknown",
       "price_from": "https://www.hootsuite.com/plans"
     },
@@ -9702,7 +9732,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.frase.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.frase.io/pricing",
       "arabic_support": "https://www.frase.io/features/multilingual",
       "price_from": "https://www.frase.io/pricing"
     },
@@ -9771,7 +9801,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.marketmuse.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.marketmuse.com/pricing/",
       "arabic_support": "https://docs.marketmuse.com/account-management/supported-browsers-languages-and-countries/",
       "price_from": "https://www.marketmuse.com/pricing/"
     },
@@ -9836,7 +9866,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://neuronwriter.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://neuronwriter.com/pricing/",
       "arabic_support": "https://neuronwriter.com/faqs/what-languages-are-supported-in-neuronwriter/",
       "price_from": "https://neuronwriter.com/pricing/"
     },
@@ -9912,7 +9942,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://sudowrite.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://sudowrite.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://sudowrite.com/pricing"
     },
@@ -9981,7 +10011,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://rytr.me/",
-      "free_tier": "unknown",
+      "free_tier": "https://rytr.me/pricing",
       "arabic_support": "https://help.rytr.me/article/30-write-in-30-languages",
       "price_from": "https://rytr.me/pricing"
     },
@@ -10064,7 +10094,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.anyword.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.anyword.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.anyword.com/pricing"
     },
@@ -10231,7 +10261,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.hypotenuse.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.hypotenuse.ai/pricing",
       "arabic_support": "https://www.hypotenuse.ai/languages/arabic",
       "price_from": "unknown",
       "price_model": "https://www.hypotenuse.ai/pricing"
@@ -10320,7 +10350,7 @@
     "price_from": 0,
     "url": "https://prowritingaid.com/",
     "source_url": "https://prowritingaid.com/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://prowritingaid.com/",
       "free_tier": "https://prowritingaid.com/pricing",
@@ -10335,7 +10365,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/prowritingaid.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free plan; Premium: USD 10/month billed yearly (USD 30 monthly)",
+    "price": "Free plan; Premium: USD 10/month billed yearly (USD 120); Premium Pro: USD 12/month billed yearly",
     "arabic": false,
     "freeTier": true,
     "capabilities": [
@@ -10352,18 +10382,19 @@
     "subtask_free_tier": {
       "writing.proofreading": "unknown"
     },
-    "price_scope": "Free plan; Premium: USD 10/month billed yearly (USD 30 monthly)",
-    "price_scope_ar": "خطة مجانية؛ Premium بـ10 دولارات شهريًا سنويًا (30 شهريًا)",
-    "priceAr": "خطة مجانية؛ Premium بـ10 دولارات شهريًا سنويًا (30 شهريًا)",
+    "price_scope": "Free plan; Premium: USD 10/month billed yearly (USD 120); Premium Pro: USD 12/month billed yearly",
+    "price_scope_ar": "خطة مجانية؛ Premium: ‏10 دولارات شهريًا بفوترة سنوية (120 دولارًا)؛ Premium Pro: ‏12 دولارًا شهريًا بفوترة سنوية",
+    "priceAr": "خطة مجانية؛ Premium: ‏10 دولارات شهريًا بفوترة سنوية (120 دولارًا)؛ Premium Pro: ‏12 دولارًا شهريًا بفوترة سنوية",
     "priceSource": "https://prowritingaid.com/pricing",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Supports English only",
     "arabicScopeAr": "يدعم الإنجليزية فقط",
     "arabicSource": "https://help.prowritingaid.com/article/61-which-languages-does-prowritingaid-support",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "languagetool",
@@ -10392,7 +10423,7 @@
     "price_from": 0,
     "url": "https://languagetool.org/",
     "source_url": "https://languagetool.org/",
-    "last_checked": "2026-10-21",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://languagetool.org/",
       "free_tier": "https://languagetool.org/premium",
@@ -10409,7 +10440,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/languagetool.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Basic: free (2,000 characters per field); Premium prices not displayed",
+    "price": "Basic: free; Premium: USD 4.99/month on the 2-year plan, USD 5.83/month billed annually (USD 69.90), or USD 24.90 monthly",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -10427,18 +10458,19 @@
     "subtask_free_tier": {
       "writing.proofreading": "unknown"
     },
-    "price_scope": "Basic: free (2,000 characters per field); Premium prices not displayed",
-    "price_scope_ar": "Basic مجاني (2000 حرف لكل حقل)؛ أسعار Premium غير معروضة",
-    "priceAr": "Basic مجاني (2000 حرف لكل حقل)؛ أسعار Premium غير معروضة",
+    "price_scope": "Basic: free; Premium: USD 4.99/month on the 2-year plan, USD 5.83/month billed annually (USD 69.90), or USD 24.90 monthly",
+    "price_scope_ar": "Basic: مجاني؛ Premium: ‏4.99 دولارات شهريًا بخطة السنتين، أو 5.83 دولارات شهريًا بفوترة سنوية (69.90 دولارًا)، أو 24.90 دولارًا شهريًا",
+    "priceAr": "Basic: مجاني؛ Premium: ‏4.99 دولارات شهريًا بخطة السنتين، أو 5.83 دولارات شهريًا بفوترة سنوية (69.90 دولارًا)، أو 24.90 دولارًا شهريًا",
     "priceSource": "https://languagetool.org/premium",
     "metadataReview": {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
     },
     "arabicScope": "Arabic grammar and spell checking (fewer rules than for major European languages)",
     "arabicScopeAr": "تدقيق نحوي وإملائي للعربية (بقواعد أقل من اللغات الأوروبية الرئيسية)",
     "arabicSource": "https://dev.languagetool.org/languages",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "hyperwrite",
@@ -10477,7 +10509,7 @@
     "price_from": 0,
     "url": "https://www.hyperwriteai.com/",
     "source_url": "https://www.hyperwriteai.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.hyperwriteai.com/",
       "free_tier": "https://www.hyperwriteai.com/pricing",
@@ -10493,7 +10525,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/hyperwrite.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Free: limited monthly credits; Premium: USD 16/month billed annually (USD 19.99 monthly)",
+    "price": "Free: limited monthly credits; Premium: USD 16/month billed annually (USD 192/year); Ultra: USD 29/month billed annually",
     "arabic": "unknown",
     "freeTier": true,
     "capabilities": [
@@ -10517,14 +10549,15 @@
       "writing.articles": "unknown",
       "writing.formal_replies": "unknown"
     },
-    "price_scope": "Free: limited monthly credits; Premium: USD 16/month billed annually (USD 19.99 monthly)",
-    "price_scope_ar": "مجاني برصيد محدود؛ Premium بـ16 دولارًا شهريًا سنويًا (19.99 شهريًا)",
-    "priceAr": "مجاني برصيد محدود؛ Premium بـ16 دولارًا شهريًا سنويًا (19.99 شهريًا)",
+    "price_scope": "Free: limited monthly credits; Premium: USD 16/month billed annually (USD 192/year); Ultra: USD 29/month billed annually",
+    "price_scope_ar": "مجاني: رصيد شهري محدود؛ Premium: ‏16 دولارًا شهريًا بفوترة سنوية (192 دولارًا سنويًا)؛ Ultra: ‏29 دولارًا شهريًا بفوترة سنوية",
+    "priceAr": "مجاني: رصيد شهري محدود؛ Premium: ‏16 دولارًا شهريًا بفوترة سنوية (192 دولارًا سنويًا)؛ Ultra: ‏29 دولارًا شهريًا بفوترة سنوية",
     "priceSource": "https://www.hyperwriteai.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "textcortex",
@@ -10555,7 +10588,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://textcortex.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://textcortex.com/pricing",
       "arabic_support": "unknown",
       "price_from": "https://textcortex.com/pricing"
     },
@@ -10617,7 +10650,7 @@
     "last_checked": "2026-10-27",
     "evidence": {
       "capabilities": "https://www.loudly.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.loudly.com/music/pricing",
       "arabic_support": "unknown",
       "price_from": "https://www.loudly.com/music/pricing"
     },
@@ -10678,7 +10711,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://soundful.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://soundful.com/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://soundful.com/pricing/"
     },
@@ -10739,7 +10772,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://musicfy.lol/",
-      "free_tier": "unknown",
+      "free_tier": "https://musicfy.lol/pricing",
       "arabic_support": "unknown",
       "price_from": "https://musicfy.lol/pricing"
     },
@@ -10800,7 +10833,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://moises.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://moises.ai/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://moises.ai/pricing/"
     },
@@ -10867,7 +10900,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.narakeet.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://narakeet.com/docs/pricing/",
       "arabic_support": "https://www.narakeet.com/languages/text-to-speech-arabic/",
       "price_from": "https://narakeet.com/docs/pricing/"
     },
@@ -10940,7 +10973,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://ttsmaker.com/",
-      "free_tier": "unknown",
+      "free_tier": "https://pro.ttsmaker.com/pricing",
       "arabic_support": "https://ttsmaker.com/blog/ttsmaker-supports-text-to-speech-in-80-languages/",
       "price_from": "https://pro.ttsmaker.com/pricing"
     },
@@ -11013,7 +11046,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://voicemaker.in/",
-      "free_tier": "unknown",
+      "free_tier": "https://voicemaker.in/pricing",
       "arabic_support": "https://voicemaker.in/pricing",
       "price_from": "https://voicemaker.in/pricing"
     },
@@ -11080,10 +11113,10 @@
     ],
     "free_tier": "yes",
     "arabic_support": "yes",
-    "price_from": 5,
+    "price_from": 0,
     "url": "https://www.cartesia.ai/",
     "source_url": "https://www.cartesia.ai/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.cartesia.ai/",
       "free_tier": "https://www.cartesia.ai/pricing",
@@ -11100,7 +11133,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/cartesia.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Pro: USD 5/month billed monthly; free plan 20K credits/month",
+    "price": "Free: 20K credits/month; Pro: USD 5/month (100K credits, commercial use); Startup: USD 49/month",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -11118,18 +11151,19 @@
     "subtask_free_tier": {
       "voice.voiceover": "unknown"
     },
-    "price_scope": "Pro: USD 5/month billed monthly; free plan 20K credits/month",
-    "price_scope_ar": "Pro: ‏5 دولارات شهريًا؛ خطة مجانية 20 ألف رصيد شهريًا",
-    "priceAr": "Pro: ‏5 دولارات شهريًا؛ خطة مجانية 20 ألف رصيد شهريًا",
+    "price_scope": "Free: 20K credits/month; Pro: USD 5/month (100K credits, commercial use); Startup: USD 49/month",
+    "price_scope_ar": "مجاني: 20 ألف رصيد شهريًا؛ Pro: ‏5 دولارات شهريًا (100 ألف رصيد واستخدام تجاري)؛ Startup: ‏49 دولارًا شهريًا",
+    "priceAr": "مجاني: 20 ألف رصيد شهريًا؛ Pro: ‏5 دولارات شهريًا (100 ألف رصيد واستخدام تجاري)؛ Startup: ‏49 دولارًا شهريًا",
     "priceSource": "https://www.cartesia.ai/pricing",
     "arabicScope": "Arabic text-to-speech (Sonic)",
     "arabicScopeAr": "تحويل النص العربي إلى كلام (Sonic)",
     "arabicSource": "https://cartesia.ai/languages/arabic",
     "arabicCheckedAt": "2026-10-20",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "deepgram",
@@ -11159,10 +11193,10 @@
     ],
     "free_tier": "trial",
     "arabic_support": "partial",
-    "price_from": 0.0043,
+    "price_from": 0,
     "url": "https://deepgram.com/",
     "source_url": "https://deepgram.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://deepgram.com/",
       "free_tier": "https://deepgram.com/pricing",
@@ -11179,7 +11213,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/deepgram.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "Pay as you go: from USD 0.0043/min (Nova-3 pre-recorded); USD 200 free credit",
+    "price": "USD 200 free credit, then pay as you go per minute; rates vary by model and by streaming or pre-recorded audio",
     "arabic": true,
     "freeTier": true,
     "capabilities": [
@@ -11200,18 +11234,19 @@
       "voice.transcription": "unknown",
       "voice.voiceover": "unknown"
     },
-    "price_scope": "Pay as you go: from USD 0.0043/min (Nova-3 pre-recorded); USD 200 free credit",
-    "price_scope_ar": "الدفع حسب الاستخدام: من 0.0043 دولار للدقيقة؛ رصيد مجاني 200 دولار",
-    "priceAr": "الدفع حسب الاستخدام: من 0.0043 دولار للدقيقة؛ رصيد مجاني 200 دولار",
+    "price_scope": "USD 200 free credit, then pay as you go per minute; rates vary by model and by streaming or pre-recorded audio",
+    "price_scope_ar": "رصيد مجاني 200 دولار، ثم الدفع حسب الاستخدام بالدقيقة؛ السعر يختلف حسب النموذج ونوع الصوت (مباشر أو مسجّل)",
+    "priceAr": "رصيد مجاني 200 دولار، ثم الدفع حسب الاستخدام بالدقيقة؛ السعر يختلف حسب النموذج ونوع الصوت (مباشر أو مسجّل)",
     "priceSource": "https://deepgram.com/pricing",
     "arabicScope": "Arabic speech-to-text (Nova-3); Arabic text-to-speech not verified",
     "arabicScopeAr": "تحويل الكلام العربي إلى نص (Nova-3)؛ تحويل النص العربي إلى كلام غير مؤكد",
     "arabicSource": "https://deepgram.com/learn/nova-3-arabic-speech-to-text-production-grade-stt",
     "arabicCheckedAt": "2026-10-20",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "brandmark",
@@ -11245,7 +11280,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://brandmark.io/",
-      "free_tier": "unknown",
+      "free_tier": "https://brandmark.io/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://brandmark.io/pricing/"
     },
@@ -11312,7 +11347,7 @@
     "price_from": 10,
     "url": "https://www.logoai.com/",
     "source_url": "https://www.logoai.com/",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-28",
     "evidence": {
       "capabilities": "https://www.logoai.com/",
       "free_tier": "https://www.logoai.com/pricing",
@@ -11327,7 +11362,7 @@
     "affiliateUrl": "",
     "logo": "assets/tool-monograms/logoai.svg",
     "logoKind": "initials placeholder, not official logo",
-    "price": "7-day trial USD 10, then Pro USD 20/month",
+    "price": "7-day trial: USD 10, then Pro: USD 20/month",
     "arabic": "unknown",
     "freeTier": false,
     "capabilities": [
@@ -11343,14 +11378,15 @@
     "subtask_free_tier": {
       "design.logos": "unknown"
     },
-    "price_scope": "7-day trial USD 10, then Pro USD 20/month",
-    "price_scope_ar": "تجربة 7 أيام بـ10 دولارات ثم Pro بـ20 دولارًا شهريًا",
-    "priceAr": "تجربة 7 أيام بـ10 دولارات ثم Pro بـ20 دولارًا شهريًا",
+    "price_scope": "7-day trial: USD 10, then Pro: USD 20/month",
+    "price_scope_ar": "تجربة 7 أيام: ‏10 دولارات، ثم Pro: ‏20 دولارًا شهريًا",
+    "priceAr": "تجربة 7 أيام: ‏10 دولارات، ثم Pro: ‏20 دولارًا شهريًا",
     "priceSource": "https://www.logoai.com/pricing",
     "metadataReview": {
-      "date": "2026-10-20",
+      "date": "2026-10-28",
       "reviewedBy": "Claude (official sources)"
-    }
+    },
+    "priceCheckedAt": "2026-10-28"
   },
   {
     "id": "photoroom",
@@ -11558,7 +11594,7 @@
     "last_checked": "2026-10-21",
     "evidence": {
       "capabilities": "https://www.lalal.ai/",
-      "free_tier": "unknown",
+      "free_tier": "https://www.lalal.ai/pricing/",
       "arabic_support": "unknown",
       "price_from": "https://www.lalal.ai/pricing/"
     },
@@ -11666,6 +11702,7 @@
     "arabicScope": "Resume and AI languages: English, Spanish, French, Hindi, Korean, German and Portuguese; Arabic not offered",
     "arabicScopeAr": "لغات السيرة والذكاء الاصطناعي: الإنجليزية والإسبانية والفرنسية والهندية والكورية والألمانية والبرتغالية؛ العربية غير متاحة",
     "arabicSource": "https://www.rezi.ai/rezi-docs/how-to-change-your-account-language",
-    "arabicCheckedAt": "2026-10-21"
+    "arabicCheckedAt": "2026-10-21",
+    "officialUrl": "https://www.rezi.ai/"
   }
 ]
