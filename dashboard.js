@@ -23,12 +23,12 @@ const icon = (name,color='')=>`<span class="icon"${color?` style="--icon-color:$
 const colors=['#51c8ff','#bb52fa','#e04680','#6953ff','#00d9bb'];
 const destinations = '';
 const featuredTools = [
- {name:'ChatGPT',desc:'Writing & Research',ar:'الكتابة والبحث',url:'https://chatgpt.com/',image:'chatgpt-clean.svg'},
- {name:'Midjourney',desc:'Image Generation',ar:'توليد الصور',url:'https://www.midjourney.com/',image:'midjourney-clean.svg'},
+ {name:'ChatGPT',desc:'Writing & Research',ar:'الكتابة والبحث',url:'https://chatgpt.com/'},
+ {name:'Midjourney',desc:'Image Generation',ar:'توليد الصور',url:'https://www.midjourney.com/'},
  {name:'Runway',desc:'Video Generation',ar:'توليد الفيديو',url:'https://runwayml.com/',mark:'R',bg:'#00a894'},
  {name:'Claude',desc:'Analysis & Writing',ar:'التحليل والكتابة',url:'https://claude.ai/',mark:'✳',bg:'#db785d'},
- {name:'Gemini',desc:'Multimodal AI',ar:'ذكاء متعدد الوسائط',url:'https://gemini.google.com/',image:'gemini.webp'},
- {name:'Canva',desc:'Design & Media',ar:'التصميم والوسائط',url:'https://www.canva.com/',image:'canva-clean.svg'}
+ {name:'Gemini',desc:'Multimodal AI',ar:'ذكاء متعدد الوسائط',url:'https://gemini.google.com/'},
+ {name:'Canva',desc:'Design & Media',ar:'التصميم والوسائط',url:'https://www.canva.com/'}
 ];
 const guideItems = [
  {title:'Choose the right AI tool',ar:'كيف تختار أداة الذكاء الاصطناعي المناسبة',href:'best-ai-for.html',icon:'match',photo:'guide-tool'},
