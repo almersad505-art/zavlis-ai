@@ -125,7 +125,7 @@
     const queue = [document.body];
     const slice = () => {
       busy = true;
-      const end = performance.now() + 30;
+      const end = performance.now() + 8;
       try {
         while (queue.length && performance.now() < end) {
           const el = queue.shift();
@@ -135,9 +135,9 @@
       } finally { observer.takeRecords(); busy = false; }
       if (queue.length) setTimeout(slice, 0);
       else {
-        busy = true;
-        try { attrs(document); arrows(document.body); } finally { observer.takeRecords(); busy = false; }
-        done && done();
+        // Attributes and arrows run in their own tasks to keep each one short.
+        const step = fn => { busy = true; try { fn(); } finally { observer.takeRecords(); busy = false; } };
+        setTimeout(() => { step(() => attrs(document)); setTimeout(() => { step(() => arrows(document.body)); done && done(); }, 0); }, 0);
       }
     };
     slice();
@@ -158,7 +158,7 @@
     } catch (e) { /* URL update optional */ }
     const q = document.getElementById('quickLanguage');
     if (q && !q.dataset.touched) q.value = l;
-    if (firstPass) { firstPass = false; processSliced(); } else process();
+    if (firstPass) { firstPass = false; processSliced(() => { ready = true; flush(); }); } else process();
   }
 
   function initial() {
@@ -169,14 +169,30 @@
     return l;
   }
 
-  let queued = null;
+  // DOM changes made by other scripts are re-checked in small, de-duplicated batches.
+  // While the first sliced pass is still running, changes wait for it so the same nodes are not walked twice.
+  let queued = new Set(), flushing = false, ready = false;
+  function flush() {
+    if (flushing || !ready || !queued.size) return;
+    flushing = true;
+    const roots = [...new Set([...queued].map(el => el.parentElement || el))].filter(el => el.isConnected);
+    queued = new Set();
+    const list = roots.filter(el => !roots.some(o => o !== el && o.contains(el)));
+    const run = () => {
+      const end = performance.now() + 8;
+      while (list.length && performance.now() < end) { const el = list.shift(); if (el.isConnected) process(el); }
+      if (list.length) setTimeout(run, 0);
+      else { flushing = false; if (queued.size) setTimeout(flush, 0); }
+    };
+    requestAnimationFrame(() => setTimeout(run, 0));
+  }
   const observer = new MutationObserver(records => {
     if (busy) return;
     for (const r of records) {
       const targets = r.type === 'characterData' ? [r.target.parentElement] : [...r.addedNodes].map(n => (n.nodeType === 1 ? n : n.parentElement));
-      for (const t of targets) if (t) { queued = queued || new Set(); queued.add(t); }
+      for (const t of targets) if (t) queued.add(t);
     }
-    if (queued && !queued.raf) queued.raf = requestAnimationFrame(() => { const set = queued; queued = null; for (const el of set) if (el && el.isConnected) process(el.parentElement || el); });
+    flush();
   });
 
   function start() {
