@@ -26,8 +26,8 @@ body{background:#fff;color:var(--yc-ink)}
 .brand b{color:#0e58d6}
 .brand-symbol{background:linear-gradient(145deg,#0f6cff,#1745c7);clip-path:polygon(50% 0,100% 100%,69% 100%,50% 60%,31% 100%,0 100%);border-radius:0;width:33px;height:33px;color:transparent;box-shadow:none}
 .main-nav a{position:relative;color:#203a62;font-weight:700}
-.main-nav a:first-child{color:var(--yc-blue)}
-.main-nav a:first-child:after{content:"";position:absolute;height:2px;background:var(--yc-blue);left:0;right:0;bottom:-10px;border-radius:2px}
+.main-nav a[aria-current="page"]{color:var(--yc-blue)}
+.main-nav a[aria-current="page"]:after{content:"";position:absolute;height:2px;background:var(--yc-blue);left:0;right:0;bottom:-10px;border-radius:2px}
 .language-switch{border:1px solid var(--yc-line);border-radius:9px;background:#fff;padding:8px 11px;box-shadow:0 3px 10px rgba(17,44,86,.03)}
 .search-shortcut{color:#203a62}
 
@@ -146,8 +146,8 @@ body:not(.home-c) .brand b{color:#A07A35!important}
 body:not(.home-c) .zavlis-brand-icon{filter:grayscale(1) sepia(1) saturate(1.9) hue-rotate(-8deg) brightness(.78)}
 body:not(.home-c) .main-nav a{color:#3D4F44!important}
 body:not(.home-c) .main-nav a:hover{color:#A07A35!important}
-body:not(.home-c) .main-nav a:first-child{color:#1F3B2B!important}
-body:not(.home-c) .main-nav a:first-child:after{background:#1F3B2B!important}
+body:not(.home-c) .main-nav a[aria-current="page"]{color:#1F3B2B!important}
+body:not(.home-c) .main-nav a[aria-current="page"]:after{background:#1F3B2B!important}
 body:not(.home-c) .language-switch,body:not(.home-c) .menu-button{background:#FFFDF8!important;border-color:rgba(160,122,53,.3)!important;color:#1F3B2B!important}
 body:not(.home-c) .search-shortcut{color:#1F3B2B!important}
 body:not(.home-c) h1,body:not(.home-c) h2,body:not(.home-c) h3{color:#1F3B2B!important}

@@ -135,3 +135,6 @@ html[data-ui] body.landing .layout .top{direction:ltr!important;flex-direction:r
 .landing .guide-art.has-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
 .landing .guide-card:hover .guide-art.has-photo img{transform:scale(1.04)}
 @media (prefers-reduced-motion:reduce){.landing .module.has-photo .card-photo img,.landing .guide-art.has-photo img{transition:none}}
+/* Reserve final header height before landing.js fills it (prevents layout shift). */
+@media(max-width:960px){.landing .top{min-height:150px}}@media(max-width:560px){.landing .top{min-height:131px}}
+.landing .hero-content .eyebrow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;vertical-align:top}
