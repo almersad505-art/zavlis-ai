@@ -138,3 +138,5 @@ html[data-ui] body.landing .layout .top{direction:ltr!important;flex-direction:r
 /* Reserve final header height before landing.js fills it (prevents layout shift). */
 @media(max-width:960px){.landing .top{min-height:150px}}@media(max-width:560px){.landing .top{min-height:131px}}
 .landing .hero-content .eyebrow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;vertical-align:top}
+/* Hero entrance at first paint (was GSAP; moved to CSS so it never re-hides painted text). */
+@media (prefers-reduced-motion:no-preference){@keyframes zv-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}.landing .hero-content>*{animation:zv-rise .7s cubic-bezier(.22,1,.36,1) both}.landing .hero-content>:nth-child(2){animation-delay:.07s}.landing .hero-content>:nth-child(3){animation-delay:.14s}.landing .hero-content>:nth-child(4){animation-delay:.21s}.landing .hero-content>:nth-child(5){animation-delay:.28s}.landing .hero-content>:nth-child(n+6){animation-delay:.35s}}

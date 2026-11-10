@@ -58,13 +58,14 @@
     node.dataset.l = l;
   }
 
-  function walk(el) {
+  // queue (optional): instead of recursing, push child elements so the caller can process them later.
+  function walk(el, queue) {
     if (!el || el.nodeType !== 1 || el.matches(SKIP)) return;
     for (const c of [...el.childNodes]) if (c.nodeType === 3 && AR.test(c.nodeValue) && LAT.test(c.nodeValue)) splitText(c);
     const kids = [...el.childNodes].map(c => [c, cls(c)]);
     const paired = kids.some(k => k[1] === 'ar') && kids.some(k => k[1] === 'en');
     if (paired) for (const [c, k] of kids) if ((k === 'ar' || k === 'en') && !(c.nodeType === 1 && c.dataset.l)) tag(c, k);
-    for (const [c] of kids) if (c.nodeType === 1 && (!c.dataset.l || c.dataset.l === 'mix')) walk(c);
+    for (const [c] of kids) if (c.nodeType === 1 && (!c.dataset.l || c.dataset.l === 'mix')) { if (queue) queue.push(c); else walk(c); }
   }
 
   // JS may later rewrite a tagged element in the other language; untag it so it is re-evaluated.
@@ -74,7 +75,7 @@
       const now = pureClass(e.textContent);
       if (now !== e.dataset.l) { delete e.dataset.l; if (e.parentElement) parents.add(e.parentElement); }
     });
-    parents.forEach(walk);
+    parents.forEach(p => walk(p));
   }
 
   // Attributes and <option> text cannot hide halves, so swap their text instead.
@@ -118,6 +119,29 @@
   const lang = () => (sel() && sel().value === 'ar' ? 'ar' : 'en');
 
   let busy = false;
+  // First full pass on page load, split into short slices so it never blocks the main thread for long.
+  let firstPass = true;
+  function processSliced(done) {
+    const queue = [document.body];
+    const slice = () => {
+      busy = true;
+      const end = performance.now() + 30;
+      try {
+        while (queue.length && performance.now() < end) {
+          const el = queue.shift();
+          if (!el.isConnected) continue;
+          if (el.getElementsByTagName('*').length > 120) walk(el, queue); else walk(el);
+        }
+      } finally { observer.takeRecords(); busy = false; }
+      if (queue.length) setTimeout(slice, 0);
+      else {
+        busy = true;
+        try { attrs(document); arrows(document.body); } finally { observer.takeRecords(); busy = false; }
+        done && done();
+      }
+    };
+    slice();
+  }
   function process(root) {
     busy = true;
     try { const r = root || document.body; revalidate(r); walk(r); attrs(r.querySelectorAll ? r : document); arrows(r); }
@@ -134,7 +158,7 @@
     } catch (e) { /* URL update optional */ }
     const q = document.getElementById('quickLanguage');
     if (q && !q.dataset.touched) q.value = l;
-    process();
+    if (firstPass) { firstPass = false; processSliced(); } else process();
   }
 
   function initial() {

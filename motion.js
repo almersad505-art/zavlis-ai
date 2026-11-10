@@ -22,8 +22,7 @@
   }
 
   // Hero entrance.
-  const hero = document.querySelectorAll('.hero-content > *:not([hidden])');
-  if (hero.length) gsap.from(hero, { y: 18, opacity: 0, duration: 0.7, stagger: 0.07, ease: 'power3.out', clearProps: 'transform,opacity' });
+  // The hero text entrance is pure CSS (landing.css) so it plays at first paint, before scripts load.
   const chips = document.querySelectorAll('.hero-chip');
   if (chips.length) gsap.from(chips, { x: () => (rtl() ? -24 : 24), opacity: 0, duration: 0.6, stagger: 0.08, delay: 0.25, ease: 'power2.out', clearProps: 'transform,opacity' });
 
@@ -41,7 +40,8 @@
     });
   }
   const targets = '.module, .toolcard, .guide-card, .section-head, .rail-card';
-  window.addEventListener('load', () => { reveal(targets); if (hasST) window.ScrollTrigger.refresh(); });
+  const onLoad = () => { reveal(targets); if (hasST) window.ScrollTrigger.refresh(); };
+  if (document.readyState === 'complete') onLoad(); else window.addEventListener('load', onLoad);
 
   // Safety net: never leave a card invisible (e.g. if a trigger is skipped after a re-render).
   setInterval(() => {
