@@ -52,12 +52,12 @@ draw=function(){
  $('sideNav').innerHTML=navItem(0,'match')+`<button type="button" data-media>${icon('media','#75beff')}<span>Media Lab<small>مركز الإنتاج</small></span></button>`+navItem(1,'image')+navItem(2,'video')+navItem(3,'prompt')+navItem(4,'code')+`<a href="${destinations}comparisons.html" target="_blank" rel="noopener noreferrer">${icon('compare','#54d4fa')}<span>Compare Tools<small>مقارنة الأدوات</small></span></a><a href="#guides">${icon('guide','#e7a75c')}<span>Guides<small>الأدلة</small></span></a><button type="button" id="projectsButton">${icon('project','#93baff')}<span>My Projects<small>مشاريعي</small></span></button>`;
  const navLinks=[['#home','Home','الرئيسية'],['#tools','AI Tools','أدوات الذكاء الاصطناعي'],[destinations+'comparisons.html','Compare','المقارنات'],['#guides','Guides','الأدلة'],[destinations+'for-students.html','For Students','للطلاب'],[destinations+'for-business.html','For Business','للأعمال'],[destinations+'about.html','About','حول']];
  document.querySelector('.topnav').innerHTML=navLinks.map(([url,en,ar])=>`<a href="${url}"${url.startsWith('http')?' target="_blank" rel="noopener noreferrer"':''}>${en}<small>${ar}</small></a>`).join('');
- $('eyebrow').innerHTML='<span>A smarter way to choose and use AI<small>طريقة أذكى لاختيار واستخدام الذكاء الاصطناعي</small></span>';
+ if(!document.body.classList.contains('landing')){$('eyebrow').innerHTML='<span>A smarter way to choose and use AI<small>طريقة أذكى لاختيار واستخدام الذكاء الاصطناعي</small></span>';
  $('heroTitle').innerHTML='Less guessing. <span class="accent">More doing.</span>';
  $('heroArabic').innerHTML='أفكارك اليوم... <em>نتائج</em> حقيقية غدًا';
  $('heroDesc').innerHTML='Find the best AI tools, prepare creative content, and get started.<span>ابحث عن الأدوات، وجهّز محتواك وخططك في مساحة واحدة.</span>';
  $('jump').innerHTML='<span>Try Smart Match<small>جرّب المطابقة الذكية</small></span> →';
- $('seeTools').innerHTML='<span>Explore Media Lab<small>استكشف مركز الإنتاج</small></span> →';
+ $('seeTools').innerHTML='<span>Explore Media Lab<small>استكشف مركز الإنتاج</small></span> →';}
  $('jump').onclick=()=>launchTool(0);$('seeTools').onclick=openMedia;
  $('heroChips').innerHTML=[['image','Images','صور'],['video','Videos','فيديوهات'],['code','Code','برمجة'],['prompt','Write','كتابة']].map(([name,en,ar])=>`<span class="hero-chip">${icon(name)}<span>${en}<small>${ar}</small></span></span>`).join('');
  const shortEn=['Find the best AI tools for your task','Prepare stunning visual briefs','Turn your idea into a complete video plan','Create and improve prompts for any task','Generate and customize starter HTML'];

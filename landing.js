@@ -2,13 +2,12 @@
 'use strict';
 const landingPreviousDraw = draw;
 const landingPair=(ar,en)=>`<span lang="ar" dir="rtl">${ar}</span><small lang="en" dir="ltr">${en}</small>`;
-const landingScene=document.createElement('div');landingScene.className='landing-scene';landingScene.innerHTML='<img class="oasis" src="assets/oasis-terrace.webp" alt="شرفة عربية تطل على واحة وقت الغروب / Arabian terrace overlooking an oasis at sunset" width="1200" height="800"><div class="glass-shell"><nav class="glass-nav" aria-label="Task categories"></nav><div class="glass-main"></div></div>';
-document.querySelector('.hero').append(landingScene);
+const landingScene=document.querySelector('.hero > .landing-scene')||document.createElement('div');if(!landingScene.isConnected){landingScene.className='landing-scene';landingScene.innerHTML='<img class="oasis" src="assets/oasis-terrace.webp" alt="شرفة عربية تطل على واحة وقت الغروب / Arabian terrace overlooking an oasis at sunset" width="1200" height="800"><div class="glass-shell"><nav class="glass-nav" aria-label="Task categories"></nav><div class="glass-main"></div></div>';document.querySelector('.hero').append(landingScene);}
 landingScene.querySelector('.glass-main').append($('studio'));
 const landingBrand=document.querySelector('.brand');document.querySelector('.top').prepend(landingBrand);
 const landingNav=document.createElement('nav');landingNav.className='landing-nav';landingNav.dataset.i18nSkip='';document.querySelector('.top').insertBefore(landingNav,document.querySelector('.top-controls'));
 const landingStart=document.createElement('button');landingStart.type='button';landingStart.className='landing-start';landingStart.dataset.i18nSkip='';document.querySelector('.top-controls').append(landingStart);
-const landingBenefits=document.createElement('div');landingBenefits.className='landing-benefits';landingBenefits.dataset.i18nSkip='';document.querySelector('.hero-content').append(landingBenefits);
+const landingBenefits=document.querySelector('.hero-content > .landing-benefits')||document.createElement('div');if(!landingBenefits.isConnected){landingBenefits.className='landing-benefits';landingBenefits.dataset.i18nSkip='';document.querySelector('.hero-content').append(landingBenefits);}
 const landingServices=document.createElement('section');landingServices.className='landing-services';landingServices.dataset.i18nSkip='';$('moduleGrid').before(landingServices);
 const landingStats=document.createElement('section');landingStats.className='landing-stats';landingStats.dataset.i18nSkip='';landingServices.after(landingStats);
 $('tools').before($('moduleGrid'));
