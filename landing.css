@@ -142,3 +142,6 @@ html[data-ui] body.landing .layout .top{direction:ltr!important;flex-direction:r
 @media (prefers-reduced-motion:no-preference){@keyframes zv-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}.landing .hero-content>*{animation:zv-rise .7s cubic-bezier(.22,1,.36,1) both}.landing .hero-content>:nth-child(2){animation-delay:.07s}.landing .hero-content>:nth-child(3){animation-delay:.14s}.landing .hero-content>:nth-child(4){animation-delay:.21s}.landing .hero-content>:nth-child(5){animation-delay:.28s}.landing .hero-content>:nth-child(n+6){animation-delay:.35s}}
 /* Skip style/layout work for off-screen sections until they scroll near the viewport. */
 #tools,#guides,#details,.landing-how,.landing-stats,.legacy-workspaces{content-visibility:auto;contain-intrinsic-size:auto 900px}
+/* Smart Match: give each task heading its own row and space above its first card. */
+body.landing #landing-results #matchCards>h3{margin:22px 0 12px;line-height:1.4}
+body.landing #landing-results #matchCards>h3:first-child{margin-top:4px}

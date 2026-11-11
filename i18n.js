@@ -184,7 +184,8 @@
       if (list.length) setTimeout(run, 0);
       else { flushing = false; if (queued.size) setTimeout(flush, 0); }
     };
-    requestAnimationFrame(() => setTimeout(run, 0));
+    // Start before the next paint so freshly rendered text never flashes in both languages.
+    requestAnimationFrame(run);
   }
   const observer = new MutationObserver(records => {
     if (busy) return;
