@@ -1,5 +1,5 @@
 /* Zavlis AI task pages — same golden-hour palette as the homepage */
-:root { --cream: #FBF6EC; --paper: #FFFDF8; --green: #1F3B2B; --ink: #1B2A21; --ink-2: #4F5D54; --ink-3: #7D877F; --gold: #A07A35; --gold-dk: #8A6424; --line: rgba(160, 122, 53, .22); }
+:root { --cream: #FBF6EC; --paper: #FFFDF8; --green: #1F3B2B; --ink: #1B2A21; --ink-2: #4F5D54; --ink-3: #5F6A62; --gold: #A07A35; --gold-dk: #8A6424; --line: rgba(160, 122, 53, .22); }
 * { box-sizing: border-box; }
 html { background: var(--cream); -webkit-text-size-adjust: 100%; }
 body { margin: 0; color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Arial, sans-serif; background: var(--cream); }
@@ -9,8 +9,8 @@ a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-ra
 .wrap { max-width: 980px; margin: 0 auto; padding-inline: 20px; }
 .bar { position: sticky; top: 0; z-index: 5; background: rgba(251, 246, 236, .94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .bar .wrap { display: flex; align-items: center; gap: 18px; min-height: 64px; }
-.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--green); font: 600 21px/1 Georgia, "Times New Roman", serif; }
-.brand b { color: var(--gold); font-weight: 600; }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: #493413; font: 700 21px/1 "Segoe UI", Tahoma, Arial, sans-serif; letter-spacing: -.3px; }
+.brand b { color: var(--gold-dk); font-weight: 700; }
 .brand img { width: 28px; height: 28px; filter: grayscale(1) sepia(1) saturate(1.9) hue-rotate(-8deg) brightness(.78); }
 .bar nav { margin-inline-start: auto; display: flex; gap: 16px; align-items: center; font-size: 14px; }
 .bar nav a { color: var(--ink-2); text-decoration: none; }

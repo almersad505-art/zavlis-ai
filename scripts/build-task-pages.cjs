@@ -75,7 +75,7 @@ function head(lang, title, desc, url, altUrl, jsonld) {
 <link rel="alternate" hreflang="${lang}" href="${url}"><link rel="alternate" hreflang="${L.other}" href="${altUrl}"><link rel="alternate" hreflang="x-default" href="${lang === 'en' ? url : altUrl}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Zavlis AI"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}assets/og-zavlis.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="../../assets/zavlis-mark.svg">
-<link rel="stylesheet" href="../tasks.css?v=1"><link rel="stylesheet" href="../../analytics.css">
+<link rel="stylesheet" href="../tasks.css?v=2"><link rel="stylesheet" href="../../analytics.css">
 <script type="application/ld+json">${JSON.stringify(jsonld).replace(/</g, '\\u003c')}</script>
 </head>
 <body>`;
