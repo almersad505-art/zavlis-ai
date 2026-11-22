@@ -175,3 +175,9 @@ body:not(.home-c) ::selection{background:#EAD7A6}
 body:not(.home-c) .site-footer .button{background:linear-gradient(180deg,#C9A159,#A57B33 55%,#8A6424)!important;color:#FFF8EA!important}
 
 .zavlis-brand-icon{display:block;width:34px;height:34px;object-fit:contain;flex:0 0 34px}
+/* 2026-11 a11y + unified header identity (matches the home page). */
+.language-switch,.menu-button{font-size:12px!important}
+.eyebrow{font-size:12px!important}
+body:not(.home-c) .eyebrow{color:#80601F!important}
+body:not(.home-c) .brand{font-family:"Segoe UI",Tahoma,Arial,sans-serif!important;letter-spacing:-.3px;color:#493413!important;font-weight:700}
+body:not(.home-c) .brand b{color:#8A6424!important}
