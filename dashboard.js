@@ -82,4 +82,4 @@ $('themeButton').onclick=()=>{const light=document.body.classList.toggle('theme-
 $('profileButton').onclick=showProjects;$('dialogClose').onclick=()=>$('sessionDialog').close();
 if($('plansButton'))$('plansButton').onclick=()=>{const p=document.createElement('p');p.textContent='No paid plan or checkout is available in this version. The five local tools are free to use. / لا توجد خطة مدفوعة أو عملية شراء في هذه النسخة. الأدوات المحلية الخمس متاحة للاستخدام مجانًا.';openDialog('Plans / الخطط',[p]);};
 $('locale').onchange=event=>{lang=event.target.value;draw();document.dispatchEvent(new Event('zavlis:locale'));};
-lang='en';draw();$('studio').hidden=true;
+lang=document.documentElement.dataset.ui==='ar'?'ar':'en';draw();$('studio').hidden=true;
