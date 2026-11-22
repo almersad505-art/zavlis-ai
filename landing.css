@@ -152,3 +152,5 @@ html[data-ui="ar"] .landing .view-all small,html[data-ui="ar"] .landing-benefits
 .landing .brand strong{color:#8A6424}
 .landing .landing-nav small{line-height:1.3;margin-top:2px}
 .landing .top-controls{min-height:67px}@media(max-width:560px){.landing .top-controls{min-height:57px}}
+html[data-ui="en"] .landing #heroTitle{text-align:left;line-height:1.25!important}html[data-ui="en"] .landing #heroTitle em{display:inline-block;margin-top:6px}
+@media(max-width:560px){.landing .glass-shell{grid-template-columns:66px minmax(0,1fr)}.landing .glass-nav button{grid-template-columns:1fr;justify-items:center;text-align:center;word-break:keep-all;overflow-wrap:normal}.landing #locale{width:86px}}
